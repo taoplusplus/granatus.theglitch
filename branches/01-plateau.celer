@@ -1,0 +1,80 @@
+Plateau:
+- .!!(SoR clip)
+
+- 4 tree branches outside SoR:
+    movements:
+        - to: [-1059.15, 249.33, 1805.13]
+        - to: [-1053.44, 249.44, 1802.61]
+        - to: [-1024.63, 251.40, 1812.55]
+        - to: [-1034.19, 249.09, 1847.06]
+
+- Torch and axe by old man:
+    movements:
+        - to: [-936.20, 224.90, 1880.20] #torch
+        - to: [-920.93, 220.65, 1871.83] #axe
+
+- .loc(Boko Camp)
+
+- _Material<Seared Steak>:
+    coord: [-955.87, 237.42, 1948.86]
+
+- .!!(SAVE)
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- Spicy peppers, hylian shrooms:
+    notes: .v(Scrap)/8 scrap
+    var-change:
+        Scrap: 2
+
+- .loc(Temple of Time)
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+
+- BLSS .dir(E):
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- _Shrine::JaBaij
+
+- _Npc<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text option 2-1-1-2
+
+- BLSS .dir(<N)
+- _Tower::GreatPlateau
+
+- Jump and fdc
+
+- _Npc<Old Man>:
+    coord: [-572.50, 178.89, 1696.50]
+
+- BLSS .dir(<<N)
+
+- _Shrine::OmanAu
+
+- BLSS .dir(S):
+    movements:
+        - to: [-674.5,1953]
+        - to: [-839.5,2274.5]
+
+- Tree wb .dir(.W)
+
+- _Shrine::OwaDaim
+
+- Boulder launch
+
+- BLSS .dir(W>)
+
+- _Shrine::KehNamut
+
+- BLSS .dir(E)
+
+- _Npc<King>:
+    coord: [-809.33, 263.58, 1964.35]
+    hide-icon-on-map: true
+
+- .!!(Paraglider):
+    icon: king
+    split-type: UserDefined
