@@ -1,0 +1,58 @@
+Hateno:
+- .!!(House upgrades)
+
+- .dir(NW)
+- _Npc<Demon Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+
+- .dir(E)
+- _Shrine::MyahmAgana
+
+- .dir(N)
+- _Npc<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+
+- .dir(N.)
+- _Korok::N42
+
+- .dir(<S) glide
+- .!!(Blue Flame):
+    coord: [3447.5,1982]
+
+- .dir(E>) + .dir(E)
+- _Discover<Activate Tech Lab>:
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+
+- .dir(<N)
+- _Korok::N43
+
+- .dir(S>)
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+
+- .dir(SW)
+- _Korok::N59
+
+- .dir(W)
+- _Korok::N58
+
+- .dir(W)
+- _Korok::N50
+
+- _Korok::N49
+
+- .dir(N) + midair
+- _Tower::Hateno
+
+- .dir(<<W)
+- _Korok::D57
+
+- .dir(NE)
+- _Korok::D58
+
+- .dir(N>>)
+- _Korok::D53
+
+- _Warp::Shrine::TalohNaeg

@@ -11,3 +11,5 @@ _route:
     - __use__ Plateau
   - The Glitch:
     - __use__ The Glitch
+  - Hateno:
+    - __use__ Hateno

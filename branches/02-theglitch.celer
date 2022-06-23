@@ -114,6 +114,7 @@ The Glitch:
 - BLSS .dir(S) + wb .dir(S)
 - _Material<Flint>:
     coord: [1702.77, 371.38, 2577.68]
+- 2 Endura Shroom
 
 - .dir(S) super 
 - .loc(Riola Spring)
@@ -157,5 +158,15 @@ The Glitch:
 #    coord: [3356.35, 225.66, 2175.10]
 
 - .!!(DO THE GLITCH):
+    movements:
+        - to: [3356.35, 225.66, 2175.10]
+        - to: [3439.16, 236.02, 2098.46]
+          away: true
     notes: .link([Detailed Instructions]https://docs.google.com/document/d/1oClOSiNysR-_kxvbWh5LyYYg9K-pKsmEkf798dfchs8/edit?usp=sharing)
+
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+
+- _Npc<Hudson>:
+    coord: [3331.22, 235.28, 2284.61]
 
