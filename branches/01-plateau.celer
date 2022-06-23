@@ -8,7 +8,7 @@ Plateau:
         - to: [-1024.63, 251.40, 1812.55]
         - to: [-1034.19, 249.09, 1847.06]
 
-- Torch and axe by old man:
+- Torch and axe by Old Man:
     movements:
         - to: [-936.20, 224.90, 1880.20] #torch
         - to: [-920.93, 220.65, 1871.83] #axe
@@ -38,7 +38,7 @@ Plateau:
 
 - _Shrine::JaBaij
 
-- _Npc<Old Man>:
+- _Npc::SheikaMale<Old Man>:
     coord: [-461.70, 178.41, 1990.18]
     comment: Text option 2-1-1-2
 
@@ -47,7 +47,7 @@ Plateau:
 
 - Jump and fdc
 
-- _Npc<Old Man>:
+- _Npc::SheikaMale<Old Man>:
     coord: [-572.50, 178.89, 1696.50]
 
 - BLSS .dir(<<N)
@@ -63,6 +63,9 @@ Plateau:
 
 - _Shrine::OwaDaim
 
+- _Equipment::Weapon<Iron Sledghammer>:
+    comment: In shrine
+
 - Boulder launch
 
 - BLSS .dir(W>)
@@ -71,7 +74,7 @@ Plateau:
 
 - BLSS .dir(E)
 
-- _Npc<King>:
+- _Npc::SheikaMale<King>:
     coord: [-809.33, 263.58, 1964.35]
     hide-icon-on-map: true
 

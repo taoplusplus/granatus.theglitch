@@ -113,6 +113,10 @@ The Glitch:
 
 - .dir(S) super 
 - .loc(Riola Spring)
+- _Chest<5 Shock Arrow>:
+    coord: [1788.29, 340.12, 2946.85]
+    comment: Easternmost chest next to korok
+
 - _Tod::Morning:
     coord: [1730.5,2969.5]
 
