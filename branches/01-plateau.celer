@@ -1,5 +1,6 @@
 Plateau:
-- .!!(SoR clip)
+- .!!(SoR clip):
+    notes: Activate time of day
 
 - 4 tree branches outside SoR:
     movements:
@@ -7,6 +8,7 @@ Plateau:
         - to: [-1053.44, 249.44, 1802.61]
         - to: [-1024.63, 251.40, 1812.55]
         - to: [-1034.19, 249.09, 1847.06]
+    notes: Do not pick up any food until steak
 
 - Torch and axe by Old Man:
     movements:
@@ -18,7 +20,8 @@ Plateau:
 - _Material<Seared Steak>:
     coord: [-955.87, 237.42, 1948.86]
 
-- .!!(SAVE)
+- .!!(SAVE):
+    notes: Do not manually save until after dupe is complete
 
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
