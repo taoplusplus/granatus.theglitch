@@ -1,0 +1,87 @@
+Hateno:
+- 2 Iron Sledgehammers
+
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+    comment: Hylian Homeowner
+    notes: 30 wood, 3000 rupees
+
+- _Npc<Hudson>:
+    coord: [3331.22, 235.28, 2284.61]
+    comment: From the Ground Up
+
+- .!!(Upgrade house 14 times)
+
+- .dir(NW)
+- _Npc<Horned Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+    comment: The Statue's Bargain
+    notes: Save for later?
+
+- .dir(E)
+- _Shrine::MyahmAgana:
+    notes: Save for later?
+
+- .dir(N)
+- _Npc<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+    comment: Spring of Wisdom
+    notes: Save for later?
+
+- .dir(N.)
+- _Korok::N42
+
+- .dir(<S) glide
+- .!!(Blue Flame):
+    coord: [3447.5,1982]
+
+- .dir(E>) + .dir(E)
+- _Discover<Activate Tech Lab>:
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+
+- _Snap::Quest<Purah>:
+    hide-icon-on-map: true
+    comment: Talk and SNAP
+- .!!(Upgrade slate, bombs, stasis)
+
+- 2 Apple
+
+- .dir(E) glide
+- _Korok::N48:
+    comment: No Drown
+
+- .dir(N) + .dir(E.) midair
+- _Korok::N43
+
+- .dir(S>)
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Sheep Rustlers
+
+- .dir(SW)
+- _Korok::N59
+
+- .dir(W)
+- _Korok::N58
+
+- .dir(W)
+- _Korok::N50
+
+- _Korok::N49
+
+- .dir(N) + midair
+- _Tower::Hateno
+
+- .dir(<<W) super
+- _Korok::D57
+
+- .dir(NE) short
+- _Korok::D58
+
+- .dir(N>>)
+- _Korok::D53:
+    comment: No Drown
+
+- _Warp::Shrine::TalohNaeg

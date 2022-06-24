@@ -1,6 +1,8 @@
 Plateau:
 - .!!(SoR clip):
-    notes: Activate time of day
+    icon: location
+    line-color: lightgray
+    comment: Activate time of day
 
 - 4 tree branches outside SoR:
     movements:
@@ -20,14 +22,16 @@ Plateau:
 - _Material<Seared Steak>:
     coord: [-955.87, 237.42, 1948.86]
 
-- .!!(SAVE):
-    notes: Do not manually save until after dupe is complete
+- .!!(SAVE THE GAME):
+    notes: Do .!!(NOT) manually save until after dupe is complete. .link([Why not?]https://pastebin.com/MN1c2gAR)
+
+- Drop branches, equip axe
 
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 
 - Spicy peppers, hylian shrooms:
-    notes: .v(Scrap)/8 scrap
+    notes: .v(Scrap)/8 scrap. .link([What is scrap?]https://pastebin.com/W8NuqGph)
     var-change:
         Scrap: 2
 

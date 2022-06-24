@@ -1,0 +1,103 @@
+Vah Naboris:
+- .dir(S>>)
+- _Npc::Gerudo<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Urbosa Memory
+
+- .dir(E>>) super
+- _Npc::Gerudo<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- .dir(SE)surf
+- _Npc::Gerudo<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    comment: Perfect Drink
+
+- .dir(E) + midair
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+
+- Complete divine beast
+- .gale():
+    gale: 2
+
+- .boss(Thunderblight):
+    icon: calamity
+    notes: Stasis+ 2 body shots + 3 head shots
+
+- .!!(Urbosa's Fury):
+    icon: naboris-done
+    line-color: yellow
+    split-type: UserDefined
+    movements:
+        - to: [-3772,2851]
+          warp: true
+
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    comment: Snow Boots
+    notes: Eighth Heroine and Forgotten Sword quests
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- Examine Thunderhelm
+
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    comment: Search for Barta
+
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    comment: Silent Swordswomen
+
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    comment: Seven Heroines
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    comment: Perfect Drink
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+
+- .dir(N) turn super
+- _Npc::Gerudo<Anche>:
+    coord: [-3743.75, 146.81, 2304.44]
+    comment: Get ice
+
+- BLSS with ice cube:
+    notes: .link([Delivery strat]https://youtu.be/xdwRCszyc48?t=11542)
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: Deliver ice
+
+- .dir(N>>) + midair
+- _Shrine::DakoTah
+- _Chest<Radiant Shield>:
+    comment: In shrine
+    notes: Best shield
+
+- .dir(<<E)
+- _Korok::G34
+
+- .dir(<<S) + .dir(E) midair
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Npc<Maypin>:
+    comment: Buy cold and warm darner
+    notes: Look for the donkey
+
+- _Npc<Pirou>:
+    #coord: [-2796.56, 134.90, 2240.07]
+    comment: Rushroom Rush!
+
+- _Warp::VahNaboris

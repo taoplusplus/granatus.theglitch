@@ -1,0 +1,91 @@
+Vah Medoh:
+- _Korok::R60:
+    line-color: palegreen
+
+- BLSS .dir(<<N)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- _Shop<General Shop>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Buy everything you can
+
+- .dir(.N) super
+- _Korok::T02
+
+- _Equipment::Bow<Swallow Bow>:
+    #hide-icon-on-map: true
+    coord: [-3772.61, 283.47, -2320.19]
+- 10x Arrow
+- _Npc::Rito<Teba>:
+    #hide-icon-on-map: true
+    coord: [-3772.61, 283.47, -2300.19]
+- _Chest<Falcon Bow>:
+    #hide-icon-on-map: true
+    coord: [-3792.61, 283.47, -2300.19]
+
+- Enter Medoh:
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    notes: 1 ancient arrow per cannon
+- Complete divine beast:
+    notes: Skip ancient core, ice arrows
+- .boss(Windblight Ganon):
+    icon: ganon
+    hide-icon-on-map: true
+    comment: FDB + AA
+    notes: Stasis+ 2 bodyshots + 4 headshots
+
+- .!!(Revali's Gale):
+    line-color: mediumseagreen
+    icon: medoh-done
+    split-type: UserDefined
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
+    notes: DON'T use until duping
+
+- .dir(W.)
+- _Korok::T10:
+    notes: Maybe not?
+
+- .dir(.W) super
+- _Korok::T13
+
+- _Npc::Rito<Kheel>:
+    coord: [-3979.33, 271.21, -1751.18]
+    comment: Warbler's Nest, Find Kheel
+
+- .dir(N>) super
+- _Korok::T04
+
+- .dir(N)
+- _Shrine::ShaWarvo
+
+- .dir(.E)
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3572.02, 247.83, -2258.14]
+
+- .dir(<S)
+- _Korok::T05
+
+- .dir(E) + .dir(<<E) midair
+- _Material<Voltfin Trout>:
+    coord: [ -3012.75, 217.66, -2157.02]
+    comment: Shoot shock arrow
+
+- _Korok::T03
+
+- Swim and pickup voltfin
+- _Warp::Shrine::KayaWan

@@ -6,6 +6,7 @@ _project:
   name: The Glitch
   url: ""
   version: 0.1.0
+
 _route:
   - Plateau:
     - __use__ Plateau
@@ -13,3 +14,13 @@ _route:
     - __use__ The Glitch
   - Hateno:
     - __use__ Hateno
+  - Hestu 1:
+    - __use__ Hestu 1
+  - Vah Medoh:
+    - __use__ Vah Medoh
+  - Hestu 2:
+    - __use__ Hestu 2
+  - Kohga:
+    - __use__ Kohga
+  - Vah Naboris:
+    - __use__ Vah Naboris

@@ -1,0 +1,42 @@
+Hestu 1:
+- .dir(S>) short
+- _Npc::SheikaMale<Olkin>:
+    line-color: lightsalmon
+    coord: [1870.87, 227.97, 965.85]
+    comment: Fortified Pumpkin
+
+- _Npc::SheikaFemale<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- Buy fire arrows
+
+- _Korok::D03:
+    notes: Maybe not?
+
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+
+- .dir(E> + SE midair)
+- _Chest<Hestu's Maracas>:
+    coord: [2172.24, 218.76, 1369.20]
+    notes: Kill bokos with bomb arrow if not raining, ancient arrow if it is raining
+
+- .dir(E) glide
+- _Korok::D21
+
+- .dir(W)
+- _Npc<Hestu>:
+    coord: [2069.45, 188.17, 1422.25]
+    comment: Get 2 weapon slots
+
+- .dir(.W)
+- _Korok::D20
+
+- .dir(<<N)
+- _Korok::D19
+
+- .dir(NW)
+- _Korok::D18
+
+- _Warp::Shrine::MoggLatan

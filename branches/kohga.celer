@@ -1,0 +1,79 @@
+Kohga:
+- <S super + midair
+- _Korok::G19:
+    line-color: lemonchiffon
+
+- .dir(NW>) + .dir(W) midair
+- _Korok::G13
+
+- .dir(N) + .dir(W>) midair
+- _Korok::G10
+
+- .dir(W) + .dir(S) midair
+- _Korok::G12
+
+- .dir(<<S)
+- _Shrine::KuhTakkar:
+    comment: Unfreeze with 7 fire arrows
+    notes: Grab luminous stones while melting
+
+- BLSS .dir(S)
+- _Korok::W29
+
+- .dir(.S)
+- _Npc<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay
+
+- .dir(<E)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(<W)
+- _Tod::Morning:
+    coord: [-3832.79, 148.98, 2948.17]
+    notes: For ice house after Naboris
+
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: Fire and ice
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(.W)
+- _Korok::W47
+
+- .dir(N)
+- _Korok::W36
+
+- midair .dir(<<N)
+- _Korok::W28
+
+- _Warp::Shrine::KuhTakkar
+
+- .dir(<W)
+- .loc(Yiga Hideout):
+    icon: house-plus
+    hide-icon-on-map: true
+    line-color: gold
+    coord: [-3510.46, 442.51, 1297.31]
+
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+
+- .!!(Dupe 9 Great Eagle Bows):
+    notes: Do not dupe over the Duplex Bow
+
+- .boss(Kohga):
+    icon: calamity
+    coord: [-3451.00, 440.69, 1321.50]
+    comment: AA to face
+
+- _Chest::Special<Thunderhelm>:
+    coord: [-3451.00, 440.69, 1341.50]
+
+- _Warp::Shrine::DaqoChisay:
+    notes: Clear ragdoll before warping
