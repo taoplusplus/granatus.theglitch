@@ -155,9 +155,6 @@ The Glitch:
 
 - Get auto-save
 
-#- _Shop<General Store>:
-#    coord: [3356.35, 225.66, 2175.10]
-
 - .!!(DO THE GLITCH):
     icon: shop
     movements:
