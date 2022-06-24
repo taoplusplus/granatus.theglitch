@@ -82,7 +82,8 @@ The Glitch:
     notes: Skip if already have one
 
 - .dir(E.) super
-- _Shrine::DakaTuss
+- _Shrine::DakaTuss:
+    notes: Eat the steak here
 
 - .dir(S) + .dir(E.) + .dir(.S)
 - _Npc::SheikaFemale<Paya and Impa>:
@@ -158,11 +159,13 @@ The Glitch:
 #    coord: [3356.35, 225.66, 2175.10]
 
 - .!!(DO THE GLITCH):
+    icon: shop
     movements:
         - to: [3356.35, 225.66, 2175.10]
         - to: [3439.16, 236.02, 2098.46]
           away: true
     notes: .link([Detailed Instructions]https://docs.google.com/document/d/1oClOSiNysR-_kxvbWh5LyYYg9K-pKsmEkf798dfchs8/edit?usp=sharing)
+    split-type: UserDefined
 
 - _Npc<Bolson>:
     coord: [3327.28, 235.03, 2297.52]
