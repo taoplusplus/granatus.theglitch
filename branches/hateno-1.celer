@@ -52,7 +52,7 @@ Hateno:
 - _Korok::N48:
     comment: No Drown
 
-- .dir(N) + .dir(E.) midair
+- .dir(N) + .dir(W.) midair
 - _Korok::N43
 
 - .dir(S>)
@@ -67,7 +67,8 @@ Hateno:
 - _Korok::N58
 
 - .dir(W)
-- _Korok::N50
+- _Korok::N50:
+    comment: Combo with N49
 
 - _Korok::N49
 

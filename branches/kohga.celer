@@ -1,7 +1,7 @@
 Kohga:
 - <S super + midair
 - _Korok::G19:
-    line-color: lemonchiffon
+    line-color: lightyellow
 
 - .dir(NW>) + .dir(W) midair
 - _Korok::G13
@@ -58,7 +58,7 @@ Kohga:
 - .loc(Yiga Hideout):
     icon: house-plus
     hide-icon-on-map: true
-    line-color: gold
+    line-color: orange
     coord: [-3510.46, 442.51, 1297.31]
 
 - _Equipment::Bow<Duplex Bow>:

@@ -24,3 +24,7 @@ _route:
     - __use__ Kohga
   - Vah Naboris:
     - __use__ Vah Naboris
+  - East Desert:
+    - __use__ East Desert
+  - Naydra:
+    - __use__ Naydra

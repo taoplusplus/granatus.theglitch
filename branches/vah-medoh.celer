@@ -20,7 +20,6 @@ Vah Medoh:
 - _Equipment::Bow<Swallow Bow>:
     #hide-icon-on-map: true
     coord: [-3772.61, 283.47, -2320.19]
-- 10x Arrow
 - _Npc::Rito<Teba>:
     #hide-icon-on-map: true
     coord: [-3772.61, 283.47, -2300.19]

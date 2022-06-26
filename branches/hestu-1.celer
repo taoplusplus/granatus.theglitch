@@ -28,7 +28,7 @@ Hestu 1:
 - .dir(W)
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
-    comment: Get 2 weapon slots
+    comment: Get 2 bow slots
 
 - .dir(.W)
 - _Korok::D20

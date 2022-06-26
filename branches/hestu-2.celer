@@ -43,6 +43,7 @@ Hestu 2:
 - _Shrine::ShehRata
 
 - .dir(.NE)
-- _Korok::Z12
+- _Korok::Z12:
+    comment: No Drown
 
 - _Warp::Shrine::MoggLatan

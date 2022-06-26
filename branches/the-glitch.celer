@@ -71,7 +71,7 @@ The Glitch:
     notes: (Optional) Need a 4th bow. Can grab this one one later.
 - 10x Arrows
 
-- Kill 1-3 Stalkers:
+- Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
     comment: 3 Screw, 2 Spring, 2 Shaft
@@ -89,7 +89,7 @@ The Glitch:
     notes: Skip if already have one
 
 - .dir(E.) super
-- Sneakstrike green lizalfos:
+- Sneakstrike .enemy(Green Lizalfos):
     notes: (Optional) Safety for horn/talon rng
 - _Shrine::DakaTuss:
     notes: Eat the steak here. Important to have 0 food before glitch.
@@ -140,7 +140,7 @@ The Glitch:
 - .item(1 Shard of Farosh's Horn)
 - .item(1 Farosh's Claw)
 
-- .enemy(Black Lizalfos):
+- Kill .enemy(Black Lizalfos):
     icon: calamity
     coord: [1691.87, 280.72, 3661.50]
     notes: Equip FDB, kill with 3 shock arrow headshots.
