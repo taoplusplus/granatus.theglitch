@@ -70,7 +70,7 @@ Kohga:
 - .boss(Kohga):
     icon: calamity
     coord: [-3451.00, 440.69, 1321.50]
-    comment: AA to face
+    comment: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), need phase 3 clip
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1341.50]

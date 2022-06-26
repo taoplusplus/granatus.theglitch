@@ -16,17 +16,17 @@ Hateno:
 - _Npc<Horned Statue>:
     coord: [3285.60, 217.60, 2197.58]
     comment: The Statue's Bargain
-    notes: Save for later?
+    notes: Reroute?
 
 - .dir(E)
 - _Shrine::MyahmAgana:
-    notes: Save for later?
+    notes: Reroute?
 
 - .dir(N)
 - _Npc<Medda>:
     coord: [3381.11, 226.15, 2105.53]
     comment: Spring of Wisdom
-    notes: Save for later?
+    notes: Reroute?
 
 - .dir(N.)
 - _Korok::N42
@@ -50,8 +50,9 @@ Hateno:
 
 - .dir(E) glide
 - _Korok::N48:
-    comment: No Drown
+    comment: " "
 
+- Swim to rock
 - .dir(N) + .dir(W.) midair
 - _Korok::N43
 
@@ -67,22 +68,23 @@ Hateno:
 - _Korok::N58
 
 - .dir(W)
-- _Korok::N50:
-    comment: Combo with N49
+- _Korok::N50
 
-- _Korok::N49
+- _Korok::N49:
+    notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw)
 
 - .dir(N) + midair
 - _Tower::Hateno
 
 - .dir(<<W) super
-- _Korok::D57
+- _Korok::D57:
+    comment: " "
 
 - .dir(NE) short
 - _Korok::D58
 
 - .dir(N>>)
 - _Korok::D53:
-    comment: No Drown
+    comment: " "
 
 - _Warp::Shrine::TalohNaeg

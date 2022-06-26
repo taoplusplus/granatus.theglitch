@@ -31,7 +31,7 @@ Plateau:
     coord: [-952.34, 238.33, 1959.44]
 
 - Spicy peppers, hylian shrooms:
-    notes: .v(Scrap)/8 scrap. .link([What is scrap?]https://pastebin.com/W8NuqGph)
+    notes: .v(Scrap)/8 scrap. .link([What is scrap?]https://pastebin.com/jbCdPxeR)
     var-change:
         Scrap: 2
 

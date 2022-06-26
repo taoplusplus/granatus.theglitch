@@ -6,7 +6,7 @@ Naydra:
 - .dir(<N + midairs)
 - Begin free Naydra:
     coord: [3965,1353]
-    notes: Shoot an eye before each of the following koroks
+    notes: Shoot an eye before each of the following three koroks (N24, N31, N39)
 
 - .dir(W>)
 - _Korok::N24
@@ -74,7 +74,7 @@ Naydra:
 - .dir(W>)
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
-    comment: Bomb arrows
+    comment: Ancient arrows
 
 - _Snap::Quest<Lynel>
 
@@ -99,7 +99,7 @@ Naydra:
 - .dir(S>)
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
-    comment: 3 bomb arrow + 3 other
+    comment: Ancient arrows
 
 - .dir(E>)
 - _Korok::N20

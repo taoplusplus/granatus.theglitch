@@ -1,0 +1,132 @@
+Vah Ruta:
+- .dir(<N) + .dir(N) midairs
+- _Korok::N05
+
+- .dir(W)
+- Tame mountain buck:
+    coord: [2601.50, 222.01, 552.50]
+
+- .dir(N) ride
+- _Npc<Kass>:
+    coord: [2589.68, 232.40, 444.25]
+
+- .dir(<W)
+- _Korok::N04
+
+- .dir(NW)
+- _Korok::N02
+
+- .dir(E)
+- _Korok::N03
+
+- _Shrine::MezzaLo
+
+- .dir(E)
+- _Korok::Z42
+
+- .dir(E) + midair
+- _Korok::Z43
+
+- .dir(S)
+- _Korok::N06
+
+- .dir(<<E)
+- _Korok::Z44
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [3526.26, 251.18, 364.97]
+    comment: Ancient arrows
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3393.74, 314.18, 49.77]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3265.50, 341.84, 38.70]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W>) run, drop down
+- _Korok::Z33
+
+- .dir(<W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3099.83, 236.67, 70.72]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(N>)
+- _Discover<Luto's Crossing>:
+    coord: [3085.11, 263.68, 8.17]
+
+- _Korok::Z32
+
+- _Material<Fleet Lotus Seed,2>:
+    coord: [3115.75, 184.37, -34.01]
+    notes: For transmute
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3062.39, 184.92, -216.65]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(E>)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3260.31, 241.83, -145.22]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(N>)
+- _Korok::Z25
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+
+- _Equipment::Shield<Zora Armor>:
+    comment: .!!(Equip)
+
+- _Shrine::NeezYohma
+
+- _Npc::ZoraMale<Muzu>:
+    coord: [3299.5,-474.5]
+    comment: Mipha Memory
+
+- .dir(E> + midair)
+- _Korok::Z18
+
+- .dir(S)
+- _Korok::Z26
+
+- .dir(NE square)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Enter Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
+
+- Complete divine beast
+- .gale():
+    gale: 1
+
+- .boss(Waterblight):
+    icon: calamity
+    notes: Stasis+ 6 head shots, no attack up
+    hide-icon-on-map: true
+
+- Mipha's Grace:
+    icon: ruta-done
+    movements:
+        - to: [3283.5,-431]
+          warp: true

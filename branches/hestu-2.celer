@@ -25,10 +25,7 @@ Hestu 2:
 - _Discover<Goponga Village Ruins>:
     coord: [1580.16, 109.80, 312.15]
 
-- midair .dir(N>)
-- _Korok::Z40
-
-- midair .dir(W)
+- midair .dir(N)
 - _Korok::Z39
 
 - cryo block .dir(.N)
@@ -44,6 +41,6 @@ Hestu 2:
 
 - .dir(.NE)
 - _Korok::Z12:
-    comment: No Drown
+    comment: " "
 
 - _Warp::Shrine::MoggLatan

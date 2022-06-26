@@ -12,7 +12,7 @@ Hestu 1:
 - Buy fire arrows
 
 - _Korok::D03:
-    notes: Maybe not?
+    notes: Reroute?
 
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
@@ -20,7 +20,7 @@ Hestu 1:
 - .dir(E> + SE midair)
 - _Chest<Hestu's Maracas>:
     coord: [2172.24, 218.76, 1369.20]
-    notes: Kill bokos with bomb arrow if not raining, ancient arrow if it is raining
+    notes: Kill bokos with bomb arrow if not raining, ancient arrows if it is raining
 
 - .dir(E) glide
 - _Korok::D21

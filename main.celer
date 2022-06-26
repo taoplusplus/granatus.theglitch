@@ -28,3 +28,5 @@ _route:
     - __use__ East Desert
   - Naydra:
     - __use__ Naydra
+  - Vah Ruta:
+    - __use__ Vah Ruta
