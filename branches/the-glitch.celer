@@ -46,7 +46,7 @@ The Glitch:
 - .dir(N.)
 - _Material<Hearty Durians,10>:
     coord: [-2196.75, 410.21, 443.15]
-    notes: Not scrap. Use for backup food and save 1 for quest.
+    notes: Not scrap. Use for food until dupe; save 1 for quest.
 
 - _Material<Wood,2>
 
@@ -144,6 +144,8 @@ The Glitch:
 - .item(1 Farosh's Scale)
 - .item(1 Shard of Farosh's Horn)
 - .item(1 Farosh's Claw)
+
+- Pick up torch
 
 - .dir(S)
 - Kill .enemy(Black Lizalfos):

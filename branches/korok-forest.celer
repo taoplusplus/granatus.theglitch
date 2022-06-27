@@ -1,0 +1,117 @@
+Korok Forest:
+- .dir(BLSS):
+    notes: .link([Example]https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
+
+- _Discover<Lost Woods>:
+    coord: [723.00, 293.50, -1918.50]
+
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    comment: Lost Pilgramage
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort
+
+- .dir(E)
+- _Npc<Walton>:
+    coord: [417.59, 334.17, -2180.27]
+    comment: Riddles of Hyrule
+    notes: Apple, pumpkin, sunshroom, voltfin, lynel hoof
+
+- _Snap::Quest<Sunshroom>
+
+- .dir(Drop down)
+- _Equipment::Weapon<Korok Leaf>:
+    coord: [473.68, 249.02, -2125.30]
+
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: Inventory upgrades
+    notes: 3 bow, 4 shield, 7 weapon
+
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+
+- _Shop<General Store>:
+    comment: Transmute scrap
+
+- 2 Razorshroom
+- 2 Ironshroom
+- 2 Hearty Truffle
+- 2 Stamella Shroom
+
+- _Npc<Follow Oaki>:
+    movements:
+        - to: [257,-2249]
+        - to: [248,-2274]
+        - to: [200.5,-2262]
+        - to: [172.5,-2294]
+        - to: [173.5,-2327.5]
+        - to: [150.5,-2357.5]
+        - to: [110,-2350.5]
+        - to: [90,-2370.5]
+        - to: [76,-2414]
+
+- 10 Restless Cricket:
+    notes: Spin attack grass to collect during escort
+- 5 Hot-Footed Frog
+
+- _Shrine::DaagChokah
+
+- .dir(E>> super)
+- _Shrine::KeoRuug
+
+- .dir(E)
+- _Npc<Damia>:
+    coord: [564.99, 264.83, -2160.65]
+    comment: Trial of Wood
+
+- .dir(NE)
+- _Shrine::MaagHalan
+
+- .dir(SW super)
+- _Npc<Zooki>:
+    coord: [251.03, 285.34, -1979.93]
+    comment: Trial of Second Sight
+
+- .dir(SW)
+- _Equipment::Shield<Rusty Shield>:
+    coord: [100.06, 286.08, -1827.37]
+
+- _Shrine::KuhnSidajj
+
+- .dir(S>>)
+- Escape Korok Forest
+
+- .dir(S) midairs
+- _Korok::X05
+
+- drop down
+- _Chest<5 Ancient Arrow>
+
+- _Korok::X06
+
+- drop down
+- _Korok::X10
+
+- .dir(W)
+- _Korok::X07
+
+- .dir(NE)
+- .!!(SAVE THE GAME ON BRIDGE):
+    coord: [-253.5,-1115.5]
+
+- .boss(Calamity Ganon):
+    icon: calamity
+    movements:
+        - to: [-254.00, 191.01, -1061.37]
+          away: true
+
+- .boss(Dark Beast Ganon):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Skip cutscenes and continue

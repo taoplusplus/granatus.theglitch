@@ -3,7 +3,7 @@ _project:
   authors:
     - ""
   description: ""
-  name: The Glitch
+  name: Corrupted Granatus
   url: ""
   version: 0.1.0
 
@@ -30,3 +30,19 @@ _route:
     - __use__ Naydra
   - Vah Ruta:
     - __use__ Vah Ruta
+  - Akkala Tower:
+    - __use__ Akkala Tower
+  - Eldin Tower:
+    - __use__ Eldin Tower
+  - Goron City:
+    - __use__ Goron City
+  - Dinraal:
+    - __use__ Dinraal
+  - Vah Rudania:
+    - __use__ Vah Rudania
+  - Korok Forest:
+    - __use__ Korok Forest
+  - Hyrule Castle:
+    - __use__ Hyrule Castle
+  - Blood Moon:
+    - __use__ Blood Moon

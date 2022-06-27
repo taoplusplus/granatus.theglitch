@@ -1,0 +1,77 @@
+Blood Moon:
+- .dir(S>>)
+- _Korok::C43
+
+- .dir(NW)
+- _Korok::C42
+
+- .dir(<W)
+- _Korok::C41
+- _Korok::C40
+
+- .dir(<W)
+- _Korok::C39
+
+- .dir(W>)
+- _Korok::C38
+
+- .dir(W)
+- _Korok::C36
+
+- _Material<Acorn,18>:
+    movements:
+        - to: [-1311.30, 114.29, 227.12]
+        - to: [-1371.47, 114.42, 208.08]
+        - to: [-1388.04, 114.54, 249.51]
+
+- .dir(W>>)
+- _Korok::R49
+
+- .dir(N)
+- _Korok::R48
+
+- .dir(W)
+- _Discover<Jeddo Bridge>:
+    coord: [-1689.86, 205.00, 130.84]
+
+- .dir(N>)
+- _Korok::R41
+
+- .dir(S>>) surf
+- _Npc<Kass>
+
+- .dir(<W)
+- Shoot rings:
+    coord: [-1855.25,76.25]
+
+- _Shrine::SheemDagoze
+
+- .dir(N)
+- _Korok::R38
+
+- .dir(S>)
+- _Korok::R47
+
+- .dir(W>)
+- _Korok::R37
+
+- .dir(<W) + midairs
+- _Npc<Kass>:
+    coord: [-2778.84, 348.24, 206.35]
+
+- drop down
+- _Tod::Night:
+    comment: Remove armor
+    coord: [-2758.84, 348.24, 206.35]
+- _Shrine::MijahRokee
+
+- .dir(S)
+- _Korok::R72
+
+- .dir(<W)
+- _Korok::R71
+
+- .dir(N)
+- _Korok::R59
+
+- _Warp::SOR

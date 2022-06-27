@@ -1,0 +1,168 @@
+Hyrule Castle:
+- .dir(N) drop down
+- _Korok::X03
+
+- .dir(<E) glide
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+
+- .dir(E) run, drop down
+- _Korok::X02
+
+- .dir(<<N) run, drop down
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+
+- .dir(N>)
+- _Korok::K30
+
+- .dir(S)
+- _Korok::X11
+
+- run
+- _Boss::Talus::Rare:
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury()
+    fury: 3
+
+- updraft
+- _Chest<Shard of Farosh's Fang>:
+    coord: [-133.07, 170.48, -950.46]
+
+- enter Library
+- _Discover<King's Study>:
+    coord: [-172.98, 170.46, -1119.39]
+
+- _Tod::Night:
+    notes: Cancels blood moon by forcing it to occur while you're in Hyrule Castle
+
+- _Shrine::SaasKosah
+
+- _Chest<Star Fragment>:
+    coord: [-224.01, 104.73, -1177.87]
+    comment: Magnesis chest
+    notes: .v(Star)/3 star fragments
+    var-change:
+        Star: 1
+
+- run/climb
+- _Korok::X01
+
+- .dir(<W)
+- _Korok::X04
+
+- enter Lockup
+#- _Equipment::Weapon<Royal Guard's Claymore>:
+#    coord: [-414.90, 127.54, -1087.77]
+
+- _Equipment::Weapon<Blizzard Rod>:
+    coord: [-461.66, 128.27, -1063.01]
+    comment: Freezing Rod
+    time-override: 671
+
+- _Boss::Hinox::Stal:
+    coord: [-491.34, 126.08, -1009.82]
+    comment: .fury()
+    fury: 3
+
+- _Chest::Special<Hylian Shield>:
+    coord: [-501.57, 126.08, -1011.58]
+
+- run out
+- _Korok::X13
+
+- backtrack .gale():
+    gale: 1
+- _Korok::X08
+
+- Climb ladder
+- Hit switch to turn on updraft
+- Blow up wall
+- _Chest<Shard of Dinraal's Fang>:
+    coord: [-326.46, 151.16, -1002.40]
+
+- updraft/run .gale():
+    gale: 2
+- _Discover<Zelda's Study>:
+    coord: [-383.72, 273.58, -995.87]
+
+- _Snap::Quest<Guardian Skywatcher>
+- _Memory::HyruleCastle
+
+- glide
+- _Korok::X09
+
+- _Discover<Zelda's Room>
+
+- .dir(S>>)
+- _Korok::X14
+
+- .dir(<<W)
+- _Korok::X17
+
+- .dir(<E)
+- _Korok::X12
+
+- .dir(<W)
+- _Korok::X16
+
+- drop down
+- _Discover<Second Gatehouse>
+
+- glide
+- _Discover<Dining Hall>
+
+- _Material<Raw Meat>:
+    coord: [-108.37, 210.59, -848.95]
+    comment: Koko Cuisine
+
+- _Material<Raw Gourmet Meat>:
+    coord: [-152.50, 210.39, -821.58]
+    comment: Rare Find
+
+- run
+- _Korok::X15
+
+- clip oob
+- _Korok::X19:
+    comment: Fix ragdoll
+
+- _Chest<Shard of Naydra's Fang>:
+    coord: [-356.28, 172.41, -810.58]
+    time-override: 274
+
+- run outside .gale():
+    gale: 1
+- _Discover<First Gatehouse>:
+    coord: [-351.61, 217.85, -830.25]
+
+- run
+- _Korok::X18
+
+- .dir(E>)
+- _Korok::X23
+
+- drop down
+- _Discover<Observation Room>:
+    coord: [-255.47, 211.39, -764.95]
+- _Korok::X21
+- _Korok::X22
+
+- .dir(E) glide
+- _Korok::X20
+
+- .dir(S>>)
+- _Korok::X24
+
+- .dir(SW) drop down
+- _Korok::C16
+
+- _Korok::X25
+
+- .dir(<S)
+- _Korok::C33
+
+- .dir(S>>)
+- _Korok::C35
+
+- _Memory::SacredGrounds

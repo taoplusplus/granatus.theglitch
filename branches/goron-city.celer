@@ -1,0 +1,165 @@
+Goron City:
+- .!!(Unequip bomb arrows):
+    notes: Heading into hot zone without flameproof armor. Use spin attack with 2-handed weapon to cancel burning. Tap ZR, B to cancel bow burning.
+
+- .dir(<<N)
+- _Korok::E27
+
+- .dir(<W)
+- _Boss::Talus::Igneo:
+    coord: [1795.54, 394.18, -1746.73]
+    comment: .fury()
+    fury: 3
+
+- .dir(<N)
+- _Korok::E26
+
+- .dir(SW)
+- _Memory::EldinCanyon
+- _Korok::E31
+
+- .dir(N>)
+- _Korok::E24
+
+- .dir(N>)
+- _Korok::E25
+
+- .dir(N>)
+- .loc(Southern Mine)
+
+- _Material<Fireproof Lizard,10>:
+    movements:
+        - to: [1605.70, 441.12, -1981.67]
+        - to: [1630.89, 439.24, -1974.67]
+        - to: [1633.87, 433.62, -1951.08]
+        - to: [1652.15, 430.77, -1931.88]
+        - to: [1670.67, 428.92, -1918.46]
+        - to: [1701.79, 430.53, -1932.14]
+        - to: [1683.16, 430.31, -1948.15]
+
+- _Npc<Kima>:
+    coord: [1657.35, 430.17, -1960.60]
+    comment: Flamebreaker Armor
+
+- _Npc::Goron<Greyson>:
+    coord: [1656.63, 430.15, -1968.53]
+    comment: From the Ground Up
+    notes: Make night if needed to speak to him.
+
+- .dir(NW)
+- _Korok::E19
+
+- .dir(N>) + midair
+- _Korok::E18
+
+- .dir(N.)
+- _Discover<Stolock Bridge>:
+    coord: [1648.20, 565.86, -2437.53]
+    notes: Do not land with bow burning or you'll lose it in the cutscene
+
+- midair .dir(N)
+- _Korok::E14
+
+- .dir(W glide)
+- _Korok::E13
+
+- .dir(S>)
+- _Korok::E15
+
+- .dir(<S glide)
+- _Shop<Armor Shop>:
+    coord: [1645.49, 490.49, -2406.03]
+    comment: Buy Flamebreaker Boots
+
+- .dir(NE) run
+- _Shop<General Store>:
+    coord: [1689.61, 491.59, -2468.49]
+    comment: Buy Goron Spice
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- .dir(N>)
+- _Shrine::ShaeMosah
+
+- .dir(<N) turn
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, 560.52, -2941.37]
+
+- _Chest<Ice Arrow x10>:
+    coord: [1636.95, 560.92, -2944.44]
+
+- .gale():
+    gale: 1
+- _Korok::E08
+
+- .dir(<E) + midair
+- _Korok::E09
+
+- .dir(<<E)
+- _Korok::E06
+
+- .gale() .dir(<<W midair):
+    gale: 1
+- _Boss::Talus::Igneo:
+    coord: [2146.50, 535.83, -3011.50]
+    comment: Iron Sledgehammer
+    notes: Collect gems
+
+- .dir(S> + midair)
+- _Korok::E11
+
+- .dir(W turn)
+- _Korok::E10
+
+- .dir(NW)
+- _Korok::E07
+
+- _Shrine::ShoraHah:
+    notes: .link([Shrine strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
+
+- Take the minecart out:
+    coord: [1593.5,-3090.5]
+
+- .dir(<W)
+- _Boss::Talus::Igneo:
+    coord: [1336.10, 507.31, -3043.21]
+    comment: Iron Sledgehammer
+    notes: Collect gems
+
+- .dir(<W) + midair
+- _Korok::K08
+
+- .dir(W>)
+- _Korok::K07
+
+- .dir(W>)
+- _Korok::K06
+
+- midair .dir(W>)
+- _Korok::K05
+
+- .dir(E>) + midairs
+- _Korok::H16
+
+- midair .dir(N>)
+- _Shrine::QazaTokki:
+    comment: Barbarian Legs
+
+- .dir(W) + .dir(SW) midair
+- _Korok::H15
+
+- .dir(S) + .dir(W) midair
+- _Korok::H22
+
+- .dir(SE) + midairs
+- _Korok::K11
+
+- .dir(<<E) + .dir(NE) midair:
+    time-override: 58
+- _Boss::Hinox::Blue:
+    coord: [341.82, 278.73, -3116.14]
+    comment: .fury()
+    fury: 3
+
+- _Shrine::KetohWawai

@@ -68,10 +68,6 @@ Vah Ruta:
 
 - _Korok::Z32
 
-- _Material<Fleet Lotus Seed,2>:
-    coord: [3115.75, 184.37, -34.01]
-    notes: For transmute
-
 - .dir(<N)
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3062.39, 184.92, -216.65]
