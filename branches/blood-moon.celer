@@ -23,6 +23,7 @@ Blood Moon:
         - to: [-1311.30, 114.29, 227.12]
         - to: [-1371.47, 114.42, 208.08]
         - to: [-1388.04, 114.54, 249.51]
+    notes: Each big tree has 6 acorns. Use stasis to see them.
 
 - .dir(W>>)
 - _Korok::R49
@@ -63,7 +64,8 @@ Blood Moon:
 - _Tod::Night:
     comment: Remove armor
     coord: [-2758.84, 348.24, 206.35]
-- _Shrine::MijahRokee
+- _Shrine::MijahRokee:
+    notes: If you missed the blood moon, continue with the route and warp back. You'll get 3-4 blood moons in the run.
 
 - .dir(S)
 - _Korok::R72

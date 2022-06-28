@@ -86,7 +86,8 @@ Korok Forest:
 - .dir(S>>)
 - Escape Korok Forest
 
-- .dir(S) midairs
+- .dir(S) midairs:
+    notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also warp to Eldin Tower and BLSS (remember to equip metal bow).
 - _Korok::X05
 
 - drop down
@@ -104,14 +105,11 @@ Korok Forest:
 - .!!(SAVE THE GAME ON BRIDGE):
     coord: [-253.5,-1115.5]
 
-- .boss(Calamity Ganon):
-    icon: calamity
+- .boss(Ganon):
+    icon: ganon
     movements:
         - to: [-254.00, 191.01, -1061.37]
           away: true
-
-- .boss(Dark Beast Ganon):
-    icon: calamity
-    hide-icon-on-map: true
+    split-type: UserDefined
 
 - Skip cutscenes and continue

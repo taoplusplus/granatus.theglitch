@@ -17,11 +17,12 @@ Naydra:
 - .dir(<W)
 - _Korok::N39
 
-- .dir(W> + midair)
+- .dir(W>) + midair
 - _Korok::N21
 
 - .dir(E>)
-- _Korok::N29
+- _Korok::N29:
+    comment: " "
 
 - .dir(<E):
     coord: [3241.75,1472.75]
@@ -48,15 +49,21 @@ Naydra:
 - _Shrine::JitanSami:
     line-color: deepskyblue
 
-- .dir(S> + N midair)
+- _Tod::Morning:
+    comment: Twice
+    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day
+
+- .dir(S>) + .dir(N) midair
 - _Korok::N18
 
 - .dir(E>)
+- Shoot .item(Naydra Claw)
+
 - _Tod::Morning:
     coord: [3968.75,1292]
 
-- .item(Naydra Horn)
-- .item(Naydra Claw)
+- Shoot .item(Naydra Horn)
+- Pickup parts
 
 - .dir(NE)
 - _Material<Chillshroom,2>:
@@ -88,12 +95,14 @@ Naydra:
     fury: 3
 
 - _Equipment::Bow<Knight's Bow>:
-    comment: for Eldin
+    comment: Dropped by Hinox
+    notes: Metal bow for Eldin
+    hide-icon-on-map: true
 
 - .dir(<W) + midair
 - _Korok::N13
 
-- .dir(W>)
+- .dir(<W)
 - _Korok::N11
 
 - .dir(S>)
@@ -107,7 +116,7 @@ Naydra:
 - .dir(N>)
 - _Korok::N15
 
-- .dir(E>> square)
+- .dir(E>>)
 - _Korok::N16
 
 - .dir(S)

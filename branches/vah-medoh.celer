@@ -37,7 +37,7 @@ Vah Medoh:
     icon: ganon
     hide-icon-on-map: true
     comment: FDB + AA
-    notes: Stasis+ 2 bodyshots + 4 headshots
+    notes: .link([Stasis+ 2 bodyshots + 4 headshots]https://twitter.com/TaoPlusPlus/status/1541426504122437633?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .!!(Revali's Gale):
     line-color: mediumseagreen
@@ -46,6 +46,7 @@ Vah Medoh:
     movements:
         - to: [-3565.625,-1817.375]
           warp: true
+    notes: If it's after 4:00AM (?), grab the cold darner next to you on the landing
 
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
@@ -75,6 +76,7 @@ Vah Medoh:
 - .dir(.E)
 - _Discover<Hebra Trailhead Lodge>:
     coord: [-3572.02, 247.83, -2258.14]
+    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541444717392658436?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .dir(<S)
 - _Korok::T05

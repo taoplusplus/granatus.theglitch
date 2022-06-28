@@ -16,7 +16,8 @@ Hestu 2:
     comment: 3 bow, 2 weapon
 
 - .dir(S) run
-- _Korok::Z37
+- _Korok::Z37:
+    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541460437455470593?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .dir(<E) super
 - _Korok::Z38
@@ -39,7 +40,7 @@ Hestu 2:
 - .dir(.N)
 - _Shrine::ShehRata
 
-- .dir(.NE)
+- .dir(NE>)
 - _Korok::Z12:
     comment: " "
 

@@ -23,6 +23,8 @@ Vah Naboris:
 - .gale():
     gale: 2
 
+- _Snap::Quest<Guardain Scout>
+
 - .boss(Thunderblight):
     icon: calamity
     notes: Stasis+ 2 body shots + 3 head shots
@@ -45,24 +47,30 @@ Vah Naboris:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- Examine Thunderhelm
+- Examine Thunderhelm:
+    notes: Choose "I want it"
 
+- In training yard
 - _Npc::Gerudo<Liana>:
     coord: [-3912.83, 149.68, 2930.99]
     comment: Search for Barta
 
+- Out and left to gate
 - _Npc::Gerudo<Laine>:
     coord: [-3916.17, 149.18, 2877.34]
     comment: Silent Swordswomen
 
+- Backtrack to first steps
 - _Npc::Gerudo<Rotana>:
     coord: [-3877.78, 151.99, 2881.72]
     comment: Seven Heroines
 
+- Second set of steps
 - _Npc::Gerudo<Furosa>:
     coord: [-3856.93, 152.43, 2856.37]
     comment: Perfect Drink
 
+- End of street
 - _Npc::Gerudo<Dalia>:
     coord: [-3833,2852.75]
     comment: Mystery Polluter
@@ -95,11 +103,11 @@ Vah Naboris:
 
 - _Npc<Maypin>:
     comment: Buy 2 cold and 1 warm darner
-    notes: Look for the donkey. If Maypin doesn't show up, buy 1 warm darner and 1 winterwing butterfly from Beedle.
+    notes: If Maypin doesn't show up, buy 1 warm darner and 1 winterwing butterfly from Beedle. Then get 1 cold darner in Rito later.
 
 - _Cook<Cold Elixir>:
     comment: Cold darner + monster part
-    notes: Substittue winterwing for cold darner
+    notes: Substitute winterwing for cold darner
 
 - _Npc<Pirou>:
     #coord: [-2796.56, 134.90, 2240.07]

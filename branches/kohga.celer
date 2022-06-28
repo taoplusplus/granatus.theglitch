@@ -1,5 +1,5 @@
 Kohga:
-- <S super + midair
+- .dir(<S) super + midair
 - _Korok::G19:
     line-color: lightyellow
 
@@ -17,7 +17,15 @@ Kohga:
     comment: Unfreeze with 7 fire arrows
     notes: Grab luminous stones while melting
 
-- BLSS .dir(S)
+- Eleverator BLSS .dir(S)
+- _Tower::Gerudo
+
+- _Npc<Kass>:
+    coord: [-3655.84, 471.90, 1837.15]
+    comment: Sign of the Shadow
+    notes: Text option 2-1
+
+- .dir(S)
 - _Korok::W29
 
 - .dir(.S)
@@ -37,7 +45,7 @@ Kohga:
 
 - _Shop<Arrow Shop>:
     coord: [-3859.23, 149.24, 2916.02]
-    comment: Fire and ice
+    comment: Buy fire and ice
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
@@ -63,14 +71,18 @@ Kohga:
 
 - _Equipment::Bow<Duplex Bow>:
     coord: [-3510.46, 442.51, 1297.31]
+    comment: Weapon Connoisseur
+    notes: Do not dupe over
 
 - .!!(Dupe 9 Great Eagle Bows):
-    notes: Do not dupe over the Duplex Bow
+    icon: bow
+    hide-icon-on-map: true
+    notes: .link([Tutorial]https://youtu.be/ZmwUDr36i1E)
 
 - .boss(Kohga):
     icon: calamity
     coord: [-3451.00, 440.69, 1321.50]
-    comment: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), need phase 3 clip
+    notes: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), need phase 3 clip
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1341.50]

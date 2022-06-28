@@ -32,8 +32,9 @@ Hateno:
 - _Korok::N42
 
 - .dir(<S) glide
-- .!!(Blue Flame):
+- .!!(Smuggle Blue Flame):
     coord: [3447.5,1982]
+    notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
 
 - .dir(E>) + .dir(E)
 - _Discover<Activate Tech Lab>:
@@ -79,6 +80,7 @@ Hateno:
 - .dir(<<W) super
 - _Korok::D57:
     comment: " "
+    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541416737190674432?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .dir(NE) short
 - _Korok::D58

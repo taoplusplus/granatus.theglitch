@@ -98,13 +98,13 @@ Vah Ruta:
     coord: [3299.5,-474.5]
     comment: Mipha Memory
 
-- .dir(E> + midair)
+- .dir(E>) + midair
 - _Korok::Z18
 
 - .dir(S)
 - _Korok::Z26
 
-- .dir(NE square)
+- .dir(NE)
 - _Npc::ZoraMale<Sidon>:
     coord: [3598.55, 316.00, -330.31]
 
@@ -123,6 +123,7 @@ Vah Ruta:
 
 - Mipha's Grace:
     icon: ruta-done
+    split-type: UserDefined
     movements:
         - to: [3283.5,-431]
           warp: true

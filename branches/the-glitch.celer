@@ -130,7 +130,8 @@ The Glitch:
     coord: [1702.77, 371.38, 2577.68]
     notes: (Optional) If you got flint in mushroom woods, skip this.
 
-- .dir(S) super 
+- .dir(S) super
+
 - .loc(Riola Spring)
 - _Chest<5 Shock Arrow>:
     coord: [1788.29, 340.12, 2946.85]
@@ -142,7 +143,11 @@ The Glitch:
     notes: Create an infinite campfire with wood, flint, and torch
 
 - .item(1 Farosh's Scale)
+
+- _Tod::Morning
 - .item(1 Shard of Farosh's Horn)
+
+- _Tod::Morning
 - .item(1 Farosh's Claw)
 
 - Pick up torch

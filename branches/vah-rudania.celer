@@ -45,6 +45,7 @@ Vah Rudania:
 - Daruk's Protection:
     line-color: cyan
     icon: rudania-done
+    split-type: UserDefined
     movements:
         - to: [1572.5,-2422.5]
           warp: true

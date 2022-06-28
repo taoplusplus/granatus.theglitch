@@ -149,9 +149,13 @@ Dinraal:
     comment: Text options 1-1-2
     coord: [4514.28, 352.96, -3158.73]
 
-- _Npc<Cherry>:
-    comment: Ancient Short Sword
-    notes: Weapon Connoisseur
+#- _Npc<Cherry>:
+#    comment: Ancient Short Sword
+#    notes: Weapon Connoisseur
+
+- Buy from Cherry
+- _Equipment::Weapon<Ancient Short Sword>:
+    comment: Weapon Connoisseur
 
 - _Npc<Jerrin>:
     comment: Text options 1-1-3

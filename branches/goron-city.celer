@@ -1,6 +1,6 @@
 Goron City:
 - .!!(Unequip bomb arrows):
-    notes: Heading into hot zone without flameproof armor. Use spin attack with 2-handed weapon to cancel burning. Tap ZR, B to cancel bow burning.
+    notes: Windbombs do not work on the first tick of burn damage. Equip metal shield amd bow (if you have one) or just don't let GEB burn up (30s) timer.
 
 - .dir(<<N)
 - _Korok::E27
@@ -97,7 +97,8 @@ Goron City:
 - _Korok::E09
 
 - .dir(<<E)
-- _Korok::E06
+- _Korok::E06:
+    notes: Rare ore deposit here for amber if still needed
 
 - .gale() .dir(<<W midair):
     gale: 1

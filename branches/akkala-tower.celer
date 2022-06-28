@@ -86,8 +86,8 @@ Akkala Tower:
 - .dir(<E)
 - _Korok::Z05
 
-- .dir(W> super)
+- .dir(W>) super
 - _Korok::Z04
 
-- .dir(N> super)
+- .dir(N>) super
 - _Tower::Akkala
