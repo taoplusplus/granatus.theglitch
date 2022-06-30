@@ -87,8 +87,9 @@ Vah Medoh:
 - Shoot shock arrow at water
 - _Korok::T03
 - Swim
-- _Material<Voltfin Trout>:
+- _Material<Voltfin Trout, 2>:
     coord: [ -3012.75, 217.66, -2157.02]
     comment: Riddles of Hyrule
+    notes: And transmute scrap
 
 - _Warp::Shrine::KayaWan

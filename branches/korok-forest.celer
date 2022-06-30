@@ -20,6 +20,9 @@ Korok Forest:
 - _Snap::Quest<Sunshroom>:
     coord: [427.59, 334.17, -2180.27]
 
+- Pick voltfin back up:
+    notes: For transmute scrap
+
 - .dir(E.) drop down
 - .loc(Activate Keo Ruug):
     coord: [474.69, 248.84, -2167.82]
@@ -47,8 +50,6 @@ Korok Forest:
 
 - 2 Razorshroom
 - 2 Ironshroom
-#- 1 Hearty Truffle:
-#    notes: Pick up one more Hearty Truffle elsewhere for transmute
 - 2 Stamella Shroom
 
 - _Npc<Follow Oaki>:
@@ -63,6 +64,8 @@ Korok Forest:
         - to: [90,-2370.5]
         - to: [76,-2414]
 
+- 2 Blue Nightshade:
+    notes: For transmute scrap
 - 10 Restless Cricket:
     notes: Spin attack grass to collect during escort
 - 5 Hot-Footed Frog
