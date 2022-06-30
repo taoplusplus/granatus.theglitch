@@ -33,6 +33,9 @@ Hyrule Castle:
 - _Discover<King's Study>:
     coord: [-172.98, 170.46, -1119.39]
 
+- _Equipment::Shield<Royal Shield>:
+    comment: Royal Guard's Gear
+
 - _Tod::Night:
     notes: Cancels blood moon by forcing it to occur while you're in Hyrule Castle
 
@@ -44,6 +47,8 @@ Hyrule Castle:
     notes: .v(Star)/3 star fragments
     var-change:
         Star: 1
+
+- Bows from lizalfos until full
 
 - run/climb
 - _Korok::X01
@@ -58,12 +63,11 @@ Hyrule Castle:
 - _Equipment::Weapon<Blizzard Rod>:
     coord: [-461.66, 128.27, -1063.01]
     comment: Freezing Rod
-    time-override: 671
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    comment: .fury()
-    fury: 3
+    comment: Ancient Arrows
+    notes: Use Stasis+ to get a eyeshot
 
 - _Chest::Special<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
@@ -124,12 +128,13 @@ Hyrule Castle:
 - _Korok::X15
 
 - clip oob
-- _Korok::X19:
-    comment: Fix ragdoll
 
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]
     time-override: 274
+
+- _Korok::X19:
+    comment: Fix ragdoll
 
 - run outside .gale():
     gale: 1

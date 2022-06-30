@@ -50,3 +50,7 @@ _route:
     - __use__ Hyrule Castle
   - Blood Moon:
     - __use__ Blood Moon
+  - Plateau 2:
+    - __use__ Plateau 2
+  - Gerudo Canyon:
+    - __use__ Gerudo Canyon

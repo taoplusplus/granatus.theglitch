@@ -66,6 +66,12 @@ Dinraal:
     comment: Gut Check Challenge
     notes: Wb E and then midair W.
 
+- _Tod::Night:
+    notes: For Kilton and Salvager chest.
+    coord: [2682.92, 469.68, -3472.12]
+
+- .dir(<E)
+
 - _Boss::Hinox::Black:
     coord: [2917.42, 343.68, -3561.40]
     comment: Ancient arrows
@@ -131,7 +137,7 @@ Dinraal:
 - _Korok::A07
 
 - .dir(E>) + midair
-- .!!(Hold smuggle torch):
+- .!!(Smuggle Blue Flame):
     coord: [4155.5,-3170.5]
 
 - .dir(E>) run
@@ -189,7 +195,7 @@ Dinraal:
 - .dir(NE)
 - _Korok::A23
 
-- .dir(W)
+- .dir(W) run
 - _Shrine::KatosaAug
 
 - .dir(W>) run

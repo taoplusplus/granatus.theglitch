@@ -82,6 +82,9 @@ Vah Ruta:
     var-change:
         Monument: 1
 
+- 1 Hearty Truffle:
+    notes: Used later for transmute
+
 - .dir(N>)
 - _Korok::Z25
 

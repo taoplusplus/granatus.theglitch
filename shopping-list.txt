@@ -1,0 +1,40 @@
+SHOPPING LIST
+
+Key:
+* Items are "scrap"; can be exchanged for 2 of any other item not otherwise on this list
+! Items will be corrupted to 999. There are seven.
+() Items are not part of the dupe but are necessary for hundo
+
+Items are listed in roughly the order they'll be collected in the run. The only part of the order that _really_ matters is that Ancient Core is the third of the seven "!" items that are collected. Here, it's listed after Rushroom and Wood, and before Beetle, Opal, Tail, and Hearty Bass.
+
+Items:
+*2 Spicy Pepper
+*2 Hylian Shroom
+*2 Chillshroom
+*2 Luminous Stone
+*2 Sunshroom
+2 Endura Shroom
+2 Courser Bee Honey
+*2 Bird Egg
+5 Silent Princess
+4 Fleet-Lotus Seed
+1 Rushroom!
+1 Acorn
+(10 Hearty Durian)
+2 Wood!
+*2 Raw Bird Drumstick
+3 Ancient Screw
+2 Ancient Shaft
+2 Ancient Spring
+1 Ancient Core!
+1 Energetic Rhino Beetle!
+1 Opal!
+*2 Blue Nightshade
+(1 Farosh's Scale)
+1 Farosh's Claw
+1 Lizalfos Tail!
+2 Lizalfos Horn
+2 Lizalfos Talon
+5 Hyrule Bass
+1 Hearty Bass!
+(6 Mighty Banana)

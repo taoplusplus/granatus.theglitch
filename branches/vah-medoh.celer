@@ -62,6 +62,8 @@ Vah Medoh:
 
 - .dir(.W) super
 - _Korok::T13
+- 1 Hearty Truffle:
+    notes: Used later for transmute
 
 - _Npc::Rito<Kheel>:
     coord: [-3979.33, 271.21, -1751.18]
