@@ -13,11 +13,13 @@ Kohga:
 - _Korok::G12
 
 - .dir(<<S)
-- _Shrine::KuhTakkar:
-    comment: Unfreeze with 7 fire arrows
-    notes: Grab luminous stones while melting
+- Melt ice with 7-8 fire arrows
+- _Material<Luminous Stones>:
+    comment: Luminous Stone Gathering
+    hide-icon-on-map: true
+- _Shrine::KuhTakkar
 
-- Eleverator BLSS .dir(S)
+- BLSS or WB .dir(S)
 - _Tower::Gerudo
 
 - _Npc<Kass>:
@@ -68,21 +70,22 @@ Kohga:
     hide-icon-on-map: true
     line-color: orange
     coord: [-3510.46, 442.51, 1297.31]
+    comment: Clip in
 
 - _Equipment::Bow<Duplex Bow>:
     coord: [-3510.46, 442.51, 1297.31]
     comment: Weapon Connoisseur
-    notes: Do not dupe over
 
 - .!!(Dupe 9 Great Eagle Bows):
     icon: bow
     hide-icon-on-map: true
     notes: .link([Tutorial]https://youtu.be/ZmwUDr36i1E)
+    comment: Keep Duplex Bow
 
 - .boss(Kohga):
     icon: calamity
     coord: [-3451.00, 440.69, 1321.50]
-    notes: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), need phase 3 clip
+    notes: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), phase 3 [need link]
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1341.50]

@@ -10,18 +10,19 @@ Hestu 1:
     coord: [1830.49, 222.41, 1044.89]
     comment: Arrows of Burning Heat
 
-- Buy fire arrows
+- Buy all fire arrows
 
-- _Korok::D03:
-    notes: Reroute?
+- _Korok::D03
+    #notes: Reroute?
 
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
 
 - .dir(E>) + .dir(SE) midair
-- _Chest<Hestu's Maracas>:
+- Kill bokos:
+    notes: With bomb arrow if not raining, ancient arrows if it is raining
     coord: [2172.24, 218.76, 1369.20]
-    notes: Kill bokos with bomb arrow if not raining, ancient arrows if it is raining
+- _Chest::Special<Hestu's Maracas>
 
 - .dir(E) glide
 - _Korok::D21
@@ -38,6 +39,7 @@ Hestu 1:
 - _Korok::D19
 
 - .dir(NW)
-- _Korok::D18
+- _Korok::D18:
+    comment: " "
 
 - _Warp::Shrine::MoggLatan

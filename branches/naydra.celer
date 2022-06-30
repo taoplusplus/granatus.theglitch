@@ -51,7 +51,7 @@ Naydra:
 
 - _Tod::Morning:
     comment: Twice
-    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day
+    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
 
 - .dir(S>) + .dir(N) midair
 - _Korok::N18
@@ -96,7 +96,7 @@ Naydra:
 
 - _Equipment::Bow<Knight's Bow>:
     comment: Dropped by Hinox
-    notes: Metal bow for Eldin
+    notes: (Optional) Metal bow for Eldin. May need to drop 1 GEB to pick up.
     hide-icon-on-map: true
 
 - .dir(<W) + midair

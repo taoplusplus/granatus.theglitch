@@ -1,16 +1,17 @@
 Korok Forest:
-- .dir(BLSS):
+- BLSS:
     notes: .link([Example]https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
 
 - _Discover<Lost Woods>:
     coord: [723.00, 293.50, -1918.50]
+    notes: BLSS should pass through this location
 
 - _Npc<Tasho>:
     coord: [256.19, 281.61, -2229.61]
     comment: Lost Pilgramage
-    notes: Move forward until you hear Oaki's dialogue to trigger the escort
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't need to follow Oaki; he'll move along his path while we do the next steps.
 
-- .dir(E)
+- .dir(E) top of Deku tree
 - _Npc<Walton>:
     coord: [407.59, 334.17, -2180.27]
     comment: Riddles of Hyrule
@@ -19,12 +20,14 @@ Korok Forest:
 - _Snap::Quest<Sunshroom>:
     coord: [427.59, 334.17, -2180.27]
 
-- .dir(Drop down)
+- .dir(E.) drop down
 - .loc(Activate Keo Ruug):
     coord: [474.69, 248.84, -2167.82]
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
+- 1 Bird Egg:
+    notes: In tree behind Hestu. For korok in castle.
 
 - _Npc<Hestu>:
     icon: hestu
@@ -95,18 +98,17 @@ Korok Forest:
     notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also warp to Eldin Tower and BLSS (remember to equip metal bow).
 - _Korok::X05
 
-- drop down
-- _Chest<5 Ancient Arrow>
-
+- Drop down
 - _Korok::X06
 
-- drop down
+- Drop down
 - _Korok::X10
 
 - .dir(W)
 - _Korok::X07
 
 - .dir(NE)
+- Equip Barbarian, GEB, AA
 - .!!(SAVE THE GAME ON BRIDGE):
     coord: [-253.5,-1115.5]
 
@@ -116,5 +118,6 @@ Korok Forest:
         - to: [-254.00, 191.01, -1061.37]
           away: true
     split-type: UserDefined
+    notes: .link([Skew bounce 1-cycle strat]https://youtu.be/d4s3-3IcV9A?t=22411) or just fight
 
 - Skip cutscenes and continue

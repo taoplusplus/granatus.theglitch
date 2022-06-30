@@ -5,37 +5,41 @@ Hyrule Castle:
 - .dir(<E) glide
 - _Chest<Naydra's Scale>:
     coord: [-182.29, 235.23, -1169.52]
+    comment: Under slab
 
-- .dir(E) run, drop down
-- _Korok::X02
+- .dir(E) run, drop down waterfall
+- _Korok::X02:
+    comment: " "
 
-- .dir(<<N) run, drop down
+- .dir(<<N) climb out, run, drop down
 - _Chest<Dinraal's Scale>:
     coord: [-196.46, 153.20, -1218.59]
 
 - .dir(N>)
 - _Korok::K30
 
-- .dir(S)
+- .dir(S) into tunnel
 - _Korok::X11
 
-- run
+- Run around corner
 - _Boss::Talus::Rare:
     coord: [-136.65, 127.21, -956.26]
     comment: .fury()
     fury: 3
 
-- updraft
+- Take updraft
 - _Chest<Shard of Farosh's Fang>:
     coord: [-133.07, 170.48, -950.46]
 
-- enter Library
+- Enter Library, run across
 - _Discover<King's Study>:
     coord: [-172.98, 170.46, -1119.39]
 
 - _Equipment::Shield<Royal Shield>:
     comment: Royal Guard's Gear
 
+- Go down stairs to shrine
+- Light torch
 - _Tod::Night:
     notes: Cancels blood moon by forcing it to occur while you're in Hyrule Castle
 
@@ -50,32 +54,41 @@ Hyrule Castle:
 
 - Bows from lizalfos until full
 
-- run/climb
-- _Korok::X01
+- _Equipment::Weapon<Great Flameblade>:
+    coord: [-268.24, 131.34, -1153.31]
+
+- Run out, climb
+- _Korok::X01:
+    notes: If you lift the rock right before the guardian laser hits you, you won't take damage.
 
 - .dir(<W)
 - _Korok::X04
 
-- enter Lockup
+- Drop down, enter Lockup
+- Shoot malice eye in hallway
 #- _Equipment::Weapon<Royal Guard's Claymore>:
 #    coord: [-414.90, 127.54, -1087.77]
 
 - _Equipment::Weapon<Blizzard Rod>:
     coord: [-461.66, 128.27, -1063.01]
     comment: Freezing Rod
+    notes: In cell with lizalfos
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    comment: Ancient Arrows
-    notes: Use Stasis+ to get a eyeshot
+    comment: Ancient arrows
+    notes: Bullet time off steps
+
+- _Equipment::Weapon<Great Thunderblade>:
+    hide-icon-on-map: true
 
 - _Chest::Special<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
 
-- run out
+- Run out, bomb walls
 - _Korok::X13
 
-- backtrack .gale():
+- Backtrack .gale():
     gale: 1
 - _Korok::X08
 
@@ -85,7 +98,8 @@ Hyrule Castle:
 - _Chest<Shard of Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
 
-- updraft/run .gale():
+- Take updraft
+- Run outside, .gale():
     gale: 2
 - _Discover<Zelda's Study>:
     coord: [-383.72, 273.58, -995.87]
@@ -93,16 +107,18 @@ Hyrule Castle:
 - _Snap::Quest<Guardian Skywatcher>
 - _Memory::HyruleCastle
 
-- glide
+- Glide to balcony
 - _Korok::X09
 
-- _Discover<Zelda's Room>
+- _Discover<Zelda's Room>:
+    notes: Run into the room
 
 - .dir(S>>)
 - _Korok::X14
 
 - .dir(<<W)
-- _Korok::X17
+- _Korok::X17:
+    notes: DEFUSE
 
 - .dir(<E)
 - _Korok::X12
@@ -110,10 +126,10 @@ Hyrule Castle:
 - .dir(<W)
 - _Korok::X16
 
-- drop down
+- Drop down
 - _Discover<Second Gatehouse>
 
-- glide
+- Glide down
 - _Discover<Dining Hall>
 
 - _Material<Raw Meat>:
@@ -124,10 +140,11 @@ Hyrule Castle:
     coord: [-152.50, 210.39, -821.58]
     comment: Rare Find
 
-- run
+- Run down the hall
 - _Korok::X15
 
-- clip oob
+- Clip out
+- Run/glide to Guard's Chamber
 
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]
@@ -136,21 +153,23 @@ Hyrule Castle:
 - _Korok::X19:
     comment: Fix ragdoll
 
-- run outside .gale():
+- Run outside .gale():
     gale: 1
 - _Discover<First Gatehouse>:
     coord: [-351.61, 217.85, -830.25]
 
-- run
+- Run
 - _Korok::X18
 
 - .dir(E>)
 - _Korok::X23
 
-- drop down
+- Drop down
 - _Discover<Observation Room>:
     coord: [-255.47, 211.39, -764.95]
-- _Korok::X21
+    notes: Walk into the malice
+- _Korok::X21:
+    notes: Shooting the top works
 - _Korok::X22
 
 - .dir(E) glide

@@ -65,6 +65,7 @@ Vah Ruta:
 - .dir(N>)
 - _Discover<Luto's Crossing>:
     coord: [3085.11, 263.68, 8.17]
+    notes: Should discover as you fly past
 
 - _Korok::Z32
 

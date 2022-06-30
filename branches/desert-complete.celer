@@ -1,0 +1,79 @@
+Desert Complete:
+- .dir(E>)
+- _Korok::W43
+
+- .dir(<E)
+- _Korok::W37
+
+- .dir(E>>)
+- _Korok::W44
+
+- .dir(<<E) + .dir(N>) midair
+- _Korok::W35
+
+- Complete orb puzzle:
+    notes: .link([Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676)
+
+- _Shrine::KorshOhu
+
+- .dir(S) + climb
+- _Korok::W40
+
+- .dir(N>) + midair
+- _Korok::W30
+
+- .dir(NW)
+- _Korok::W19
+
+- _Shrine::KayNoh
+
+- .dir(<<E) glide
+- _Korok::W15
+
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Warp::Shrine::KuhTakkar:
+    line-color: red
+
+- .dir(S.) + midair
+- _Korok::G22
+
+- .dir(N>>)
+- _Korok::G17
+
+- .dir(E)
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+
+- .dir(<E)
+- _Korok::G18
+
+- .dir(SE)
+- _Korok::G23
+
+- .dir(<<W)
+- _Korok::G27
+
+- .dir(E>)
+- _Korok::G28
+
+- .dir(<<E)
+- _Korok::G24
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+    comment: Bomb arrows
+
+- .dir(SW)
+- _Korok::W14
+
+- .dir(SE)
+- _Korok::W26
+
+- Drop down
+- _Shrine::JeeNoh

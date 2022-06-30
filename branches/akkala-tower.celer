@@ -3,7 +3,7 @@ Akkala Tower:
 - _Korok::Z16:
     line-color: indianred
 
-- drop down
+- Drop down
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
 
@@ -42,7 +42,7 @@ Akkala Tower:
 - .dir(SW)
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
-    comment: .fury() + ancient arrow
+    comment: .fury() + ancient arrows
     fury: 1
 
 - .dir(E>) run

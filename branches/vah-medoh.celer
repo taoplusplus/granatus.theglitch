@@ -57,8 +57,8 @@ Vah Medoh:
     notes: DON'T use until duping
 
 - .dir(W.)
-- _Korok::T10:
-    notes: Reroute?
+- _Korok::T10
+    #notes: Reroute?
 
 - .dir(.W) super
 - _Korok::T13
@@ -84,11 +84,11 @@ Vah Medoh:
 - _Korok::T05
 
 - .dir(E) + .dir(<<E) midair
+- Shoot shock arrow at water
+- _Korok::T03
+- Swim
 - _Material<Voltfin Trout>:
     coord: [ -3012.75, 217.66, -2157.02]
-    comment: Shoot shock arrow
+    comment: Riddles of Hyrule
 
-- _Korok::T03
-
-- Swim and pickup voltfin
 - _Warp::Shrine::KayaWan

@@ -54,3 +54,15 @@ _route:
     - __use__ Plateau 2
   - Gerudo Canyon:
     - __use__ Gerudo Canyon
+  - Gerudo Highlands:
+    - __use__ Gerudo Highlands
+  - Moldugas:
+    - __use__ Moldugas
+  - Gerudo Town 2:
+    - __use__ Gerudo Town 2
+  - Desert Complete:
+    - __use__ Desert Complete
+  - Lake Tower:
+    - __use__ Lake Tower
+  - Horse Minigames:
+    - __use__ Horse Minigames

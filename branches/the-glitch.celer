@@ -82,7 +82,7 @@ The Glitch:
     comment: 3 Screw, 2 Spring, 2 Shaft
     notes: Can skip gears. Getting more than these counts will make duping more difficult. If you don't get enough screws, it's fine. Can pick up a core.
 
-- windbomb to Castle Town wall
+- Wb to Castle Town wall
 - BLSS .dir(SE)
 
 - _Shrine::KayaWan:
@@ -130,7 +130,7 @@ The Glitch:
     coord: [1702.77, 371.38, 2577.68]
     notes: (Optional) If you got flint in mushroom woods, skip this.
 
-- .dir(S) super
+- .dir(S)
 
 - .loc(Riola Spring)
 - _Chest<5 Shock Arrow>:
@@ -170,7 +170,7 @@ The Glitch:
 
 - _Material<Fish>:
     coord: [1643.02, 277.73, 3674.37]
-    comment: Shoot shock arrow. 1 left.
+    comment: Shock arrow or bomb lake
 
 - .item(5 Hyrule Bass)
 - .item(1 Hearty Bass)
@@ -179,6 +179,9 @@ The Glitch:
     notes: For koroks later
 
 - BLSS .dir(NE)
+
+- Drop Hammer:
+    notes: Make sure you have 2 weapons, 4 bows, 1 shield. .link([Check inventory]https://github.com/taoplusplus/granatus.theglitch/blob/main/shopping-list.txt).
 
 - .loc(Activate Myaham Agana):
     coord: [3387.62, 240.64, 2214.92]

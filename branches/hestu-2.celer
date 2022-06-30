@@ -29,7 +29,7 @@ Hestu 2:
 - midair .dir(N)
 - _Korok::Z39
 
-- cryo block .dir(.N)
+- .dir(.N)
 - _Discover<Moor Garrison Ruins>:
     coord: [1534.40, 120.58, -155.90]
 

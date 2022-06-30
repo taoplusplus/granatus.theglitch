@@ -35,14 +35,23 @@ Blood Moon:
 - _Discover<Jeddo Bridge>:
     coord: [-1689.86, 205.00, 130.84]
 
+- _Korok::R39
+
+- _Boss::Hinox::Blue:
+    coord: [-1534.88, 214.82, -171.59]
+    comment: Ancient arrows
+
+- _Korok::R40
+
 - .dir(N>)
 - _Korok::R41
 
 - .dir(S>>) surf
-- _Npc<Kass>
+- _Npc::Rito<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
 
 - .dir(<W)
-- Shoot rings:
+- Shoot through 2 rings:
     coord: [-1855.25,76.25]
 
 - _Shrine::SheemDagoze
@@ -60,7 +69,7 @@ Blood Moon:
 - _Npc<Kass>:
     coord: [-2778.84, 348.24, 206.35]
 
-- drop down
+- Drop down to pedestal
 - _Tod::Night:
     comment: Remove armor
     coord: [-2758.84, 348.24, 206.35]

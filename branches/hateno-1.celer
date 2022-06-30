@@ -12,21 +12,21 @@ Hateno:
 
 - .!!(Upgrade house 14 times)
 
-- .dir(NW)
-- _Npc<Horned Statue>:
-    coord: [3285.60, 217.60, 2197.58]
-    comment: The Statue's Bargain
-    notes: Reroute?
+#- .dir(NW)
+#- _Npc<Horned Statue>:
+#    coord: [3285.60, 217.60, 2197.58]
+#    comment: The Statue's Bargain
+#    notes: Reroute?
 
-- .dir(E)
-- _Shrine::MyahmAgana:
-    notes: Reroute?
+#- .dir(E)
+#- _Shrine::MyahmAgana:
+#    notes: Reroute?
 
-- .dir(N)
+- .dir(N.)
 - _Npc<Medda>:
     coord: [3381.11, 226.15, 2105.53]
     comment: Spring of Wisdom
-    notes: Reroute?
+#    notes: Reroute?
 
 - .dir(N.)
 - _Korok::N42
@@ -45,11 +45,12 @@ Hateno:
 - _Snap::Quest<Purah>:
     hide-icon-on-map: true
     comment: Talk and SNAP
-- .!!(Upgrade slate, bombs, stasis)
+- .!!(Get Slate, Bombs+, Stasis+):
+    notes: If less than 3 screws, upgrade slate in Hateno 2.
 
 - 2 Apple
 
-- .dir(E) glide
+- .dir(E)
 - _Korok::N48:
     comment: " "
 

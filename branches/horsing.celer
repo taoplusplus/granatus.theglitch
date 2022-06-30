@@ -1,0 +1,217 @@
+Horse Minigames:
+- .dir(<<W)
+- _Korok::L48
+
+- .dir(SE)
+- _Korok::L49
+
+- .dir(NE)
+- _Korok::L50
+
+- .dir(<<S)
+- _Korok::L59:
+    comment: " "
+    notes: Kill the octoroks
+
+- .dir(S)
+- _Korok::L60
+
+- .dir(<<E)
+- _Korok::L52
+
+- .dir(<E)
+- _Shrine::PumaagNitae
+
+- .dir(SE) run
+- _Korok::L53
+
+- .dir(<<E) run
+- _Korok::L55
+
+- .dir(<S)
+- _Korok::L61
+
+- Kill the octorok(s)
+- _Material<Octorok Balloon>:
+    coord: [720.28, 134.40, 3276.11]
+    comment: Balloon Flight
+
+- .dir(<<W) run
+- _Korok::L66
+
+- .dir(SE)
+- _Korok::L72
+
+- .dir(<<S)
+- _Boss::Hinox::Blue:
+    comment: .fury() 
+    coord: [1031.43, 127.22, 3496.26]
+    fury: 1
+
+- .dir(E>)
+- _Korok::F38
+
+- .gale() + .dir(<<W) midair:
+    gale: 1
+- _Korok::L79
+
+- .dir(S>>)
+- _Korok::L92
+
+- .dir(N)
+- _Korok::L78
+
+- .dir(W) drop down
+- _Npc<Malanya>:
+    coord: [802.00, 186.73, 3719.93]
+    comment: Horse God
+
+- .dir(W>)
+- _Korok::L77
+
+- .dir(W)
+- _Discover<Horse God Bridge>:
+    coord: [596.95, 172.65, 3722.39]
+
+- .dir(N>>)
+- _Korok::L75
+
+- .dir(<<N)
+- .fury() kill 5 bokos:
+    coord: [485,3342]
+    comment: Horseback Hoodlums
+    fury: 1
+
+- .dir(S)
+- _Npc<Perosa>:
+    coord: [516.76, 152.98, 3453.71]
+    comment: Horseback Hoodlums
+
+- _Npc<Blynne>:
+    coord: [514.26, 152.72, 3449.75]
+    comment: Mounted Obstacle Course
+
+- .!!(Complete obstacle course):
+    notes: Get times of 1:30 and 1:15.
+
+- .dir(S)
+- _Shrine::KaoMakagh
+
+- .dir(S)
+- Start L65:
+    coord: [546.27, 231.59, 3580.35]
+
+- .dir(N) ride horse:
+    movements:
+        - to: [513,3516.5]
+        - to: [274,3465.5]
+        - to: [237.5,3515]
+        - to: [190,3518]
+        - to: [161.5,3487]
+    notes: Sets up the horse for easy pickup later
+
+- .dir(N) + NE midair
+- _Korok::L65:
+    coord: [271.72, 222.37, 3289.59]
+    notes: Do not whistle sprint until after Shoqa Tatone
+
+- .dir(S>)
+- _Korok::L70
+
+- .dir(E>) glide
+- _Korok::L71:
+    time-override: 999
+
+- .gale() + .dir(S) midair:
+    gale: 1
+- _Korok::L73
+
+- .dir(E)
+- _Korok::L74
+
+- .dir(E)
+- _Korok::L76
+
+- .dir(S>)
+- _Korok::L91
+
+- .dir(<<W)
+- _Korok::L90
+
+- .dir(<W)
+- _Korok::L89
+
+- .dir(<<N)
+- _Korok::L88
+
+- .dir(W>)
+- _Npc<Loone>:
+    coord: [104.50, 109.30, 3825.50]
+    comment: Guardian Slideshow
+
+- _Tod::Night:
+    notes: For the Stalnoxes coming up
+
+- _Shrine::ShoqaTatone
+
+- .dir(W>>) square
+- _Korok::L86
+
+- .dir(E>)
+- _Korok::L87
+
+- .dir(N>)
+- _Boss::Hinox::Stal:
+    comment: Ancient arrows
+    coord: [100.50, 111.28, 3371.00]
+    notes: Whistle for horse
+
+- .dir(Ride horse):
+    movements:
+        - to: [25,3350]
+        - to: [-26.5,3362]
+        - to: [-153,3452.5]
+
+- _Npc<Straia>:
+    coord: [-212.39, 128.70, 3487.13]
+
+- .!!(Archery minigame):
+    notes: Score 20 and 23.
+
+- .dir(<S)
+- _Korok::L85
+
+- .dir(W)
+- _Korok::L83
+
+- .dir(S>>)
+- _Korok::L82
+
+- .dir(E)
+- _Korok::L84
+
+- .dir(W)
+- _Korok::L81
+
+- .dir(W)
+- _Korok::L80
+
+- .dir(<<N) + midair
+- _Korok::L69
+
+- .dir(SE) + midair
+- _Boss::Hinox::Stal:
+    comment: .fury()
+    fury: 1
+    coord: [-1062.00, 275.24, 3771.50]
+
+- .gale() + .dir(<N) midair:
+    gale: 1
+- _Korok::L68
+
+- .dir(NW)
+- _Korok::L67
+
+- .dir(E)
+- _Shrine::IshtoSoh
+

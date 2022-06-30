@@ -2,13 +2,13 @@ Gerudo Canyon:
 - .dir(S>)
 - _Korok::C61
 
-- .dir(W>)
+- .dir(W>) surf/run
 - _Korok::C60
 
 - .dir(NW)
 - _Korok::C57
 
-- .dir(SW)
+- .dir(SW) surf
 - _Discover<Gleeok Bridge>:
     coord: [-1310.03, 111.74, 786.85]
 
@@ -99,16 +99,18 @@ Gerudo Canyon:
 - _Discover<Gerudo Canyon Pass>:
     coord: [-1665.00, 95.00, 2028.00]
 
-- Steal horse, ride into canyon:
+- Steal horse:
     coord: [-1646.99, 86.38, 2072.51]
 
-- _Npc<Zyle>:
+- Ride through canyon:
     movements:
         - to: [-1642,2254]
         - to: [-1782,2321]
         - to: [-1990,2167]
         - to: [-2029,1995]
-        - to: [-2033.50, 157.54, 1873.19]
+
+- _Npc<Zyle>:
+    coord: [-2033.50, 157.54, 1873.19]
     comment: Good-Sized Horse
 
 - .dir(S.)
@@ -159,7 +161,7 @@ Gerudo Canyon:
 - .dir(<W)
 - _Korok::G35
 
-- .gale() .dir(W midair):
+- .gale() + .dir(W) midair:
     gale: 1
     time-override: 999
 

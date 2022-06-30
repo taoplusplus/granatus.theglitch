@@ -14,7 +14,8 @@ Vah Naboris:
     coord: [-2968.22, 137.69, 3775.00]
     comment: Perfect Drink
 
-- .dir(E) + midair
+- .dir(E) + midair:
+    notes: Use minimap to find Naboris
 - Enter Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
@@ -23,7 +24,7 @@ Vah Naboris:
 - .gale():
     gale: 2
 
-- _Snap::Quest<Guardain Scout>
+- _Snap::Quest<Guardian Scout>
 
 - .boss(Thunderblight):
     icon: calamity
@@ -40,15 +41,15 @@ Vah Naboris:
 
 - _Npc<Bozai>:
     coord: [-3750,2874]
-    comment: Snow Boots
-    notes: Eighth Heroine and Forgotten Sword quests
+    comment: 8th Heroine/Forgotten Sword
+    notes: Get Snow Boots
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
 - Examine Thunderhelm:
-    notes: Choose "I want it"
+    notes: Choose "I want it!"
 
 - In training yard
 - _Npc::Gerudo<Liana>:
@@ -75,7 +76,7 @@ Vah Naboris:
     coord: [-3833,2852.75]
     comment: Mystery Polluter
 
-- .dir(N) turn super
+- .dir(N)
 - _Npc::Gerudo<Anche>:
     coord: [-3743.75, 146.81, 2304.44]
     comment: Get ice

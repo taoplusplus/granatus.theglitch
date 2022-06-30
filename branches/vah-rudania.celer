@@ -51,6 +51,8 @@ Vah Rudania:
         - to: [1572.5,-2422.5]
           warp: true
 
+- Run left to avoid Yunobo
+
 - _Npc::Goron<Bladon>:
     comment: A Brother's Roast
     notes: Text option 2-1
@@ -96,7 +98,7 @@ Vah Rudania:
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
     comment: Boulder Breaker
-    notes: Check for 10 luminous stones, collect gems
+    notes: Get to 10 luminous stones here
 
 - .dir(<<S) glide
 - _Korok::E21
@@ -105,7 +107,6 @@ Vah Rudania:
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
     comment: Boulder Breaker
-    notes: Collect gems
 
 - .gale():
     gale: 1

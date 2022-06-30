@@ -2,7 +2,8 @@ Plateau 2:
 - _Korok::P09:
     line-color: violet
 
-- _Warp::Shrine::OwaDaim
+- _Warp::Shrine::OwaDaim:
+    notes: Just as fast as clipping out
 
 - .dir(<<E)
 - _Korok::P18
@@ -11,7 +12,8 @@ Plateau 2:
 - _Korok::P11
 
 - .dir(NW)
-- _Korok::P10
+- _Korok::P10:
+    comment: " "
 
 - .dir(W>>)
 - _Boss::Talus::Stone:
@@ -28,6 +30,7 @@ Plateau 2:
 - .dir(NE) run
 - _Material<Acorn,3>:
     coord: [-930.78, 184.82, 1702.72]
+    notes: Need to pick up 8 more rng acorns during the run
 
 - .dir(E) run
 - _Korok::P05

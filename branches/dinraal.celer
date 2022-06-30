@@ -12,7 +12,9 @@ Dinraal:
 - Kill .enemy(White-Maned Lynel):
     icon: boss-dlc
     coord: [247.00, 173.39, -3668.50]
-    comment: Pick up Lynel Hoof
+    comment: Stun lock with arrows
+    
+- Get hoof:
     notes: Hoof is for Riddles of Hyrule. High chance of getting one, but if you don't, see below for backup.
 
 - Shoot Dinraal
@@ -64,10 +66,10 @@ Dinraal:
 
 - _Shrine::GoraeTorr:
     comment: Gut Check Challenge
-    notes: Wb E and then midair W.
+    notes: WB E and then midair W.
 
 - _Tod::Night:
-    notes: For Kilton and Salvager chest.
+    notes: For Kilton and Salvager chest
     coord: [2682.92, 469.68, -3472.12]
 
 - .dir(<E)
@@ -143,10 +145,10 @@ Dinraal:
 - .dir(E>) run
 - _Korok::A14
 
-- .dir(<E run)
+- .dir(<E) run
 - _Korok::A15
 
-- .dir(E> run)
+- .dir(E>) run
 - _Discover<Activate Akkala Tech Lab>:
     coord: [4522.01, 354.23, -3166.63]
     comment: Throw torch
@@ -209,7 +211,7 @@ Dinraal:
     notes: Select "this area"
 
 - _Tod::Night:
-    notes: For Stalnox, Death Mountain's Secret, and blood moon.
+    notes: For Stalnox, Death Mountain's Secret, and blood moon
 
 - .dir(W>>)
 - _Korok::A19
@@ -240,7 +242,7 @@ Dinraal:
 - .dir(E>)
 - _Boss::Hinox::Stal:
     coord: [4146.69, 130.35, -2225.24]
-    comment: .fury()
+    comment: Ancient arrow + .fury()
     fury: 3
 
 - .gale() + .dir(S.) midairs:
