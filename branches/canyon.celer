@@ -171,7 +171,7 @@ Gerudo Canyon:
 - .dir(SW)
 - _Memory::KaraKaraBazaar
 
-- _Npc::RitoMale<Guy>:
+- _Npc::Rito<Guy>:
     comment: An Ice Guy
     coord: [-3238.62, 130.10, 2574.56]
 
