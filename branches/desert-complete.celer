@@ -1,6 +1,7 @@
 Desert Complete:
 - .dir(E>)
-- _Korok::W43
+- _Korok::W43:
+    comment: Behind, left, behind, right
 
 - .dir(<E)
 - _Korok::W37
@@ -37,13 +38,14 @@ Desert Complete:
 - _Warp::Shrine::KuhTakkar:
     line-color: red
 
-- .dir(S.) + midair
+- .dir(.S)
 - _Korok::G22
 
 - .dir(N>>)
 - _Korok::G17
 
-- .dir(E)
+- .dir(E):
+    time-override: 999
 - _Boss::Talus::Frost:
     coord: [-2919.99, 656.12, 1294.27]
     comment: .fury()
@@ -55,7 +57,7 @@ Desert Complete:
 - .dir(SE)
 - _Korok::G23
 
-- .dir(<<W)
+- .dir(<SW)
 - _Korok::G27
 
 - .dir(E>)

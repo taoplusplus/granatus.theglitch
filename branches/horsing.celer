@@ -44,11 +44,10 @@ Horse Minigames:
 
 - .dir(<<S)
 - _Boss::Hinox::Blue:
-    comment: .fury() 
+    comment: Ancient arrows
     coord: [1031.43, 127.22, 3496.26]
-    fury: 1
 
-- .dir(E>)
+- midair .dir(E>)
 - _Korok::F38
 
 - .gale() + .dir(<<W) midair:
@@ -110,7 +109,7 @@ Horse Minigames:
         - to: [161.5,3487]
     notes: Sets up the horse for easy pickup later
 
-- .dir(N) + NE midair
+- .dir(N) + .dir(NE) midair
 - _Korok::L65:
     coord: [271.72, 222.37, 3289.59]
     notes: Do not whistle sprint until after Shoqa Tatone
@@ -160,9 +159,10 @@ Horse Minigames:
 - .dir(E>)
 - _Korok::L87
 
-- .dir(N>)
+- .dir(<N)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
+    comment: Ancient arrows + .fury()
+    fury: 1
     coord: [100.50, 111.28, 3371.00]
     notes: Whistle for horse
 
@@ -199,9 +199,9 @@ Horse Minigames:
 - .dir(<<N) + midair
 - _Korok::L69
 
-- .dir(SE) + midair
+- .dir(S>) + .dir(<W) midair
 - _Boss::Hinox::Stal:
-    comment: .fury()
+    comment: Ancient arrows + .fury()
     fury: 1
     coord: [-1062.00, 275.24, 3771.50]
 
