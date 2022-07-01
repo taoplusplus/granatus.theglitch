@@ -23,10 +23,10 @@ Lake Tower:
     coord: [-1196.01, 170.87, 2633.46]
     comment: Hunt for the Giant Horse
 
-- .dir(<<S ride)
+- .dir(<<S) ride
 - _Korok::L36
 
-- .dir(<<S ride):
+- .dir(<<S) ride:
     movements:
         - to: [-920,3114]
         - to: [-836,3240]
