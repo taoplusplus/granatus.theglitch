@@ -19,11 +19,11 @@
 
 a. Equip multi-shot bow, shock arrow, Hylian Shield
 
-b1. Drop on the ground (special pile):
+b1. Drop on the ground ("special" pile):
 	1 Shard of Dinraal's Horn
 	1 Shard of Naydra's Horn
 	1 Farosh's Scale
-b2. Drop on the ground ("not Horn" pile):
+b2. Drop on the ground ("other" pile):
 	7 other dragon parts
 
 c1. Overload with 6 bows
@@ -33,17 +33,17 @@ c3. Equip Radiant Shield -> shield jump
 d1. Hold/sell
 	1 Hearty Durian, 2 Mighty Banana, 1 Hearty Truffle, 1 Chillshroom
 d2. Pick up
-	1 not Horn, 1 not Horn, 1 Farosh's Scale, 1 not Horn
+	1 other, 1 other, 1 Farosh's Scale, 1 other
 
 e1. Hold/sell
 	3 Fleet-Lotus Seeds, 1 Blue Nightshade, 1 Bird Egg
 e2. Pick up
-	1 not Horn, 1 not Horn, 1 Horn
+	1 other, 1 other, 1 Horn
 
 f1. Hold/sell
 	3 Rushroom, 1 Voltfin Trout, 1 Diamond
 f2. Pick up
-	1 not Horn, 1 not Horn, 1 Horn
+	1 other, 1 other, 1 Horn
 
 
 
