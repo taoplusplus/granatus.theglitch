@@ -30,7 +30,10 @@ Gerudo Town 2:
     comment: Tools of the Trade
     coord: [-3834.85, 149.52, 2875.26]
 
-- .!!(Transmutey/dupey?)
+- If less than 2 durians, buy
+
+- .!!(Dupe bows + transmute items):
+    notes: .link([Detailed instructions]https://github.com/taoplusplus/granatus.theglitch/blob/main/transmute-instructions.txt)
 
 - _Shop<Arrow Shop>:
     coord: [-3859.23, 149.24, 2916.02]

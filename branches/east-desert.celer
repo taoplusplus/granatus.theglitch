@@ -126,6 +126,9 @@ East Desert:
     comment: Perfect Drink
 
 - _Shrine::MisaeSuma
+- _Chest<Diamond>:
+    comment: In shrine
+    notes: For transmute scrap
 
 - .dir(W)
 - _Korok::W62

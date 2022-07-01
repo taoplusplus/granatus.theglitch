@@ -1,0 +1,55 @@
+# Transmute Instructions
+
+## Items needed (in sorted order)
+
+2 Hearty Durian
+4 Fleet-Lotus Seeds
+3 Mighty Banana
+2 Hearty Truffle
+2 Chillshroom
+4 Rushroom
+2 Blue Nightshade
+2 Bird Egg
+2 Voltfin Trout
+2 Diamond
+
+
+
+# Steps
+
+a. Equip multi-shot bow, shock arrow, Hylian Shield
+
+b1. Drop on the ground:
+	1 Shard of Dinraal's Horn
+	1 Shard of Naydra's Horn
+	1 Farosh's Scale
+b2. Drop on the ground:
+	7 other dragon parts
+
+c1. Overload with 6 bows
+c2. Overwrite bows in inventory
+c3. Equip Radiant Shield -> shield jump
+
+d1. Hold/sell
+	1 Hearty Durian, 2 Mighty Banana, 1 Hearty Truffle, 1 Chillshroom
+d2. Pick up
+	1 not Horn, 1 not Horn, 1 Farosh's Scale 1 not Horn
+
+e1. Hold/sell
+	3 Fleet-Lotus Seeds, 1 Blue Nightshade, 1 Bird Egg
+e2. Pick up
+	1 not Horn, 1 not Horn, 1 Horn
+
+f1. Hold/sell
+	3 Rushroom, 1 Voltfin Trout, 1 Diamond
+f2. Pick up
+	1 not Horn, 1 not Horn, 1 Horn
+
+
+
+# Check
+
+(when sorted)
+Dinraal parts 2-2-2-4
+Naydra parts 2-2-2-4
+Farosh parts 3-2-2-4

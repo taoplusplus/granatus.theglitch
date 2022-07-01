@@ -29,8 +29,8 @@ Korok Forest:
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
-- 1 Bird Egg:
-    notes: In tree behind Hestu. For korok in castle.
+- 3 Bird Egg:
+    notes: In trees behind Hestu. 1 for korok in castle and 2 for transmute scrap.
 
 - _Npc<Hestu>:
     icon: hestu
@@ -45,12 +45,12 @@ Korok Forest:
     coord: [441.00, 248.56, -2133.05]
     comment: Legendary Rabbit Trial
 
-- _Shop<General Store>:
-    comment: Buy transmute scrap
+#- _Shop<General Store>:
+#    comment: Buy transmute scrap
 
-- 2 Razorshroom
-- 2 Ironshroom
-- 2 Stamella Shroom
+#- 2 Razorshroom
+#- 2 Ironshroom
+#- 2 Stamella Shroom
 
 - _Npc<Follow Oaki>:
     movements:
@@ -64,7 +64,7 @@ Korok Forest:
         - to: [90,-2370.5]
         - to: [76,-2414]
 
-- 2 Blue Nightshade:
+- 2+ Blue Nightshade:
     notes: For transmute scrap
 - 10 Restless Cricket:
     notes: Spin attack grass to collect during escort
