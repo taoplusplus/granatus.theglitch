@@ -1,0 +1,142 @@
+Satori Mountain:
+- .dir(E>)
+- _Korok::C24
+
+- .dir(<N)
+- _Korok::R26
+
+- _Korok::R27
+
+- .dir(S>)
+- _Korok::R44
+
+- .dir(<<W)
+- _Korok::R43
+
+- _Korok::R45
+
+- .dir(<<W)
+- _Korok::R42
+
+- .dir(SE)
+- _Boss::Hinox::Black:
+    coord: [-1177.05, 139.48, 118.51]
+
+- .dir(<S)
+- _Discover<Ancient Tree Stump>:
+    coord: [-1111.99, 170.44, 430.91]
+
+- _Korok::C47
+
+- .dir(W>)
+- _Korok::C37
+
+- .dir(S>)
+- _Korok::R58
+
+- .dir(W>)
+- _Korok::R57
+
+- .dir(W>)
+- _Korok::R56
+
+- .dir(S>>)
+- _Korok::R55
+
+- .dir(N>)
+- _Korok::R54
+
+- .dir(<W)
+- _Boss::Hinox::Stal:
+    coord: [-2217.00, 372.31, 584.00]
+
+- .dir(<W)
+- _Korok::R62
+
+- .dir(N>>)
+- _Korok::R53
+
+- .dir(W>)
+- _Korok::R52
+
+- .dir(S)
+- _Korok::R61
+
+- .dir(E>>)
+- _Korok::R68
+- _Korok::R69
+
+- .dir(<S)
+- _Korok::R78
+
+- .dir(W)
+- _Korok::R77
+
+- .dir(W)
+- _Korok::R76
+
+- .dir(NW)
+- _Korok::R75:
+    movements:
+        - to: [-2393.37, 233.05, 1047.34]
+          away: true
+
+- .gale() + .dir(S>) midair:
+    gale: 1
+- _Korok::G14
+
+- .dir(N>>)
+- _Korok::R70
+
+- .dir(W)
+- _Korok::R73
+
+- .dir(W>)
+- _Korok::R67
+
+- .dir(NE)
+- _Korok::R66
+
+- .dir(N>)
+- _Korok::R65
+
+- .dir(N)
+- _Korok::R64
+
+- .dir(N>)
+- _Korok::R51
+
+- .dir(SW)
+- _Korok::R63
+
+- .dir(W>)
+- _Korok::R50
+
+- .dir(<<N)
+- _Boss::Talus::Rare:
+    comment: .fury()
+    fury: 3
+    coord: [-3137.50, 317.31, 72.90]
+
+- .dir(<W)
+- _Korok::R46
+
+- .dir(N)
+- _Korok::R36
+
+- .dir(W>)
+- _Korok::R35
+
+- _Korok::R34:
+    movements:
+        - to: [-3861.73, 101.01, -147.16]
+          away: true
+
+- .dir(W>>)
+- _Korok::R33
+
+- .dir(<<W)
+- _Korok::R32
+
+- .dir(N>)
+- _Shrine::KahOkeo

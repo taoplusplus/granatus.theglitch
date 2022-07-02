@@ -1,0 +1,133 @@
+Lanayru Complete:
+- .dir(E>)
+- _Korok::N40
+
+- .dir(<<N)
+- _Korok::N25
+
+- .dir(N>)
+- _Korok::Z62
+
+- _Korok::Z61
+
+- .dir(N)
+- _Korok::Z59
+
+- .dir(<N)
+- _Korok::Z58
+
+- _Boss::Hinox::Blue:
+    comment: rgc
+    coord: [4442.00, 160.79, 350.94]
+
+- .dir(<W)
+- _Korok::Z56
+
+- Blow up 3 rubble
+
+- .dir(SE)
+- .loc(Lizalfos camp):
+    coord: [4326.60, 158.66, 608.58]
+    notes: Might not need
+
+- _Material<Lizalfos Tail,2>
+
+- .dir(SE)
+- _Korok::Z57
+
+- .dir(<W)
+- _Korok::N12
+
+- .dir(W>)
+- _Korok::Z55
+
+- .dir(W)
+- _Korok::Z54
+
+- .dir(S>>)
+- _Korok::N14
+
+- .dir(<<N)
+- _Korok::Z51
+
+- .dir(N>)
+- _Shrine::RuccoMaag
+
+- .dir(E>>)
+- _Korok::Z53
+
+- _Korok::Z52
+
+- .dir(<E)
+- _Korok::Z45
+
+- .dir(<E)
+- _Korok::Z46
+
+- .dir(S)
+- _Npc<Kass>:
+    coord: [4151.39, 109.13, 346.02]
+
+- .dir(N>> run)
+- .dir(Land on pedestial):
+    coord: [4226.75,312.75]
+
+- _Shrine::ShaiYota
+
+- .dir(N>)
+- _Korok::Z36
+
+- .gale() .dir(E midair):
+    gale: 1
+- _Korok::Z35
+
+- .dir(<E)
+- _Korok::Z28
+
+- .dir(NE)
+- _Korok::Z10
+
+- .dir(NW)
+- _Korok::Z09
+
+- .dir(W>)
+- _Korok::A56
+
+- .dir(S)
+- .loc(Lizalfos camp)
+- Kill lizalfos:
+    coord: [4360.71, 377.70, -625.57]
+- Material<Lizalfos Tail,3>
+
+- .dir(<W)
+- _Korok::A57
+
+- .dir(N>)
+- _Shrine::KenaiShakah
+
+- .dir(S>)
+- _Korok::A55
+
+- .dir(<<N)
+- _Korok::A54
+
+- .dir(<<E)
+- _Korok::A53
+
+- .dir(E)
+- _Korok::Z07
+
+- .dir(N)
+- _Korok::Z06
+
+- _Material<Rushroom>:
+    coord: [4690.62, 300.24, -1046.58]
+
+- .dir(N)
+- _Korok::Z01
+
+- .dir(S)
+- _Shrine::KahMael
+
+- _Warp::Shrine::ShadaNaw:
+    comment: 96.36

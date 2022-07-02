@@ -1,0 +1,96 @@
+Endgame:
+- Missable Locations:
+    notes: .link(https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
+
+- _Material<Rushroom,4>:
+    line-color: rgb(245, 185, 66)
+    coord: [-2812.53, 154.05, 2251.75]
+    notes: Blizzard Rod
+
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Material<Rushroom,4>:
+    coord: [-2753.56, 154.99, 2225.98]
+    notes: Great Eagle Bow
+
+- _Npc<Pirou>:
+    coord: [-2796.56, 134.90, 2240.07]
+    comment: Rushroom Rush!
+
+- .dir(<<W)
+- _Discover<Gerudo Desert Gateway>:
+    coord: [-2924.12, 153.42, 2329.39]
+
+- _Warp::Shrine::DahHesho
+
+- .loc(Great Fairy Fountain):
+    coord: [4105.00, 263.97, -1370.00]
+
+- .!!(Upgrade all armor):
+    notes: Set of the Wild, Zora Set, Champion's Tunic
+
+- _Korok::A48
+
+- .dir(N>)
+- _Npc<Kilton>:
+    coord: [4152.87, 194.63, -1597.24]
+    comment: buy stuff, get medals
+    notes: Monster extract, bridle, saddle
+
+- .dir(W)
+- _Cook<Monster Cake>:
+    coord: [3946.69, 233.67, -1603.18]
+    comment: wheat, sugar, butter, extract
+
+- _Npc<Ruli>:
+    coord: [3968.57, 233.44, -1590.29]
+    comment: A Parent's Love
+
+- _Npc<Hagie>:
+    coord: [3919,-1605]
+    comment: Hobbies of the Rich
+
+- _Npc<Hudson>:
+    coord: [3970.74, 233.60, -1623.47]
+    comment: From the Ground Up
+    notes: Talk to him again after the wedding.
+
+- _Warp::Shrine::KeoRuug
+
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: all remaining upgrades
+    notes: Talk to him again for the poop!
+
+- _Npc<Chio>:
+    comment: Korok Trials
+    coord: [431.66, 250.56, -2139.55]
+
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
+
+- _Warp::Shrine::HaDahamar
+
+- _Discover<Big Twin Bridge>:
+    coord: [1673.11, 107.36, 2032.82]
+
+- _Discover<Little Twin Bridge>:
+    coord: [1714.18, 106.66, 2149.55]
+
+- .dir(E)
+- Tame a horse:
+    coord: [1784.94, 117.91, 2036.54]
+
+- _Npc<Rensa>:
+    coord: [1748.38, 116.11, 1923.67]
+    comment: Wild Horses
+
+- _Npc<Domidak and Prissen>:
+    coord: [1767.48, 116.07, 1925.15]
+    comment: Misko, the Great Bandit
+
+- _Memory::AshSwamp

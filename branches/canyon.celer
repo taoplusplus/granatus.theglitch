@@ -12,13 +12,7 @@ Gerudo Canyon:
 - _Discover<Gleeok Bridge>:
     coord: [-1310.03, 111.74, 786.85]
 
-- .dir(<<W)
-- _Korok::C58
-
-- .dir(SW)
-- _Korok::C59
-
-- .dir(<<N)
+- .dir(<W)
 - _Korok::R74
 
 - .gale() + .dir(<N) midair:

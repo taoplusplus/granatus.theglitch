@@ -1,0 +1,153 @@
+Kakariko 3:
+- _Tod::Noon:
+    comment: repeat until no rain
+
+- _Shrine::TalohNaeg:
+    line-color: rgb(200, 255, 184)
+
+- .dir(<E)
+- _Material<Silent Princess,3>:
+    coord: [1995.75, 267.90, 842.24]
+
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]
+
+- 2 cuccos above
+#    movements:
+#        - to: [1847.93, 249.73, 930.14]
+#        - to: [1849.63, 236.35, 974.52]
+
+- _Npc<Cado>:
+    coord: [1838.75,964.25]
+    comment: Flown the Coop
+
+- _Npc<Cottla>:
+    coord: [1870.67, 228.35, 957.56]
+    comment: Playtime with Cottla
+
+- 3 cuccos in the back
+
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [1931.10, 229.83, 987.25]
+    comment: backup
+
+- _Npc<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+
+- Light torches:
+    coord: [1847.75,1000]
+
+- 1 cucco
+
+- _Npc<Koko>:
+    coord: [1801,1016.5]
+    comment: Cooking with Koko
+
+- _Tod::Night:
+    notes: There are 2 Energetic Rhino Beetles, one at each gate, for backup
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- Orchard cucco
+
+- Collect fireflies:
+    coord: [1901,995]
+
+- _Npc<Lasli>:
+    coord: [1899.75,1035.75]
+    comment: By Firefly's Light
+
+- _Npc<Paya and Impa>:
+    coord: [1772.71, 229.43, 984.31]
+
+- _Korok::D03
+
+- _Korok::D02
+
+- .dir(S)
+- _Korok::D04
+
+- _Korok::D05
+
+- .dir(E>>)
+- _Korok::D12
+
+- .dir(W>)
+- _Korok::D06
+
+- _Korok::D08
+
+- .dir(N>>)
+- _Korok::N07
+
+- .dir(<S)
+- _Korok::N08
+
+- .dir(<E)
+- _Korok::N10
+
+- .gale() .dir(E>>):
+    gale: 2
+- _Korok::N09
+
+- .dir(S>)
+- _Korok::D07
+
+- .dir(SW)
+- _Korok::D11
+
+- .dir(W>)
+- _Korok::D10
+
+- .dir(W>)
+- _Korok::D09
+
+- .dir(N>>)
+- _Material<Silent Princess,3>:
+    coord: [1846.14, 327.67, 820.96]
+
+- .dir(E>>)
+- Enter cutscene, kill Yiga:
+    coord: [2024.21, 292.86, 962.56]
+
+- _Shrine::LaknaRokee
+
+- .dir(S>>)
+- _Korok::N28
+
+- _Shrine::KamUrog:
+    time-override: 999
+
+- .dir(<S)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [2527.50, 242.00, 1904.50]
+
+- .dir(SW)
+- _Boss::Hinox::Stal:
+    comment: rgc + .fury()
+    fury: 1
+    coord: [1940.50, 144.41, 2396.50]
+
+- .dir(S)
+- _Chest<Sapphire>:
+    coord: [1955.82, 178.14, 2609.72]
+    comment: middle chest
+
+- _Korok::D59
+
+- .dir(<<N)
+- _Shrine::TotoSah
+
+- .dir(NE)
+- _Korok::D56
+
+- .dir(NW)
+- _Korok::D55
+
+- .dir(N)
+- _Shrine::HaDahamar

@@ -1,0 +1,146 @@
+Gift from the Monks:
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: For Xenoblade chest.
+
+- .dir(SE)
+- _Korok::H20
+
+- .dir(E)
+- _Korok::H28
+
+- .!!(Look southeast)
+
+- .dir(Drop down)
+- _Shrine::GomaAsaagh
+
+- .dir(SW)
+- _Korok::H35
+
+- .dir(SE)
+- _Chest<Salvager Trousers>:
+    coord: [-2605.00, 583.00, -2652.00]
+
+- .dir(<E)
+- _Korok::H36
+
+- .dir(N)
+- _Korok::H29
+
+- .dir(E>>)
+- _Korok::H31
+
+- .dir(N>>)
+- _Boss::Talus::Frost:
+    comment: bomb arrow
+    coord: [-2144.88, 491.27, -3082.59]
+
+- .dir(W)
+- _Korok::H30
+
+- .dir(NW)
+- _Shrine::RokUwog
+
+- .dir(N)
+- _Korok::H13
+
+- .dir(NE)
+- _Korok::H05
+
+- .dir(E)
+- _Shrine::ShaGehma
+
+- .dir(E>)
+- _Korok::H06
+
+- .dir(SW)
+- _Korok::H14
+
+- .dir(S>>)
+- _Korok::H37
+
+- .dir(<S)
+- _Npc<Juannelle>:
+    coord: [-1641.43, 339.19, -2561.69]
+    comment: Stalhorse Pictured!
+
+- _Shrine::RinOyaa
+
+- _Tod::Night:
+    hide-icon-on-map: true
+
+- .dir(W)
+- _Korok::H52
+
+- .dir(E>)
+- _Korok::H58
+
+- .dir(<S)
+- _Korok::H62
+
+- .dir(<<E)
+- _Korok::H59
+
+- .dir(NE)
+- _Korok::H38
+
+- .dir(E>)
+- _Korok::K10
+
+- .dir(<W)
+- _Korok::K12
+
+- .gale() .dir(S>):
+    gale: 1
+
+- _Boss::Hinox::Stal:
+    comment: rgc + .fury()
+    fury: 2
+    coord: [-1273.50, 213.08, -2113.50]
+
+- .dir(SW)
+- _Npc<Akrah, Garshan, Onya>:
+    coord: [-1541.84, 212.23, -1804.59]
+    comment: Leviathan Bones
+
+- .dir(<W)
+- _Discover<Maritta Exchange Ruins>:
+    coord: [-1781.57, 220.00, -1685.07]
+
+- .dir(<<W)
+- _Korok::R01
+
+- .dir(NE)
+- _Korok::H68
+
+- .dir(S)
+- _Korok::K22
+
+- .dir(N>>)
+- _Korok::K20
+
+- .dir(<E)
+- _Korok::K21
+
+- .dir(NE)
+- _Korok::K15
+
+- .dir(W)
+- _Korok::H63
+
+- .dir(NE)
+- _Korok::K13
+
+- .dir(S)
+- _Korok::K14
+
+- .gale() .dir(BLSS):
+    gale: 1
+- _Korok::K09
+
+- _Shrine::RonaKachta
+
+- _Chest::Special<Set of the Wild>
+
+- _Warp::Shrine::KayNoh:
+    comment: 99.58%

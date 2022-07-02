@@ -1,0 +1,124 @@
+Lurelin:
+- .dir(E>>)
+- _Korok::F47
+
+- .dir(N) drop down
+- _Npc<Wabbin and Perda>:
+    coord: [2584.90, 290.11, 3547.64]
+    comment: Gift of Nightshade
+
+- .dir(S>)
+- _Korok::F57
+
+- .dir(E)
+- _Chest<Sapphire>:
+    coord: [3019.81, 100.82, 3897.96]
+    comment: Sunken Treasure
+    notes: Only need to open 1 chest
+
+- .dir(<N)
+- _Korok::F49
+
+- .dir(E)
+- _Korok::F50
+
+- .dir(SE)
+- _Korok::F58
+
+- .dir(NE)
+- _Korok::F51
+
+- .dir(E)
+- _Korok::F52
+
+- _Snap::Quest<Monument Shard 1>:
+    coord: [3800.81, 105.59, 3614.03]
+    comment: Fragmented Monument
+
+- .dir(NW)
+- _Snap::Quest<Monument Shard 2>:
+    coord: [3532.50, 112.28, 3365.50]
+    comment: Fragmented Monument
+
+- .dir(SW)
+- _Snap::Quest<Monument Shard 3>:
+    coord: [3390.50, 105.66, 3481.83]
+    comment: Fragmented Monument
+
+- .dir(N>)
+- _Npc<Garini>:
+    coord: [3439.86, 114.87, 3344.20]
+    comment: Fragmented Monument
+- Crouch on pedestal
+- _Shrine::KahYah
+
+- .gale() .dir(W midair):
+    gale: 1
+- _Korok::F37
+
+- .dir(S):
+    time-override: 999
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [3272.52, 133.05, 3409.85]
+
+- .dir(<W)
+- _Korok::F45
+
+- .dir(S)
+- _Material<Hearty Blueshell Snail>:
+    comment: What's for Dinner?
+    coord: [2948.86, 106.06, 3462.70]
+
+- _Shop<Arrow Shop>:
+    coord: [2952.58, 107.66, 3493.43]
+    notes: Still needed?
+
+- .dir(<N)
+- _Npc<Kiana>:
+    coord: [2884.25, 112.44, 3413.51]
+    comment: What's for Dinner?
+    notes: Before 6:00pm
+
+- .dir(SW)
+- _Material<Palm Fruit>:
+    coord: [2873.80, 106.90, 3432.06]
+    notes: For korok later
+
+- _Npc<Sebasto>:
+    coord: [2886.5,3442.5]
+    comment: Take Back the Sea
+    notes: Inside house if raining
+
+- .dir(E)
+- _Korok::F44
+
+- .dir(SE) to docks
+- _Npc<Rozel>:
+    comment: Select "About the ocean"
+    notes: Inside house under F44 if raining. Sunken Treasure.
+    coord: [2887.5,3495.5]
+
+- .dir(N>>)
+- _Korok::F36:
+    comment: BLSS with rock onto boat
+
+- .dir(W>)
+- _Shrine::YahRin
+
+- .dir(W>>)
+- _Korok::F31
+
+- _Warp::Shrine::DahHesho
+
+- .dir(N>)
+- _Npc<Hudson>:
+    line-color: mediumslateblue
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 30 wood
+
+- .dir(E) run
+- _Korok::A38
+
+- _Warp::Tower::DuelingPeaks

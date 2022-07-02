@@ -245,6 +245,10 @@ Dinraal:
     comment: Ancient arrow + .fury()
     fury: 3
 
+- .dir(<<W) surf
+- _Snap::Quest<Stalhorse>:
+    coord: [4012.50, 123.59, -2163.50]
+
 - .gale() + .dir(S.) midairs:
     gale: 1
 - _Npc<Hudson>:

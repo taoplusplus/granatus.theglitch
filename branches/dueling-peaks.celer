@@ -1,0 +1,137 @@
+Dueling Peaks:
+- .dir(<E)
+- _Korok::D27
+
+- .dir(S)
+- _Korok::D34
+
+- .dir(W)
+- _Korok::D33
+
+- .dir(W>)
+- _Korok::D32
+
+- .dir(S)
+- _Korok::D31
+
+- .dir(S>)
+- _Korok::D44
+
+- .dir(<W)
+- _Korok::P12
+
+- Drop down
+- _Korok::P13
+
+- .dir(N>>)
+- _Discover<Outpost Ruins>:
+    coord: [-233.33, 113.99, 1671.11]
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 2
+    coord: [-176.93, 132.59, 1771.62]
+
+- .dir(S)
+- _Korok::D43
+
+- .dir(<S) + .dir(E) midair
+- _Korok::L03:
+    comment: Zora Armor
+
+- .dir(<S)
+- _Korok::L10
+
+- .dir(E)
+- _Korok::L11
+
+- .dir(<S)
+- _Korok::L16
+
+- .dir(N)
+- _Korok::L05
+
+- .dir(E) surf
+- _Korok::L06
+
+- .dir(<N)
+- _Korok::L02
+
+- .dir(N)
+- _Korok::L01
+
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [359.34, 114.45, 1904.01]
+
+- .dir(SW)
+- _Korok::L04
+
+- .dir(<<N)
+- _Memory::WestNecluda
+- _Korok::D45
+
+- .dir(NE)
+- _Korok::D35
+
+- .dir(<E)
+- _Korok::D36:
+    comment: Get blue nightshade
+
+- .dir(<S)
+- _Korok::D46
+
+- .dir(<E)
+- _Korok::D37
+
+- .dir(E)
+- _Korok::D38
+
+- .dir(E>)
+- _Korok::D47
+
+- .dir(<<E)
+- _Korok::D39
+
+- .dir(E>)
+- _Shrine::ReeDahee
+
+- .gale() SCW:
+    gale: 1
+- _Shrine::SheeVenath
+
+- .dir(S) + climb
+- Kill stalkoblin
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [1282.48, 523.75, 1939.55]
+    comment: Weapon Connoisseur
+    notes: Need to get here before 5:00am. Backup in Kakariko later.
+- _Shrine::SheeVaneer
+
+- _Korok::D41:
+    movements:
+        - to: [1517.27, 400.25, 1850.08]
+          away: true
+    comment: Bomb arrow from distance
+
+- .dir(E) run/climb
+- _Korok::D49
+
+- .dir(N)
+- _Korok::D40
+
+- .dir(N>>)
+- _Korok::D30
+
+- .dir(N>)
+- _Boss::Talus::Stone:
+    comment: Bomb arrow
+    coord: [1465.91, 203.77, 1328.91]
+
+- midair .dir(W)
+- _Korok::D17
+
+- .dir(SW)
+- _Tower::DuelingPeaks

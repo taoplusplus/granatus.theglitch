@@ -1,7 +1,8 @@
-Hyrule Field 1:
+Central Tower:
 - .dir(N)
 - _Boss::Talus::Luminous:
-    comment: bomb arrow
+    comment: .fury()
+    fury: 2
     coord: [-971.13, 355.71, 3236.14]
 
 - .dir(W>>)
@@ -10,7 +11,7 @@ Hyrule Field 1:
 - .dir(<<E)
 - _Korok::L37
 
-- .dir(N + midair)
+- .dir(N) + midair
 - _Korok::L23
 
 - .dir(<<N)
@@ -19,11 +20,11 @@ Hyrule Field 1:
 - .dir(W glide)
 - _Korok::P16
 
-- .gale() .dir(NW midair):
+- .gale() + .dir(NW) midair:
     gale: 1
 - _Korok::P15
 
-- .dir(<<N square)
+- .dir(<<N)
 - _Korok::P14
 
 - .dir(N)
@@ -38,22 +39,14 @@ Hyrule Field 1:
 - .dir(N)
 - _Korok::C80
 
-- .dir(midair N>)
+- midair .dir(N>)
 - _Korok::C79
 
 - .dir(N>>)
 - _Korok::C74
 
-- _Snap::Elite<Silver Lynel>:
-    movements:
-        - to: [-1146.09, 152.19, 1276.29]
-          away: true
-
-- .dir(<<N drop down)
+- .dir(<<N) drop down
 - _Korok::C73
-
-- _Material<Courser Bee Honey,1>:
-    coord: [-1202.00, 153.47, 1095.15]
 
 - _Discover<Aquame Bridge>:
     coord: [-1128.81, 142.45, 1017.05]
@@ -66,28 +59,33 @@ Hyrule Field 1:
 - .dir(<W)
 - _Korok::C66
 
-- .dir(N)
+- .dir(W>)
+- _Korok::C59
+
+- .dir(NE)
+- _Korok::C58
+
+- .dir(N>>)
 - _Korok::C52
 
-- .dir(<E + midair)
+- .dir(<E) + midair
 - _Korok::C53
 
 - .dir(<<E)
 - _Tower::Central
 
-- .dir(N> square)
+- .dir(N>)
 - _Korok::C48
 
-- .dir(SE + climb)
+- .dir(SE) + climb
 - _Korok::C54
 
 - _Discover<Hyrule Garrison Ruins>
 
 - .dir(NE)
-- _Korok::C49:
-    notes: Shoot midair
+- _Korok::C49
 
-- .dir(midair SE)
+- midair .dir(SE)
 - _Korok::C55
 
 - .dir(S)
@@ -105,7 +103,7 @@ Hyrule Field 1:
 - .dir(SE)
 - _Shrine::WahgoKatta
 
-- .dir(S surf)
+- .dir(S) surf
 - _Npc<Parcy>:
     coord: [345.00, 121.73, 1091.50]
     comment: Royal Guard's Gear
@@ -131,11 +129,11 @@ Hyrule Field 1:
     coord: [132.65, 116.42, 1397.90]
     comment: Weapon Connoisseur
 
-- .dir(SW run)
+- .dir(SW) run
 - _Korok::C84
 
 - .dir(S)
 - _Korok::D26
 
-- .dir(Drop down)
+- .dir(S) drop down
 - _Shrine::BoshKala

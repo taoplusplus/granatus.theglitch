@@ -1,4 +1,60 @@
 Desert Complete:
+- .!!(Change to Gerudo clothes)
+- .dir(N>)
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    comment: 8th Heroine, Forgotten Sword
+    notes: Get Sand Boots
+
+- .dir(<<W)
+- _Korok::W42
+
+- .dir(W) drop down
+- _Npc::Gerudo<Calyban>:
+    comment: Mystery Polluter
+    coord: [-3915.29, 169.20, 2954.60]
+
+- In training yard
+- _Npc::Gerudo<Liana>:
+    comment: Search for Barta
+    coord: [-3912.83, 149.68, 2930.99]
+
+- Down the street
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+    notes: Get here before 8:00pm
+
+- In main courtyard
+- _Npc::Gerudo<Isha>:
+    comment: Tools of the Trade
+    coord: [-3834.85, 149.52, 2875.26]
+
+- If less than 2 durians, buy
+
+- .!!(Dupe bows + transmute items):
+    notes: .link([Detailed instructions]https://github.com/taoplusplus/granatus.theglitch/blob/main/transmute-instructions.txt)
+
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: Buy fire and ice
+
+- Outside throne room
+- _Npc::Gerudo<Malena>:
+    comment: Medicinal Molduga
+    coord: [-3866.5,2939.5]
+    notes: 2:00pm to 10:00pm; before 2:00pm she's in the training yard
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: Thunder Helm
+
+- Out, down street on the right
+- _Discover<Gerudo Secret Club>:
+    comment: Secret Club's Secret
+    coord: [-3792,2955.25]
+    notes: Code 3-3-3-4
+
 - .dir(E>)
 - _Korok::W43:
     comment: Behind, left, behind, right
@@ -36,7 +92,7 @@ Desert Complete:
     comment: Missing in Action
 
 - _Warp::Shrine::KuhTakkar:
-    line-color: red
+    line-color: tomato
 
 - .dir(.S)
 - _Korok::G22

@@ -76,10 +76,9 @@ Horse Minigames:
 - _Korok::L75
 
 - .dir(<<N)
-- .fury() kill 5 bokos:
+- Kill 5 bokos with AA:
     coord: [485,3342]
     comment: Horseback Hoodlums
-    fury: 1
 
 - .dir(S)
 - _Npc<Perosa>:
@@ -161,8 +160,7 @@ Horse Minigames:
 
 - .dir(<N)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows + .fury()
-    fury: 1
+    comment: Ancient arrows
     coord: [100.50, 111.28, 3371.00]
     notes: Whistle for horse
 

@@ -1,7 +1,7 @@
 Plateau:
 - .!!(SoR clip):
     icon: location
-    line-color: lightgray
+    line-color: white
     comment: Activate time of day
 
 - 4 tree branches outside SoR:

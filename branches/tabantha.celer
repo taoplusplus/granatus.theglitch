@@ -1,0 +1,74 @@
+Tabantha:
+- .gale() + .dir(E.) midair:
+    gale: 1
+- _Korok::T36
+
+- .dir(N>)
+- _Korok::T32
+
+- .dir(<<N)
+- _Korok::T27
+
+- .dir(N>>)
+- _Korok::T26
+
+- .dir(<N)
+- _Korok::T23
+
+- .dir(SE)
+- _Boss::Talus::Rare:
+    comment: Boulder Breaker
+    coord: [-3929.30, 197.19, -1083.48]
+
+- .dir(<S)
+- _Korok::T28
+
+- .dir(SE)
+- _Korok::T29
+
+- .dir(E)
+- _Korok::T30:
+    comment: gale()
+    gale: 1
+
+- .dir(<N)
+- _Korok::T24
+
+- Moblin BTB
+- _Tower::Tabantha
+
+- .dir(<S)
+- _Shrine::TenaKosah
+
+- .dir(<<W)
+- _Memory::AncientColumns
+
+- .dir(NW>)
+- _Korok::T35
+
+- .dir(<W)
+- _Korok::T37
+
+- .dir(NE)
+- _Korok::T33
+
+- .dir(W>>)
+- .loc(Great Fairy Fountain):
+    coord: [-3541.00, 294.88, -745.00]
+
+- .dir(E)
+- _Korok::T31
+
+- .dir(N>)
+- _Boss::Talus::Rare:
+    comment: Boulder Breaker
+    coord: [-3248.40, 291.68, -1078.12]
+
+- _Tod::Noon:
+    coord: [-3248.40, 291.68, -1098.12]
+
+- .dir(<<N)
+- _Korok::T20
+
+- .dir(NW)
+- _Shrine::BareedaNaag

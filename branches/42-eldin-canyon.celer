@@ -1,0 +1,103 @@
+Eldin Canyon:
+- .dir(N> turn)
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 50 wood
+
+- _Warp::Shrine::NeezYohma
+
+- _Npc<Tumbo>:
+    coord: [3320.59, 244.66, -474.01]
+    comment: Frog Catching 
+
+- _Npc<Ledo>:
+    coord: [3290.09, 244.86, -451.28]
+    comment: Luminous Stone Gathering
+
+- _Npc<Finley>:
+    coord: [3264.00, 249.76, -480.00]
+    comment: Special Delivery
+
+- _Npc<Torfeau>:
+    coord: [3300.84, 255.66, -505.93]
+    comment: Giant of Ralis Pond
+
+- _Npc<Jiahto>:
+    coord: [3340.25, 256.66, -564.31]
+    comment: Zora Stone Monuments
+
+- _Npc<Laflat>:
+    coord: [3328.97, 268.46, -532.02]
+    comment: Lynel Safari
+
+- _Npc<Kapson>:
+    coord: [3327.76, 256.41, -522.71]
+    comment: From the Ground Up
+
+- .dir(S, W> + midairs):
+    coord: [3324,-348]
+- _Korok::Z15
+
+- .dir(<W)
+- _Korok::Z14
+
+- .dir(S>>)
+- _Tower::Lanayru
+
+- .dir(N>>)
+- _Discover<Inogo Bridge>:
+    coord: [2344.50, 119.50, -247.89]
+
+- .dir(W>)
+- _Shrine::SohKofi
+
+- .dir(W>)
+- _Korok::Z13
+
+- .dir(W)
+- _Korok::Z12:
+    movements:
+        - to: [1632.93, 119.00, -545.20]
+          away: true
+
+- .dir(<<E)
+- _Korok::E45
+
+- .dir(N)
+- _Shrine::TahMuhl
+
+- .dir(E)
+- _Korok::E44
+
+- .dir(N>)
+- _Shrine::MoaKeet
+
+- .dir(W)
+- _Npc<Mayro>:
+    coord: [2620.40, 253.87, -1144.95]
+    comment: Landscape of a Stable
+
+- .dir(<<N)
+- _Korok::E40
+
+- .dir(N)
+- _Korok::E38
+
+- _Discover<Maw Of Death Mountain>:
+    coord: [2390.91, 226.13, -1316.35]
+
+- .dir(S>>)
+- _Korok::E42
+
+- _Korok::E41
+
+- .dir(SW)
+- _Korok::E43
+
+- .dir(NW)
+- _Korok::E37
+
+- .dir(<W)
+- _Korok::E36
+
+- _Warp::Tower::Akkala

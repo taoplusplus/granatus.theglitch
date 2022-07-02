@@ -1,0 +1,116 @@
+Hateno 2:
+- .dir(E)
+- _Korok::D42
+
+- .dir(SE)
+- _Korok::D51
+
+- .dir(E>)
+- _Korok::D52
+
+- .dir(N>>)
+- _Korok::N33
+
+- _Material<Rushroom,3>:
+    coord: [2355.87, 128.72, 1738.22]
+
+- .dir(<<S)
+- _Npc<Calip>:
+    coord: [2398.96, 118.64, 1834.33]
+    comment: The Cursed Statue
+
+- .dir(<<N)
+- _Material<Courser Bee Honey,3>:
+    movements:
+        - to: [2387.26, 120.62, 1839.13]
+        - to: [2371.28, 119.58, 1855.47]
+        - to: [2364.10, 120.67, 1879.95]
+
+- _Korok::N34
+
+- .dir(<N)
+- _Korok::N27
+
+- .dir(NE)
+- _Korok::N26
+
+- .dir(<S)
+- _Korok::N35
+
+- .dir(E)
+- _Korok::N36
+
+- .dir(<<E)
+- _Korok::N37:
+    comment: Cryo block DIVE
+
+- .dir(<<S)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [3199.41, 173.38, 1904.36]
+
+- .dir(W>)
+- _Korok::N38
+
+- .dir(<<W)
+- _Korok::N41
+
+- .dir(<<W)
+- _Korok::N45
+
+- .dir(S)
+- _Korok::N46
+
+- .dir(E>>)
+- _Korok::N51
+
+- .dir(<E)
+- _Korok::N52
+
+- .dir(E)
+- _Korok::N53
+
+- .gale():
+    gale: 1
+- _Npc<Bolson>:
+    coord: [3331.22, 235.28, 2284.61]
+    comment: From the Ground Up
+
+- _Npc<Nebb>:
+    coord: [3352.40, 225.55, 2138.81]
+    comment: Weapon Connoisseur
+
+- _Shop<Armor Shop>:
+    comment: sell everything
+    notes: Sell guardian parts last to trigger compendium glitch.
+
+- _Npc<Clavia>:
+    coord: [3434.98, 226.90, 2149.15]
+    comment: Secret of the Cedars
+    notes: WON'T complete right now
+
+- _Npc<Manny>:
+    coord: [3418.24, 226.84, 2121.22]
+    comment: Gift for My Beloved
+
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Sheep Rustlers
+
+- .gale() .dir(E midair):
+    gale: 1
+- sunshroom, enter back door
+
+- _Npc<Symin>:
+    coord: [3778.96, 356.86, 2132.45]
+    comment: Sunshroom Sensing
+
+- .gale():
+    gale: 1
+- _Korok::N47
+
+- .dir(<E + N midair)
+- _Korok::N32
+
+- _Shrine::TahnoOah

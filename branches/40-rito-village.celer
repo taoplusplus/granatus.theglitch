@@ -1,0 +1,87 @@
+Rito Village:
+- .dir(N>)
+- _Korok::T15
+
+- .dir(N>>)
+- _Npc<Kotts>:
+    coord: [-3488.88, 258.52, -1850.25]
+    comment: Recital at Warbler's Nest
+
+- .dir(<W)
+- _Npc<Bedoli>:
+    coord: [-3632.60, 320.12, -1793.79]
+    comment: Ancient Rito Song
+
+- _Npc<Juney>:
+    coord: [-3611.76, 289.03, -1849.23]
+    comment: Apple of My Eye
+
+- _Npc<Molli>:
+    coord: [-3618.43, 320.15, -1797.41]
+    comment: Bird in the Mountains
+
+- .dir(W>)
+- _Korok::T10
+
+- .dir(E>)
+- _Korok::T14
+
+- _Npc<Notts>:
+    coord: [-3596.62, 317.93, -1794.98]
+    comment: Recital at Warbler's Nest
+
+- _Npc<Amali>:
+    coord: [-3668.51, 321.49, -1769.96]
+    comment: Where's Kheel?
+
+- .dir(E)
+- _Npc<Genli>:
+    coord: [-3608.76, 296.75, -1797.82]
+    comment: Recital at Warbler's Nest
+
+- _Cook<Salmon Meuniere>:
+    comment: salmon, wheat, butter
+
+- _Npc<Fyson>:
+    coord: [-3600.50, 287.60, -1814.47]
+
+- _Npc<Jogo>:
+    coord: [-3605.16, 289.12, -1852.43]
+    comment: Spark of Romance
+
+- _Npc<Cree>:
+    coord: [-3606.34, 296.75, -1799.16]
+    comment: Recital at Warbler's Nest
+
+- _Shop<General Store>:
+    comment: buy arrows
+
+- .dir(<W)
+- _Korok::T17
+
+- .dir(S>)
+- _Boss::Hinox::Black:
+    comment: rgc
+    coord: [-3793.68, 246.02, -1557.10]
+
+- .dir(W>>)
+- _Korok::T13
+
+- _Shrine::VooLota:
+    comment: 4-5-3-1-2
+
+- .dir(SE)
+- _Korok::T16
+
+- .dir(W>>)
+- _Korok::T12
+
+- .gale() .dir(N>> midair):
+    gale: 1
+- _Korok::T09
+
+- .dir(<<E)
+- _Korok::T04
+
+- .dir(N)
+- _Shrine::ShaWarvo

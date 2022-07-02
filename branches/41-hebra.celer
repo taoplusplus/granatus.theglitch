@@ -1,0 +1,381 @@
+Hebra:
+- .dir(<E)
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3572.02, 247.83, -2258.14]
+
+- .gale() .dir(W> midair):
+    gale: 1
+- _Boss::Talus::Frost:
+    comment: .fury()
+    fury: 3
+    coord: [-3709.50, 331.28, -2347.00]
+
+- .gale() .dir(N midair):
+    gale: 1
+- _Korok::H54
+
+- .dir(E>>)
+- _Korok::H55
+
+- .dir(N)
+- _Korok::H43
+
+- .dir(<N)
+- _Korok::H27
+
+- .dir(<<E)
+- _Shrine::ShadaNaw
+
+- .dir(W>>)
+- _Korok::H10
+
+- .dir(E)
+- _Korok::H11
+
+- .dir(NW)
+- _Korok::H09
+
+- .dir(NW)
+- _Korok::H04
+
+- .dir(<W)
+- _Boss::Hinox::Stal:
+    comment: rgc
+    coord: [-4260.15, 327.00, -3777.48]
+
+- .dir(W)
+- _Korok::H01
+
+- _Shrine::HiaMiu
+
+- .dir(S>>)
+- _Korok::H23
+
+- .dir(N>>)
+- _Discover<Sherfin's Hot Spring>:
+    coord: [-4309.50, 460.50, -3495.00]
+
+- .dir(N> + climb):
+    notes: Optionally use gale 1 here if recharged.
+- _Korok::H07
+
+- .dir(E)
+- _Korok::H08
+
+- .dir(N)
+- _Korok::H02
+
+- .dir(Clip in)
+- _Korok::H03
+
+- _Shrine::ToQuomo
+
+- _Snap::Quest<Hebra Great Skeleton>
+
+- _Warp::Shrine::ShadaNaw
+
+
+
+
+- .dir(S)
+- _Boss::Talus::Frost:
+    line-color: rgb(255,0,0)
+    comment: bomb
+    coord: [-3073.50, 478.42, -2918.50]
+
+- .dir(S>)
+- _Korok::H33
+
+- .gale():
+    gale: 1
+- _Korok::H34
+
+- .dir(S>)
+- _Korok::H46
+
+- .dir(SE)
+- _Korok::H48
+
+- .gale() .dir(N):
+    gale: 1
+- _Korok::H49
+
+- .dir(N)
+- _Korok::H50:
+    movements:
+        - to: [-2836.29, 501.88, -2423.84]
+          away: true
+
+- _Korok::H47:
+    movements:
+        - to: [-2900.08, 498.65, -2508.79]
+          away: true
+
+- .dir(<N)
+- _Korok::H44
+
+- .dir(E>)
+- _Korok::H45
+
+- Kill lizalfos
+- _Material<Lizalfos Tail,0.5>:
+    coord: [-2761.42, 449.40, -2549.31]
+
+- .dir(S)
+- _Korok::H56
+
+- .dir(NE)
+- _Korok::H51
+
+- .dir(<S)
+- Tree stasis strat:
+    coord: [-2521.5,-2203.5]
+
+- _Shrine::GeeHarah
+
+- .dir(N, S + E midair):
+    movements:
+        - to: [-2387,-2436]
+
+- _Korok::H57
+
+- .dir(<W)
+- _Shrine::LannoKooh
+
+- _Korok::H64
+
+- .dir(<E)
+- _Korok::H61
+
+- .dir(E>>)
+- _Tower::Hebra
+
+- .dir(<E)
+- _Discover<Pondo's Lodge>:
+    coord: [-2076.70, 389.70, -2080.90]
+
+- .dir(SW)
+- Kill lizalfos
+- _Material<Lizalfos Tail,1.5>:
+    coord: [-2273.67, 399.82, -1905.07]
+
+- .dir(<<W surf)
+- _Korok::H67
+
+- .dir(<S run)
+- _Korok::H70
+
+- .dir(W)
+- _Korok::H69
+
+- .dir(midair <W)
+- _Korok::H72
+
+- .dir(W>>)
+- _Korok::T18
+
+- .dir(N>)
+- _Boss::Talus::Rare:
+    comment: .fury()
+    fury: 3
+    coord: [-2864.50, 408.98, -1825.91]
+
+- .dir(NE)
+- _Korok::H65
+
+- .dir(<W)
+- _Korok::H66
+
+- .dir(<N)
+- _Korok::T03
+
+- .dir(SW, W>)
+- _Korok::T05
+
+- .dir(SE)
+- _Korok::T11
+
+- .dir(SW)
+- _Npc<Gesane>:
+    coord: [-3308.27, 227.83, -1803.34]
+    comment: Face the Frost Talus
+
+- _Npc<Lester>:
+    coord: [-3267.07, 224.60, -1773.77]
+    comment: Curry for What Ails You
+
+- _Material<Wood>:
+    coord: [-3265.12, 225.80, -1745.29]
+    comment: at least 50
+
+- .dir(S)
+- _Korok::T21
+
+- .dir(E)
+- _Korok::T22
+
+- .dir(<S)
+- _Korok::T25
+
+- .dir(<E + midairs)
+- _Korok::R05
+
+- .dir(S)
+- _Discover<Footrace Check-In>:
+    coord: [-2638.00, 282.34, -1175.00]
+
+- .dir(S)
+- _Korok::R13
+
+- .dir(S>)
+- _Korok::R17
+
+- .dir(SE)
+- _Boss::Hinox::Blue:
+    comment: rgc
+    coord: [-2370.05, 261.70, -419.59]
+
+- _Korok::R22:
+    movements:
+        - to: [-2434.11, 319.87, -491.04]
+          away: true
+
+- _Korok::R31:
+    movements:
+        - to: [-2370.11, 307.05, -345.31]
+          away: true
+
+- .dir(S>)
+- _Korok::R30
+
+- .dir(NW)
+- _Korok::R21
+
+- .dir(W)
+- _Shrine::ShaeLoya
+
+- _Npc<Geggle>:
+    coord: [-2912.28, 274.78, -551.75]
+    comment: Cliffside Etchings
+
+- _Npc<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Gift for the Great Fairy
+
+- .dir(W>)
+- _Korok::T34
+
+- .dir(S>)
+- _Korok::R28
+
+- .dir(E)
+- _Korok::R29
+
+- .dir(N)
+- _Korok::R20
+
+- .dir(N>)
+- _Discover<Tanagar Canyon Course>:
+    coord: [-3119.20, -0.58, -627.77]
+
+- .dir(N)
+- _Korok::R12
+
+- .dir(N> + midairs)
+- _Shrine::DunbaTaag
+
+- .dir(S)
+- _Korok::H73
+
+- .dir(E)
+- _Korok::R04
+
+- _Warp::Shrine::ShadaNaw
+
+- .dir(E)
+- _Korok::H21:
+    line-color: rgb(0,255,0)
+
+- .dir(NW)
+- _Korok::H12
+
+- _Warp::Shrine::ShadaNaw
+
+- .dir(<W)
+- _Shrine::MozoShenno:
+    line-color: rgb(255,0,255)
+
+- .gale() .dir(<<W):
+    gale: 1
+- _Korok::H26
+
+- .dir(N>>)
+- _Korok::H19
+
+- .dir(W>)
+- _Korok::H18
+
+- .dir(W>)
+- _Korok::H17
+
+- .dir(S>)
+- _Korok::H24
+
+- .dir(E>)
+- _Korok::H25
+
+- .dir(<W)
+- _Korok::H32
+
+- .dir(<S)
+- _Korok::H40
+
+- .dir(NW)
+- _Boss::Hinox::Black:
+    comment: rgc
+    coord: [-4531.00, 333.45, -2679.27]
+
+- _Chest<Bomb Arrow x5>:
+    coord: [-4490.47, 339.26, -2535.14]
+
+- .dir(S)
+- Start T06 race:
+    coord: [-4495.71, 342.71, -2510.34]
+    notes: If you make a mistake, you can finish T06 right after H60. Then do H60 to T07.
+
+- .dir(SE)
+- _Korok::H53
+
+- .dir(SW)
+- _Korok::H60
+
+- .dir(<S)
+- _Korok::T08
+
+- .dir(NE)
+- _Korok::T06:
+    movements:
+        - to: [-4396.84, 183.40, -2049.88]
+
+- .dir(E)
+- _Korok::T07
+
+- .dir(NE)
+- _Korok::T01
+
+- .dir(<<N)
+- _Korok::H39
+
+- _Discover<Sturnida Hot Spring>:
+    coord: [-4080.50, 173.00, -2720.00]
+
+- .dir(S>)
+- _Korok::H41
+
+- .dir(E>>)
+- _Korok::H42
+
+- .dir(E)
+- _Shrine::MakaRah
+
+- _Warp::Shrine::DahHesho

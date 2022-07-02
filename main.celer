@@ -58,11 +58,27 @@ _route:
     - __use__ Gerudo Highlands
   - Moldugas:
     - __use__ Moldugas
-  - Gerudo Town 2:
-    - __use__ Gerudo Town 2
   - Desert Complete:
     - __use__ Desert Complete
   - Lake Tower:
     - __use__ Lake Tower
   - Horse Minigames:
     - __use__ Horse Minigames
+  - Central Tower:
+    - __use__ Central Tower
+  - Dueling Peaks:
+    - __use__ Dueling Peaks
+  - Faron:
+    - __use__ Faron
+  - Lurelin:
+    - __use__ Lurelin
+  - Wetlands:
+    - __use__ Wetlands
+  - Castle Town Ruins:
+    - __use__ Castle Town Ruins
+  - Ridgeland:
+    - __use__ Ridgeland
+  - Satori Mountain:
+    - __use__ Satori Mountain
+  - Tabantha:
+    - __use__ Tabantha

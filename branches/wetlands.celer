@@ -1,0 +1,143 @@
+Wetlands:
+- .dir(E)
+- _Boss::Talus::Stone:
+    line-color: dodgerblue
+    comment: .fury()
+    fury: 1
+    coord: [1186.62, 254.28, 1642.77]
+
+- .dir(<N)
+- _Korok::D16
+
+- .dir(NW)
+- Steal horse:
+    coord: [927.95, 117.06, 1211.55]
+
+- .dir(S>>) ride
+- _Korok::D25
+
+- .dir(<<S)
+- _Korok::D29
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(NW)
+- _Korok::D23
+
+- .dir(E)
+- _Korok::D24
+
+- .dir(E)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(N>)
+- _Korok::D15
+
+- .dir(NW)
+- _Korok::D13
+
+- .dir(NE)
+- _Discover<Horwell Bridge>:
+    coord: [680.19, 111.37, 977.87]
+
+- .dir(<<E)
+- _Shrine::HilaRao
+
+- _Npc<Magda>:
+    coord: [816.80, 115.22, 836.77]
+    comment: Watch Out for the Flowers
+
+- .dir(E>>)
+- _Discover<Eagus Bridge>:
+    coord: [969.69, 129.13, 942.83]
+
+- _Korok::D01
+
+- .dir(N>)
+- _Korok::Z47
+
+- .dir(<E)
+- _Korok::Z48
+
+- .dir(E>>)
+- _Korok::Z49
+
+- .dir(E>)
+- _Korok::Z50
+
+- .dir(S>)
+- _Korok::Z60
+
+- .dir(<<E)
+- _Korok::N01
+
+- .dir(N)
+- _Boss::Hinox::Red:
+    coord: [1969.04, 115.44, 97.40]
+
+- .dir(E>>)
+- _Korok::Z41
+
+- .dir(NE>)
+- _Boss::Hinox::Black:
+    coord: [2485.10, 152.09, -133.56]
+
+- .dir(N>>)
+- _Korok::Z22
+
+- .dir(E>>)
+- _Npc::ZoraFemale<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    comment: Special Delivery
+
+- Shoot letter
+
+- .dir(N)
+- _Korok::Z23
+
+- .dir(SE)
+- _Npc::ZoraMale<Zora Moneument>:
+    coord: [2868.11, 249.51, -68.34]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(S)
+- _Npc::ZoraMale<Zora Moneument>:
+    coord: [2877.09, 229.49, -32.75]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- _Discover<Oren Bridge>:
+    coord: [2875.32, 187.50, 32.60]
+
+- .dir(S>)
+- _Npc::ZoraMale<Zora Moneument>:
+    coord: [2838.09, 228.01, 188.33]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(NW)
+- _Korok::Z31
+
+- Deliver letter BLSS:
+    movements:
+        - to: [2662.5,-145.5]
+        - to: [2598,-201.5]
+
+- _Npc<Sasan>:
+    coord: [1760.46, 115.80, -56.04]
+    comment: Special Delivery
+
+- _Tod::Noon:
+    coord: [1760.46, 115.80, -36.04]
+    notes: For Ballon Flight and Stalnox timing
+
+- .dir(S.)
+- _Korok::Z40

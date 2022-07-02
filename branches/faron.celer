@@ -1,0 +1,251 @@
+Faron:
+- .dir(<<S)
+- _Korok::D48
+
+- .dir(SW)
+- _Korok::D50
+
+- .dir(E>>)
+- _Korok::L07
+
+- .dir(SW)
+- _Korok::L19
+
+- .dir(E>)
+- _Korok::L20
+
+- Offer Farosh Scale
+- _Shrine::ShaeKatha
+
+- _Discover<Spring of Courage>:
+    coord: [879.50, 123.00, 2388.00]
+
+- .dir(W>)
+- _Korok::L13
+
+- .dir(<W)
+- _Korok::L18
+- _Korok::L17
+
+- .dir(N>) run
+- _Korok::L12
+
+- .gale() + .dir(S>>) midair:
+    gale: 1
+- _Korok::L28
+
+- .dir(E)
+- _Korok::L29
+
+- .dir(E>>)
+- _Korok::L34
+
+- .dir(<<W)
+- _Korok::L35
+
+- .dir(S)
+- _Korok::L45
+
+- .dir(SE)
+- _Korok::L54
+
+- .dir(<E)
+- _Discover<Zonai Ruins>:
+    coord: [889.86, 124.08, 2937.35]
+
+- .dir(<<W)
+- _Korok::L56
+
+- .dir(S>) run
+- _Npc::Rito<Kass>:
+    coord: [815.25, 117.95, 3063.44]
+    comment: The Serpent's Jaws
+
+- .dir(S>) run
+- _Korok::L57
+
+- .dir(E>>)
+- _Korok::F24
+
+- _Discover<Sarjon Bridge>:
+    coord: [1025.15, 130.03, 3235.46]
+
+- _Korok::F23
+
+- .dir(NE)
+- _Korok::L58
+
+- .dir(N)
+- _Korok::L46
+
+- .dir(N)
+- _Korok::F02
+
+- .dir(N>)
+- _Boss::Talus::Stone:
+    comment: Ancient arrows
+    coord: [1257.12, 355.80, 2176.52]
+
+- .dir(SE)
+- _Korok::F05
+
+- .dir(<<N)
+- _Korok::F01
+
+- .dir(S>)
+- _Korok::F04:
+    comment: Walk slowly over mud
+
+- .dir(<<N) glide
+- _Korok::F03
+
+- .dir(S>)
+- _Boss::Hinox::Red:
+    comment: Ancient arrows
+    coord: [1330.55, 180.38, 2623.94]
+
+- midair .dir(<S)
+- _Korok::F10
+
+- .dir(E>>)
+- _Korok::F16:
+    comment: .gale()
+    gale: 1
+
+- .dir(<<W)
+- _Korok::F15
+
+- .dir(E>>)
+- _Boss::Hinox::Red:
+    comment: Ancient arrows
+    coord: [1493.39, 306.77, 3092.14]
+
+- .dir(S>>)
+- _Korok::F25
+
+- .dir(SW)
+- _Tower::Faron
+
+- .dir(<S)
+- _Korok::F39
+
+- .dir(E>) run
+- _Korok::F40
+
+- .dir(N.)
+- _Korok::F34
+
+- .dir(<S) to top of stable
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [1552.29, 196.63, 3533.36]
+    comment: Thunder Magnet
+
+- Drop down
+- _Korok::F41:
+    comment: Bomb rune or fire arrow
+
+- _Npc<Cima>:
+    coord: [1540.08, 165.97, 3531.94]
+    comment: Thunder Magnet
+    notes: Wakes up at 7am
+
+- _Shrine::ShaiUtoh:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=4420)
+
+- .dir(E>>)
+- _Korok::F48
+
+- .dir(<<W)
+- _Korok::F55
+
+- .dir(W)
+- _Korok::F54
+
+- .dir(W)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [1392.02, 107.03, 3727.59]
+
+- .dir(<W)
+- _Korok::F53
+
+- .dir(E>>)
+- _Korok::F56
+
+- .dir(E) + midairs
+- .fury() .!!(Enemy Camp):
+    icon: calamity
+    comment: Take Back the Sea
+    fury: 2
+    coord: [2087,3916.5]
+
+- _Tod::Night:
+    coord: [2107,3916.5]
+    notes: For upcoming Stalnox
+
+- .dir(N)
+- _Korok::F43
+
+- .dir(N>)
+- _Korok::F30
+
+- .dir(S>)
+- _Boss::Hinox::Stal:
+    coord: [2078.62, 110.22, 3450.66]
+    comment: Ancient arrows
+
+- .dir(W>)
+- _Korok::F35
+
+- .dir(S>)
+- _Korok::F46
+
+- .dir(<<N)
+- _Korok::F42
+
+- .dir(<E)
+- _Boss::Talus::Stone:
+    comment: Ancient arrows
+    coord: [1690.73, 165.27, 3335.62]
+
+- .dir(N>)
+- _Korok::F28:
+    comment: .gale()
+    gale: 1
+
+- .dir(W.)
+- _Korok::F26
+
+- .dir(E)
+- _Korok::F27
+
+- .dir(N)
+- _Shrine::ShodaSah
+
+- .dir(S) Zora Armor
+- _Korok::F19
+
+- .dir(N)
+- _Korok::F17
+
+- .dir(E>)
+- _Korok::F20
+
+- .dir(E)
+- _Korok::F21
+
+- Remove all metal equipment
+
+- .dir(<<W)
+- _Korok::F29
+
+- .dir(SE) run
+- _Npc::Rito<Kass>:
+    coord: [2081.89, 287.42, 3226.31]
+    comment: Song of Storms
+
+- Equip metal armor/weapons
+
+- .dir(<<W) run
+- _Shrine::QukahNata
