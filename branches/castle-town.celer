@@ -135,13 +135,23 @@ Castle Town Ruins:
 - .dir(S>)
 - _Korok::C17
 
-- .dir(SW)
+- .dir(S)
+- _Korok::C29
+
+- Drop down
+- _Korok::C28
+
+- .dir(<W)
+- _Korok::C32
 - _Korok::C27
 
 - .dir(<W)
 - _Korok::C31
 
-- .dir(NW)
+- .dir(W.)
+- _Korok::C30
+
+- .dir(<E)
 - _Shrine::KatahChuki
 
 - .dir(N)

@@ -91,6 +91,10 @@ Desert Complete:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action
 
+- .dir(<W)
+- _Discover<Gerudo Desert Gateway>:
+    coord: [-2924.12, 153.42, 2329.39]
+
 - _Warp::Shrine::KuhTakkar:
     line-color: tomato
 

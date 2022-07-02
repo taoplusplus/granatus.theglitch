@@ -1,13 +1,7 @@
 Kakariko 3:
 - _Tod::Noon:
-    comment: repeat until no rain
-
-- _Shrine::TalohNaeg:
-    line-color: rgb(200, 255, 184)
-
-- .dir(<E)
-- _Material<Silent Princess,3>:
-    coord: [1995.75, 267.90, 842.24]
+    line-color: gold
+    comment: Repeat until no rain
 
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
@@ -29,7 +23,7 @@ Kakariko 3:
 
 - _Equipment::Weapon<Traveler's Sword>:
     coord: [1931.10, 229.83, 987.25]
-    comment: backup
+    notes: Backup if you missed at Shee Vaneer
 
 - _Npc<Pikango>:
     coord: [1828.22, 218.59, 990.14]
@@ -45,7 +39,7 @@ Kakariko 3:
     comment: Cooking with Koko
 
 - _Tod::Night:
-    notes: There are 2 Energetic Rhino Beetles, one at each gate, for backup
+    hide-icon-on-map: true
 
 - _Npc<Rola>:
     coord: [1830.49, 222.41, 1044.89]
@@ -62,8 +56,6 @@ Kakariko 3:
 
 - _Npc<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
-
-- _Korok::D03
 
 - _Korok::D02
 
@@ -89,7 +81,7 @@ Kakariko 3:
 - .dir(<E)
 - _Korok::N10
 
-- .gale() .dir(E>>):
+- .dir(E>>) .gale():
     gale: 2
 - _Korok::N09
 
@@ -106,18 +98,23 @@ Kakariko 3:
 - _Korok::D09
 
 - .dir(E>>)
-- Enter cutscene, kill Yiga:
+- Enter cutscene:
     coord: [2024.21, 292.86, 962.56]
+
+- Kill Yiga
+
+- _Equipment::Weapon<Windcleaver>:
+    comment: Weapon Connoisseur
 
 - _Shrine::LaknaRokee
 
 - .dir(S>>)
 - _Korok::N28
 
-- _Shrine::KamUrog:
-    time-override: 999
+- _Shrine::KamUrog
 
-- .dir(<S)
+- .dir(<S):
+    time-override: 999
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
@@ -132,7 +129,7 @@ Kakariko 3:
 - .dir(S)
 - _Chest<Sapphire>:
     coord: [1955.82, 178.14, 2609.72]
-    comment: middle chest
+    comment: Misko, the Great Bandit
 
 - _Korok::D59
 

@@ -12,21 +12,10 @@ Hateno:
 
 - .!!(Upgrade house 14 times)
 
-#- .dir(NW)
-#- _Npc<Horned Statue>:
-#    coord: [3285.60, 217.60, 2197.58]
-#    comment: The Statue's Bargain
-#    notes: Reroute?
-
-#- .dir(E)
-#- _Shrine::MyahmAgana:
-#    notes: Reroute?
-
 - .dir(N.)
 - _Npc<Medda>:
     coord: [3381.11, 226.15, 2105.53]
     comment: Spring of Wisdom
-#    notes: Reroute?
 
 - .dir(N.)
 - _Korok::N42

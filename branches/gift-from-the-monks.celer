@@ -1,7 +1,8 @@
 Gift from the Monks:
 - _Tod::Night:
     hide-icon-on-map: true
-    notes: For Xenoblade chest.
+    line-color: orange
+    notes: For Salvager chest
 
 - .dir(SE)
 - _Korok::H20
@@ -11,7 +12,7 @@ Gift from the Monks:
 
 - .!!(Look southeast)
 
-- .dir(Drop down)
+- Drop down
 - _Shrine::GomaAsaagh
 
 - .dir(SW)
@@ -32,7 +33,6 @@ Gift from the Monks:
 
 - .dir(N>>)
 - _Boss::Talus::Frost:
-    comment: bomb arrow
     coord: [-2144.88, 491.27, -3082.59]
 
 - .dir(W)
@@ -90,11 +90,11 @@ Gift from the Monks:
 - .dir(<W)
 - _Korok::K12
 
-- .gale() .dir(S>):
+- .gale() + .dir(S>) midair:
     gale: 1
 
 - _Boss::Hinox::Stal:
-    comment: rgc + .fury()
+    comment: .fury()
     fury: 2
     coord: [-1273.50, 213.08, -2113.50]
 
@@ -134,7 +134,7 @@ Gift from the Monks:
 - .dir(S)
 - _Korok::K14
 
-- .gale() .dir(BLSS):
+- .gale() + BLSS:
     gale: 1
 - _Korok::K09
 
@@ -142,5 +142,5 @@ Gift from the Monks:
 
 - _Chest::Special<Set of the Wild>
 
-- _Warp::Shrine::KayNoh:
+- _Warp::Shrine::DahHesho:
     comment: 99.58%

@@ -356,3 +356,11 @@ Hebra:
 - _Shrine::MakaRah
 
 - _Warp::Shrine::DahHesho
+
+- .dir(N>)
+- _Npc<Hudson>:
+    #coord: [3981.65, 233.41, -1599.11]
+    comment: 50 wood
+    hide-icon-on-map: true
+
+- _Warp::Shrine::NeezYohma

@@ -1,12 +1,6 @@
 Eldin Canyon:
-- .dir(N> turn)
-- _Npc<Hudson>:
-    coord: [3981.65, 233.41, -1599.11]
-    comment: 50 wood
-
-- _Warp::Shrine::NeezYohma
-
 - _Npc<Tumbo>:
+    line-color: lime
     coord: [3320.59, 244.66, -474.01]
     comment: Frog Catching 
 
@@ -34,7 +28,7 @@ Eldin Canyon:
     coord: [3327.76, 256.41, -522.71]
     comment: From the Ground Up
 
-- .dir(S, W> + midairs):
+- .dir(S) +  .dir(W>) + midairs:
     coord: [3324,-348]
 - _Korok::Z15
 
@@ -53,12 +47,6 @@ Eldin Canyon:
 
 - .dir(W>)
 - _Korok::Z13
-
-- .dir(W)
-- _Korok::Z12:
-    movements:
-        - to: [1632.93, 119.00, -545.20]
-          away: true
 
 - .dir(<<E)
 - _Korok::E45

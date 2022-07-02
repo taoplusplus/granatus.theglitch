@@ -232,7 +232,32 @@ Faron:
 - .dir(E>)
 - _Korok::F20
 
+- .dir(N)
+- _Korok::F11
+
+- .dir(N.)
+- _Korok::F08
+
 - .dir(E)
+- _Korok::F12
+
+- .dir(N>)
+- _Korok::F06
+
+- .dir(SE)
+- _Korok::F13
+
+- .dir(SE)
+- _Korok::F13
+
+- .dir(SE)
+- _Boss::Hinox::Black:
+    coord: [2420.75, 327.47, 2782.60]
+
+- .dir(E) return orb:
+    coord: [2616.91, 323.39, 2823.60]
+
+- .dir(SE)
 - _Korok::F21
 
 - Remove all metal equipment

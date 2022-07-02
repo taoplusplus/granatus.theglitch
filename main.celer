@@ -38,6 +38,8 @@ _route:
     - __use__ Akkala Tower
   - Eldin Tower:
     - __use__ Eldin Tower
+  ### 25%
+  
   - Goron City:
     - __use__ Goron City
   - Dinraal:
@@ -60,6 +62,8 @@ _route:
     - __use__ Moldugas
   - Desert Complete:
     - __use__ Desert Complete
+  ### 50%
+
   - Lake Tower:
     - __use__ Lake Tower
   - Horse Minigames:
@@ -82,7 +86,25 @@ _route:
     - __use__ Satori Mountain
   - Tabantha:
     - __use__ Tabantha
+  ### 75%
+
   - Rito Village:
     - __use__ Rito Village
   - Hebra:
     - __use__ Hebra
+  - Eldin Canyon:
+    - __use__ Eldin Canyon
+  - Akkala Complete:
+    - __use__ Akkala Complete
+  - Eventide:
+    - __use__ Eventide
+  - Kakariko 3:
+    - __use__ Kakariko 3
+  - Hateno 2:
+    - __use__ Hateno 2
+  - Lanayru Complete:
+    - __use__ Lanayru Complete
+  - Gift from the Monks:
+    - __use__ Gift from the Monks
+  - Endgame:
+    - __use__ Endgame
