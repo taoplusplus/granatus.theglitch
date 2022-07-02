@@ -82,3 +82,7 @@ _route:
     - __use__ Satori Mountain
   - Tabantha:
     - __use__ Tabantha
+  - Rito Village:
+    - __use__ Rito Village
+  - Hebra:
+    - __use__ Hebra

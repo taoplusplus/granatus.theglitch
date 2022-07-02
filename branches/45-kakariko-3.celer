@@ -105,10 +105,6 @@ Kakariko 3:
 - .dir(W>)
 - _Korok::D09
 
-- .dir(N>>)
-- _Material<Silent Princess,3>:
-    coord: [1846.14, 327.67, 820.96]
-
 - .dir(E>>)
 - Enter cutscene, kill Yiga:
     coord: [2024.21, 292.86, 962.56]
@@ -129,7 +125,7 @@ Kakariko 3:
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: rgc + .fury()
+    comment: .fury()
     fury: 1
     coord: [1940.50, 144.41, 2396.50]
 

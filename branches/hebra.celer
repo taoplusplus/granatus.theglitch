@@ -1,16 +1,12 @@
 Hebra:
-- .dir(<E)
-- _Discover<Hebra Trailhead Lodge>:
-    coord: [-3572.02, 247.83, -2258.14]
+### Hebra 1
 
-- .gale() .dir(W> midair):
-    gale: 1
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
     coord: [-3709.50, 331.28, -2347.00]
 
-- .gale() .dir(N midair):
+- .gale() + .dir(N) midair:
     gale: 1
 - _Korok::H54
 
@@ -40,7 +36,6 @@ Hebra:
 
 - .dir(<W)
 - _Boss::Hinox::Stal:
-    comment: rgc
     coord: [-4260.15, 327.00, -3777.48]
 
 - .dir(W)
@@ -55,8 +50,7 @@ Hebra:
 - _Discover<Sherfin's Hot Spring>:
     coord: [-4309.50, 460.50, -3495.00]
 
-- .dir(N> + climb):
-    notes: Optionally use gale 1 here if recharged.
+- .dir(N>) + climb
 - _Korok::H07
 
 - .dir(E)
@@ -65,7 +59,8 @@ Hebra:
 - .dir(N)
 - _Korok::H02
 
-- .dir(Clip in)
+- Clip in to mountain
+
 - _Korok::H03
 
 - _Shrine::ToQuomo
@@ -75,12 +70,12 @@ Hebra:
 - _Warp::Shrine::ShadaNaw
 
 
-
+### Hebra 2
 
 - .dir(S)
 - _Boss::Talus::Frost:
-    line-color: rgb(255,0,0)
-    comment: bomb
+    line-color: yellow
+    comment: Bomb arrows
     coord: [-3073.50, 478.42, -2918.50]
 
 - .dir(S>)
@@ -96,7 +91,7 @@ Hebra:
 - .dir(SE)
 - _Korok::H48
 
-- .gale() .dir(N):
+- .gale() + .dir(N) midair:
     gale: 1
 - _Korok::H49
 
@@ -117,10 +112,6 @@ Hebra:
 - .dir(E>)
 - _Korok::H45
 
-- Kill lizalfos
-- _Material<Lizalfos Tail,0.5>:
-    coord: [-2761.42, 449.40, -2549.31]
-
 - .dir(S)
 - _Korok::H56
 
@@ -133,7 +124,7 @@ Hebra:
 
 - _Shrine::GeeHarah
 
-- .dir(N, S + E midair):
+- .dir(N), .dir(S) + .dir(E) midair:
     movements:
         - to: [-2387,-2436]
 
@@ -154,15 +145,10 @@ Hebra:
 - _Discover<Pondo's Lodge>:
     coord: [-2076.70, 389.70, -2080.90]
 
-- .dir(SW)
-- Kill lizalfos
-- _Material<Lizalfos Tail,1.5>:
-    coord: [-2273.67, 399.82, -1905.07]
-
-- .dir(<<W surf)
+- .dir(<<W) surf
 - _Korok::H67
 
-- .dir(<S run)
+- .dir(<S) run
 - _Korok::H70
 
 - .dir(W)
@@ -186,27 +172,18 @@ Hebra:
 - .dir(<W)
 - _Korok::H66
 
-- .dir(<N)
-- _Korok::T03
-
-- .dir(SW, W>)
-- _Korok::T05
-
-- .dir(SE)
+- .dir(W)
 - _Korok::T11
 
-- .dir(SW)
+- .dir(SW) glide to bridge
 - _Npc<Gesane>:
     coord: [-3308.27, 227.83, -1803.34]
     comment: Face the Frost Talus
 
+- Run to cook pot
 - _Npc<Lester>:
     coord: [-3267.07, 224.60, -1773.77]
     comment: Curry for What Ails You
-
-- _Material<Wood>:
-    coord: [-3265.12, 225.80, -1745.29]
-    comment: at least 50
 
 - .dir(S)
 - _Korok::T21
@@ -217,7 +194,7 @@ Hebra:
 - .dir(<S)
 - _Korok::T25
 
-- .dir(<E + midairs)
+- .dir(<E) + midairs
 - _Korok::R05
 
 - .dir(S)
@@ -232,7 +209,6 @@ Hebra:
 
 - .dir(SE)
 - _Boss::Hinox::Blue:
-    comment: rgc
     coord: [-2370.05, 261.70, -419.59]
 
 - _Korok::R22:
@@ -254,10 +230,12 @@ Hebra:
 - .dir(W)
 - _Shrine::ShaeLoya
 
+- .dir(N.) glide
 - _Npc<Geggle>:
     coord: [-2912.28, 274.78, -551.75]
     comment: Cliffside Etchings
 
+- Run to stable/cookpot
 - _Npc<Toren>:
     coord: [-2916.00, 274.73, -561.00]
     comment: Gift for the Great Fairy
@@ -281,7 +259,7 @@ Hebra:
 - .dir(N)
 - _Korok::R12
 
-- .dir(N> + midairs)
+- .dir(N.) + midairs
 - _Shrine::DunbaTaag
 
 - .dir(S)
@@ -292,9 +270,12 @@ Hebra:
 
 - _Warp::Shrine::ShadaNaw
 
+
+### Hebra 3
+
 - .dir(E)
 - _Korok::H21:
-    line-color: rgb(0,255,0)
+    line-color: lime
 
 - .dir(NW)
 - _Korok::H12
@@ -303,9 +284,9 @@ Hebra:
 
 - .dir(<W)
 - _Shrine::MozoShenno:
-    line-color: rgb(255,0,255)
+    line-color: red
 
-- .gale() .dir(<<W):
+- .gale() + .dir(<<W) midair:
     gale: 1
 - _Korok::H26
 
@@ -332,11 +313,7 @@ Hebra:
 
 - .dir(NW)
 - _Boss::Hinox::Black:
-    comment: rgc
     coord: [-4531.00, 333.45, -2679.27]
-
-- _Chest<Bomb Arrow x5>:
-    coord: [-4490.47, 339.26, -2535.14]
 
 - .dir(S)
 - Start T06 race:
