@@ -69,16 +69,16 @@ Gift from the Monks:
 - _Tod::Night:
     hide-icon-on-map: true
 
-- .dir(W)
+- .dir(.W)
 - _Korok::H52
 
-- .dir(E>)
+- midair .dir(E>>)
 - _Korok::H58
 
 - .dir(<S)
 - _Korok::H62
 
-- .dir(<<E)
+- .dir(<NE)
 - _Korok::H59
 
 - .dir(NE)
@@ -90,7 +90,7 @@ Gift from the Monks:
 - .dir(<W)
 - _Korok::K12
 
-- .gale() + .dir(S>) midair:
+- .gale() land, .dir(S>):
     gale: 1
 
 - _Boss::Hinox::Stal:
@@ -113,16 +113,16 @@ Gift from the Monks:
 - .dir(NE)
 - _Korok::H68
 
-- .dir(S)
+- .dir(S.)
 - _Korok::K22
 
-- .dir(N>>)
+- .dir(NE)
 - _Korok::K20
 
 - .dir(<E)
 - _Korok::K21
 
-- .dir(NE)
+- .dir(NE>)
 - _Korok::K15
 
 - .dir(W)
