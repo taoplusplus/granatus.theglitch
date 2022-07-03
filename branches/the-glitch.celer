@@ -51,7 +51,7 @@ The Glitch:
 - _Material<Wood,2>
 
 - .dir(W)
-- Kill 2 Mountain Crows:
+- Kill 2 .enemy(Mountain Crows):
     coord: [-2299.82, 439.59, 469.19]
 - 2+ Raw Bird Drumstick:
     notes: .v(Scrap)/8 scrap
@@ -82,7 +82,7 @@ The Glitch:
     comment: 3 Screw, 2 Spring, 2 Shaft
     notes: Can skip gears. Getting more than these counts will make duping more difficult. If you don't get enough screws, it's fine. Can pick up a core.
 
-- Wb to Castle Town wall
+- WB to .loc(Castle Town) wall
 - BLSS .dir(SE)
 
 - _Shrine::KayaWan:
@@ -125,7 +125,7 @@ The Glitch:
     var-change:
       Scrap: 1
 
-- BLSS .dir(S) + wb .dir(S)
+- BLSS .dir(S) + WB .dir(S)
 - _Material<Flint>:
     coord: [1702.77, 371.38, 2577.68]
     notes: (Optional) If you got flint in mushroom woods, skip this.
@@ -183,7 +183,7 @@ The Glitch:
 - Drop Hammer:
     notes: Make sure you have 2 weapons, 4 bows, 1 shield. .link([Check inventory]https://github.com/taoplusplus/granatus.theglitch/blob/main/shopping-list.txt).
 
-- .loc(Activate Myaham Agana):
+- Activate .loc(Myahm Agana):
     coord: [3387.62, 240.64, 2214.92]
 
 - Get auto-save

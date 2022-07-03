@@ -26,7 +26,8 @@ Hateno:
     notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
 
 - .dir(E>) + .dir(E)
-- _Discover<Activate Tech Lab>:
+- Activate .loc(Hateno Tech Lab):
+    icon: location
     movements:
         - to: [3637.5,2098]
         - to: [3783,2106.5]

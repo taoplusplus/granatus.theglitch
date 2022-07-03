@@ -1,22 +1,20 @@
 Goron City:
 - .!!(Unequip bomb arrows):
-    notes: Windbombs do not work on the first tick of burn damage. Equip metal shield amd bow (if you have one) or just don't let GEB burn up (30s) timer.
+    notes: Windbombs do not work on the first tick of burn damage. Equip metal shield and bow (if you have one) or just don't let GEB burn up (30s) timer.
 
 - .dir(<<N)
 - _Korok::E27
 
-- .dir(<W)
+- .dir(<W) land above talus
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury()
     fury: 3
-    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops from each (5) until 11 flint.
 
 - .dir(<N)
 - _Korok::E26
 
-- .dir(N>)
-- .loc(Southern Mine)
+- .dir(N>) to .loc(Southern Mine)
 
 - _Material<Fireproof Lizard,10>:
     movements:
@@ -35,7 +33,7 @@ Goron City:
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
     comment: From the Ground Up
-    notes: Make night if needed to speak to him.
+    notes: Make night if needed to speak to him
 
 - .dir(NW)
 - _Korok::E19
@@ -77,9 +75,6 @@ Goron City:
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
 
-- _Chest<Ice Arrow x10>:
-    coord: [1636.95, 560.92, -2944.44]
-
 - .gale():
     gale: 1
 - _Korok::E08
@@ -91,11 +86,12 @@ Goron City:
 - _Korok::E06:
     notes: Rare ore deposit here for amber if still needed
 
-- .gale() .dir(<<W) midair:
+- .gale() + .dir(<<W) midair:
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
     comment: Iron Sledgehammer
+    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three until 11 flint.
 
 - .dir(S>) + midair
 - _Korok::E11
@@ -111,8 +107,9 @@ Goron City:
 
 - Take the minecart out:
     coord: [1593.5,-3090.5]
+    notes: Stasis the minecart once you have a good windbomb angle
 
-- .dir(<W)
+- From minecart .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
     comment: Iron Sledgehammer
@@ -133,8 +130,11 @@ Goron City:
 - _Korok::H16
 
 - midair .dir(N>)
-- _Shrine::QazaTokki:
-    comment: Barbarian Legs
+- _Shrine::QazaTokki
+
+- _Chest<Barbarian Legs>:
+    comment: equip
+    hide-icon-on-map: true
 
 - .dir(W) + .dir(SW) midair
 - _Korok::H15

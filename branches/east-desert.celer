@@ -41,7 +41,8 @@ East Desert:
     coord: [-2220.85, 356.03, 2204.36]
     comment: Lift rock
 
-- _Korok::W16
+- _Korok::W16:
+    comment: Stasis, 1 hit w/ two-hander
 
 - .dir(SE) + .dir(S) midairs
 - _Korok::W34
@@ -57,6 +58,7 @@ East Desert:
     coord: [-2096.46, 318.46, 3037.91]
     comment: .fury() Collect gems
     fury: 3
+    notes: Intentionally "wasting" a fury
 
 - .dir(SE)
 - _Korok::W50

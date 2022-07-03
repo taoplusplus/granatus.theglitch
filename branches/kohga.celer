@@ -14,6 +14,10 @@ Kohga:
 
 - .dir(<<S)
 - Melt ice with 7-8 fire arrows
+- Kill .enemy(Ice Wizzrobe)
+- _Equipment::Weapon<Ice Rod>:
+    coord: [-3076.70, 591.10, 1226.90]
+    comment: Freezing Rod
 - _Material<Luminous Stones>:
     comment: Luminous Stone Gathering
     hide-icon-on-map: true

@@ -1,6 +1,6 @@
 Dinraal:
 - _Tod::Morning:
-    notes: To spawn Dinraal
+    notes: To spawn Dinraal. If it's between 12:00am and 5:00am, make morning twice to properly advance a day.
 
 - .dir(<E) + midair
 - _Korok::K04
@@ -14,11 +14,11 @@ Dinraal:
     coord: [247.00, 173.39, -3668.50]
     comment: Stun lock with arrows
     
-- Get hoof:
+- Get .item(Lynel Hoof):
     notes: Hoof is for Riddles of Hyrule. High chance of getting one, but if you don't, see below for backup.
 
 - Shoot Dinraal
-- .item(Dinraal's Scale)
+- Get .item(Dinraal's Scale)
 
 - _Tod::Morning:
     coord: [267.00, 173.39, -3668.50]
@@ -30,7 +30,7 @@ Dinraal:
 - _Korok::K03
 
 - Shoot Dinraal
-- _Material<Dinraal's Claw>
+- Get .item(Dinraal's Claw)
 
 - Kill .enemy(White-Maned Lynel):
     icon: boss-dlc
@@ -57,7 +57,7 @@ Dinraal:
 - .dir(NE)
 - _Korok::E03
 
-- .gale() .dir(E>) midair:
+- .gale() + .dir(E>) midair:
     gale: 1
 - _Korok::E04
 
@@ -104,7 +104,7 @@ Dinraal:
 - .dir(E)
 - _Korok::A12
 
-- .dir(N) midair
+- midair .dir(N)
 - _Korok::A06
 
 - _Boss::Hinox::Black:
@@ -116,7 +116,8 @@ Dinraal:
 - .dir(W>)
 - _Shrine::ZunaKai
 
-- .!!(Look east for Xenoblade chest)
+- .!!(Look east in the sky):
+    notes: For Salvager chest. Watch it land.
 
 - .dir(N>)
 - _Korok::A02
@@ -134,7 +135,7 @@ Dinraal:
 - .dir(SE)
 - _Korok::A13
 
-- .dir(N>> run):
+- .dir(N>>) run:
     coord: [4017,-3231]
 - _Korok::A07
 
@@ -149,17 +150,14 @@ Dinraal:
 - _Korok::A15
 
 - .dir(E>) run
-- _Discover<Activate Akkala Tech Lab>:
+- Activate .loc(Akkala Tech Lab):
+    icon: location
     coord: [4522.01, 354.23, -3166.63]
     comment: Throw torch
 
 - _Npc<Robbie>:
     comment: Text options 1-1-2
     coord: [4514.28, 352.96, -3158.73]
-
-#- _Npc<Cherry>:
-#    comment: Ancient Short Sword
-#    notes: Weapon Connoisseur
 
 - Buy from Cherry
 - _Equipment::Weapon<Ancient Short Sword>:
@@ -240,17 +238,16 @@ Dinraal:
 - _Korok::A27
 
 - .dir(E>)
+- _Snap::Quest<Stalhorse>:
+    coord: [4016.50, 159.88, -2355.50]
+
+- .dir(SE)
 - _Boss::Hinox::Stal:
     coord: [4146.69, 130.35, -2225.24]
     comment: Ancient arrow + .fury()
     fury: 3
 
-- .dir(<<W) surf
-- _Snap::Quest<Stalhorse>:
-    coord: [4012.50, 123.59, -2163.50]
-
-- .gale() + .dir(S.) midairs:
-    gale: 1
+- .dir(S.) + midairs
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: 20 wood

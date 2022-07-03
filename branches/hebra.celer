@@ -59,7 +59,8 @@ Hebra:
 - .dir(N)
 - _Korok::H02
 
-- Clip in to mountain
+- Clip in to mountain:
+    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
 
 - _Korok::H03
 
@@ -159,6 +160,13 @@ Hebra:
 
 - .dir(W>>)
 - _Korok::T18
+
+- .dir(<W)
+- _Korok::T19:
+    movements:
+        - to: [-3151.57, 185.50, -1563.28]
+          away: true
+    comment: Drown
 
 - .dir(N>)
 - _Boss::Talus::Rare:

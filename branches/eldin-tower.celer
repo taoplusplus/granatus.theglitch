@@ -91,6 +91,7 @@ Eldin Tower:
 - .dir(N)
 - _Chest<Knight's Claymore>:
     coord: [2675.33, 309.83, -1635.59]
+    comment: On top of enemy camp
     notes: For tree chopping
 
 - _Korok::E34

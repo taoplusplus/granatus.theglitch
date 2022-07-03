@@ -87,9 +87,8 @@ Horse Minigames:
 
 - _Npc<Blynne>:
     coord: [514.26, 152.72, 3449.75]
-    comment: Mounted Obstacle Course
 
-- .!!(Complete obstacle course):
+- Complete .!!(obstacle course):
     notes: Get times of 1:30 and 1:15.
 
 - .dir(S)
@@ -173,7 +172,7 @@ Horse Minigames:
 - _Npc<Straia>:
     coord: [-212.39, 128.70, 3487.13]
 
-- .!!(Archery minigame):
+- Complete .!!(archery minigame):
     notes: Score 20 and 23.
 
 - .dir(<S)

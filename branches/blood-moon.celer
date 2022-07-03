@@ -66,7 +66,7 @@ Blood Moon:
 - _Korok::R37
 
 - .dir(<W) + midairs
-- _Npc<Kass>:
+- _Npc::Rito<Kass>:
     coord: [-2778.84, 348.24, 206.35]
 
 - Drop down to pedestal

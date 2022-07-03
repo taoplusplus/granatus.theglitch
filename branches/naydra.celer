@@ -3,7 +3,7 @@ Naydra:
 - _Korok::N44:
     line-color: skyblue
 
-- .dir(<N + midairs)
+- .dir(<N) + midairs
 - Begin free Naydra:
     coord: [3965,1353]
     notes: Shoot an eye before each of the following three koroks (N24, N31, N39)
@@ -11,7 +11,7 @@ Naydra:
 - .dir(W>)
 - _Korok::N24
 
-- .dir(<S way down)
+- .dir(<S) fall way down
 - _Korok::N31
 
 - .dir(<W)
@@ -63,7 +63,7 @@ Naydra:
     coord: [3968.75,1292]
 
 - Shoot .item(Naydra Horn)
-- Pickup parts
+- Pick up parts
 
 - .dir(NE)
 - _Material<Chillshroom,2>:

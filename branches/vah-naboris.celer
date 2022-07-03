@@ -97,7 +97,9 @@ Vah Naboris:
 - .dir(<<E)
 - _Korok::G34
 
-- .dir(<<S) + .dir(E) midair
+- .dir(<<S) land, .dir(E)
+- _Discover<Gerudo Desert Gateway>:
+    coord: [-2924.12, 153.42, 2329.39]
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action

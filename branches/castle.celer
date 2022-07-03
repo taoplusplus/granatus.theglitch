@@ -14,6 +14,7 @@ Hyrule Castle:
 - .dir(<<N) climb out, run, drop down
 - _Chest<Dinraal's Scale>:
     coord: [-196.46, 153.20, -1218.59]
+    comment: Behind rubble
 
 - .dir(N>)
 - _Korok::K30
@@ -31,7 +32,7 @@ Hyrule Castle:
 - _Chest<Shard of Farosh's Fang>:
     coord: [-133.07, 170.48, -950.46]
 
-- Enter Library, run across
+- Enter .loc(Library), run across
 - _Discover<King's Study>:
     coord: [-172.98, 170.46, -1119.39]
 
@@ -52,10 +53,11 @@ Hyrule Castle:
     var-change:
         Star: 1
 
-- Bows from lizalfos until full
+- Take bows from lizalfos until full
 
 - _Equipment::Weapon<Great Flameblade>:
     coord: [-268.24, 131.34, -1153.31]
+    notes: This and the Thunderblade are high durability weapons for tree chopping
 
 - Run out, climb
 - _Korok::X01:
@@ -64,15 +66,15 @@ Hyrule Castle:
 - .dir(<W)
 - _Korok::X04
 
-- Drop down, enter Lockup
+- Drop down, enter .loc(Lockup)
 - Shoot malice eye in hallway
 #- _Equipment::Weapon<Royal Guard's Claymore>:
 #    coord: [-414.90, 127.54, -1087.77]
 
-- _Equipment::Weapon<Blizzard Rod>:
-    coord: [-461.66, 128.27, -1063.01]
-    comment: Freezing Rod
-    notes: In cell with lizalfos
+#- _Equipment::Weapon<Blizzard Rod>:
+#    coord: [-461.66, 128.27, -1063.01]
+#    comment: Freezing Rod
+#    notes: In cell with lizalfos
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
@@ -143,7 +145,8 @@ Hyrule Castle:
 - Run down the hall
 - _Korok::X15
 
-- Clip out
+- Clip out:
+    notes: .link([Example clip and oob movement]https://youtu.be/7WOPfp1bGog?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=25938)
 - Run/glide to Guard's Chamber
 
 - _Chest<Shard of Naydra's Fang>:

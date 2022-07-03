@@ -1,6 +1,5 @@
 Endgame:
-- Missable Locations:
-    notes: .link(https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
+- (==) .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
 
 - .dir(<E)
 - .loc(Great Fairy Fountain):
@@ -14,8 +13,10 @@ Endgame:
 - .dir(N>)
 - _Npc<Kilton>:
     coord: [4152.87, 194.63, -1597.24]
-    comment: Monster extract, bridle, saddle
-- .!!(Get Kilton medals)
+- Sell Lizalfos Tails for .!!(mon)
+- Buy .item(extract), .item(bridle), .item(saddle)
+- Get .!!(Kilton medals):
+    notes: Prayge
 
 - .dir(W)
 - _Npc<Ruli>:
@@ -47,10 +48,6 @@ Endgame:
 - _Npc<Chio>:
     comment: Korok Trials
     coord: [431.66, 250.56, -2139.55]
-
-- _Npc<Kula>:
-    comment: Freezing Rod
-    coord: [419.28, 248.65, -2134.93]
 
 - _Warp::Shrine::HaDahamar:
     line-color: dodgerblue

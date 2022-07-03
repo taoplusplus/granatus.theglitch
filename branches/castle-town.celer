@@ -91,7 +91,14 @@ Castle Town Ruins:
 
 - .gale() .dir(S midair):
     gale: 1
-- _Shrine::NamikaOzz
+- _Shrine::NamikaOzz:
+    comment: FIGHT
+
+- _Equipment::Weapon<Ancient Battle Axe++>:
+    comment: Weapon Connoisseur
+    hide-icon-on-map: true
+- _Chest::Special<Frostspear>:
+    comment: Weapon Connoisseur
 
 - .dir(W)
 - _Korok::C09
@@ -148,29 +155,29 @@ Castle Town Ruins:
 - .dir(<W)
 - _Korok::C31
 
-- .dir(W.)
-- _Korok::C30
-
-- .dir(<E)
+- .dir(<N)
 - _Shrine::KatahChuki
 
-- .dir(N)
+- .dir(.W)
+- _Korok::C30
+
+- .dir(N>)
+- _Korok::C25
+
+- .dir(.E)
 - _Korok::C26
 
-- .dir(N>>)
+- .dir(N>>) glide
 - _Discover<Water Reservoir>:
     coord: [-596.67, 130.98, -525.32]
 
-- .dir(W>)
+- .dir(W>) glide
 - _Korok::C22
 
-- .dir(SW)
-- _Korok::C25
-
-- .dir(N)
+- .dir(W)
 - _Korok::C21
 
-- .dir(N>>)
+- .dir(N>>) run
 - _Korok::C20
 
 - .dir(N)

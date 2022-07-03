@@ -41,7 +41,7 @@ Vah Rudania:
 - .boss(Fireblight):
     icon: calamity
     hide-icon-on-map: true
-    notes: Stasis+ 6 headshots
+    notes: Stasis+ 5 headshots, wearing +1 attack and +2 flame armor
 
 - Daruk's Protection:
     line-color: cyan
@@ -140,5 +140,6 @@ Vah Rudania:
 - midair .dir(N>)
 - _Korok::K31
 
-- .dir(W) + midair
+- .gale() + .dir(W) midair:
+    gale: 1
 - _Tower::Woodland

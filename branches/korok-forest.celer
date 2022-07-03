@@ -1,5 +1,5 @@
 Korok Forest:
-- BLSS:
+- BLSS .dir(NW):
     notes: .link([Example]https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
 
 - _Discover<Lost Woods>:
@@ -20,12 +20,13 @@ Korok Forest:
 - _Snap::Quest<Sunshroom>:
     coord: [427.59, 334.17, -2180.27]
 
-- Pick voltfin back up:
+- Pick .item(voltfin) back up:
     notes: For transmute scrap
 
 - .dir(E.) drop down
-- .loc(Activate Keo Ruug):
+- Activate .loc(Keo Ruug):
     coord: [474.69, 248.84, -2167.82]
+    notes: .!!(DON'T) enter shrine or Oaki will reset
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
@@ -45,12 +46,9 @@ Korok Forest:
     coord: [441.00, 248.56, -2133.05]
     comment: Legendary Rabbit Trial
 
-#- _Shop<General Store>:
-#    comment: Buy transmute scrap
-
-#- 2 Razorshroom
-#- 2 Ironshroom
-#- 2 Stamella Shroom
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
 
 - _Npc<Follow Oaki>:
     movements:
@@ -94,8 +92,7 @@ Korok Forest:
 
 - _Shrine::KuhnSidajj
 
-- .dir(S>>)
-- Escape Korok Forest
+- .dir(S>>) to escape Korok Forest
 
 - .dir(S) midairs:
     notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also warp to Eldin Tower and BLSS (remember to equip metal bow).
@@ -123,4 +120,5 @@ Korok Forest:
     split-type: UserDefined
     notes: .link([Skew bounce 1-cycle strat]https://youtu.be/d4s3-3IcV9A?t=22411) or just fight
 
-- Skip cutscenes and continue
+- Skip cutscenes and continue:
+    notes: Close software and re-open if inventory glitch is still active.
