@@ -120,8 +120,9 @@ Hebra:
 - _Korok::H51
 
 - .dir(<S)
-- Tree stasis strat:
+- Snowball strat:
     coord: [-2521.5,-2203.5]
+    notes: Throw snowball, stasis, full charge at door
 
 - _Shrine::GeeHarah
 
@@ -161,13 +162,6 @@ Hebra:
 - .dir(W>>)
 - _Korok::T18
 
-- .dir(<W)
-- _Korok::T19:
-    movements:
-        - to: [-3151.57, 185.50, -1563.28]
-          away: true
-    comment: Drown
-
 - .dir(N>)
 - _Boss::Talus::Rare:
     comment: .fury()
@@ -178,7 +172,8 @@ Hebra:
 - _Korok::H65
 
 - .dir(<W)
-- _Korok::H66
+- _Korok::H66:
+    comment: " "
 
 - .dir(W)
 - _Korok::T11
@@ -195,6 +190,13 @@ Hebra:
 
 - .dir(S)
 - _Korok::T21
+
+- .dir(N>>)
+- _Korok::T19:
+    movements:
+        - to: [-3151.57, 185.50, -1563.28]
+          away: true
+    comment: Drown
 
 - .dir(E)
 - _Korok::T22
