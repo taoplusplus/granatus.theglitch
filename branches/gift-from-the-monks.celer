@@ -26,23 +26,26 @@ Gift from the Monks:
 - _Korok::H36
 
 - .dir(N)
-- _Korok::H29
+- _Korok::H29:
+    comment: All the way done
 
 - .dir(E>>)
 - _Korok::H31
 
-- .dir(N>>)
+- .dir(N>)
 - _Boss::Talus::Frost:
     coord: [-2144.88, 491.27, -3082.59]
 
-- .dir(W)
-- _Korok::H30
+- .dir(W) short
+- _Korok::H30:
+    comment: All the way down
 
-- .dir(NW)
+- .dir(NW) low
 - _Shrine::RokUwog
 
-- .dir(N)
-- _Korok::H13
+- .dir(N.) + .dir(NE) midair
+- _Korok::H13:
+    comment: Up above
 
 - .dir(NE)
 - _Korok::H05
@@ -56,10 +59,11 @@ Gift from the Monks:
 - .dir(SW)
 - _Korok::H14
 
-- .dir(S>>)
+- .dir(S.) + midair
 - _Korok::H37
 
-- .dir(<S)
+- .dir(<S):
+    notes: Pick up/put down rock and stand on it to WB.
 - _Npc<Juannelle>:
     coord: [-1641.43, 339.19, -2561.69]
     comment: Stalhorse Pictured!

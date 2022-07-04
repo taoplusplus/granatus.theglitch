@@ -52,6 +52,7 @@ Naydra:
 - _Tod::Morning:
     comment: Twice
     notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
+    hide-icon-on-map: true
 
 - .dir(S>) + .dir(N) midair
 - _Korok::N18
@@ -83,7 +84,10 @@ Naydra:
     coord: [3250.94, 268.75, 1331.63]
     comment: Ancient arrows
 
-- _Snap::Quest<Lynel>
+- _Snap::Quest<Lynel>:
+    movements:
+        - to: [3261.15, 263.12, 1211.79]
+          away: true
 
 - .dir(<N)
 - _Memory::LanayruRoad

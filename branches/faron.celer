@@ -247,7 +247,10 @@ Faron:
 - .dir(N>)
 - _Korok::F06
 
-- .dir(SE)
+- .dir(.W)
+- _Korok::F07
+
+- .dir(SW)
 - _Korok::F13
 
 - .dir(SE)

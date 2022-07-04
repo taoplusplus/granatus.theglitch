@@ -1,8 +1,5 @@
 Eventide:
-- .dir(SW)
-- _Korok::F07
-
-- .dir(E>) + midair
+- .dir(<S)
 - _Korok::F14
 
 - .dir(<W)
