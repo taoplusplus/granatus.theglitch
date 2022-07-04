@@ -2,9 +2,11 @@
 
 [View the current route](https://celer.itntpiston.app/#/gh/taoplusplus/granatus.theglitch)
 
-## Changes
+## Updates
 
 ### 2022-07-04
+
+#### Major Changes
 
 - Moved F07 (light chase in Koto Pond) from Eventide branch to Faron branch. It's now after F06 (lift rock on Breman Peak) instead of after warp to Hateno Tower.
 
@@ -20,4 +22,13 @@
 
 - Added steps to get a Swift Carrot at Highland Stable (Koko's Kitchen) and a Baked Apple at the old man's hut (Apple of My Eye).
 
-- Late game gale routing is still messed up.
+
+#### To-do List
+
+- No-SCW route after Ree Dahee.
+
+- Video for Sunken Treasure.
+
+- Video for Eventide.
+
+- Fix late game gales.
