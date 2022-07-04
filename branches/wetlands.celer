@@ -1,7 +1,9 @@
 Wetlands:
+- _Warp::Tower::DuelingPeaks:
+    line-color: dodgerblue
+    
 - .dir(E)
 - _Boss::Talus::Stone:
-    line-color: dodgerblue
     comment: .fury()
     fury: 1
     coord: [1186.62, 254.28, 1642.77]
@@ -14,7 +16,8 @@ Wetlands:
     coord: [927.95, 117.06, 1211.55]
 
 - .dir(S>>) ride
-- _Korok::D25
+- _Korok::D25:
+    comment: " "
 
 - .dir(<<S)
 - _Korok::D29
@@ -94,7 +97,8 @@ Wetlands:
     coord: [2754.00, 189.53, -83.50]
     comment: Special Delivery
 
-- Shoot letter
+- Shoot letter:
+    notes: When you return to Finley, the letter will respawn on land
 
 - .dir(N)
 - _Korok::Z23

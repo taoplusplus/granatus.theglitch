@@ -1,7 +1,10 @@
 Gift from the Monks:
+- _Warp::Shrine::ShadaNaw:
+    comment: 96.36%
+    line-color: orange
+
 - _Tod::Night:
     hide-icon-on-map: true
-    line-color: orange
     notes: For Salvager chest
 
 - .dir(SE)
@@ -10,7 +13,8 @@ Gift from the Monks:
 - .dir(E)
 - _Korok::H28
 
-- .!!(Look southeast)
+- Look .!!(Southeast in the sky):
+    notes: For Salvager chest. Watch it land.
 
 - Drop down
 - _Shrine::GomaAsaagh
@@ -145,6 +149,3 @@ Gift from the Monks:
 - _Shrine::RonaKachta
 
 - _Chest::Special<Set of the Wild>
-
-- _Warp::Shrine::DahHesho:
-    comment: 99.58%

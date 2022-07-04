@@ -27,9 +27,7 @@ Tabantha:
 - _Korok::T29
 
 - .dir(E)
-- _Korok::T30:
-    comment: gale()
-    gale: 1
+- _Korok::T30
 
 - .dir(<N)
 - _Korok::T24
@@ -44,7 +42,8 @@ Tabantha:
 - _Memory::AncientColumns
 
 - .dir(NW>)
-- _Korok::T35
+- _Korok::T35:
+    comment: " "
 
 - .dir(<W)
 - _Korok::T37

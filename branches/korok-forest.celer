@@ -89,6 +89,7 @@ Korok Forest:
 - .dir(SW)
 - _Equipment::Shield<Rusty Shield>:
     coord: [100.06, 286.08, -1827.37]
+    notes: Keep the shield for a korok later
 
 - _Shrine::KuhnSidajj
 

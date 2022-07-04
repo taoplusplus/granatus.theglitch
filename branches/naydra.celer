@@ -1,7 +1,9 @@
 Naydra:
-- .dir(<<E)
-- _Korok::N44:
+- _Warp::TechLab::Hateno:
     line-color: skyblue
+    
+- .dir(<<E)
+- _Korok::N44
 
 - .dir(<N) + midairs
 - Begin free Naydra:

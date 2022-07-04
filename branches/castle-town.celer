@@ -60,21 +60,23 @@ Castle Town Ruins:
 - _Npc<Shamae>:
     coord: [1080.50, 127.38, -1125.00]
     comment: Balloon Flight
-    notes: Get here before 8:00pm
+    notes: Get here before 8:00pm. Make noon if needed.
 
 - .dir(E)
-- _Korok::K34
+- _Korok::K34:
+    comment: " "
 
 - .dir(W>)
 - _Korok::K33
 
 - .dir(N>)
-- _Shrine::MirroShaz
+- _Shrine::MirroShaz:
+    notes: Stalnox coming up. Make night if needed.
 
 - .dir(W>)
 - _Discover<Rauru Settlement Ruins>:
     coord: [704.00, 144.00, -1251.50]
-    notes: Stalnox coming up. Make night if needed.
+    notes: With superlaunch, can get this location while gilding through on the way to Helmhead Bridge
 
 - .dir(<W)
 - _Discover<Helmhead Bridge>:
@@ -89,7 +91,7 @@ Castle Town Ruins:
     fury: 2
     coord: [771.50, 152.53, -1014.00]
 
-- .gale() .dir(S midair):
+- .gale() + .dir(S) midair:
     gale: 1
 - _Shrine::NamikaOzz:
     comment: FIGHT
@@ -125,7 +127,8 @@ Castle Town Ruins:
 - _Korok::C10
 
 - .dir(<<E)
-- _Korok::C06
+- _Korok::C06:
+    comment: " "
 
 - .dir(W>)
 - _Korok::C05

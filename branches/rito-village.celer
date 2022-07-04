@@ -74,7 +74,8 @@ Rito Village:
     notes: Squeak
 
 - .dir(SE)
-- _Korok::T16
+- _Korok::T16:
+    notes: Pick up a pepper and pause/unpause to set menu for T09
 
 - .dir(W>>)
 - _Korok::T12

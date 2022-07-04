@@ -110,9 +110,10 @@ Satori Mountain:
 - _Korok::R63
 
 - .dir(W>)
-- _Korok::R50
+- _Korok::R50:
+    comment: Bomb tree from above
 
-- .dir(<<N)
+- midair .dir(<<N)
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3

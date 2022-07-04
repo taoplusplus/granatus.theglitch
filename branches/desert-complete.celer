@@ -1,5 +1,5 @@
 Desert Complete:
-- .!!(Change to Gerudo clothes)
+- Equip .!!(Gerudo Veil + Top + Snow Boots)
 - .dir(N>)
 - _Npc<Bozai>:
     coord: [-3750,2874]
@@ -30,14 +30,15 @@ Desert Complete:
     comment: Tools of the Trade
     coord: [-3834.85, 149.52, 2875.26]
 
-- If less than 2 durians, buy
+- If less than 2 durians, buy:
+    notes: To have enough for transmute
 
 - .!!(Dupe bows + transmute items):
     notes: .link([Detailed instructions]https://github.com/taoplusplus/granatus.theglitch/blob/main/transmute-instructions.txt)
 
 - _Shop<Arrow Shop>:
     coord: [-3859.23, 149.24, 2916.02]
-    comment: Buy fire and ice
+    comment: Buy fire
 
 - Outside throne room
 - _Npc::Gerudo<Malena>:
@@ -73,6 +74,8 @@ Desert Complete:
 
 - _Shrine::KorshOhu
 
+- Equip .!!(Barbarian Set)
+
 - .dir(S) + climb
 - _Korok::W40
 
@@ -90,48 +93,3 @@ Desert Complete:
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action
-
-- _Warp::Shrine::KuhTakkar:
-    line-color: tomato
-
-- .dir(.S)
-- _Korok::G22
-
-- .dir(N>>)
-- _Korok::G17
-
-- .dir(E):
-    time-override: 999
-- _Boss::Talus::Frost:
-    coord: [-2919.99, 656.12, 1294.27]
-    comment: .fury()
-    fury: 3
-
-- .dir(<E)
-- _Korok::G18
-
-- .dir(SE)
-- _Korok::G23
-
-- .dir(<SW)
-- _Korok::G27
-
-- .dir(E>)
-- _Korok::G28
-
-- .dir(<<E)
-- _Korok::G24
-
-- .dir(<S)
-- _Boss::Talus::Luminous:
-    coord: [-1896.00, 200.68, 2044.68]
-    comment: Bomb arrows
-
-- .dir(SW)
-- _Korok::W14
-
-- .dir(SE)
-- _Korok::W26
-
-- Drop down
-- _Shrine::JeeNoh

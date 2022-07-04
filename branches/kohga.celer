@@ -1,7 +1,8 @@
 Kohga:
-- .dir(<S) super + midair
-- _Korok::G19:
+- _Warp::Shrine::MoggLatan:
     line-color: lightyellow
+- .dir(<S) super + midair
+- _Korok::G19
 
 - .dir(NW>) + .dir(W) midair
 - _Korok::G13
@@ -93,6 +94,3 @@ Kohga:
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1341.50]
-
-- _Warp::Shrine::DaqoChisay:
-    notes: Clear ragdoll before warping

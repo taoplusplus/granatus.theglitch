@@ -1,6 +1,9 @@
 Eventide:
+- _Warp::Tower::Hateno
+
 - .dir(<S)
-- _Korok::F14
+- _Korok::F14:
+    comment: " "
 
 - .dir(<W)
 - _Boss::Hinox::Red:
@@ -13,7 +16,6 @@ Eventide:
 
 - .dir(S)
 - _Boss::Hinox::Blue:
-    comment: rgc
     coord: [2693.70, 273.89, 2967.57]
 
 - .dir(<N) return orb:
@@ -72,7 +74,8 @@ Eventide:
     coord: [4121.98, 113.17, 2369.62]
 
 - .dir(NE)
-- _Korok::N54
+- _Korok::N54:
+    notes: Palm fruit on nearby tree if needed
 
 - .dir(E>)
 - _Korok::N56
@@ -117,5 +120,3 @@ Eventide:
 - .gale():
     gale: 1
 - _Shrine::KorguChideh
-
-- _Warp::Shrine::TalohNaeg

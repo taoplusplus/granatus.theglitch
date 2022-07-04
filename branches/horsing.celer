@@ -44,7 +44,7 @@ Horse Minigames:
 
 - .dir(<<S)
 - _Boss::Hinox::Blue:
-    comment: Ancient arrows
+    comment: Ancient arrows midair
     coord: [1031.43, 127.22, 3496.26]
 
 - midair .dir(E>)
@@ -73,10 +73,11 @@ Horse Minigames:
     coord: [596.95, 172.65, 3722.39]
 
 - .dir(N>>)
-- _Korok::L75
+- _Korok::L75:
+    comment: " "
 
 - .dir(<<N)
-- Kill 5 bokos with AA:
+- Kill 5 bokos with AA midair:
     coord: [485,3342]
     comment: Horseback Hoodlums
 
@@ -85,11 +86,16 @@ Horse Minigames:
     coord: [516.76, 152.98, 3453.71]
     comment: Horseback Hoodlums
 
+- _Material<Swift Carrot>:
+    coord: [523.34, 152.89, 3463.33]
+    comment: Koko's Kitchen
+    notes: Behind horses
+
 - _Npc<Blynne>:
     coord: [514.26, 152.72, 3449.75]
 
 - Complete .!!(obstacle course):
-    notes: Get times of 1:30 and 1:15.
+    notes: Get times below 1:30 and 1:15 (any order)
 
 - .dir(S)
 - _Shrine::KaoMakagh
@@ -113,7 +119,8 @@ Horse Minigames:
     notes: Do not whistle sprint until after Shoqa Tatone
 
 - .dir(S>)
-- _Korok::L70
+- _Korok::L70:
+    comment: Hop forward for BT
 
 - .dir(E>) glide
 - _Korok::L71:
@@ -147,7 +154,7 @@ Horse Minigames:
     comment: Guardian Slideshow
 
 - _Tod::Night:
-    notes: For the Stalnoxes coming up
+    notes: For the Stalnoxes coming up (if needed)
 
 - _Shrine::ShoqaTatone
 
@@ -159,7 +166,8 @@ Horse Minigames:
 
 - .dir(<N)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
+    comment: 1 AA + .fury()
+    fury: 3
     coord: [100.50, 111.28, 3371.00]
     notes: Whistle for horse
 
@@ -198,8 +206,7 @@ Horse Minigames:
 
 - .dir(S>) + .dir(<W) midair
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows + .fury()
-    fury: 1
+    comment: Ancient arrows
     coord: [-1062.00, 275.24, 3771.50]
 
 - .gale() + .dir(<N) midair:
@@ -207,7 +214,8 @@ Horse Minigames:
 - _Korok::L68
 
 - .dir(NW)
-- _Korok::L67
+- _Korok::L67:
+    notes: .link([Daruk shield block strat]https://twitter.com/TaoPlusPlus/status/1543032802559643648?s=20&t=Epe1-KX_9FguTFxJCAmwfA)
 
 - .dir(E)
 - _Shrine::IshtoSoh

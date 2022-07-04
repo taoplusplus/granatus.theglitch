@@ -1,8 +1,11 @@
 Eldin Canyon:
-- _Npc<Tumbo>:
+- _Warp::Shrine::NeezYohma:
     line-color: lime
+
+- _Npc<Tumbo>:
     coord: [3320.59, 244.66, -474.01]
     comment: Frog Catching 
+    notes: Wakes up at 7:00am
 
 - _Npc<Ledo>:
     coord: [3290.09, 244.86, -451.28]
@@ -86,6 +89,5 @@ Eldin Canyon:
 - _Korok::E37
 
 - .dir(<W)
-- _Korok::E36
-
-- _Warp::Tower::Akkala
+- _Korok::E36:
+    comment: " "

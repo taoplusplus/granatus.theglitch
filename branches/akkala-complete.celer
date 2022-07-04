@@ -1,5 +1,13 @@
 Akkala Complete:
-- .dir(<S)
+- _Warp::Tower::Akkala
+
+- .dir(S) drop down
+- _Korok::A42
+
+- Drop down
+- _Korok::A43
+
+- .dir(SE)
 - _Korok::A46
 
 - .dir(W>>)
@@ -8,13 +16,6 @@ Akkala Complete:
 
 - .dir(S>>)
 - _Korok::A45
-
-- .dir(<E)
-- _Korok::A43
-
-- .gale():
-    gale: 2
-- _Korok::A42
 
 - .dir(<<N)
 - _Korok::A41
@@ -26,6 +27,7 @@ Akkala Complete:
 - _Npc<Jana>:
     coord: [3133.57, 306.78, -1693.04]
     comment: Little Sister's Big Request
+    notes: Get here before 8:00pm. Make noon if needed.
 
 - .dir(E)
 - _Npc<Hudson>:
@@ -52,5 +54,3 @@ Akkala Complete:
 - _Shrine::RitaagZumo
 
 - _Korok::A33
-
-- _Warp::Tower::Hateno

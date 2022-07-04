@@ -39,7 +39,8 @@ Moldugas:
 - Activate .loc(Great Fairy Fountain):
     coord: [-4870.20, 125.00, 3824.80]
 
-- _Shrine::HawaKoth
+- _Shrine::HawaKoth:
+    comment: Set skew outside
 
 - _Npc::Gerudo<Barta>:
     comment: Search for Barta
@@ -70,5 +71,5 @@ Moldugas:
 - _Korok::W56
 
 - .dir(N>)
-- .!!(Sand Seal Race)
+- Complete .!!(Sand Seal Race)
 - _Shrine::RaqaZunzo

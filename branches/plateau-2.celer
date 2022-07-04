@@ -1,12 +1,14 @@
 Plateau 2:
-- _Korok::P09:
-    line-color: violet
-
 - _Warp::Shrine::OwaDaim:
-    notes: Just as fast as clipping out
+    line-color: violet
 
 - .dir(<<E)
 - _Korok::P18
+
+- _Material<Baked Apple>:
+    coord: [-787.50, 194.58, 2259.30]
+    comment: Apple of My Eye
+    notes: In old man's hut
 
 - .dir(N) + midair
 - _Korok::P11

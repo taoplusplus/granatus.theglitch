@@ -1,4 +1,6 @@
 East Desert:
+- _Warp::VahNaboris
+
 - .dir(W) run
 - _Korok::W33
 
@@ -140,5 +142,3 @@ East Desert:
 
 - _Material<Voltfruit,2>:
     comment: For transmute
-
-- _Warp::TechLab::Hateno

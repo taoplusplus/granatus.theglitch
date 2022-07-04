@@ -1,4 +1,5 @@
 Hestu 1:
+- _Warp::Shrine::TalohNaeg
 - .dir(S>) short
 - _Npc::SheikaMale<Olkin>:
     line-color: lightsalmon
@@ -12,9 +13,6 @@ Hestu 1:
     comment: Arrows of Burning Heat
 
 - Buy all fire arrows
-
-- _Korok::D03
-    #notes: Reroute?
 
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
@@ -43,4 +41,5 @@ Hestu 1:
 - _Korok::D18:
     comment: " "
 
-- _Warp::Shrine::MoggLatan
+- _Warp::SOR
+- _Korok::P09

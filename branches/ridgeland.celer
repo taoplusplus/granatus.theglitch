@@ -76,6 +76,7 @@ Ridgeland:
     comment: .fury()
     fury: 3
     coord: [-2177.46, 322.30, -1585.39]
+    notes: Intentionally "wasting" a fury
 
 - .dir(SW)
 - _Korok::R02
@@ -114,7 +115,8 @@ Ridgeland:
 
 - .dir(SE)
 - _Korok::R23
-- _Korok::R24
+- _Korok::R24:
+    comment: " "
 
 - .dir(NE)
 - _Korok::R18

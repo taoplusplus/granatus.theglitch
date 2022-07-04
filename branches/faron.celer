@@ -38,7 +38,8 @@ Faron:
 - _Korok::L29
 
 - .dir(E>>)
-- _Korok::L34
+- _Korok::L34:
+    notes: Use a 1-handed weapon
 
 - .dir(<<W)
 - _Korok::L35
@@ -47,7 +48,8 @@ Faron:
 - _Korok::L45
 
 - .dir(SE)
-- _Korok::L54
+- _Korok::L54:
+    comment: " "
 
 - .dir(<E)
 - _Discover<Zonai Ruins>:
@@ -142,7 +144,7 @@ Faron:
 
 - Drop down
 - _Korok::F41:
-    comment: Bomb rune or fire arrow
+    comment: Bomb rune or bomb arrow
 
 - _Npc<Cima>:
     coord: [1540.08, 165.97, 3531.94]
@@ -152,8 +154,13 @@ Faron:
 - _Shrine::ShaiUtoh:
     notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=4420)
 
+- _Tod::Night:
+    coord: [1573.26, 165.96, 3530.55]
+    notes: For upcoming Stalnox
+
 - .dir(E>>)
-- _Korok::F48
+- _Korok::F48:
+    comment: Banana next to it
 
 - .dir(<<W)
 - _Korok::F55
@@ -180,10 +187,6 @@ Faron:
     fury: 2
     coord: [2087,3916.5]
 
-- _Tod::Night:
-    coord: [2107,3916.5]
-    notes: For upcoming Stalnox
-
 - .dir(N)
 - _Korok::F43
 
@@ -206,7 +209,7 @@ Faron:
 
 - .dir(<E)
 - _Boss::Talus::Stone:
-    comment: Ancient arrows
+    comment: Bomb arrows
     coord: [1690.73, 165.27, 3335.62]
 
 - .dir(N>)
@@ -263,7 +266,8 @@ Faron:
 - .dir(SE)
 - _Korok::F21
 
-- Remove all metal equipment
+- Remove metal weapons/shield:
+    notes: Re-equip Barbarian Armor
 
 - .dir(<<W)
 - _Korok::F29
@@ -273,7 +277,7 @@ Faron:
     coord: [2081.89, 287.42, 3226.31]
     comment: Song of Storms
 
-- Equip metal armor/weapons
+- Equip metal weapons/shield
 
 - .dir(<<W) run
 - _Shrine::QukahNata

@@ -1,6 +1,7 @@
 Vah Medoh:
-- _Korok::R60:
+- _Warp::Shrine::MoggLatan:
     line-color: palegreen
+- _Korok::R60
 
 - BLSS .dir(<<N)
 - _Npc::Rito<Kaneli>:
@@ -85,11 +86,10 @@ Vah Medoh:
 
 - .dir(E) + .dir(<<E) midair
 - Shoot shock arrow at water
-- _Korok::T03
+- _Korok::T03:
+    comment: " "
 - Swim
 - _Material<Voltfin Trout, 2>:
     coord: [ -3012.75, 217.66, -2157.02]
     comment: Riddles of Hyrule
     notes: And transmute scrap
-
-- _Warp::Shrine::KayaWan

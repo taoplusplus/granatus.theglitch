@@ -13,6 +13,12 @@ Gerudo Canyon:
     coord: [-1310.03, 111.74, 786.85]
 
 - .dir(<W)
+- _Korok::C58
+
+- .dir(SW)
+- _Korok::C59
+
+- .dir(<N)
 - _Korok::R74
 
 - .gale() + .dir(<N) midair:
@@ -83,11 +89,11 @@ Gerudo Canyon:
 - .dir(<S)
 - _Boss::Hinox::Blue:
     coord: [-1704.30, 111.60, 1776.78]
-    comment: Ancient Arrows
+    comment: Ancient arrows
 
 - .dir(SW)
 - _Korok::C88:
-    comment: Drown
+    comment: Cryo block
 
 - .dir(<<S)
 - _Discover<Gerudo Canyon Pass>:
@@ -115,7 +121,12 @@ Gerudo Canyon:
 - .dir(N)
 - _Korok::W07
 
-- .dir(N>>)
+- .dir(N) short
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+
+- .dir(E) climb
 - _Npc::Goron<Heehl, Bayge, Kabetta>:
     coord: [-2005.45, 225.98, 1740.65]
     comment: Test of Will
@@ -124,11 +135,6 @@ Gerudo Canyon:
 - _Tod::Noon:
     notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
     hide-icon-on-map: true
-
-- .dir(SW) short
-- _Npc<Oliff>:
-    comment: Missing in Action
-    coord: [-2055.00, 209.05, 1742.00]
 
 - .dir(E.)
 - _Npc<Flaxel>:
@@ -185,4 +191,4 @@ Gerudo Canyon:
 - .dir(W) + .dir(W) midair, land
 - .dir(N.) + midairs
 - _Shrine::SasaKai:
-    comment: 2:55pm to 3:55pm
+    comment: 2:55pm to 3:50pm

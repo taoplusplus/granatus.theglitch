@@ -1,7 +1,10 @@
 Kakariko 3:
-- _Tod::Noon:
+- _Warp::Shrine::TalohNaeg:
     line-color: gold
+
+- _Tod::Noon:
     comment: Repeat until no rain
+    hide-icon-on-map: true
 
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
@@ -36,7 +39,8 @@ Kakariko 3:
 
 - _Npc<Koko>:
     coord: [1801,1016.5]
-    comment: Cooking with Koko
+    comment: All 4 Koko quests
+    notes: Swift carrot, goat butter, raw meat, courser bee honey
 
 - _Tod::Night:
     hide-icon-on-map: true
@@ -49,6 +53,7 @@ Kakariko 3:
 
 - Collect fireflies:
     coord: [1901,995]
+    notes: If you miss some and scare the rest away, you can respawn them by warping to Taloh Naeg
 
 - _Npc<Lasli>:
     coord: [1899.75,1035.75]
@@ -56,6 +61,12 @@ Kakariko 3:
 
 - _Npc<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
+    notes: Sets time of day to 7:00pm
+
+- _Tod::Night:
+    hide-icon-on-map: true
+
+- _Korok::D03
 
 - _Korok::D02
 
@@ -99,9 +110,11 @@ Kakariko 3:
 
 - .dir(E>>)
 - Enter cutscene:
+    icon: calamity
     coord: [2024.21, 292.86, 962.56]
 
-- Kill Yiga
+- Kill .enemy(Yiga Blademaster):
+    notes: 2 headshots with GEB and normal arrows will make the blademaster drop his weapon
 
 - _Equipment::Weapon<Windcleaver>:
     comment: Weapon Connoisseur

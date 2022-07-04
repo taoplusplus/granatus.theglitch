@@ -1,8 +1,7 @@
 Central Tower:
 - .dir(N)
 - _Boss::Talus::Luminous:
-    comment: .fury()
-    fury: 2
+    comment: Bomb + ancient arrows
     coord: [-971.13, 355.71, 3236.14]
 
 - .dir(W>>)
@@ -17,7 +16,7 @@ Central Tower:
 - .dir(<<N)
 - _Korok::P17
 
-- .dir(W glide)
+- .dir(W) glide
 - _Korok::P16
 
 - .gale() + .dir(NW) midair:
@@ -59,13 +58,7 @@ Central Tower:
 - .dir(<W)
 - _Korok::C66
 
-- .dir(W>)
-- _Korok::C59
-
-- .dir(NE)
-- _Korok::C58
-
-- .dir(N>>)
+- .dir(N>)
 - _Korok::C52
 
 - .dir(<E) + midair

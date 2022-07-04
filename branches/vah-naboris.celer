@@ -1,4 +1,7 @@
 Vah Naboris:
+- _Warp::Shrine::DaqoChisay:
+    notes: Clear ragdoll before warping
+
 - .dir(S>>)
 - _Npc::Gerudo<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
@@ -115,5 +118,3 @@ Vah Naboris:
 - _Npc<Pirou>:
     #coord: [-2796.56, 134.90, 2240.07]
     comment: Rushroom Rush!
-
-- _Warp::VahNaboris

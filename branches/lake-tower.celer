@@ -1,4 +1,49 @@
 Lake Tower:
+- _Warp::Shrine::KuhTakkar:
+    line-color: tomato
+    
+- .dir(.S)
+- _Korok::G22
+
+- .dir(N>>)
+- _Korok::G17
+
+- .dir(E):
+    time-override: 999
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+
+- .dir(<E)
+- _Korok::G18
+
+- .dir(SE)
+- _Korok::G23
+
+- .dir(<SW)
+- _Korok::G27
+
+- .dir(E>)
+- _Korok::G28
+
+- .dir(<<E)
+- _Korok::G24
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+    comment: Bomb arrows midair
+
+- .dir(SW)
+- _Korok::W14
+
+- .dir(SE)
+- _Korok::W26
+
+- Drop down
+- _Shrine::JeeNoh
+
 - .dir(N>>)
 - _Korok::G36
 
@@ -45,7 +90,7 @@ Lake Tower:
     comment: Hunt for the Giant Horse
 
 - _Cook<Fruitcake>:
-    comment: 2 fruit, wheat, sugar
+    comment: 2 fruit (1 is apple||wildberry), wheat, sugar
     notes: Royal Recipe
 
 - _Tod::Night:
@@ -74,7 +119,8 @@ Lake Tower:
 - _Korok::L25
 
 - .dir(SE)
-- _Shrine::YaNaga
+- _Shrine::YaNaga:
+    notes: If raining, make night until it's not for D54
 
 - .dir(E)
 - _Npc::ZoraFemale<Mei>:
@@ -99,7 +145,8 @@ Lake Tower:
 - .dir(<S)
 - _Korok::L27
 
-- .!!(Look Southeast)
+- Look .!!(Southeast in the sky):
+    notes: For Salvager chest. Watch it land.
 
 - .dir(<S) run
 - _Korok::L30

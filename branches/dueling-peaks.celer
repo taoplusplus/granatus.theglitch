@@ -41,7 +41,8 @@ Dueling Peaks:
     comment: Zora Armor
 
 - .dir(<S)
-- _Korok::L10
+- _Korok::L10:
+    comment: " "
 
 - .dir(E)
 - _Korok::L11

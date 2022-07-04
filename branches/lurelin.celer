@@ -52,9 +52,10 @@ Lurelin:
 - Crouch on pedestal
 - _Shrine::KahYah
 
-- .gale() .dir(W midair):
+- .gale() + .dir(W) midair:
     gale: 1
-- _Korok::F37
+- _Korok::F37:
+    comment: " "
 
 - .dir(S):
     time-override: 999
@@ -71,9 +72,10 @@ Lurelin:
     comment: What's for Dinner?
     coord: [2948.86, 106.06, 3462.70]
 
-- _Shop<Arrow Shop>:
+- _Shop<Shop on Docks>:
     coord: [2952.58, 107.66, 3493.43]
-    notes: Still needed?
+    comment: Octo balloon
+    notes: (Optional) Only if missing 1
 
 - .dir(<N)
 - _Npc<Kiana>:
@@ -120,5 +122,3 @@ Lurelin:
 
 - .dir(E) run
 - _Korok::A38
-
-- _Warp::Tower::DuelingPeaks
