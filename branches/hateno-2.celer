@@ -15,6 +15,7 @@ Hateno 2:
 - _Npc<Calip>:
     coord: [2398.96, 118.64, 1834.33]
     comment: The Cursed Statue
+    notes: Can cancel dialogue immediately, quest will still complete
 
 - .dir(W) run
 - _Korok::N34
@@ -83,6 +84,7 @@ Hateno 2:
 - _Npc<Clavia>:
     coord: [3434.98, 226.90, 2149.15]
     comment: Secret of the Cedars
+    notes: (Optional) If you didn't talk to her during The Glitch
 
 - _Npc<Manny>:
     coord: [3418.24, 226.84, 2121.22]
@@ -99,6 +101,8 @@ Hateno 2:
 - _Npc<Symin>:
     coord: [3778.96, 356.86, 2132.45]
     comment: Sunshroom Sensing
+
+- .!!(Buy COMPENDIUM)
 
 - .gale():
     gale: 1

@@ -166,13 +166,16 @@ Dinraal:
 - _Npc<Jerrin>:
     comment: Text options 1-1-3
 
-- .gale():
-    gale: 1
+- .dir(S) or .dir(E)
 - _Korok::A16
 
-- .dir(N>)
-- _Shrine::TuKaloh:
-    comment: Barbarian Helm
+- .dir(N>) to .loc(maze)
+- .gale() inside .loc(maze):
+    gale: 1
+- _Shrine::TuKaloh
+
+- _Chest<Barbarian Helm>:
+    comment: Equip
 
 - .dir(S>>)
 - _Korok::A08

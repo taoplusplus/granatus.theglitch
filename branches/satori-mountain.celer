@@ -75,8 +75,8 @@ Satori Mountain:
 - .dir(W)
 - _Korok::R76
 
-- .dir(NW)
 - _Korok::R75:
+    comment: Bomb arrow .dir(NW)
     movements:
         - to: [-2393.37, 233.05, 1047.34]
           away: true

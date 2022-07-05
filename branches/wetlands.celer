@@ -104,14 +104,14 @@ Wetlands:
 - _Korok::Z23
 
 - .dir(SE)
-- _Npc::ZoraMale<Zora Moneument>:
+- _Npc::ZoraMale<Zora Monument>:
     coord: [2868.11, 249.51, -68.34]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
 - .dir(S)
-- _Npc::ZoraMale<Zora Moneument>:
+- _Npc::ZoraMale<Zora Monument>:
     coord: [2877.09, 229.49, -32.75]
     comment: .v(Monument)/10
     var-change:
@@ -121,7 +121,7 @@ Wetlands:
     coord: [2875.32, 187.50, 32.60]
 
 - .dir(S>)
-- _Npc::ZoraMale<Zora Moneument>:
+- _Npc::ZoraMale<Zora Monument>:
     coord: [2838.09, 228.01, 188.33]
     comment: .v(Monument)/10
     var-change:

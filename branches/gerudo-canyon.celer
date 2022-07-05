@@ -136,12 +136,12 @@ Gerudo Canyon:
     notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
     hide-icon-on-map: true
 
-- .dir(E.)
+- .dir(W.)
 - _Npc<Flaxel>:
     comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
 
-- .dir(E>) drop down
+- .dir(NW) drop down
 - _Npc<Canolo>:
     comment: Missing in Action
     coord: [-2187.78, 207.99, 1691.46]

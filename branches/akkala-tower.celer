@@ -14,7 +14,7 @@ Akkala Tower:
 - _Npc::ZoraMale<Fronk>:
     coord: [3342,-501.5]
     comment: Wife Washed Away
-    notes: 7:00am to 8:00pm, Fronk is at the pillar. Otherwise he is at the pools.
+    notes: 7:00am to 8:00pm, .link([Fronk is at the pillar]https://youtu.be/gQH8hwsckaM?t=13565). Otherwise he is .link([at the pools]https://youtu.be/3EltLt0dpks?t=2686).
 
 - _Npc::ZoraFemale<Laruta>:
     coord: [3299.29, 255.66, -522.49]
@@ -36,10 +36,12 @@ Akkala Tower:
 - .!!(Slam attack shrine pedestal):
     coord: [3081,-459]
 
-- _Shrine::DagahKeek:
-    time-override: 999
+- _Shrine::DagahKeek
 
-- .dir(SW)
+- Equip Barbarian Armor
+
+- .dir(SW):
+    time-override: 999
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
     comment: .fury() + ancient arrows

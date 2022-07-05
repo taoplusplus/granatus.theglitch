@@ -1,4 +1,8 @@
 Moldugas:
+- .gale():
+    gale: 1
+- _Korok::W09
+
 - .dir(S>)
 - _Korok::W13
 

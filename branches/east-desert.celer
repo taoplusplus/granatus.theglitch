@@ -69,12 +69,11 @@ East Desert:
 - _Korok::W58
 
 - .dir(<<E) turn
-- _Shrine::DilaMaag:
-    comment: Barbarian Armor
-    notes: Equip armor and snow boots
+- _Shrine::DilaMaag
+- _Chest<Barbarian Armor>:
+    comment: Equip + snow boots
 
-- .dir(N)
-- Exit maze
+- .dir(N) to exit maze
 
 - .dir(E>) + midairs
 - _Korok::W54
@@ -89,10 +88,10 @@ East Desert:
 - _Korok::W60
 
 - .dir(<N)
-- Read Mountain Peak Log:
+- Read .!!(Mountain Peak Log):
     coord: [-1387.83, 540.50, 3494.08]
 
-- Activate pedestal:
+- Activate .!!(Pedestal):
     notes: 4:00pm to 5:30pm
 
 - _Shrine::SumaSahma
@@ -106,7 +105,8 @@ East Desert:
 - .dir(SW)
 - _Korok::W46
 
-- .dir(W)
+- .dir(W) .gale():
+    gale: 1
 - _Korok::W45
 
 - .dir(<W)
@@ -139,6 +139,3 @@ East Desert:
 
 - .dir(W)
 - _Korok::W67
-
-- _Material<Voltfruit,2>:
-    comment: For transmute

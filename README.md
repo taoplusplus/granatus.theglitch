@@ -2,11 +2,34 @@
 
 [View the current route](https://celer.itntpiston.app/#/gh/taoplusplus/granatus.theglitch)
 
+[Made with celer](https://github.com/iTNTPiston/celer)
+
+## Wishlist
+
+- Alternate Magnesis-Tower order.
+- Alternate route after Wasteland Tower.
+- Video for Castle.
+- No-SCW route after Ree Dahee.
+- Video for Sunken Treasure.
+- Video for Eventide.
+- Might re-think Ridgeland/Toh Yahsa routing.
+- Might re-think Monya Toma/Rona Kachta routing.
+
 ## Updates
+
+### 2022-07-??
+
+#### Changes
+
+- Moved korok A34 to Tarrey Town 3.
+
+- Fixed gale routing (for the most part).
+
+- Moved late game furies to the last Frost Talus.
 
 ### 2022-07-04
 
-#### Major Changes
+#### Changes
 
 - Moved F07 (light chase in Koto Pond) from Eventide branch to Faron branch. It's now after F06 (lift rock on Breman Peak) instead of after warp to Hateno Tower.
 
@@ -21,14 +44,3 @@
 - Koroks A42 and A43 are moved to right after warping to Akkala Tower rather than windbombing and using two gales after A45.
 
 - Added steps to get a Swift Carrot at Highland Stable (Koko's Kitchen) and a Baked Apple at the old man's hut (Apple of My Eye).
-
-
-#### To-do List
-
-- No-SCW route after Ree Dahee.
-
-- Video for Sunken Treasure.
-
-- Video for Eventide.
-
-- Fix late game gales.

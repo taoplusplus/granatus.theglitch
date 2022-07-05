@@ -182,5 +182,6 @@ Lake Tower:
 - .dir(<<W)
 - _Korok::L51
 
-- .dir(W) + midairs
+- .gale() + .dir(W) midairs:
+    gale: 1
 - _Tower::Lake

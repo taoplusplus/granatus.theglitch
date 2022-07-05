@@ -27,18 +27,19 @@ Eldin Tower:
 - _Korok::A37
 
 - .dir(SW)
-- Kill .enemy(Stalker):
+- Kill .enemy(Stalker 1):
     icon: calamity
     coord: [3624.82, 195.25, -1602.62]
     comment: Hobbies of the Rich
 
-- Kill .enemy(Stalker):
+- Kill .enemy(Stalker 2):
     icon: calamity
     coord: [3671.23, 195.66, -1511.54]
     comment: Hobbies of the Rich
 
 - _Snap::Quest<Guardian Stalker>:
     coord: [3691.23, 195.66, -1511.54]
+    notes: As one of the stalkers is dying
 
 - .dir(<E) super
 - _Npc<Hudson>:
@@ -108,7 +109,7 @@ Eldin Tower:
 - .dir(SE) short
 - _Korok::E33
 
-- .gale() .dir(E) midairs:
+- .gale() + .dir(E) midairs:
     gale: 1
 
 - _Tower::Eldin

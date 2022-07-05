@@ -102,7 +102,8 @@ Vah Ruta:
     coord: [3299.5,-474.5]
     comment: Mipha Memory
 
-- .dir(E>) + midair
+- .gale() + .dir(E>) midair:
+    gale: 1
 - _Korok::Z18
 
 - .dir(S)
@@ -119,6 +120,7 @@ Vah Ruta:
 - Complete divine beast
 - .gale():
     gale: 1
+    notes: Use 2 WBs to get to terminal 1. Use gale after terminal 5 to get to boss room.
 
 - .boss(Waterblight):
     icon: calamity

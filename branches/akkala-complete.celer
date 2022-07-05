@@ -33,11 +33,10 @@ Akkala Complete:
 - _Npc<Hudson>:
     coord: [3970.74, 233.60, -1623.47]
 
-- .dir(<E)
-- _Korok::A34
-
-- .dir(SE)
-- _Korok::A44
+- .dir(E>)
+- _Korok::A44:
+    comment: .gale()
+    gale: 1
 
 - .dir(NE)
 - _Korok::A35

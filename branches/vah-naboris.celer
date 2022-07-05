@@ -18,7 +18,7 @@ Vah Naboris:
     comment: Perfect Drink
 
 - .dir(E) + midair:
-    notes: Use minimap to find Naboris
+    notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
 - Enter Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
@@ -27,7 +27,8 @@ Vah Naboris:
 - .gale():
     gale: 2
 
-- _Snap::Quest<Guardian Scout>
+- _Snap::Quest<Guardian Scout>:
+    comment: Going to terminal 5
 
 - .boss(Thunderblight):
     icon: calamity
@@ -47,11 +48,13 @@ Vah Naboris:
     comment: 8th Heroine/Forgotten Sword
     notes: Get Snow Boots
 
+- Run to throne room:
+    notes: WB saves 1 second
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- Examine Thunderhelm:
+- Examine .!!(Thunder Helm):
     notes: Choose "I want it!"
 
 - In training yard
@@ -64,12 +67,12 @@ Vah Naboris:
     coord: [-3916.17, 149.18, 2877.34]
     comment: Silent Swordswomen
 
-- Backtrack to first steps
+- Backtrack to first stairs
 - _Npc::Gerudo<Rotana>:
     coord: [-3877.78, 151.99, 2881.72]
     comment: Seven Heroines
 
-- Second set of steps
+- Second set of stairs
 - _Npc::Gerudo<Furosa>:
     coord: [-3856.93, 152.43, 2856.37]
     comment: Perfect Drink

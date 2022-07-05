@@ -126,14 +126,14 @@ Goron City:
 - midair .dir(W>)
 - _Korok::K05
 
-- .dir(E>) + midairs
+- .dir(W>) + midairs
 - _Korok::H16
 
 - midair .dir(N>)
 - _Shrine::QazaTokki
 
 - _Chest<Barbarian Legs>:
-    comment: equip
+    comment: Equip
     hide-icon-on-map: true
 
 - .dir(W) + .dir(SW) midair

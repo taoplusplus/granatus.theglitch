@@ -51,9 +51,11 @@ Hebra:
     coord: [-4309.50, 460.50, -3495.00]
 
 - .dir(N>) + climb
-- _Korok::H07
+- _Korok::H07:
+    time-override: 999
 
-- .dir(E)
+- .gale() + .dir(E):
+    gale: 1
 - _Korok::H08
 
 - .dir(N)
@@ -92,8 +94,7 @@ Hebra:
 - .dir(SE)
 - _Korok::H48
 
-- .gale() + .dir(N) midair:
-    gale: 1
+- .dir(N) + .dir(N) midair
 - _Korok::H49
 
 - .dir(N)
@@ -153,7 +154,7 @@ Hebra:
 - .dir(W)
 - _Korok::H69
 
-- .dir(midair <W)
+- midair .dir(<W)
 - _Korok::H72
 
 - .dir(W>>)
@@ -294,8 +295,7 @@ Hebra:
 - _Shrine::MozoShenno:
     line-color: red
 
-- .gale() + .dir(<<W) midair:
-    gale: 1
+- .dir(<<W)
 - _Korok::H26
 
 - .dir(N>>)

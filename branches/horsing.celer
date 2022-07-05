@@ -50,8 +50,7 @@ Horse Minigames:
 - midair .dir(E>)
 - _Korok::F38
 
-- .gale() + .dir(<<W) midair:
-    gale: 1
+- .dir(<<W)
 - _Korok::L79
 
 - .dir(S>>)

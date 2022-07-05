@@ -5,8 +5,10 @@ Desert Complete:
     coord: [-3750,2874]
     comment: 8th Heroine, Forgotten Sword
     notes: Get Sand Boots
+    time-override: 999
 
-- .dir(<<W)
+- .gale() + .dir(<W) midair:
+    gale: 1
 - _Korok::W42
 
 - .dir(W) drop down

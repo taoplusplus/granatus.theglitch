@@ -61,9 +61,10 @@ Lanayru Complete:
 - _Npc::Rito<Kass>:
     coord: [4151.39, 109.13, 346.02]
 
-- .dir(N>>) run
-- .!!(Land on pedestial):
+- .dir(N>>)
+- Activate .!!(Pedestial):
     coord: [4226.75,312.75]
+    notes: Either (1) run + shield hop + spam X OR (2) WB and land with glider open.
 
 - _Shrine::ShaiYota
 
@@ -96,7 +97,8 @@ Lanayru Complete:
 - _Korok::A55
 
 - .dir(<<N)
-- _Korok::A54
+- _Korok::A54:
+    comment: " "
 
 - .dir(<<E)
 - _Korok::A53

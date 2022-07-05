@@ -4,7 +4,7 @@ Kohga:
 - .dir(<S) super + midair
 - _Korok::G19
 
-- .dir(NW>) + .dir(W) midair
+- .dir(NW) + .dir(W) midair
 - _Korok::G13
 
 - .dir(N) + .dir(W>) midair
@@ -27,7 +27,7 @@ Kohga:
 - BLSS or WB .dir(S)
 - _Tower::Gerudo
 
-- _Npc<Kass>:
+- _Npc::Rito<Kass>:
     coord: [-3655.84, 471.90, 1837.15]
     comment: Sign of the Shadow
     notes: Text option 2-1
@@ -92,5 +92,5 @@ Kohga:
     coord: [-3451.00, 440.69, 1321.50]
     notes: .link([Phase 1 and 2]https://clips.twitch.tv/DrabInnocentGorillaStinkyCheese-yKkeHvNB2icit0uU), phase 3 [need link]
 
-- _Chest::Special<Thunderhelm>:
+- _Chest::Special<Thunder Helm>:
     coord: [-3451.00, 440.69, 1341.50]

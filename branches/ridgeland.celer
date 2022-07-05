@@ -119,7 +119,9 @@ Ridgeland:
     comment: " "
 
 - .dir(NE)
-- _Korok::R18
+- _Korok::R18:
+    comment: .gale()
+    gale: 1
 
 - .dir(SE)
 - _Korok::R25
