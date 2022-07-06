@@ -102,6 +102,7 @@ Goron City:
 - .dir(NW)
 - _Korok::E07
 
+- Drop down
 - _Shrine::ShoraHah:
     notes: .link([Shrine strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
 
@@ -133,7 +134,7 @@ Goron City:
 - _Shrine::QazaTokki
 
 - _Chest<Barbarian Legs>:
-    comment: Equip
+    comment: Equip + Barbarian Armor
     hide-icon-on-map: true
 
 - .dir(W) + .dir(SW) midair

@@ -109,7 +109,7 @@ Eldin Tower:
 - .dir(SE) short
 - _Korok::E33
 
-- .gale() + .dir(E) midairs:
+- .gale() + .dir(.W) midairs:
     gale: 1
 
 - _Tower::Eldin

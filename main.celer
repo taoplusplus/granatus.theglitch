@@ -12,6 +12,13 @@ _config:
     Shrine: "{{Korok}}. - {{_}}"
 
 _route:
+  - Resources:
+    - .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0)
+    - .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283)
+    - .link([Drop Table Calculator]https://restite.org/drops/)
+    - .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
+    - .link([SRC Leaderboard]https://www.speedrun.com/botw#100)
+
   - Plateau:
     - __use__ Plateau
   - The Glitch:

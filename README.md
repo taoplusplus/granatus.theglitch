@@ -17,14 +17,18 @@
 
 ## Updates
 
-### 2022-07-??
+### 2022-07-06
+
+#### Changes
+
+- Added links to resources at the top of the route.
+
+### 2022-07-05
 
 #### Changes
 
 - Moved korok A34 to Tarrey Town 3.
-
 - Fixed gale routing (for the most part).
-
 - Moved late game furies to the last Frost Talus.
 
 ### 2022-07-04
