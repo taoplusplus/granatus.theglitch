@@ -12,6 +12,7 @@ _config:
     Shrine: "{{Korok}}. - {{_}}"
 
 _route:
+  - (==) This is an experimental version of the route. It may change daily. For a stable version, see .link([Corrupted Granatus]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus).
   - Resources:
     - .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0)
     - .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283)
