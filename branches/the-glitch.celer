@@ -79,7 +79,7 @@ The Glitch:
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
-    comment: 3 Screw, 2 Spring, 2 Shaft
+    comment: 3 Screw, 2 Spring, 1 Shaft
     notes: Can skip gears. Getting more than these counts will make duping more difficult. If you don't get enough screws, it's fine. Can pick up a core.
 
 - WB to .loc(Castle Town) wall
@@ -194,5 +194,5 @@ The Glitch:
         - to: [3356.35, 225.66, 2175.10]
         - to: [3439.16, 236.02, 2098.46]
           away: true
-    notes: .link([Detailed Instructions]https://docs.google.com/document/d/1oClOSiNysR-_kxvbWh5LyYYg9K-pKsmEkf798dfchs8/edit?usp=sharing)
+    notes: .link([Detailed Instructions]https://docs.google.com/document/d/1X0kit6upWt5ryJViNf8GF24RMvfZ5q3ALEwCYqppmfg/edit?usp=sharing)
     split-type: UserDefined
