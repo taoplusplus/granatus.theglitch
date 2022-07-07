@@ -43,6 +43,7 @@ Lake Tower:
 
 - Drop down
 - _Shrine::JeeNoh
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22511s)
 
 - .dir(N>>)
 - _Korok::G36
@@ -120,7 +121,7 @@ Lake Tower:
 
 - .dir(SE)
 - _Shrine::YaNaga:
-    notes: If raining, make night until it's not for D54
+    notes: If raining, make night until it's not for D54. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=14345s)
 
 - .dir(E)
 - _Npc::ZoraFemale<Mei>:

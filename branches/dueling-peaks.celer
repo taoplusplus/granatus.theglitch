@@ -98,10 +98,12 @@ Dueling Peaks:
 
 - .dir(E>)
 - _Shrine::ReeDahee
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3567s)
 
 - .gale() SCW:
     gale: 1
 - _Shrine::SheeVenath
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3835s)
 
 - .dir(S) + climb
 - Kill stalkoblin
@@ -110,6 +112,7 @@ Dueling Peaks:
     comment: Weapon Connoisseur
     notes: Need to get here before 5:00am. Backup in Kakariko later.
 - _Shrine::SheeVaneer
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3724s)
 
 - _Korok::D41:
     movements:

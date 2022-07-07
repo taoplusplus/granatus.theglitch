@@ -70,6 +70,7 @@ Goron City:
 
 - .dir(N>)
 - _Shrine::ShaeMosah
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18427s)
 
 - .dir(<N) turn
 - _Npc::Goron<Yunobo>:
@@ -104,7 +105,7 @@ Goron City:
 
 - Drop down
 - _Shrine::ShoraHah:
-    notes: .link([Shrine strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
+    notes: .link([Shrine Strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
 
 - Take the minecart out:
     coord: [1593.5,-3090.5]

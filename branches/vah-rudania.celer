@@ -20,6 +20,7 @@ Vah Rudania:
 
 - .dir(NE)
 - _Shrine::DaqaKoh
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19375s)
 
 - .dir(E>>)
 - Kill .enemy(2 moblins):
@@ -92,6 +93,7 @@ Vah Rudania:
           away: true
 
 - _Shrine::KayraMah
+    notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19670s)
 
 - .dir(N)
 - _Korok::E20
@@ -122,6 +124,7 @@ Vah Rudania:
 
 - .dir(<W)
 - _Shrine::QuaRaym
+    notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
 
 - .dir(<N)
 - _Korok::E25

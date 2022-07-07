@@ -125,6 +125,7 @@ Kakariko 3:
 - _Korok::N28
 
 - _Shrine::KamUrog
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3066s)
 
 - .dir(<S):
     time-override: 999
@@ -148,6 +149,7 @@ Kakariko 3:
 
 - .dir(<<N)
 - _Shrine::TotoSah
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3199s)
 
 - .dir(NE)
 - _Korok::D56
@@ -157,3 +159,4 @@ Kakariko 3:
 
 - .dir(N)
 - _Shrine::HaDahamar
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3350s)

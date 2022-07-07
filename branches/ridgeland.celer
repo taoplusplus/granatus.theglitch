@@ -61,6 +61,7 @@ Ridgeland:
 
 - .dir(S>>)
 - _Shrine::MonyaToma
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=8580s)
 
 - .dir(W)
 - _Shrine::MaagNorah
@@ -109,6 +110,7 @@ Ridgeland:
     coord: [-2288.70, 235.47, -882.80]
 
 - _Shrine::TohYahsa
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21859s)
 
 - .dir(S)
 - _Korok::R14
@@ -128,3 +130,4 @@ Ridgeland:
 
 - .dir(<E)
 - _Shrine::ZaltaWa
+    .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23395s)

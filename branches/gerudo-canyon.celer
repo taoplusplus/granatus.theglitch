@@ -64,6 +64,7 @@ Gerudo Canyon:
 
 - .dir(<W)
 - _Shrine::RotaOoh
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22753s)
 
 - .dir(<W)
 - _Korok::C85
@@ -132,6 +133,7 @@ Gerudo Canyon:
     comment: Test of Will
 
 - _Shrine::JolooNah
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22359s)
 - _Tod::Noon:
     notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
     hide-icon-on-map: true

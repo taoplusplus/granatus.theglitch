@@ -49,6 +49,7 @@ Wetlands:
 
 - .dir(<<E)
 - _Shrine::HilaRao
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1690s)
 
 - _Npc<Magda>:
     coord: [816.80, 115.22, 836.77]

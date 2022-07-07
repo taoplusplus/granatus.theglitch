@@ -152,7 +152,7 @@ Faron:
     notes: Wakes up at 7am
 
 - _Shrine::ShaiUtoh:
-    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=4420)
+    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=4420)
 
 - _Tod::Night:
     coord: [1573.26, 165.96, 3530.55]
@@ -225,6 +225,7 @@ Faron:
 
 - .dir(N)
 - _Shrine::ShodaSah
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=4225s)
 
 - .dir(S) Zora Armor
 - _Korok::F19
