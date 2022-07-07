@@ -19,7 +19,7 @@ Vah Ruta:
 - .dir(E)
 - _Korok::N03
 
-- _Shrine::MezzaLo
+- _Shrine::MezzaLo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7036s)
 
 - .dir(E)
@@ -97,7 +97,7 @@ Vah Ruta:
 - _Equipment::Shield<Zora Armor>:
     comment: .!!(Equip)
 
-- _Shrine::NeezYohma
+- _Shrine::NeezYohma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=14903s)
 
 - _Npc::ZoraMale<Muzu>:

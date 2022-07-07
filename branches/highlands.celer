@@ -95,7 +95,7 @@ Gerudo Highlands:
 - _Korok::W01
 
 - .dir(S>>)
-- _Shrine::ShoDantu
+- _Shrine::ShoDantu:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11637s)
 
 - .dir(NW)
@@ -126,5 +126,5 @@ Gerudo Highlands:
 - _Korok::G33
 
 - .dir(W) + midair
-- _Shrine::KemaZoos
+- _Shrine::KemaZoos:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=10824s)

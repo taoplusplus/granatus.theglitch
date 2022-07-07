@@ -47,7 +47,7 @@ Gift from the Monks:
     comment: All the way down
 
 - .dir(NW) low
-- _Shrine::RokUwog
+- _Shrine::RokUwog:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16559s)
 
 - .dir(N.) + .dir(NE) midair
@@ -58,7 +58,7 @@ Gift from the Monks:
 - _Korok::H05
 
 - .dir(E)
-- _Shrine::ShaGehma
+- _Shrine::ShaGehma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16678s)
 
 - .dir(E>)
@@ -76,7 +76,7 @@ Gift from the Monks:
     coord: [-1641.43, 339.19, -2561.69]
     comment: Stalhorse Pictured!
 
-- _Shrine::RinOyaa
+- _Shrine::RinOyaa:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=17563s)
 
 - .dir(.W)

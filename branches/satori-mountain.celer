@@ -140,5 +140,5 @@ Satori Mountain:
 - _Korok::R32
 
 - .dir(N>)
-- _Shrine::KahOkeo
+- _Shrine::KahOkeo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9967s)

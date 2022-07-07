@@ -39,7 +39,7 @@ Hestu 2:
     coord: [1534.40, 120.58, -175.90]
 
 - .dir(.N)
-- _Shrine::ShehRata
+- _Shrine::ShehRata:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7368s)
 
 - .dir(NE>)

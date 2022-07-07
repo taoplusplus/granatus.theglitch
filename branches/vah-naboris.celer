@@ -95,7 +95,7 @@ Vah Naboris:
     comment: Deliver ice
 
 - .dir(N>>) + midair
-- _Shrine::DakoTah
+- _Shrine::DakoTah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12428s); chest is on the platform next to the monk
 - _Chest<Radiant Shield>:
     comment: In shrine

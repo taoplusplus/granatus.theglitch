@@ -22,7 +22,7 @@ Kohga:
 - _Material<Luminous Stones>:
     comment: Luminous Stone Gathering
     hide-icon-on-map: true
-- _Shrine::KuhTakkar
+- _Shrine::KuhTakkar:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11386s)
 
 - BLSS or WB .dir(S)
@@ -39,7 +39,7 @@ Kohga:
 - .dir(.S)
 - _Npc<Benja>:
     coord: [-3804.64, 149.50, 2818.36]
-- _Shrine::DaqoChisay
+- _Shrine::DaqoChisay:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12049s)
 
 - .dir(<E)

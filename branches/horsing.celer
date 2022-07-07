@@ -97,7 +97,7 @@ Horse Minigames:
     notes: Get times below 1:30 and 1:15 (any order)
 
 - .dir(S)
-- _Shrine::KaoMakagh
+- _Shrine::KaoMakagh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13932s)
 
 - .dir(S)
@@ -218,5 +218,5 @@ Horse Minigames:
     notes: .link([Daruk shield block strat]https://twitter.com/TaoPlusPlus/status/1543032802559643648?s=20&t=Epe1-KX_9FguTFxJCAmwfA)
 
 - .dir(E)
-- _Shrine::IshtoSoh
+- _Shrine::IshtoSoh:
     notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13586s)

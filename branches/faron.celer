@@ -224,7 +224,7 @@ Faron:
 - _Korok::F27
 
 - .dir(N)
-- _Shrine::ShodaSah
+- _Shrine::ShodaSah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=4225s)
 
 - .dir(S) Zora Armor

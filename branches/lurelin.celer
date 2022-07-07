@@ -50,7 +50,7 @@ Lurelin:
     coord: [3439.86, 114.87, 3344.20]
     comment: Fragmented Monument
 - Crouch on pedestal
-- _Shrine::KahYah
+- _Shrine::KahYah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6650s)
 
 - .gale() + .dir(W) midair:
@@ -108,7 +108,7 @@ Lurelin:
     comment: BLSS with rock onto boat
 
 - .dir(W>)
-- _Shrine::YahRin
+- _Shrine::YahRin:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6797s)
 
 - .dir(W>>)

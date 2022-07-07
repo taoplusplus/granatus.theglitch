@@ -60,7 +60,7 @@ Ridgeland:
 - _Korok::K23
 
 - .dir(S>>)
-- _Shrine::MonyaToma
+- _Shrine::MonyaToma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=8580s)
 
 - .dir(W)
@@ -109,7 +109,7 @@ Ridgeland:
 - Green orb:
     coord: [-2288.70, 235.47, -882.80]
 
-- _Shrine::TohYahsa
+- _Shrine::TohYahsa:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21859s)
 
 - .dir(S)
@@ -129,5 +129,5 @@ Ridgeland:
 - _Korok::R25
 
 - .dir(<E)
-- _Shrine::ZaltaWa
-    .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23395s)
+- _Shrine::ZaltaWa:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23395s)

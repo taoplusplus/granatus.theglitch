@@ -23,7 +23,7 @@ Rito Village:
     comment: Bird in the Mountains
 
 - Run up
-- _Shrine::AkhVaquot
+- _Shrine::AkhVaquot:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
 
 - _Npc::Rito<Amali>:

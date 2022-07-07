@@ -69,7 +69,7 @@ Goron City:
     coord: [1713.95, 498.05, -2446.92]
 
 - .dir(N>)
-- _Shrine::ShaeMosah
+- _Shrine::ShaeMosah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18427s)
 
 - .dir(<N) turn

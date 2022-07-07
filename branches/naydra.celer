@@ -126,5 +126,5 @@ Naydra:
 - _Korok::N16
 
 - .dir(S)
-- _Shrine::DowNaeh
+- _Shrine::DowNaeh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2918s)

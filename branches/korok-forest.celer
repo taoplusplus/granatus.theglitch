@@ -71,7 +71,7 @@ Korok Forest:
 - _Shrine::DaagChokah
 
 - _Warp::Shrine::KeoRuug
-- _Shrine::KeoRuug
+- _Shrine::KeoRuug:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18023s)
 
 - .dir(E)

@@ -74,7 +74,7 @@ Vah Medoh:
 - _Korok::T04
 
 - .dir(N)
-- _Shrine::ShaWarvo
+- _Shrine::ShaWarvo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9406s)
 
 - .dir(.E)

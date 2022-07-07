@@ -19,7 +19,7 @@ Vah Rudania:
     comment: Death Mountain's Secret
 
 - .dir(NE)
-- _Shrine::DaqaKoh
+- _Shrine::DaqaKoh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19375s)
 
 - .dir(E>>)
@@ -92,7 +92,7 @@ Vah Rudania:
         - to: [1823.00, 453.77, -1891.17]
           away: true
 
-- _Shrine::KayraMah
+- _Shrine::KayraMah:
     notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19670s)
 
 - .dir(N)
@@ -123,7 +123,7 @@ Vah Rudania:
 - _Korok::E28
 
 - .dir(<W)
-- _Shrine::QuaRaym
+- _Shrine::QuaRaym:
     notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
 
 - .dir(<N)

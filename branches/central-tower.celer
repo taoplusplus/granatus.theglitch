@@ -95,7 +95,7 @@ Central Tower:
 - _Korok::C65
 
 - .dir(SE)
-- _Shrine::WahgoKatta
+- _Shrine::WahgoKatta:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1581s)
 
 - .dir(S) surf
@@ -131,5 +131,5 @@ Central Tower:
 - _Korok::D26
 
 - .dir(S) drop down
-- _Shrine::BoshKala
+- _Shrine::BoshKala:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1459s)

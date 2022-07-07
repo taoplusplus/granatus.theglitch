@@ -21,7 +21,7 @@ Akkala Complete:
 - _Korok::A41
 
 - .dir(NW)
-- _Shrine::ZeKasho
+- _Shrine::ZeKasho:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=20236s)
 
 - .dir(E)

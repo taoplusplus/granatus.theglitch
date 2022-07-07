@@ -44,7 +44,7 @@ Lanayru Complete:
 - _Korok::Z51
 
 - .dir(N.)
-- _Shrine::RuccoMaag
+- _Shrine::RuccoMaag:
     notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15359s)
 
 - .dir(E>>)
@@ -114,5 +114,5 @@ Lanayru Complete:
 - _Korok::Z01
 
 - .dir(S)
-- _Shrine::KahMael
+- _Shrine::KahMael:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=20677s)

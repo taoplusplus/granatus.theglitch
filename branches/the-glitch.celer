@@ -110,7 +110,7 @@ The Glitch:
     notes: Spawns between 9:00pm and 7:00am. Make morning if needed.
 
 - .dir(N.)
-- _Shrine::TalohNaeg
+- _Shrine::TalohNaeg:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2472s)
 - _Chest<Opal>:
     comment: In shrine

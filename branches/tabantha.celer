@@ -70,5 +70,5 @@ Tabantha:
 - _Korok::T20
 
 - .dir(NW)
-- _Shrine::BareedaNaag
+- _Shrine::BareedaNaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9042s)
