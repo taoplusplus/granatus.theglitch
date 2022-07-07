@@ -59,7 +59,7 @@ The Glitch:
       Scrap: 1
 
 - _Shrine::MoggLatan:
-    notes: Land at monk. Glide back to chest. Void out.
+    notes: After the .link([windbomb]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23086s), glide back to chest and void out.
 
 - _Chest<Forest Dweller's Bow>:
     comment: In shrine
@@ -97,7 +97,7 @@ The Glitch:
 - Sneakstrike .enemy(Green Lizalfos):
     notes: (Optional) Safety for horn/talon rng
 - _Shrine::DakaTuss:
-    notes: Eat the steak here. Important to have 0 food before glitch.
+    notes: Eat the steak here. Important to have 0 food before glitch. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2053s)
 
 - .dir(S) + .dir(E.) + .dir(.S)
 - _Npc::SheikaFemale<Paya and Impa>:
@@ -111,6 +111,7 @@ The Glitch:
 
 - .dir(N.)
 - _Shrine::TalohNaeg
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2472s)
 - _Chest<Opal>:
     comment: In shrine
 

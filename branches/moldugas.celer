@@ -45,6 +45,7 @@ Moldugas:
 
 - _Shrine::HawaKoth:
     comment: Set skew outside
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11125s)
 
 - _Npc::Gerudo<Barta>:
     comment: Search for Barta

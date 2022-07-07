@@ -88,6 +88,7 @@ Desert Complete:
 - _Korok::W19
 
 - _Shrine::KayNoh
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12635s)
 
 - .dir(<<E) glide
 - _Korok::W15

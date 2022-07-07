@@ -21,6 +21,7 @@ Hebra:
 
 - .dir(<<E)
 - _Shrine::ShadaNaw
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16042s)
 
 - .dir(W>>)
 - _Korok::H10
@@ -122,7 +123,7 @@ Hebra:
 
 - .dir(<S)
 - _Shrine::GeeHarah:
-    notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk)
+    notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk), .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=17423s)
 
 - .dir(N), .dir(S) + .dir(E) midair:
     movements:
@@ -237,6 +238,7 @@ Hebra:
 
 - .dir(W)
 - _Shrine::ShaeLoya
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21597s)
 
 - .dir(N.) glide
 - _Npc<Geggle>:
@@ -270,6 +272,7 @@ Hebra:
 
 - .dir(N.) + midairs
 - _Shrine::DunbaTaag
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21967s)
 
 - .dir(S)
 - _Korok::H73
@@ -363,6 +366,7 @@ Hebra:
 
 - .dir(E)
 - _Shrine::MakaRah
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15723s)
 
 - _Warp::Shrine::DahHesho
 

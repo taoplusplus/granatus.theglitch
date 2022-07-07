@@ -24,6 +24,7 @@ Rito Village:
 
 - Run up
 - _Shrine::AkhVaquot
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
 
 - _Npc::Rito<Amali>:
     coord: [-3668.51, 321.49, -1769.96]
@@ -71,7 +72,7 @@ Rito Village:
 - .dir(W>>)
 - _Shrine::VooLota:
     comment: 4-5-3-1-2
-    notes: Squeak
+    notes: Squeak; .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
 
 - .dir(SE)
 - _Korok::T16:
