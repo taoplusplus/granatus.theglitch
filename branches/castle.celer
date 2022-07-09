@@ -22,7 +22,8 @@ Hyrule Castle:
 - .dir(S) into tunnel
 - _Korok::X11
 
-- Run around corner
+- Run around corner:
+    time-override: 999
 - _Boss::Talus::Rare:
     coord: [-136.65, 127.21, -956.26]
     comment: .fury()
@@ -36,7 +37,7 @@ Hyrule Castle:
 - _Discover<King's Study>:
     coord: [-172.98, 170.46, -1119.39]
 
-- _Equipment::Shield<Royal Shield>:
+- _Equipment::Shield<Royal Guard's Shield>:
     comment: Royal Guard's Gear
 
 - Go down stairs to shrine
@@ -48,12 +49,13 @@ Hyrule Castle:
 
 - _Chest<Star Fragment>:
     coord: [-224.01, 104.73, -1177.87]
-    comment: Magnesis chest
+    comment: In the water
     notes: .v(Star)/3 star fragments
     var-change:
         Star: 1
 
-- Take bows from lizalfos until full
+- Shock .enemy(lizalfos), steal 2 bows:
+    notes: Want 13 bows for duping later. Can pick up missing Lizalfos Horn here.
 
 - _Equipment::Weapon<Great Flameblade>:
     coord: [-268.24, 131.34, -1153.31]
@@ -87,7 +89,7 @@ Hyrule Castle:
 - _Chest::Special<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
 
-- Run out, bomb walls
+- Run out, .rune(bomb) 2 walls
 - _Korok::X13
 
 - Backtrack .gale():
@@ -95,8 +97,8 @@ Hyrule Castle:
 - _Korok::X08
 
 - Climb ladder
-- Hit switch to turn on updraft
-- Blow up wall
+- .rune(Bomb) switch to turn on updraft
+- .rune(Bomb) wall
 - _Chest<Shard of Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
 
@@ -105,7 +107,8 @@ Hyrule Castle:
     gale: 2
 - _Discover<Zelda's Study>:
     coord: [-383.72, 273.58, -995.87]
-
+- 1 .item(Silent Princess):
+    notes: Should have 19. If not, backup at fairy fountains later.
 - _Snap::Quest<Guardian Skywatcher>
 - _Memory::HyruleCastle
 
@@ -113,7 +116,7 @@ Hyrule Castle:
 - _Korok::X09
 
 - _Discover<Zelda's Room>:
-    notes: Run into the room
+    notes: Run into the malice
 
 - .dir(S>>)
 - _Korok::X14
@@ -147,7 +150,7 @@ Hyrule Castle:
 
 - Clip out:
     notes: .link([Example clip and oob movement]https://youtu.be/7WOPfp1bGog?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=25938)
-- Run/glide to Guard's Chamber
+- .loc(Guard's Chamber)
 
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]

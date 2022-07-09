@@ -11,7 +11,7 @@ Horse Minigames:
 - .dir(<<S)
 - _Korok::L59:
     comment: " "
-    notes: Kill the octoroks
+    notes: Kill the octoroks (safety)
 
 - .dir(S)
 - _Korok::L60
@@ -31,7 +31,7 @@ Horse Minigames:
 - .dir(<S)
 - _Korok::L61
 
-- Kill the octorok(s)
+- Kill the .enemy(octoroks)
 - _Material<Octorok Balloon>:
     coord: [720.28, 134.40, 3276.11]
     comment: Balloon Flight
@@ -76,9 +76,11 @@ Horse Minigames:
     comment: " "
 
 - .dir(<<N)
-- Kill 5 bokos with AA midair:
+- Kill 5 .enemy(Blue Bokoblins):
+    icon: calamity
     coord: [485,3342]
-    comment: Horseback Hoodlums
+    comment: AA midair
+    notes: Horseback Hoodlums
 
 - .dir(S)
 - _Npc<Perosa>:
@@ -104,7 +106,7 @@ Horse Minigames:
 - Start L65:
     coord: [546.27, 231.59, 3580.35]
 
-- .dir(N) ride horse:
+- .dir(E) ride horse around corner:
     movements:
         - to: [513,3516.5]
         - to: [274,3465.5]
@@ -219,4 +221,4 @@ Horse Minigames:
 
 - .dir(E)
 - _Shrine::IshtoSoh:
-    notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13586s)
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13586s)

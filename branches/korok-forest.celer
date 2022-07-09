@@ -30,6 +30,7 @@ Korok Forest:
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
+    comment: For Voo Lota
 - 3 Bird Egg:
     notes: In trees behind Hestu. 1 for korok in castle and 2 for transmute scrap.
 
@@ -39,16 +40,19 @@ Korok Forest:
     comment: Inventory upgrades
     notes: 3 bow, 7 weapon, 4 shield. The shield slots don't really matter; can get them at the end.
 
-- _Equipment::Weapon<Master Sword>:
-    coord: [431.66, 250.53, -2111.00]
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
 
 - _Npc<Peeks>:
     coord: [441.00, 248.56, -2133.05]
     comment: Legendary Rabbit Trial
 
-- _Npc<Kula>:
-    comment: Freezing Rod
-    coord: [419.28, 248.65, -2134.93]
+- Turn in spirit orbs for .!!(13+ hearts)
+
+- 3 .item(Silent Princess)
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
 
 - _Npc<Follow Oaki>:
     movements:
@@ -97,7 +101,7 @@ Korok Forest:
 - .dir(S>>) to escape Korok Forest
 
 - .dir(S) midairs:
-    notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also warp to Eldin Tower and BLSS (remember to equip metal bow).
+    notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also equip metal bow, warp to Eldin Tower and BLSS.
 - _Korok::X05
 
 - Drop down
@@ -109,9 +113,9 @@ Korok Forest:
 - .dir(W)
 - _Korok::X07
 
-- .dir(NE)
+- .dir(NE) to bridge north side
 - Equip Barbarian, GEB, AA
-- .!!(SAVE THE GAME ON BRIDGE):
+- .!!(SAVE THE GAME):
     coord: [-253.5,-1115.5]
 
 - .boss(Ganon):
@@ -122,5 +126,6 @@ Korok Forest:
     split-type: UserDefined
     notes: .link([Skew bounce 1-cycle strat]https://youtu.be/d4s3-3IcV9A?t=22411) or just fight
 
-- Skip cutscenes and continue:
-    notes: Close software and re-open if inventory glitch is still active.
+- Skip cutscenes and continue
+
+- (==) Close software and re-open if inventory glitch is still active.

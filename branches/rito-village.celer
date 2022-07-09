@@ -68,6 +68,7 @@ Rito Village:
 - .dir(S>)
 - _Boss::Hinox::Black:
     coord: [-3793.68, 246.02, -1557.10]
+    comment: Ancient arrows
 
 - .dir(W>>)
 - _Shrine::VooLota:

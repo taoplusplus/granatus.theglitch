@@ -5,7 +5,7 @@ Blood Moon:
 - .dir(NW)
 - _Korok::C42
 
-- .dir(<W)
+- midair .dir(<W)
 - _Korok::C41
 - _Korok::C40
 
@@ -53,6 +53,7 @@ Blood Moon:
 - .dir(<W)
 - Shoot through 2 rings:
     coord: [-1855.25,76.25]
+    notes: Must use single-shot bow
 
 - _Shrine::SheemDagoze:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23236s)
@@ -75,7 +76,7 @@ Blood Moon:
     comment: Remove armor
     coord: [-2758.84, 348.24, 206.35]
 - _Shrine::MijahRokee:
-    notes: If you missed the blood moon, continue with the route and warp back. You'll get 3-4 blood moons in the run.
+    notes: If you missed the blood moon, continue with the route and warp back. You'll get at least 3 blood moons in the run.
 
 - .dir(S)
 - _Korok::R72

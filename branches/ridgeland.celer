@@ -17,6 +17,7 @@ Ridgeland:
 - .dir(E)
 - _Boss::Hinox::Blue:
     coord: [-752.49, 187.41, -1268.12]
+    comment: Ancient arrows
 
 - .dir(N>)
 - _Korok::K29
@@ -30,6 +31,7 @@ Ridgeland:
 - .dir(<<N)
 - _Boss::Hinox::Blue:
     coord: [-480.55, 278.99, -2039.64]
+    comment: Ancient arrows
 
 - .dir(<W)
 - _Korok::K19

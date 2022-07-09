@@ -1,20 +1,23 @@
 The Glitch:
-- BLSS .dir(W>>)
-
-- .loc(Mushroom Woods):
+- BLSS .dir(W>) to .loc(Mushroom Woods):
     icon: material
-    coord: [-2203.83, 267.93, 792.66]
+    coord: [-2203.83, 267.93, 792.66] 
+
+- 2+ Luminous Stone:
     notes: .v(Scrap)/8 scrap
     var-change:
-      Scrap: 3
+      Scrap: 1
+- 2+ Sunshroom:
+    notes: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
+- 2 Chillshroom:
+    notes: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
 
-- 1 Flint?:
-    notes: For campfire; see below for backup if you get none
-- 2+ Luminous Stone
-- 2+ Sunshroom
-- 2 Chillshroom
 - 2 Endura Shroom:
-    notes: Will be duped to 8 stamina food
+    notes: Do not eat. Will need for stamina food.
 
 - .dir(W.)
 - _Material<Courser Bee Honey, 2>:
@@ -28,7 +31,7 @@ The Glitch:
     var-change:
       Scrap: 1
 
-- .dir(W.)
+- .dir(W.) short
 - _Material<Silent Princess,2>:
     coord: [-2572.44, 307.32, 660.62]
 
@@ -64,8 +67,7 @@ The Glitch:
 - _Chest<Forest Dweller's Bow>:
     comment: In shrine
 
-- BLSS .dir(NE)
-- .loc(Hyrule Castle)
+- BLSS .dir(NE) to .loc(Hyrule Castle)
 - _Chest<5 Shock Arrow>:
     coord: [11.00, 182.58, -879.37]
 
@@ -82,7 +84,7 @@ The Glitch:
     comment: 3 Screw, 2 Spring, 1 Shaft
     notes: Can skip gears. Getting more than these counts will make duping more difficult. If you don't get enough screws, it's fine. Can pick up a core.
 
-- WB to .loc(Castle Town) wall
+- WB to .loc(Castle Town) Wall
 - BLSS .dir(SE)
 
 - _Shrine::KayaWan:
@@ -115,23 +117,22 @@ The Glitch:
 - _Chest<Opal>:
     comment: In shrine
 
-- .dir(N)
+- .dir(.E)
+- 2 Fairy:
+    coord: [1963.57, 269.72, 860.48]
+
+- .dir(W.)
 - _Material<Silent Princess,3>:
     movements:
         - to: [1846.14, 327.67, 820.96]
         - to: [1882.32, 340.27, 803.23]
-- 2 Blue Nightshade:
+- 2+ Blue Nightshade:
     coord: [1879.35, 342.34, 810.05]
     notes: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
 
 - BLSS .dir(S) + WB .dir(S)
-- _Material<Flint>:
-    coord: [1702.77, 371.38, 2577.68]
-    notes: (Optional) If you got flint in mushroom woods, skip this.
-
-- .dir(S)
 
 - .loc(Riola Spring)
 - _Chest<5 Shock Arrow>:
@@ -143,38 +144,35 @@ The Glitch:
     coord: [1730.5,2969.5]
     notes: Create an infinite campfire with wood, flint, and torch
 
-- .item(1 Farosh's Scale)
+- 1 .item(Farosh's Scale)
 
 - _Tod::Morning
-- .item(1 Shard of Farosh's Horn)
+- 1 .item(Shard of Farosh's Horn)
 
 - _Tod::Morning
-- .item(1 Farosh's Claw)
+- 1 .item(Farosh's Claw)
 
-- Pick up torch
+- .!!(Pick up torch)
 
 - .dir(S)
 - Kill .enemy(Black Lizalfos):
     icon: calamity
     coord: [1691.87, 280.72, 3661.50]
-    notes: Equip FDB, kill with 3 shock arrow headshots.
+    comment: FDB 3 shock arrow headshots
 
 - _Equipment::Bow<Spiked Boko Bow>:
     hide-icon-on-map: true
     comment: Held by lizalfos
     notes: Optimal 4th bow to grab. Skip if you already have Royal Bow. .!!(DO NOT PICK UP FIRE ARROWS.)
 
-- .item(1 Lizalfos Tail)
-- .item(2 Lizalfos Horn)
-- .item(2 Lizalfos Talon):
-    notes: Kill the green or blue lizalfos if missing a horn or talon.
+- 1 .item(Lizalfos Tail)
+- 2 .item(Lizalfos Horn)
+- 2 .item(Lizalfos Talon):
+    notes: Kill the green or blue lizalfos if missing a horn or talon
 
-- _Material<Fish>:
+- Shock arrow or .rune(bomb) pond
+- _Material<5 Hyrule + 1 Hearty Bass>:
     coord: [1643.02, 277.73, 3674.37]
-    comment: Shock arrow or bomb lake
-
-- .item(5 Hyrule Bass)
-- .item(1 Hearty Bass)
 
 - 6 Mighty Banana:
     notes: For koroks later

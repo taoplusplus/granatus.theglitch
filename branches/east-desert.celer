@@ -60,7 +60,7 @@ East Desert:
     coord: [-2096.46, 318.46, 3037.91]
     comment: .fury() Collect gems
     fury: 3
-    notes: Intentionally "wasting" a fury
+    notes: Intentionally "wasting" a fury. Looking for amber, flint, and luminous stones here.
 
 - .dir(SE)
 - _Korok::W50
@@ -117,6 +117,9 @@ East Desert:
 
 - .dir(<W)
 - _Korok::W52
+
+- Kill .enemy(Blue Lizalfos):
+    notes: Can drop missing Lizalfos Horn and fire arrows
 
 - .dir(S)
 - _Korok::W63

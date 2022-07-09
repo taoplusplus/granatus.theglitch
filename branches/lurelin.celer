@@ -49,7 +49,7 @@ Lurelin:
 - _Npc<Garini>:
     coord: [3439.86, 114.87, 3344.20]
     comment: Fragmented Monument
-- Crouch on pedestal
+- Crouch on activate .!!(pedestal)
 - _Shrine::KahYah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6650s)
 

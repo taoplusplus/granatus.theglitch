@@ -91,8 +91,8 @@ Lake Tower:
     comment: Hunt for the Giant Horse
 
 - _Cook<Fruitcake>:
-    comment: 2 fruit (1 is apple||wildberry), wheat, sugar
-    notes: Royal Recipe
+    comment: 2 fruit, wheat, sugar
+    notes: Royal Recipe. 1 fruit should be an apple or wildberry.
 
 - _Tod::Night:
     notes: For Salvager chest when you get to Bridge of Hylia
@@ -146,7 +146,7 @@ Lake Tower:
 - .dir(<S)
 - _Korok::L27
 
-- Look .!!(Southeast in the sky):
+- Look .!!(Southeast) in the sky:
     notes: For Salvager chest. Watch it land.
 
 - .dir(<S) run

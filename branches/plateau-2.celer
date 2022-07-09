@@ -55,7 +55,7 @@ Plateau 2:
 - .dir(S)
 - _Korok::C83
 
-- .dir(SE)
+- .dir(SE) short
 - _Discover<Gatepost Town Ruins>:
     coord: [-537.88, 121.27, 1445.48]
 

@@ -17,23 +17,38 @@
 
 ## Updates
 
-### 2022-07-06
+### 2022-07-09
 
-#### Changes
+- Made the Plateau route more efficient:
+	- Skip the 4 tree branches at the beginning.
+	- Grab a flint down the hill (no longer need to rely on rng flint from mushroom woods or go to the backup location before Farosh).
+	- Upon reloading the save:
+		- Drop flint.
+		- Run back toward Shrine of Resurrection and pick up the 4 tree branches.
+		- Enter Shrine of Resurrection to trigger auto-save.
+
+- Switched to corrupting 999 fairies instead of hearty bass.
+	- The new process ends with 8 Lizalfos Horns (1 short) and 15 Silent Princesses (4 short)
+	- Noted places to make up the 1 Lizalfos Horn
+	- For the Silent Princesses, grab 3 next to the Master Sword and 1 in Zelda's Study
+
+- No longer get max hearts/stamina in Hateno. Now only max stamina and rely on fairies for healing. This requires turning in hearts in two other locations:
+	- In Korok Forest to get the required 13 hearts for Master Sword.
+	- In Rito Village lategame to fulfill the 100% requirement to have max container upgrades.
+
+- All non-Blessing, non-Test-of-Strength shrines now have links for their shrine strats.
+
+### 2022-07-06
 
 - Added links to resources at the top of the route.
 
 ### 2022-07-05
-
-#### Changes
 
 - Moved korok A34 to Tarrey Town 3.
 - Fixed gale routing (for the most part).
 - Moved late game furies to the last Frost Talus.
 
 ### 2022-07-04
-
-#### Changes
 
 - Moved F07 (light chase in Koto Pond) from Eventide branch to Faron branch. It's now after F06 (lift rock on Breman Peak) instead of after warp to Hateno Tower.
 

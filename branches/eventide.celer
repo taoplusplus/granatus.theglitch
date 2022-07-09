@@ -8,6 +8,7 @@ Eventide:
 - .dir(<W)
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
+    comment: Ancient arrows
 
 - .dir(W) return orb:
     coord: [2648.43, 324.55, 2822.85]
@@ -17,6 +18,7 @@ Eventide:
 - .dir(S)
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
+    comment: Ancient arrows
 
 - .dir(<N) return orb:
     coord: [2632.47, 321.84, 2848.53]
@@ -35,6 +37,7 @@ Eventide:
 - .dir(E)
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
+    comment: Ancient arrows
 
 - .dir(S) + midair
 - _Korok::F32
@@ -109,7 +112,7 @@ Eventide:
 
 - Pick up club and bow
 
-- Complete .!!(Eventide challenge):
+- Complete .!!(Stranded on Eventide):
     movements:
         - to: [4483.25, 142.10, 3746.42]
         - to: [4640,3626]

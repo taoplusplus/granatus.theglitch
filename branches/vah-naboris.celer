@@ -32,7 +32,7 @@ Vah Naboris:
 
 - .boss(Thunderblight):
     icon: calamity
-    notes: Stasis+ 2 body shots + 3 head shots
+    notes: Stasis+ 2 body shots, 3 head shots
     hide-icon-on-map: true
 
 - .!!(Urbosa's Fury):
@@ -107,6 +107,7 @@ Vah Naboris:
 - .dir(<<S) land, .dir(E)
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2924.12, 153.42, 2329.39]
+    notes: .link([Location]https://twitter.com/TaoPlusPlus/status/1544355478746017794?s=20&t=qgS0S9EanV-wak7bHty7Ww)
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action

@@ -50,7 +50,7 @@ Kohga:
 - .dir(<W)
 - _Tod::Morning:
     coord: [-3832.79, 148.98, 2948.17]
-    notes: For ice house after Naboris
+    notes: For ice house timing after Naboris. Also need to reach Gerudo Canyon Stable before 4:00pm. If you're finishing Naboris after 1:00pm, skip this and make NOON after Naboris.
 
 - _Shop<Arrow Shop>:
     coord: [-3859.23, 149.24, 2916.02]

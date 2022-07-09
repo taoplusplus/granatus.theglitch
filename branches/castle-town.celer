@@ -17,6 +17,7 @@ Castle Town Ruins:
 - .dir(W>)
 - _Boss::Hinox::Blue:
     coord: [421.00, 161.27, 329.50]
+    comment: Ancient arrows
 
 - .dir(S>)
 - _Korok::C56
@@ -39,6 +40,7 @@ Castle Town Ruins:
 - .dir(N>)
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
+    comment: Ancient arrows
 
 - .dir(E>)
 - _Korok::Z21
@@ -88,7 +90,7 @@ Castle Town Ruins:
 - .dir(E>>)
 - _Boss::Talus::Luminous:
     comment: .fury()
-    fury: 2
+    fury: 3
     coord: [771.50, 152.53, -1014.00]
 
 - .gale() + .dir(S) midair:
@@ -135,9 +137,8 @@ Castle Town Ruins:
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: .fury()
+    comment: Ancient arrows
     coord: [256.50, 142.49, -913.50]
-    fury: 1
 
 - .dir(W>)
 - _Korok::C04

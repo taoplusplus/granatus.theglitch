@@ -17,6 +17,7 @@ Vah Rudania:
 - _Equipment::Weapon<Drillshaft>:
     coord: [1946.80, 632.72, -2203.24]
     comment: Death Mountain's Secret
+    notes: Behind rubble
 
 - .dir(NE)
 - _Shrine::DaqaKoh:
@@ -35,16 +36,20 @@ Vah Rudania:
         - to: [2701.02, 726.21, -2363.06]
         - to: [2794.50, 774.84, -2657.93]
     comment: Ancient arrow everything
-    notes: Last chance for 10 amber
+    notes: Break ores during escort 10 amber and 11 flint
 
 - Complete divine beast
+
+- _Chest<Knight's Bow>:
+    notes: (Optional) Need a single shot bow for the trickshot and a metal bow for later Eldin
+
 - .gale():
     gale: 1
 
 - .boss(Fireblight):
     icon: calamity
     hide-icon-on-map: true
-    notes: Stasis+ 5 headshots, wearing +1 attack and +2 flame armor
+    notes: Stasis+ 1 body shot, 5 headshots, wearing +3 attack
 
 - Daruk's Protection:
     line-color: cyan
@@ -102,15 +107,18 @@ Vah Rudania:
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
     comment: Boulder Breaker
-    notes: Get to 10 luminous stones here
+    notes: Can get missing luminous stones here
 
 - .dir(<<S) glide
 - _Korok::E21
 
-- .dir(E>>)
+- .dir(E>>):
+    time-override: 999
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
-    comment: Boulder Breaker
+    comment: Boulder Breaker or .fury()
+    fury: 3
+    notes: If fury is recharged
 
 - .gale():
     gale: 1
@@ -124,7 +132,7 @@ Vah Rudania:
 
 - .dir(<W)
 - _Shrine::QuaRaym:
-    notes: ([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
 
 - .dir(<N)
 - _Korok::E25

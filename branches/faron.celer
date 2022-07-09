@@ -55,7 +55,7 @@ Faron:
 - _Discover<Zonai Ruins>:
     coord: [889.86, 124.08, 2937.35]
 
-- .dir(<<W)
+- .dir(<<W) run/glide
 - _Korok::L56
 
 - .dir(S>) run
@@ -279,6 +279,6 @@ Faron:
     comment: Song of Storms
 
 - Equip metal weapons/shield
-
-- .dir(<<W) run
+- .dir(<<W) run:
+    notes: Get ragdoll glitch, stand on the mound, and let the lightning hit you
 - _Shrine::QukahNata

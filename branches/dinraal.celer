@@ -22,6 +22,7 @@ Dinraal:
 
 - _Tod::Morning:
     coord: [267.00, 173.39, -3668.50]
+    notes: Look WEST back toward Qaza Tokki when sitting at campfirel. Camera east sometimes stops Dinraal from spawning.
 
 - .dir(E)
 - _Korok::K02
@@ -49,7 +50,8 @@ Dinraal:
     coord: [1635.10, 207.96, -3661.03]
 
 - Shoot Dinraal
-- _Material<Shard of Dinraal's Horn>
+- _Material<Shard of Dinraal's Horn>:
+    notes: If you miss any parts, warp to Qaza Tokki, make morning, and return to the area to respawn Dinraal
 
 - .dir(E) + midair
 - _Korok::E02
@@ -84,7 +86,8 @@ Dinraal:
 - .dir(<<S)
 - _Snap::Quest<Kilton>:
     coord: [3244.60, 82.63, -3448.81]
-    comment: Take 3 pics for safety
+    comment: Take 3 pics
+    notes: It's common for the camera to not register Kilton. Take 3 snaps from different angles to be safe.
 
 - _Npc<Kilton>
 
@@ -116,7 +119,7 @@ Dinraal:
 - .dir(W>)
 - _Shrine::ZunaKai
 
-- Look .!!(East in the sky):
+- Look up .!!(East) in the sky:
     notes: For Salvager chest. Watch it land.
 
 - .dir(N>)
@@ -210,7 +213,7 @@ Dinraal:
 - _Npc<Nobo>:
     coord: [4245.96, 231.45, -2747.83]
     comment: Spring of Power
-    notes: Select "this area"
+    notes: Select "This area?"
 
 - _Tod::Night:
     notes: For Stalnox, Death Mountain's Secret, and blood moon

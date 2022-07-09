@@ -82,6 +82,7 @@ Wetlands:
 - .dir(N)
 - _Boss::Hinox::Red:
     coord: [1969.04, 115.44, 97.40]
+    comment: Ancient arrows
 
 - .dir(E>>)
 - _Korok::Z41
@@ -89,6 +90,7 @@ Wetlands:
 - .dir(NE>)
 - _Boss::Hinox::Black:
     coord: [2485.10, 152.09, -133.56]
+    comment: Ancient arrows
 
 - .dir(N>>)
 - _Korok::Z22

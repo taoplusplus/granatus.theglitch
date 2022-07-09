@@ -21,6 +21,7 @@ Satori Mountain:
 - .dir(SE)
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]
+    comment: Ancient arrows
 
 - .dir(<S)
 - _Discover<Ancient Tree Stump>:
@@ -49,6 +50,7 @@ Satori Mountain:
 - .dir(<W)
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
+    comment: Ancient arrows
 
 - .dir(<W)
 - _Korok::R62

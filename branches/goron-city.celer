@@ -1,6 +1,6 @@
 Goron City:
 - .!!(Unequip bomb arrows):
-    notes: Windbombs do not work on the first tick of burn damage. Equip metal shield and bow (if you have one) or just don't let GEB burn up (30s) timer.
+    notes: .link([Eldin notes]https://pastebin.com/3CNyxYjM)
 
 - .dir(<<N)
 - _Korok::E27
@@ -33,7 +33,7 @@ Goron City:
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
     comment: From the Ground Up
-    notes: Make night if needed to speak to him
+    notes: Make night if needed to speak to him. Must equip Flamebreaker Armor to sit at the cooking pot.
 
 - .dir(NW)
 - _Korok::E19
@@ -44,7 +44,7 @@ Goron City:
 - .dir(N.)
 - _Discover<Stolock Bridge>:
     coord: [1648.20, 565.86, -2437.53]
-    notes: Do not land with bow burning or you'll lose it in the cutscene
+    notes: Land on the bridge will trigger the Rudania cutscene
 
 - midair .dir(N)
 - _Korok::E14
@@ -52,13 +52,9 @@ Goron City:
 - .dir(W) glide
 - _Korok::E13
 
-- .dir(S.)
+- .dir(S.):
+    notes: If you didn't land on the bridge before, the Rudania cutscene will trigger here
 - _Korok::E15
-
-- .dir(<S) glide
-- _Shop<Armor Shop>:
-    coord: [1645.49, 490.49, -2406.03]
-    comment: Buy Flamebreaker Boots
 
 - .dir(NE) run
 - _Shop<General Store>:
@@ -91,8 +87,8 @@ Goron City:
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
-    comment: Iron Sledgehammer
-    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three until 11 flint.
+    comment: Sledgehammer or AA
+    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
 
 - .dir(S>) + midair
 - _Korok::E11
@@ -114,7 +110,7 @@ Goron City:
 - From minecart .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
-    comment: Iron Sledgehammer
+    comment: Sledgehammer or AA
 
 - .dir(<W) + midair
 - _Korok::K08

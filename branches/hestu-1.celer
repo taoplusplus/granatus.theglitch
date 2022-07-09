@@ -7,18 +7,18 @@ Hestu 1:
     comment: Fortified Pumpkin
     notes: Goes to northern campfire at 5:00PM; starts running around the village at 8:00PM
 
-- .dir(SW)
+- .dir(SW) short
 - _Npc::SheikaFemale<Rola>:
     coord: [1830.49, 222.41, 1044.89]
     comment: Arrows of Burning Heat
-
 - Buy all fire arrows
 
+- Run to Impa's house
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
 
 - .dir(E>) + .dir(SE) midair
-- Kill bokos:
+- Kill .enemy(Blue Bokoblins):
     notes: With bomb arrow if not raining, ancient arrows if it is raining
     coord: [2172.24, 218.76, 1369.20]
 - _Chest::Special<Hestu's Maracas>

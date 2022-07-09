@@ -28,6 +28,7 @@ Gerudo Canyon:
 - .dir(S>>)
 - _Npc<White Horse>:
     coord: [-1674.17, 222.94, 807.44]
+    comment: Royal White Stallion
 
 - _Korok::R79
 
@@ -94,7 +95,7 @@ Gerudo Canyon:
 
 - .dir(SW)
 - _Korok::C88:
-    comment: Cryo block
+    comment: .rune(Cryo) block
 
 - .dir(<<S)
 - _Discover<Gerudo Canyon Pass>:
@@ -142,6 +143,8 @@ Gerudo Canyon:
 - _Npc<Flaxel>:
     comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
+- _Chest<Fire Arrows x5>:
+    hide-icon-on-map: true
 
 - .dir(NW) drop down
 - _Npc<Canolo>:
@@ -192,5 +195,6 @@ Gerudo Canyon:
 
 - .dir(W) + .dir(W) midair, land
 - .dir(N.) + midairs
+- Activate .!!(Pedestal)
 - _Shrine::SasaKai:
     comment: 2:55pm to 3:50pm

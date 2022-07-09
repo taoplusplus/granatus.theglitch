@@ -4,28 +4,29 @@ Plateau:
     line-color: white
     comment: Activate time of day
 
-- 4 tree branches outside SoR:
-    movements:
-        - to: [-1059.15, 249.33, 1805.13]
-        - to: [-1053.44, 249.44, 1802.61]
-        - to: [-1024.63, 251.40, 1812.55]
-        - to: [-1034.19, 249.09, 1847.06]
-    notes: Do not pick up any food until steak
+- _Material<Flint>:
+    coord: [-954.90, 194.30, 1833.20]
+    notes: To set a campfire without fire arrows
+
+#- 4 tree branches outside SoR:
+#    movements:
+#        - to: [-1059.15, 249.33, 1805.13]
+#        - to: [-1053.44, 249.44, 1802.61]
+#        - to: [-1024.63, 251.40, 1812.55]
+#        - to: [-1034.19, 249.09, 1847.06]
 
 - Torch and axe by Old Man:
     movements:
         - to: [-936.20, 224.90, 1880.20] #torch
         - to: [-920.93, 220.65, 1871.83] #axe
 
-- .loc(Boko Camp)
+- Run to .loc(Boko Camp)
 
 - _Material<Seared Steak>:
     coord: [-955.87, 237.42, 1948.86]
 
 - .!!(SAVE THE GAME):
     notes: Do .!!(NOT) manually save until after dupe is complete. .link([Why not?]https://pastebin.com/MN1c2gAR)
-
-- Drop branches, equip axe
 
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
@@ -35,7 +36,7 @@ Plateau:
     var-change:
         Scrap: 2
 
-- .loc(Temple of Time)
+- Run/surf to .loc(Temple of Time)
 
 - _Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
@@ -52,7 +53,7 @@ Plateau:
 - BLSS .dir(<N)
 - _Tower::GreatPlateau
 
-- Jump and fdc
+- Jump and fall damage cancel
 
 - _Npc::SheikaMale<Old Man>:
     coord: [-572.50, 178.89, 1696.50]

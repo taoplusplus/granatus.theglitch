@@ -38,6 +38,7 @@ Hebra:
 - .dir(<W)
 - _Boss::Hinox::Stal:
     coord: [-4260.15, 327.00, -3777.48]
+    comment: Ancient arrows
 
 - .dir(W)
 - _Korok::H01
@@ -219,6 +220,7 @@ Hebra:
 - .dir(SE)
 - _Boss::Hinox::Blue:
     coord: [-2370.05, 261.70, -419.59]
+    comment: Ancient arrows
 
 - _Korok::R22:
     movements:
@@ -325,6 +327,7 @@ Hebra:
 - .dir(NW)
 - _Boss::Hinox::Black:
     coord: [-4531.00, 333.45, -2679.27]
+    comment: Ancient arrows
 
 - .dir(S)
 - Start T06 race:

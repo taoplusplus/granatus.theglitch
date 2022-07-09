@@ -119,7 +119,7 @@ Central Tower:
 - _Korok::D22
 
 - .dir(W)
-- Kill moblin
+- Kill .enemy(Red Moblin)
 - _Equipment::Weapon<Moblin Club>:
     coord: [132.65, 116.42, 1397.90]
     comment: Weapon Connoisseur
