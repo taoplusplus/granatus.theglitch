@@ -1,9 +1,10 @@
 Moldugas:
 - .gale():
     gale: 1
+    notes: Take a couple steps back first
 - _Korok::W09
 
-- .dir(S>)
+- .dir(S.)
 - _Korok::W13
 
 - .dir(<S)
@@ -34,7 +35,7 @@ Moldugas:
 - .dir(<W)
 - _Korok::W51
 
-- .dir(S)
+- midair .dir(S)
 - _Korok::W65
 
 - _Snap::Quest<Gerudo Great Skeleton>:

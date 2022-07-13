@@ -232,7 +232,7 @@ Dinraal:
 
 - _Memory::SpringofPower
 
-- Offer Dinraal Scale
+- Offer .item(Dinraal Scale)
 - _Shrine::TutsuwaNima
 
 - .dir(S.)

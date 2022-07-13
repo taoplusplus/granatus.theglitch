@@ -67,7 +67,7 @@ Wetlands:
 - .dir(<E)
 - _Korok::Z48
 
-- .dir(E>>)
+- .dir(E>>) short
 - _Korok::Z49
 
 - .dir(E>)
@@ -76,7 +76,7 @@ Wetlands:
 - .dir(S>)
 - _Korok::Z60
 
-- .dir(<<E)
+- .dir(<E) + .dir(N.) midair
 - _Korok::N01
 
 - .dir(N)
@@ -92,7 +92,7 @@ Wetlands:
     coord: [2485.10, 152.09, -133.56]
     comment: Ancient arrows
 
-- .dir(N>>)
+- .dir(NW)
 - _Korok::Z22
 
 - .dir(E>>)
@@ -113,13 +113,14 @@ Wetlands:
     var-change:
         Monument: 1
 
-- .dir(S)
+- .dir(S) run, drop down
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2877.09, 229.49, -32.75]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
+- Drop down
 - _Discover<Oren Bridge>:
     coord: [2875.32, 187.50, 32.60]
 
@@ -133,18 +134,14 @@ Wetlands:
 - .dir(NW)
 - _Korok::Z31
 
+- .dir(<E)
 - Deliver letter BLSS:
     movements:
+        - to: [2754.00, 189.53, -73.50]
         - to: [2662.5,-145.5]
         - to: [2598,-201.5]
+    notes: Fall and let Mipha's Grace/fairy protect you, don't pull glider, and the letter will survive
 
 - _Npc<Sasan>:
     coord: [1760.46, 115.80, -56.04]
     comment: Special Delivery
-
-- _Tod::Noon:
-    coord: [1760.46, 115.80, -36.04]
-    notes: For Ballon Flight and Stalnox timing
-
-- .dir(S.)
-- _Korok::Z40

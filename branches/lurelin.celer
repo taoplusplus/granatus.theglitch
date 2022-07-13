@@ -49,7 +49,7 @@ Lurelin:
 - _Npc<Garini>:
     coord: [3439.86, 114.87, 3344.20]
     comment: Fragmented Monument
-- Crouch on activate .!!(pedestal)
+- .!!(Crouch) to activate .!!(pedestal)
 - _Shrine::KahYah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6650s)
 
@@ -58,7 +58,7 @@ Lurelin:
 - _Korok::F37:
     comment: " "
 
-- .dir(S):
+- .dir(S) swim:
     time-override: 999
 - _Boss::Talus::Stone:
     comment: .fury()
@@ -99,7 +99,7 @@ Lurelin:
 
 - .dir(SE) to docks
 - _Npc<Rozel>:
-    comment: Select "About the ocean"
+    comment: Select "About the ocean..."
     notes: Inside house under F44 if raining. Sunken Treasure.
     coord: [2887.5,3495.5]
 
@@ -116,7 +116,7 @@ Lurelin:
 
 - _Warp::Shrine::DahHesho
 
-- .dir(N>)
+- .dir(NE>)
 - _Npc<Hudson>:
     line-color: mediumslateblue
     coord: [3981.65, 233.41, -1599.11]

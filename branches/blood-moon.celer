@@ -35,15 +35,20 @@ Blood Moon:
 - _Discover<Jeddo Bridge>:
     coord: [-1689.86, 205.00, 130.84]
 
+- .dir(N)
 - _Korok::R39
 
-- _Boss::Hinox::Blue:
-    coord: [-1534.88, 214.82, -171.59]
-    comment: Ancient arrows
-
+- .dir(NE)
 - _Korok::R40
 
-- .dir(S)
+- _Boss::Hinox::Blue:
+    movements:
+        - to: [-1534.88, 214.82, -171.59]
+          away: true
+    comment: Ancient arrows
+    notes: From a distance
+
+- .dir(S>)
 - _Korok::R41
 
 - .dir(S>>) surf

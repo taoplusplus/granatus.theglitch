@@ -3,22 +3,22 @@ _project:
   authors:
     - ""
   description: ""
-  name: Corrupted Granatus
+  name: Corrupted Granatus (Omegafairy)
   url: ""
   version: 0.1.0
 
 _config:
   split-format:
-    Shrine: "{{Korok}}. - {{_}}"
+    Shrine: "{{Korok}}. {{_}}"
 
 _route:
-  - (==) This is an experimental version of the route. It may change daily. For a stable version, see .link([Corrupted Granatus]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus).
+  - (?=) This document may hange daily. For a stable version, see .link([Corrupted Granatus]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus).
+  - (==) This is the Omegafairy version of the route (2022-07-13). Here's the .link([HeartyBass version]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05).
   - Resources:
     - .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0)
     - .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283)
     - .link([Drop Table Calculator]https://restite.org/drops/)
     - .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
-    - .link([SRC Leaderboard]https://www.speedrun.com/botw#100)
 
   - Plateau:
     - __use__ Plateau

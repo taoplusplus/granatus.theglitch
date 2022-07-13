@@ -71,7 +71,7 @@ Ridgeland:
 - .dir(<<N)
 - _Korok::R03
 
-- .dir(<<N)
+- .dir(<N)
 - _Korok::H71
 
 - .dir(S)
@@ -81,10 +81,10 @@ Ridgeland:
     coord: [-2177.46, 322.30, -1585.39]
     notes: Intentionally "wasting" a fury
 
-- .dir(SW)
+- .dir(SW) run
 - _Korok::R02
 
-- .dir(<<S)
+- .dir(E.) + .dir(<S) midair
 - _Korok::R06
 
 - .dir(E>>)
@@ -114,7 +114,7 @@ Ridgeland:
 - _Shrine::TohYahsa:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21859s)
 
-- .dir(S)
+- .dir(S) short
 - _Korok::R14
 
 - .dir(SE)

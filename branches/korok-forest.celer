@@ -40,6 +40,12 @@ Korok Forest:
     comment: Inventory upgrades
     notes: 3 bow, 7 weapon, 4 shield. The shield slots don't really matter; can get them at the end.
 
+- Turn in spirit orbs for .!!(13+ hearts)
+
+- 3 .item(Silent Princess)
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
 - _Npc<Kula>:
     comment: Freezing Rod
     coord: [419.28, 248.65, -2134.93]
@@ -47,12 +53,6 @@ Korok Forest:
 - _Npc<Peeks>:
     coord: [441.00, 248.56, -2133.05]
     comment: Legendary Rabbit Trial
-
-- Turn in spirit orbs for .!!(13+ hearts)
-
-- 3 .item(Silent Princess)
-- _Equipment::Weapon<Master Sword>:
-    coord: [431.66, 250.53, -2111.00]
 
 - _Npc<Follow Oaki>:
     movements:
@@ -72,7 +72,8 @@ Korok Forest:
     notes: Spin attack grass to collect during escort
 - 5 Hot-Footed Frog
 
-- _Shrine::DaagChokah
+- _Shrine::DaagChokah:
+    notes: Oaki finishes his walk 5h 20m in-game time from when the quest starts. Don't approach until you see the dialogue "Woo! I finally made it!"
 
 - _Warp::Shrine::KeoRuug
 - _Shrine::KeoRuug:

@@ -14,7 +14,7 @@ Faron:
 - .dir(E>)
 - _Korok::L20
 
-- Offer Farosh Scale
+- Offer .item(Farosh Scale)
 - _Shrine::ShaeKatha
 
 - _Discover<Spring of Courage>:
@@ -151,18 +151,18 @@ Faron:
     comment: Thunder Magnet
     notes: Wakes up at 7am
 
-- _Shrine::ShaiUtoh:
-    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=4420)
-
 - _Tod::Night:
     coord: [1573.26, 165.96, 3530.55]
     notes: For upcoming Stalnox
 
-- .dir(E>>)
+- _Shrine::ShaiUtoh:
+    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=4420)
+
+- .dir(E>) + midair
 - _Korok::F48:
     comment: Banana next to it
 
-- .dir(<<W)
+- .dir(<S)
 - _Korok::F55
 
 - .dir(W)
@@ -187,10 +187,10 @@ Faron:
     fury: 2
     coord: [2087,3916.5]
 
-- .dir(N)
+- .dir(N) + midair
 - _Korok::F43
 
-- .dir(N>)
+- .dir(N.)
 - _Korok::F30
 
 - .dir(S>)
@@ -207,15 +207,16 @@ Faron:
 - .dir(<<N)
 - _Korok::F42
 
-- .dir(<E)
+- .dir(<N)
 - _Boss::Talus::Stone:
     comment: Bomb arrows
     coord: [1690.73, 165.27, 3335.62]
 
-- .dir(N>)
+- midair .dir(N.)
 - _Korok::F28:
     comment: .gale()
     gale: 1
+    notes: Use gale only if raining; use after F27 otherwise
 
 - .dir(W.)
 - _Korok::F26
@@ -230,41 +231,41 @@ Faron:
 - .dir(S) Zora Armor
 - _Korok::F19
 
-- .dir(N)
+- .dir(N) .rune(Cryo) hop
 - _Korok::F17
 
 - .dir(E>)
 - _Korok::F20
 
-- .dir(N)
+- .dir(N) + midair
 - _Korok::F11
 
-- .dir(N.)
+- .dir(N.) short
 - _Korok::F08
 
 - .dir(E)
 - _Korok::F12
 
-- .dir(N)
+- .dir(<N) short
 - _Korok::F09
 
 - .dir(N>)
 - _Korok::F06
 
-- .dir(.W)
+- .dir(E.)
 - _Korok::F07
 
-- .dir(SW)
+- .dir(<W)
 - _Korok::F13
 
-- .dir(SE)
+- .dir(E>)
 - _Boss::Hinox::Black:
     coord: [2420.75, 327.47, 2782.60]
 
 - .dir(E) return orb:
     coord: [2616.91, 323.39, 2823.60]
 
-- .dir(SE)
+- .dir(<W)
 - _Korok::F21
 
 - Remove metal weapons/shield:

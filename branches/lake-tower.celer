@@ -15,13 +15,13 @@ Lake Tower:
     comment: .fury()
     fury: 3
 
-- .dir(<E)
+- .dir(<<E)
 - _Korok::G18
 
-- .dir(SE)
+- .dir(<<S)
 - _Korok::G23
 
-- .dir(<SW)
+- .dir(<<W)
 - _Korok::G27
 
 - .dir(E>)
@@ -91,8 +91,8 @@ Lake Tower:
     comment: Hunt for the Giant Horse
 
 - _Cook<Fruitcake>:
-    comment: 2 fruit, wheat, sugar
-    notes: Royal Recipe. 1 fruit should be an apple or wildberry.
+    comment: Apple, melon, wheat, sugar
+    notes: Royal Recipe.
 
 - _Tod::Night:
     notes: For Salvager chest when you get to Bridge of Hylia
@@ -171,7 +171,7 @@ Lake Tower:
 - .dir(E)
 - _Korok::L40
 
-- midair .dir(E>>)
+- midair .dir(<S)
 - _Korok::L44
 
 - .dir(W)

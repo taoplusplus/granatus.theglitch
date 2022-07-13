@@ -70,14 +70,19 @@ Gerudo Highlands:
     gale: 1
 - _Korok::G09
 
-- updraft + .dir(<W) midair
-- _Snap::Quest<Forgotten Sword>:
-    coord: [-3966.65, 766.14, 969.19]
+- updraft + .dir(<W) midair:
+    coord: [-3899,888]
 
-- .dir(<SE)
+- _Snap::Quest<Forgotten Sword>:
+    movements:
+        - to: [-3966.65, 766.14, 969.19]
+          away: true
+
+- .dir(<S)
 - _Boss::Talus::Rare:
     coord: [-3804.76, 602.57, 1204.77]
-    comment: Boulder Breaker
+    comment: Bomb arrow
+    notes: Can wake up ths talus and the next "early" by bombing its feet
 
 - .dir(<<S)
 - _Boss::Talus::Frost:

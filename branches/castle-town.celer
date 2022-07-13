@@ -1,15 +1,25 @@
 Castle Town Ruins:
-- .dir(S>>)
-- _Korok::Z30
+- _Tod::Noon:
+    coord: [1760.46, 115.80, -36.04]
+    notes: (Optional) For Ballon Flight and Stalnox timing
+
+- .dir(S.)
+- _Korok::Z40
+
+- midair .dir(W)
+- _Korok::Z30:
+    comment: Take from ruins on right
 
 - .dir(<W)
-- _Korok::Z29
+- _Korok::Z29:
+    comment: Among trees
 
 - .dir(<W)
 - _Korok::C46
 
 - .dir(S>>)
-- _Korok::C51
+- _Korok::C51:
+    comment: On pillar
 
 - .dir(<S)
 - _Memory::HyruleField
@@ -68,10 +78,10 @@ Castle Town Ruins:
 - _Korok::K34:
     comment: " "
 
-- .dir(W>)
+- .dir(W>) short
 - _Korok::K33
 
-- .dir(N>)
+- .dir(N>) short
 - _Shrine::MirroShaz:
     notes: Stalnox coming up. Make night if needed. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7474s)
 
@@ -98,7 +108,7 @@ Castle Town Ruins:
 - _Shrine::NamikaOzz:
     comment: FIGHT
 
-- _Equipment::Weapon<Ancient Battle Axe++>:
+- _Equipment::Weapon<Ancient Battle Axe+>:
     comment: Weapon Connoisseur
     hide-icon-on-map: true
 - _Chest::Special<Frostspear>:
@@ -159,7 +169,7 @@ Castle Town Ruins:
 - .dir(<W)
 - _Korok::C31
 
-- .dir(<N)
+- .dir(NW)
 - _Shrine::KatahChuki
 
 - .dir(.W)
@@ -181,7 +191,7 @@ Castle Town Ruins:
 - .dir(W)
 - _Korok::C21
 
-- .dir(N>>) run
+- .dir(N>>) run, drop down
 - _Korok::C20
 
 - .dir(N)
@@ -195,10 +205,10 @@ Castle Town Ruins:
 - .dir(<N)
 - _Korok::C08
 
-- .dir(N)
+- .dir(N) run
 - _Korok::C03
 
-- .dir(NE)
+- .dir(NW)
 - _Korok::C01
 
 - .dir(W)

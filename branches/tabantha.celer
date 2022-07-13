@@ -7,7 +7,8 @@ Tabantha:
 - _Korok::T32
 
 - .dir(<<N)
-- _Korok::T27
+- _Korok::T27:
+    comment: 2 apples
 
 - .dir(N>>)
 - _Korok::T26
@@ -38,10 +39,10 @@ Tabantha:
 - .dir(<S)
 - _Shrine::TenaKosah
 
-- .dir(<<W)
+- .dir(<<W) run
 - _Memory::AncientColumns
 
-- .dir(NW>)
+- .dir(NW>) run
 - _Korok::T35:
     comment: " "
 
@@ -49,14 +50,16 @@ Tabantha:
 - _Korok::T37
 
 - .dir(NE)
-- _Korok::T33
+- _Korok::T33:
+    comment: " "
 
 - .dir(W>>)
-- .loc(Great Fairy Fountain):
+- Activate .loc(Great Fairy Fountain):
     coord: [-3541.00, 294.88, -745.00]
 
 - .dir(E)
-- _Korok::T31
+- _Korok::T31:
+    comment: In small cave
 
 - .dir(N>)
 - _Boss::Talus::Rare:
@@ -65,10 +68,13 @@ Tabantha:
 
 - _Tod::Noon:
     coord: [-3248.40, 291.68, -1098.12]
+    notes: For Bareeda Naag
 
 - .dir(<<N)
 - _Korok::T20
 
 - .dir(NW)
+- Activate .!!(Pedestal):
+    notes: Use fire arrow, 12:45PM
 - _Shrine::BareedaNaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9042s)

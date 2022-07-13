@@ -2,37 +2,22 @@ Rito Village:
 - .dir(N>)
 - _Korok::T15
 
-- .dir(N>>)
+- .dir(N>>) short
 - _Npc::Rito<Kotts>:
     coord: [-3488.88, 258.52, -1850.25]
     comment: Recital at Warbler's Nest
+    notes: Get salmon
 
 - .dir(.W) to landing
 - _Npc::Rito<Bedoli>:
     coord: [-3632.60, 320.12, -1793.79]
     comment: Ancient Rito Song
+    notes: Backup cold darner here if you're missing one
 
 - Run up
 - _Npc::SheikaFemale<Juney>:
     coord: [-3611.76, 289.03, -1849.23]
     comment: Apple of My Eye
-
-- Drop down left
-- _Npc::Rito<Molli>:
-    coord: [-3618.43, 320.15, -1797.41]
-    comment: Bird in the Mountains
-
-- Run up
-- _Shrine::AkhVaquot:
-    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
-
-- _Npc::Rito<Amali>:
-    coord: [-3668.51, 321.49, -1769.96]
-    comment: Where's Kheel?
-
-- Look up
-- _Korok::T14:
-    time-override: 999
 
 - .gale():
     gale: 1
@@ -40,7 +25,24 @@ Rito Village:
     coord: [-3596.62, 317.93, -1794.98]
     comment: Recital at Warbler's Nest
 
-- .dir(<<E) drop down
+- Drop down
+- _Shrine::AkhVaquot:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
+
+- Look up
+- _Korok::T14:
+    notes: Bomb arrow
+
+- _Npc::Rito<Amali>:
+    coord: [-3668.51, 321.49, -1769.96]
+    comment: Where's Kheel?
+
+- Run/glide down a level
+- _Npc::Rito<Molli>:
+    coord: [-3618.43, 320.15, -1797.41]
+    comment: Bird in the Mountains
+
+- Run down
 - _Npc::Rito<Genli>:
     coord: [-3608.76, 296.75, -1797.82]
     comment: Recital at Warbler's Nest

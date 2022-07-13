@@ -70,10 +70,11 @@ Central Tower:
 - .dir(N>)
 - _Korok::C48
 
-- .dir(SE)
+- .dir(E>)
 - _Discover<Hyrule Garrison Ruins>:
     coord: [-596.50, 132.50, 571.50]
 
+- midair(E)
 - _Korok::C54
 
 - .dir(NE)

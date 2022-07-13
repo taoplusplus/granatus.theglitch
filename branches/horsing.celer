@@ -1,14 +1,14 @@
 Horse Minigames:
-- .dir(<<W)
+- .dir(SW)
 - _Korok::L48
 
-- .dir(SE)
+- .dir(SE) short
 - _Korok::L49
 
-- .dir(NE)
+- .dir(NE) short
 - _Korok::L50
 
-- .dir(<<S)
+- .dir(SE)
 - _Korok::L59:
     comment: " "
     notes: Kill the octoroks (safety)
@@ -42,15 +42,15 @@ Horse Minigames:
 - .dir(SE)
 - _Korok::L72
 
-- .dir(<<S)
+- .dir(E>>)
+- _Korok::F38
+
+- .dir(.W)
 - _Boss::Hinox::Blue:
     comment: Ancient arrows midair
     coord: [1031.43, 127.22, 3496.26]
 
-- midair .dir(E>)
-- _Korok::F38
-
-- .dir(<<W)
+- midair .dir(S)
 - _Korok::L79
 
 - .dir(S>>)
@@ -179,7 +179,7 @@ Horse Minigames:
         - to: [-26.5,3362]
         - to: [-153,3452.5]
 
-- _Npc<Straia>:
+- _Npc<Jini>:
     coord: [-212.39, 128.70, 3487.13]
 
 - Complete .!!(archery minigame):
@@ -191,10 +191,10 @@ Horse Minigames:
 - .dir(W)
 - _Korok::L83
 
-- .dir(S>>)
+- .dir(S>>) run
 - _Korok::L82
 
-- .dir(E)
+- .dir(E) drop down
 - _Korok::L84
 
 - .dir(W)
