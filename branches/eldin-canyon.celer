@@ -5,19 +5,22 @@ Eldin Canyon:
 - _Npc<Tumbo>:
     coord: [3320.59, 244.66, -474.01]
     comment: Frog Catching 
-    notes: Wakes up at 7:00am
+    notes: Wakes up at 7:00am. Find him in front of Mipha's statue.
 
 - _Npc<Ledo>:
     coord: [3290.09, 244.86, -451.28]
     comment: Luminous Stone Gathering
+    notes: At the gate
 
 - _Npc<Finley>:
     coord: [3264.00, 249.76, -480.00]
     comment: Special Delivery
+    notes: Up the stairs
 
 - _Npc<Torfeau>:
     coord: [3300.84, 255.66, -505.93]
     comment: Giant of Ralis Pond
+    notes: For these NPCs, make a counterclockwise run around the pools under the throne room
 
 - _Npc<Jiahto>:
     coord: [3340.25, 256.66, -564.31]
@@ -75,18 +78,18 @@ Eldin Canyon:
 - .dir(N)
 - _Korok::E38
 
+- .dir(W) drop down
 - _Discover<Maw Of Death Mountain>:
     coord: [2390.91, 226.13, -1316.35]
 
-- .dir(S>>)
+- midair .dir(S>>)
 - _Korok::E42
-
 - _Korok::E41
 
-- .dir(SW)
+- .dir(S>), run
 - _Korok::E43
 
-- .dir(NW)
+- .dir(NW) run, drop down
 - _Korok::E37
 
 - .dir(<W)

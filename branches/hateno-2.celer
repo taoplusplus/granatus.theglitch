@@ -39,8 +39,9 @@ Hateno 2:
 - .dir(<<S)
 - _Boss::Talus::Stone:
     comment: .fury()
-    fury: 1
+    fury: 2
     coord: [3199.41, 173.38, 1904.36]
+    notes: Intentionally "waste" a fury
 
 - .dir(W>)
 - _Korok::N38
