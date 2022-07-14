@@ -363,7 +363,8 @@ Hebra:
 - _Korok::T01
 
 - .dir(<<N)
-- _Korok::H39
+- _Korok::H39:
+    comment: Little peak after updraft
 
 - Drop down
 - _Discover<Sturnida Hot Spring>:
