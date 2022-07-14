@@ -6,10 +6,11 @@ Kakariko 3:
     comment: Repeat until no rain
     hide-icon-on-map: true
 
+- .dir(.E)
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
 
-- 2 cuccos above
+- Return 2 cuccos above
 #    movements:
 #        - to: [1847.93, 249.73, 930.14]
 #        - to: [1849.63, 236.35, 974.52]
@@ -21,21 +22,17 @@ Kakariko 3:
 - _Npc<Cottla>:
     coord: [1870.67, 228.35, 957.56]
     comment: Playtime with Cottla
+    notes: Play tag
 
-- 3 cuccos in the back
+- Return 3 cuccos in the back
 
 - _Equipment::Weapon<Traveler's Sword>:
     coord: [1931.10, 229.83, 987.25]
-    notes: Backup if you missed at Shee Vaneer
+    notes: (Optional) Backup if you missed at Shee Vaneer
 
 - _Npc<Pikango>:
     coord: [1828.22, 218.59, 990.14]
     comment: Find the Fairy Fountain
-
-- Light torches:
-    coord: [1847.75,1000]
-
-- 1 cucco
 
 - _Npc<Koko>:
     coord: [1801,1016.5]
@@ -45,11 +42,9 @@ Kakariko 3:
 - _Tod::Night:
     hide-icon-on-map: true
 
-- _Npc<Rola>:
-    coord: [1830.49, 222.41, 1044.89]
-    comment: Arrows of Burning Heat
-
-- Orchard cucco
+- Return orchard cucco
+- Return cucco near Pikango
+- Talk to Cado again
 
 - Collect fireflies:
     coord: [1901,995]
@@ -59,20 +54,29 @@ Kakariko 3:
     coord: [1899.75,1035.75]
     comment: By Firefly's Light
 
+- .dir(W.)
 - _Npc<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
-    notes: Sets time of day to 7:00pm
 
 - _Tod::Night:
     hide-icon-on-map: true
+    notes: Because shrine quest sets time of day to 7:00pm
+
+- Light torches:
+    coord: [1847.75,1000]
+
+- Turn in spirit orbs for .!!(27 hearts):
+    notes: Total
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
 
 - _Korok::D03
-
 - _Korok::D02
 
 - .dir(S)
 - _Korok::D04
-
 - _Korok::D05
 
 - .dir(E>>)
@@ -105,10 +109,10 @@ Kakariko 3:
 - .dir(W>)
 - _Korok::D10
 
-- .dir(W>)
+- .dir(W>) drop down
 - _Korok::D09
 
-- .dir(E>>)
+- .dir(NE)
 - Enter cutscene:
     icon: calamity
     coord: [2024.21, 292.86, 962.56]
@@ -121,7 +125,7 @@ Kakariko 3:
 
 - _Shrine::LaknaRokee
 
-- .dir(S>>)
+- .dir(S>) + .dir(E>) midair
 - _Korok::N28
 
 - _Shrine::KamUrog:
@@ -136,9 +140,9 @@ Kakariko 3:
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: .fury()
-    fury: 1
+    comment: Ancient arrows
     coord: [1940.50, 144.41, 2396.50]
+    notes: If you don't make it here in time, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
 
 - .dir(S)
 - _Chest<Sapphire>:
@@ -151,7 +155,7 @@ Kakariko 3:
 - _Shrine::TotoSah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3199s)
 
-- .dir(NE)
+- .rune(Cryo), .dir(NE) run
 - _Korok::D56
 
 - .dir(NW)

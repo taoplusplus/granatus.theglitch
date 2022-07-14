@@ -17,10 +17,10 @@ Akkala Complete:
 - .dir(S>>)
 - _Korok::A45
 
-- .dir(<<N)
+- .dir(N>)
 - _Korok::A41
 
-- .dir(NW)
+- .dir(W>)
 - _Shrine::ZeKasho:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=20236s)
 
@@ -28,7 +28,7 @@ Akkala Complete:
 - _Npc<Jana>:
     coord: [3133.57, 306.78, -1693.04]
     comment: Little Sister's Big Request
-    notes: Get here before 8:00pm. Make noon if needed.
+    notes: Select "I'm a traveler." Get here before 8:00pm. Make noon if needed.
 
 - .dir(E)
 - _Npc<Hudson>:

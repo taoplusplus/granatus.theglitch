@@ -5,7 +5,7 @@ Eventide:
 - _Korok::F14:
     comment: " "
 
-- .dir(<W)
+- .dir(<W) swim/glide
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
     comment: Ancient arrows
@@ -15,7 +15,7 @@ Eventide:
 
 - .!!(Read shrine stone)
 
-- .dir(S)
+- .dir(.S)
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
     comment: Ancient arrows
@@ -31,13 +31,14 @@ Eventide:
 - .dir(<E)
 - _Korok::F18
 
-- .dir(N>>)
+- .dir(N>>) run
 - _Korok::N64
 
-- .dir(E)
+- .dir(E) run
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
     comment: Ancient arrows
+    notes: Shoot from above
 
 - .dir(S) + midair
 - _Korok::F32
@@ -80,7 +81,7 @@ Eventide:
 - _Korok::N54:
     notes: Palm fruit on nearby tree if needed
 
-- .dir(E>)
+- .dir(E>) + midair
 - _Korok::N56
 
 - .dir(S)
@@ -92,13 +93,13 @@ Eventide:
 - .dir(S)
 - _Korok::N63
 
-- .dir(<E)
+- .dir(<E) run
 - _Korok::N57
 
 - .dir(W>)
 - _Korok::N55
 
-- .dir(SW)
+- .dir(SW) + midairs
 - _Shrine::ChaasQeta
 
 - _Korok::N66
