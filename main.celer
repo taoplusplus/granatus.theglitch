@@ -12,7 +12,7 @@ _config:
     Shrine: "{{Korok}}. {{_}}"
 
 _route:
-  - (?=) This document may hange daily. For a stable version, see .link([Corrupted Granatus]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus).
+  - (?=) This document may change daily. For a stable version, see .link([Corrupted Granatus]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus).
   - (==) This is the Omegafairy version of the route (2022-07-13). Here's the .link([HeartyBass version]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05).
   - Resources:
     - .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0)

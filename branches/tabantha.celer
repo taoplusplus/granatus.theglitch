@@ -53,7 +53,7 @@ Tabantha:
 - _Korok::T33:
     comment: " "
 
-- .dir(W>>)
+- .dir(W>>) short
 - Activate .loc(Great Fairy Fountain):
     coord: [-3541.00, 294.88, -745.00]
 

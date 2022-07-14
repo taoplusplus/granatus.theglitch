@@ -1,6 +1,6 @@
 Hebra:
 ### Hebra 1
-
+- Climb out, .dir(N.) + .dir(.E) midair
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
@@ -10,14 +10,15 @@ Hebra:
     gale: 1
 - _Korok::H54
 
-- .dir(E>>)
+- .dir(E>>) + midair
 - _Korok::H55
 
-- .dir(N)
+- .dir(N.) + midair
 - _Korok::H43
 
-- .dir(<N)
-- _Korok::H27
+- .dir(<N) + midair
+- _Korok::H27:
+    comment: Aim .dir(N), .dir(W), .dir(E>)
 
 - .dir(<<E)
 - _Shrine::ShadaNaw:
@@ -29,10 +30,10 @@ Hebra:
 - .dir(E)
 - _Korok::H11
 
-- .dir(NW)
+- .dir(NW) short, down
 - _Korok::H09
 
-- .dir(NW)
+- Climb out, .dir(NW)
 - _Korok::H04
 
 - .dir(<W)
@@ -45,10 +46,10 @@ Hebra:
 
 - _Shrine::HiaMiu
 
-- .dir(S>>)
+- .dir(S.) + midairs
 - _Korok::H23
 
-- .dir(N>>)
+- .dir(N>)
 - _Discover<Sherfin's Hot Spring>:
     coord: [-4309.50, 460.50, -3495.00]
 
@@ -58,7 +59,8 @@ Hebra:
 
 - .gale() + .dir(E):
     gale: 1
-- _Korok::H08
+- _Korok::H08:
+    comment: Aim .dir(<<S) above lasers
 
 - .dir(N)
 - _Korok::H02
@@ -77,7 +79,7 @@ Hebra:
 
 ### Hebra 2
 
-- .dir(S)
+- .dir(S.) way down
 - _Boss::Talus::Frost:
     line-color: yellow
     comment: Bomb arrows
@@ -90,16 +92,16 @@ Hebra:
     gale: 1
 - _Korok::H34
 
-- .dir(S>)
+- .dir(S>) over and down
 - _Korok::H46
 
 - .dir(SE)
 - _Korok::H48
 
-- .dir(N) + .dir(N) midair
+- .dir(N)
 - _Korok::H49
 
-- .dir(N)
+- .dir(N) run
 - _Korok::H50:
     movements:
         - to: [-2836.29, 501.88, -2423.84]
@@ -111,9 +113,10 @@ Hebra:
           away: true
 
 - .dir(<N)
-- _Korok::H44
+- _Korok::H44:
+    comment: In cave, right of flag
 
-- .dir(E>)
+- midair .dir(E>), down
 - _Korok::H45
 
 - .dir(S)
