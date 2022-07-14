@@ -150,10 +150,10 @@ Hebra:
 - _Discover<Pondo's Lodge>:
     coord: [-2076.70, 389.70, -2080.90]
 
-- .dir(<<W) surf
+- .dir(SW)
 - _Korok::H67
 
-- .dir(<S) run
+- .dir(<S) surf/run
 - _Korok::H70
 
 - .dir(W)
@@ -162,7 +162,7 @@ Hebra:
 - midair .dir(<W)
 - _Korok::H72
 
-- .dir(W>>)
+- .dir(W>)
 - _Korok::T18
 
 - .dir(N>)
@@ -181,7 +181,7 @@ Hebra:
 - .dir(W)
 - _Korok::T11
 
-- .dir(SW) glide to bridge
+- .dir(SW) glide
 - _Npc<Gesane>:
     coord: [-3308.27, 227.83, -1803.34]
     comment: Face the Frost Talus
@@ -194,7 +194,7 @@ Hebra:
 - .dir(S)
 - _Korok::T21
 
-- .dir(N>>)
+- .dir(NE)
 - _Korok::T19:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
@@ -210,14 +210,14 @@ Hebra:
 - .dir(<E) + midairs
 - _Korok::R05
 
-- .dir(S)
+- .dir(S) surf
 - _Discover<Footrace Check-In>:
     coord: [-2638.00, 282.34, -1175.00]
 
-- .dir(S)
+- .dir(S) + midair
 - _Korok::R13
 
-- .dir(S>)
+- .dir(S.)
 - _Korok::R17
 
 - .dir(SE)
@@ -225,14 +225,18 @@ Hebra:
     coord: [-2370.05, 261.70, -419.59]
     comment: Ancient arrows
 
-- _Korok::R22:
-    movements:
-        - to: [-2434.11, 319.87, -491.04]
-          away: true
-
+- Look .dir(S)
 - _Korok::R31:
+    comment: " "
     movements:
         - to: [-2370.11, 307.05, -345.31]
+          away: true
+
+- Look .dir(NW)
+- _Korok::R22:
+    comment: " "
+    movements:
+        - to: [-2434.11, 319.87, -491.04]
           away: true
 
 - .dir(S>)
@@ -245,7 +249,7 @@ Hebra:
 - _Shrine::ShaeLoya:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21597s)
 
-- .dir(N.) glide
+- .dir(.N) glide
 - _Npc<Geggle>:
     coord: [-2912.28, 274.78, -551.75]
     comment: Cliffside Etchings
@@ -256,13 +260,13 @@ Hebra:
     coord: [-2916.00, 274.73, -561.00]
     comment: Gift for the Great Fairy
 
-- .dir(W>)
+- .dir(W>) run
 - _Korok::T34
 
 - .dir(S>)
 - _Korok::R28
 
-- .dir(E)
+- .dir(E) run
 - _Korok::R29
 
 - .dir(N)
@@ -279,10 +283,11 @@ Hebra:
 - _Shrine::DunbaTaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21967s)
 
-- .dir(S)
+- .dir(S):
+    notes: Behind shrine
 - _Korok::H73
 
-- .dir(E)
+- .dir(E>) down
 - _Korok::R04
 
 - _Warp::Shrine::ShadaNaw
