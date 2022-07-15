@@ -12,7 +12,9 @@ Rito Village:
 - _Npc::Rito<Bedoli>:
     coord: [-3632.60, 320.12, -1793.79]
     comment: Ancient Rito Song
-    notes: Backup cold darner here if you're missing one
+
+- 1 .item(Cold Darner):
+    notes: If you don't have one. For Little Sister's Big Request.
 
 - Run up
 - _Npc::SheikaFemale<Juney>:

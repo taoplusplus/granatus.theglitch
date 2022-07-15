@@ -28,7 +28,7 @@ Vah Naboris:
     gale: 2
 
 - _Snap::Quest<Guardian Scout>:
-    comment: Going to terminal 5
+    notes: (Optional) Going to terminal 5. Need a picture for entering Shoqa Tatone. Options are here, Hawa Koth, Vah Ruta, or any minor test of strength.
 
 - .boss(Thunderblight):
     icon: calamity
@@ -57,30 +57,30 @@ Vah Naboris:
 - Examine .!!(Thunder Helm):
     notes: Choose "I want it!"
 
-- In training yard
 - _Npc::Gerudo<Liana>:
     coord: [-3912.83, 149.68, 2930.99]
     comment: Search for Barta
+    notes: In training yard
 
-- Out and left to gate
 - _Npc::Gerudo<Laine>:
     coord: [-3916.17, 149.18, 2877.34]
     comment: Silent Swordswomen
+    notes: At the gate
 
-- Backtrack to first stairs
 - _Npc::Gerudo<Rotana>:
     coord: [-3877.78, 151.99, 2881.72]
     comment: Seven Heroines
+    notes: Up the first set of stairs
 
-- Second set of stairs
 - _Npc::Gerudo<Furosa>:
     coord: [-3856.93, 152.43, 2856.37]
     comment: Perfect Drink
+    notes: Up the second set of stairs
 
-- End of street
 - _Npc::Gerudo<Dalia>:
     coord: [-3833,2852.75]
     comment: Mystery Polluter
+    notes: At end of street
 
 - .dir(N)
 - _Npc::Gerudo<Anche>:
@@ -112,13 +112,13 @@ Vah Naboris:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action
 
-- _Npc<Maypin>:
-    comment: Buy 2 cold and 1 warm darner
-    notes: If Maypin doesn't show up, buy 1 warm darner and 1 winterwing butterfly from Beedle. Then get 1 cold darner in Rito later.
+- _Npc<Beedle>:
+    comment: Buy 1 warm darner and 1 winterwing butterfly.
+    notes: If Maypin (donkey) shows up, buy 1 warm darner and 2 cold darners from Maypin
 
 - _Cook<Cold Elixir>:
-    comment: Cold darner + monster part
-    notes: Substitute winterwing for cold darner
+    comment: Winterwing + monster part
+    notes: Substitute cold darner if bought from Maypin
 
 - _Npc<Pirou>:
     #coord: [-2796.56, 134.90, 2240.07]

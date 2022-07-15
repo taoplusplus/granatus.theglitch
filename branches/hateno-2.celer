@@ -5,19 +5,19 @@ Hateno 2:
 - .dir(SE)
 - _Korok::D51
 
-- .dir(E>)
+- .dir(E.)
 - _Korok::D52
 
-- .dir(N>>)
-- _Korok::N33
-
-- .dir(<<S)
+- .dir(<<E)
 - _Npc<Calip>:
     coord: [2398.96, 118.64, 1834.33]
     comment: The Cursed Statue
-    notes: Can cancel dialogue immediately, quest will still complete
+    notes: Calip leaves at 6:00am. Sleep in bed if you're here after. Cancel dialogue.
 
-- .dir(W) run
+- .dir(<NE)
+- _Korok::N33
+
+- .dir(S)
 - _Korok::N34
 
 - .dir(<N)
@@ -46,11 +46,12 @@ Hateno 2:
 - .dir(W>)
 - _Korok::N38
 
-- .dir(<<W)
+- .dir(SW)
 - _Korok::N41
 
 - .dir(<<W)
-- _Korok::N45
+- _Korok::N45:
+    comment: 10 ring
 
 - .dir(S)
 - _Korok::N46
@@ -79,6 +80,7 @@ Hateno 2:
     coord: [3331.22, 235.28, 2284.61]
     comment: From the Ground Up
 
+- .dir(N>)
 - _Npc<Nebb>:
     coord: [3352.40, 225.55, 2138.81]
     comment: Weapon Connoisseur
@@ -92,6 +94,7 @@ Hateno 2:
     coord: [3418.24, 226.84, 2121.22]
     comment: Gift for My Beloved
 
+- .dir(E)
 - _Npc<Koyin>:
     coord: [3621.69, 283.36, 2098.13]
     comment: Sheep Rustlers
@@ -103,6 +106,7 @@ Hateno 2:
 - _Npc<Symin>:
     coord: [3778.96, 356.86, 2132.45]
     comment: Sunshroom Sensing
+    notes: Make sure to select "I'm good"
 
 - .!!(Buy COMPENDIUM)
 

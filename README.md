@@ -17,6 +17,11 @@
 
 ## Updates
 
+### 2022-07-14
+
+- Moved second heart turn-in to Kakariko 3 during Dorian escort.
+- Revised the whole route doc from beginning to end.
+
 ### 2022-07-09
 
 - Made the Plateau route more efficient:
