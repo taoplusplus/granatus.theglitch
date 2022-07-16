@@ -74,15 +74,20 @@ Lanayru Complete:
 
 - .gale() + .dir(E) midair:
     gale: 1
+    notes: Alternatively .dir(W) + .dir(E) midairs gives more room to gain height
 - _Korok::Z35
 
-- .dir(<E)
+- .dir(<E) + .dir(.N) midairs
+- _Chest::Special<Star Fragment>:
+    coord: [4218.92, 380.62, -147.56]
+    notes: (Optional) Get this chest if you skipped the one earlier in Castle
 - _Korok::Z28
 
 - .dir(NE)
-- _Korok::Z10
+- _Korok::Z10:
+    comment: On island next to updraft
 
-- .dir(NW)
+- .dir(<NW)
 - _Korok::Z09
 
 - .dir(W>)
@@ -94,12 +99,13 @@ Lanayru Complete:
 - .dir(N>)
 - _Shrine::KenaiShakah
 
-- .dir(S>)
+- Jump and midair .dir(S>)
 - _Korok::A55
 
-- .dir(<<N)
+- .dir(<N)
 - _Korok::A54:
     comment: " "
+    notes: .link([Korok strat]https://twitter.com/TaoPlusPlus/status/1548114763384729600?s=20&t=JX61AlpH3ORlyUb73JbUtw)
 
 - .dir(<<E)
 - _Korok::A53
@@ -107,7 +113,7 @@ Lanayru Complete:
 - .dir(E)
 - _Korok::Z07
 
-- .dir(N)
+- .dir(N) short, down
 - _Korok::Z06
 
 - .dir(N)

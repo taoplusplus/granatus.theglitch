@@ -12,7 +12,7 @@ Hateno 2:
 - _Npc<Calip>:
     coord: [2398.96, 118.64, 1834.33]
     comment: The Cursed Statue
-    notes: Calip leaves at 6:00am. Sleep in bed if you're here after. Cancel dialogue.
+    notes: If it's not raining, Calip leaves at 6:00am. Sleep in bed if he's not here. Cancel dialogue.
 
 - .dir(<NE)
 - _Korok::N33
@@ -71,7 +71,7 @@ Hateno 2:
 - _Shrine::MyahmAgana:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=5334s)
 
-- .dir(SW)
+- .dir(SW) short, down
 - _Korok::N53
 
 - .gale():
@@ -93,6 +93,7 @@ Hateno 2:
 - _Npc<Manny>:
     coord: [3418.24, 226.84, 2121.22]
     comment: Gift for My Beloved
+    notes: Manny, Prima, Manny, Manny
 
 - .dir(E)
 - _Npc<Koyin>:
@@ -106,7 +107,7 @@ Hateno 2:
 - _Npc<Symin>:
     coord: [3778.96, 356.86, 2132.45]
     comment: Sunshroom Sensing
-    notes: Make sure to select "I'm good"
+    notes: Talk 3 times until you get the Hearty Truffle reward. Then talk again and make sure to select "I'm good".
 
 - .!!(Buy COMPENDIUM)
 

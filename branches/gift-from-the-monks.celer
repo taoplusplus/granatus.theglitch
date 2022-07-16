@@ -7,10 +7,10 @@ Gift from the Monks:
     hide-icon-on-map: true
     notes: (Optional) For Salvager chest. Make night if here after 2:30am.
 
-- .dir(SE)
+- .dir(SE) run
 - _Korok::H20
 
-- .dir(E)
+- .dir(E) + .dir(S) midairs
 - _Korok::H28
 
 - Look .!!(Southeast) in the sky:
@@ -19,7 +19,8 @@ Gift from the Monks:
 - Drop down
 - _Shrine::GomaAsaagh
 
-- .dir(SW)
+- .dir(SW) run:
+    notes: Can shield jump onto ice or shoot a fire arrow between the ice blocks and run through
 - _Korok::H35
 
 - .dir(SE)
@@ -126,7 +127,7 @@ Gift from the Monks:
 - .dir(NE)
 - _Korok::H68
 
-- .dir(S.)
+- .dir(S.) way down
 - _Korok::K22
 
 - .dir(NE)

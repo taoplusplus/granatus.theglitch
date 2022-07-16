@@ -50,7 +50,7 @@ Hyrule Castle:
 - _Chest<Star Fragment>:
     coord: [-224.01, 104.73, -1177.87]
     comment: In the water
-    notes: .v(Star)/3 star fragments
+    notes: .v(Star)/3 star fragments. Alternatively, can skip this and get one later after Shai Yota.
     var-change:
         Star: 1
 
