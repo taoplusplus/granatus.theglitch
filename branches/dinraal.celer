@@ -22,7 +22,7 @@ Dinraal:
 
 - _Tod::Morning:
     coord: [267.00, 173.39, -3668.50]
-    notes: Look WEST back toward Qaza Tokki when sitting at campfirel. Camera east sometimes stops Dinraal from spawning.
+    notes: Look WEST back toward Qaza Tokki when sitting at campfire. Camera east sometimes stops Dinraal from spawning.
 
 - .dir(E)
 - _Korok::K02
@@ -33,18 +33,12 @@ Dinraal:
 - Shoot Dinraal
 - Get .item(Dinraal's Claw)
 
-- Kill .enemy(White-Maned Lynel):
-    icon: boss-dlc
-    movements:
-        - to: [1257.69, 207.16, -3753.55]
-          away: true
-    notes: (Optional) Only if previous lynel didn't drop hoof.
-
 - _Tod::Morning:
     coord: [1163.40, 209.96, -3742.78]
 
 - .dir(E)
-- _Korok::E01
+- _Korok::E01:
+    notes: (Optional) Kill .enemy(Lynel) here if previous Lynel didn't drop hoof
 
 - _Snap::Quest<Eldin Great Skeleton>:
     coord: [1635.10, 207.96, -3661.03]
@@ -68,7 +62,7 @@ Dinraal:
 
 - _Shrine::GoraeTorr:
     comment: Gut Check Challenge
-    notes: WB E and then midair W.
+    notes: WB .dir(E) and then midair .dir(W).
 
 - _Tod::Night:
     notes: For Kilton and Salvager chest
@@ -86,10 +80,11 @@ Dinraal:
 - .dir(<<S)
 - _Snap::Quest<Kilton>:
     coord: [3244.60, 82.63, -3448.81]
-    comment: Take 3 pics
+    comment: SNAP 3 pics
     notes: It's common for the camera to not register Kilton. Take 3 snaps from different angles to be safe.
 
-- _Npc<Kilton>
+- _Npc<Kilton>:
+    comment: Talk
 
 - .dir(S>)
 - _Korok::A05:

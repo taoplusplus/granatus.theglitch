@@ -11,7 +11,7 @@ Korok Forest:
     comment: Lost Pilgramage
     notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't need to follow Oaki; he'll move along his path while we do the next steps.
 
-- .dir(E) top of Deku tree
+- .dir(E) to .loc(top of Deku tree)
 - _Npc<Walton>:
     coord: [407.59, 334.17, -2180.27]
     comment: Riddles of Hyrule
@@ -32,7 +32,7 @@ Korok Forest:
     coord: [473.68, 249.02, -2125.30]
     comment: For Voo Lota
 - 3 Bird Egg:
-    notes: In trees behind Hestu. 1 for korok in castle and 2 for transmute scrap.
+    notes: In trees behind Hestu. 1 for korok in castle and 2 for transmute scrap
 
 - _Npc<Hestu>:
     icon: hestu

@@ -35,7 +35,9 @@
 
 7. Hold/sell: 1 Hearty Durian, 2 Mighty Banana, 1 Hearty Truffle, 1 Chillshroom
 
-8. Pick up: 1 other, 1 other, 1 Farosh's Scale, 1 other ("other" means _any_ part from that pile)
+8. Pick up: 1 other, 1 other, 1 Farosh's Scale, 1 other
+
+("other" means _any_ part from that pile)
 
 9. Hold/sell: 3 Fleet-Lotus Seeds, 1 Blue Nightshade, 1 Bird Egg
 

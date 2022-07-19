@@ -36,7 +36,7 @@ Vah Rudania:
         - to: [2701.02, 726.21, -2363.06]
         - to: [2794.50, 774.84, -2657.93]
     comment: Ancient arrow everything
-    notes: Break ores during escort 10 amber and 11 flint
+    notes: Break ores during escort if missing amber (10) or flint (11)
 
 - Complete divine beast
 
@@ -124,7 +124,7 @@ Vah Rudania:
     gale: 1
 - _Korok::E22
 
-- .dir(N)
+- .dir(E)
 - _Korok::E23
 
 - .dir(<W)

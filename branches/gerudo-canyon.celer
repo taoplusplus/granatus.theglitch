@@ -158,7 +158,7 @@ Gerudo Canyon:
 - .dir(S>>)
 - _Korok::W10
 
-- .dir(W)
+- .dir(E) + midair
 - _Boss::Talus::Luminous:
     coord: [-2277.50, 293.77, 1979.00]
     comment: Bomb arrow

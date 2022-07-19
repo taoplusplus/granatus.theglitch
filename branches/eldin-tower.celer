@@ -4,7 +4,7 @@ Eldin Tower:
 
 - _Korok::A39
 
-- .dir(<N) super
+- .dir(<N)
 - _Discover<Shadow Hamlet Ruins>:
     coord: [3053.78, 438.86, -2299.47]
 
@@ -14,7 +14,7 @@ Eldin Tower:
 - .dir(S) + midair
 - _Korok::A25
 
-- .dir(S>) super
+- .dir(S>)
 - _Korok::A30
 
 - .dir(<E)
@@ -41,7 +41,7 @@ Eldin Tower:
     coord: [3691.23, 195.66, -1511.54]
     notes: As one of the stalkers is dying
 
-- .dir(<E) super
+- .dir(<E)
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: 10 wood
@@ -52,6 +52,7 @@ Eldin Tower:
 - .dir(W>)
 - _Shrine::DahHesho
 
+- Run
 - _Korok::A47
 
 - .dir(S)

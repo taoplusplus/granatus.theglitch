@@ -44,7 +44,8 @@ Hateno:
 - _Korok::N48:
     comment: " "
 
-- Swim to rock
+- Swim to rock:
+    notes: Alternatively, stay in the water, save, then close and re-open the game to clear the glitch. This will warp you back up to tech lab.
 - .dir(N) + .dir(W.)
 - _Korok::N43
 
@@ -61,7 +62,8 @@ Hateno:
 - _Korok::N58
 
 - .dir(W)
-- _Korok::N50
+- _Korok::N50:
+    comment: " "
 
 - _Korok::N49:
     notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw)
@@ -69,7 +71,7 @@ Hateno:
 - .dir(N) + midair
 - _Tower::Hateno
 
-- .dir(<<W) super
+- .dir(<<W)
 - _Korok::D57:
     comment: " "
     notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541416737190674432?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)

@@ -5,16 +5,16 @@ Goron City:
 - .dir(<<N)
 - _Korok::E27
 
-- .dir(<W) land above talus
+- .dir(<W)
+- _Korok::E26
+
+- .dir(SE) short, land above talus
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury()
     fury: 3
 
-- .dir(<N)
-- _Korok::E26
-
-- .dir(N>) to .loc(Southern Mine)
+- .dir(.N) to .loc(Southern Mine)
 
 - _Material<Fireproof Lizard,10>:
     movements:
@@ -25,6 +25,7 @@ Goron City:
         - to: [1670.67, 428.92, -1918.46]
         - to: [1701.79, 430.53, -1932.14]
         - to: [1683.16, 430.31, -1948.15]
+    notes: .link([Lizard route]https://twitter.com/bings_f/status/1441999069128261636)
 
 - _Npc<Kima>:
     coord: [1657.35, 430.17, -1960.60]
@@ -68,7 +69,7 @@ Goron City:
 - _Shrine::ShaeMosah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18427s)
 
-- .dir(<N) turn
+- .dir(<N)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
 

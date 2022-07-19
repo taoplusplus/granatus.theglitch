@@ -1,7 +1,7 @@
 Kohga:
 - _Warp::Shrine::MoggLatan:
     line-color: lightyellow
-- .dir(<S) super + midair
+- .dir(<S) + midair
 - _Korok::G19
 
 - .dir(NW) + .dir(W) midair

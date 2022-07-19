@@ -15,7 +15,7 @@ Vah Medoh:
     coord: [-3643.01, 290.64, -1823.43]
     comment: Buy everything you can
 
-- .dir(.N) super
+- .dir(.N)
 - _Korok::T02
 
 - _Equipment::Bow<Swallow Bow>:
@@ -59,18 +59,17 @@ Vah Medoh:
 
 - .dir(W.)
 - _Korok::T10
-    #notes: Reroute?
 
-- .dir(.W) super
+- .dir(.W)
 - _Korok::T13
 - 1 Hearty Truffle:
-    notes: Used later for transmute
+    notes: Used for transmute
 
 - _Npc::Rito<Kheel>:
     coord: [-3979.33, 271.21, -1751.18]
     comment: Warbler's Nest, Find Kheel
 
-- .dir(N>) super
+- .dir(N>)
 - _Korok::T04
 
 - .dir(N)

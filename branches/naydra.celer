@@ -13,7 +13,7 @@ Naydra:
 - .dir(W>)
 - _Korok::N24
 
-- .dir(<S) fall way down
+- .dir(<S) way down
 - _Korok::N31
 
 - .dir(<W)
@@ -33,7 +33,7 @@ Naydra:
     movements:
         - to: [3229.03, 302.83, 1545.25]
           away: true
-    notes: Stasis apple and bomb arrow from a distance
+    notes: .rune(Stasis) apple and bomb arrow from a distance
 
 - .dir(N>) run
 - _Korok::N22
@@ -76,7 +76,8 @@ Naydra:
 
 - .gale() + .dir(W):
     gale: 1
-- _Korok::N17
+- _Korok::N17:
+    comment: " "
 
 - .dir(<S)
 - _Korok::N23

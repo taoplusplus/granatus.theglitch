@@ -17,7 +17,8 @@ Vah Ruta:
 - _Korok::N02
 
 - .dir(E)
-- _Korok::N03
+- _Korok::N03:
+    comment: Behind shrine
 
 - _Shrine::MezzaLo:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7036s)

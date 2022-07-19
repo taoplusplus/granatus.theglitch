@@ -7,7 +7,7 @@ Vah Naboris:
     coord: [-3868.85, 166.67, 2948.96]
     comment: Urbosa Memory
 
-- .dir(E>>) super
+- .dir(E>>)
 - _Npc::Gerudo<Riju>:
     coord: [-3420.68, 189.82, 3118.97]
     comment: At outpost
@@ -113,12 +113,11 @@ Vah Naboris:
     comment: Missing in Action
 
 - _Npc<Beedle>:
-    comment: Buy 1 warm darner and 1 winterwing butterfly.
+    comment: Buy warm darner, winterwing butterfly
     notes: If Maypin (donkey) shows up, buy 1 warm darner and 2 cold darners from Maypin
 
 - _Cook<Cold Elixir>:
-    comment: Winterwing + monster part
-    notes: Substitute cold darner if bought from Maypin
+    comment: Winterwing/cold darner + monster part
 
 - _Npc<Pirou>:
     #coord: [-2796.56, 134.90, 2240.07]

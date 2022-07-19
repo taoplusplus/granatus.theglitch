@@ -53,7 +53,7 @@ Akkala Tower:
 - .dir(SE)
 - _Korok::Z34
 
-- .dir(<E) super
+- .dir(<E)
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
     comment: .fury() Collect gems
@@ -67,7 +67,7 @@ Akkala Tower:
 
 - _Korok::Z20
 
-- .dir(<N) super
+- .dir(<N)
 - _Korok::Z08
 
 - .dir(<W)
@@ -83,13 +83,13 @@ Akkala Tower:
 - .dir(N>) + midairs
 - _Chest::Special<Zora Helm>:
     coord: [3466.36, 499.22, -889.05]
-    comment: Magnesis chest
+    comment: .rune(Magnesis) chest in water
 
 - .dir(<E)
 - _Korok::Z05
 
-- .dir(W>) super
+- .dir(W>)
 - _Korok::Z04
 
-- .dir(N>) super
+- .dir(N>)
 - _Tower::Akkala

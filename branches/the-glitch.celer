@@ -1,5 +1,6 @@
 The Glitch:
-- BLSS .dir(W>) to .loc(Mushroom Woods):
+- BLSS .dir(W>)
+- .loc(Mushroom Woods):
     icon: material
     coord: [-2203.83, 267.93, 792.66] 
 
@@ -24,6 +25,7 @@ The Glitch:
     movements:
       - to: [-2469.11, 319.03, 746.31]
       - to: [-2469.86, 320.38, 736.31]
+    comment: Upgrades Set of the Wild
 
 - 2 Bird Egg:
     coord: [-2479.27, 316.89, 721.97]
@@ -34,28 +36,34 @@ The Glitch:
 - .dir(W.) short
 - _Material<Silent Princess,2>:
     coord: [-2572.44, 307.32, 660.62]
+    comment: Upgrades Champion's Tunic
 
 - _Material<Fleet-Lotus Seed,4>:
     coord: [-2558.07, 306.99, 655.56]
+    comment: For speed food
 
 - .dir(E.)
 - _Material<Rushroom,1>:
     coord: [-2349.25, 355.64, 672.69]
+    comment: For Rushroom Rush!
 - _Chest<Forest Dweller's Bow>:
     coord: [-2342.64, 348.37, 680.81]
 - _Material<Acorn,1>:
     coord: [-2338.68, 348.73, 678.83]
+    comment: Upgrades Set of the Wild
 
 - .dir(N.)
 - _Material<Hearty Durians,10>:
     coord: [-2196.75, 410.21, 443.15]
-    notes: Not scrap. Use for food until dupe; save 1 for quest.
+    comment: Use for food; save 1 for quest
 
-- _Material<Wood,2>
+- _Material<Wood,2>:
+    comment: For Tarrey Town
 
 - .dir(W)
-- Kill 2 .enemy(Mountain Crows):
+- Kill 2+ .enemy(Mountain Crows):
     coord: [-2299.82, 439.59, 469.19]
+    notes: Slam attack as you glide over
 - 2+ Raw Bird Drumstick:
     notes: .v(Scrap)/8 scrap
     var-change:
@@ -95,7 +103,7 @@ The Glitch:
     comment: In shrine
     notes: Skip if already have one
 
-- .dir(E.) super
+- .dir(E.)
 - Kill .enemy(Green Lizalfos):
     notes: (Optional) Safety for horn/talon rng. Can sneakstrike with hammer or headshot with FDB.
 - _Shrine::DakaTuss:
@@ -110,12 +118,14 @@ The Glitch:
 - _Material<Energetic Rhino Beetle,1>:
     coord: [1811.23, 221.34, 1050.06]
     notes: Spawns between 9:00pm and 7:00am. Make morning if needed.
+    comment: Upgrades Set of the Wild
 
 - .dir(N.)
 - _Shrine::TalohNaeg:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2472s)
 - _Chest<Opal>:
     comment: In shrine
+    notes: Upgrades Zora Set
 
 - .dir(.E)
 - 2 Fairy:
@@ -180,7 +190,7 @@ The Glitch:
 - BLSS .dir(NE)
 
 - Drop Hammer:
-    notes: Make sure you have 2 weapons, 4 bows, 1 shield. .link([Check inventory]https://github.com/taoplusplus/granatus.theglitch/blob/main/shopping-list.txt).
+    notes: Make sure you have 2 weapons, 4 bows, 1 shield
 
 - Activate .loc(Myahm Agana):
     coord: [3387.62, 240.64, 2214.92]
