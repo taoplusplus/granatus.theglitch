@@ -37,10 +37,6 @@ Eldin Tower:
     coord: [3671.23, 195.66, -1511.54]
     comment: Hobbies of the Rich
 
-- _Snap::Quest<Guardian Stalker>:
-    coord: [3691.23, 195.66, -1511.54]
-    notes: As one of the stalkers is dying
-
 - .dir(<E)
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]

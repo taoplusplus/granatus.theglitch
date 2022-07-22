@@ -70,13 +70,6 @@ Hyrule Castle:
 
 - Drop down, enter .loc(Lockup)
 - Shoot malice eye in hallway
-#- _Equipment::Weapon<Royal Guard's Claymore>:
-#    coord: [-414.90, 127.54, -1087.77]
-
-#- _Equipment::Weapon<Blizzard Rod>:
-#    coord: [-461.66, 128.27, -1063.01]
-#    comment: Freezing Rod
-#    notes: In cell with lizalfos
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
@@ -116,7 +109,7 @@ Hyrule Castle:
 - _Korok::X09
 
 - _Discover<Zelda's Room>:
-    notes: Run into the malice
+    notes: Run into the room
 
 - .dir(S>>)
 - _Korok::X14
@@ -191,6 +184,11 @@ Hyrule Castle:
 
 - .dir(<S)
 - _Korok::C33
+
+- _Snap::Quest<Guardian Stalker>:
+    movements:
+        - to: [71.50, 135.11, -104.00]
+          away: true
 
 - .dir(S>>)
 - _Korok::C35

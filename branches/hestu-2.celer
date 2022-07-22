@@ -23,6 +23,9 @@ Hestu 2:
 - .dir(<E)
 - _Korok::Z38
 
+- _Equipment::Bow<Wooden Bow>:
+    coord: [1429.44, 115.67, 148.95]
+
 - .dir(SE)
 - _Discover<Goponga Village Ruins>:
     coord: [1580.16, 109.80, 312.15]
@@ -34,8 +37,8 @@ Hestu 2:
 - _Discover<Moor Garrison Ruins>:
     coord: [1534.40, 120.58, -155.90]
 
-- Steal 2 Spiked Boko Bow:
-    icon: bow
+- _Equipment::Bow<2 Spiked Boko Bow>:
+    comment: Steal
     coord: [1534.40, 120.58, -175.90]
 
 - .dir(.N)

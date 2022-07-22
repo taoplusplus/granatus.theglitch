@@ -17,6 +17,15 @@
 
 ## Updates
 
+### 2022-07-19
+
+- Revised route to use an optimized dupe strategy (thanks minghao!).
+	- Only 3 bows before dupe.
+	- Get wooden bow by Z38.
+- Added a strat to clear inventory corruption after N48.
+- Added splits for entering divine beasts and Kohga.
+- Moved guardian scout picture to Hawa Koth, guardian stalker picture to after C33.
+
 ### 2022-07-14
 
 - Moved second heart turn-in to Kakariko 3 during Dorian escort.

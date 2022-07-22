@@ -32,6 +32,7 @@ Vah Medoh:
     icon: medoh-enter
     coord: [-3620.00, 739.95, -2110.00]
     notes: 1 ancient arrow per cannon
+    split-type: UserDefined
 - Complete divine beast:
     notes: Skip ancient core, ice arrows
 - .boss(Windblight Ganon):

@@ -48,6 +48,9 @@ Moldugas:
     comment: Set skew outside
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11125s)
 
+- _Snap::Quest<Guardian Scout>:
+    comment: In shrine
+
 - _Npc::Gerudo<Barta>:
     comment: Search for Barta
     coord: [-4818.86, 130.23, 3713.28]

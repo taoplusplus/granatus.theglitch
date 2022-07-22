@@ -10,7 +10,8 @@ Hateno:
     coord: [3331.22, 235.28, 2284.61]
     comment: From the Ground Up
 
-- .!!(Upgrade house 14 times)
+- .!!(Upgrade House):
+    notes: 14 upgrades
 
 - .dir(N.)
 - _Npc<Medda>:
@@ -35,8 +36,10 @@ Hateno:
 - _Snap::Quest<Purah>:
     hide-icon-on-map: true
     comment: Talk and SNAP
-- .!!(Get Slate, Bombs+, Stasis+):
+- .!!(Upgrade Slate and Runes):
+    icon: camera-plus
     notes: If less than 3 screws, upgrade slate in Hateno 2
+    split-type: UserDefined
 
 - 2 Apple
 
@@ -44,9 +47,9 @@ Hateno:
 - _Korok::N48:
     comment: " "
 
-- Swim to rock:
-    notes: Alternatively, stay in the water, save, then close and re-open the game to clear the glitch. This will warp you back up to tech lab.
-- .dir(N) + .dir(W.)
+- (==) Stay in the water, save, then close and re-open software to clear the glitch. This warps you back up to tech lab.
+
+- .dir(<N)
 - _Korok::N43
 
 - .dir(S>)

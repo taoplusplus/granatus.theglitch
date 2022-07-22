@@ -27,9 +27,6 @@ Vah Naboris:
 - .gale():
     gale: 2
 
-- _Snap::Quest<Guardian Scout>:
-    notes: (Optional) Going to terminal 5. Need a picture for entering Shoqa Tatone. Options are here, Hawa Koth, Vah Ruta, or any minor test of strength.
-
 - .boss(Thunderblight):
     icon: calamity
     notes: Stasis+ 2 body shots, 3 head shots
@@ -99,7 +96,6 @@ Vah Naboris:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12428s); chest is on the platform next to the monk
 - _Chest<Radiant Shield>:
     comment: In shrine
-    notes: Best shield
 
 - .dir(<<E)
 - _Korok::G34
