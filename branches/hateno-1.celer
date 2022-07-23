@@ -1,30 +1,35 @@
 Hateno:
-- 2 Iron Sledgehammers
+- _Equipment::Weapon<Iron Sledgehammer>
 
 - _Npc<Bolson>:
     coord: [3327.28, 235.03, 2297.52]
-    comment: Hylian Homeowner
+    # comment: Hylian Homeowner
     notes: 30 wood, 3000 rupees
 
 - _Npc<Hudson>:
     coord: [3331.22, 235.28, 2284.61]
-    comment: From the Ground Up
+    # comment: From the Ground Up
 
-- .!!(Upgrade House):
-    notes: 14 upgrades
+# - .!!(Upgrade House):
+#     notes: 14 upgrades
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+    comment: Hylian Homeowner
+    # notes: 30 wood, 3000 rupees
 
 - .dir(N.)
 - _Npc<Medda>:
     coord: [3381.11, 226.15, 2105.53]
-    comment: Spring of Wisdom
+    # comment: Spring of Wisdom
 
 - .dir(N.)
-- _Korok::N42
+- _Korok::N42:
+    comment: " "
 
-- .dir(<S) glide
-- .!!(Smuggle Blue Flame):
-    coord: [3447.5,1982]
-    notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
+# - .dir(<S) glide
+# - .!!(Smuggle Blue Flame):
+#     coord: [3447.5,1982]
+#     notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
 
 - .dir(E>) + .dir(E)
 - Activate .loc(Hateno Tech Lab):
@@ -35,13 +40,15 @@ Hateno:
 
 - _Snap::Quest<Purah>:
     hide-icon-on-map: true
-    comment: Talk and SNAP
-- .!!(Upgrade Slate and Runes):
+    # comment: Talk and SNAP
+- .!!(Upgrade Runes):
     icon: camera-plus
     notes: If less than 3 screws, upgrade slate in Hateno 2
     split-type: UserDefined
 
-- 2 Apple
+- _Material<Apple,2>:
+    hide-icon-on-map: true
+    comment: " "
 
 - .dir(E) short
 - _Korok::N48:
@@ -50,16 +57,18 @@ Hateno:
 - (==) Stay in the water, save, then close and re-open software to clear the glitch. This warps you back up to tech lab.
 
 - .dir(<N)
-- _Korok::N43
+- _Korok::N43:
+    comment: " "
 
 - .dir(S>)
 - _Npc<Koyin>:
     coord: [3621.69, 283.36, 2098.13]
-    comment: Sheep Rustlers
+    # comment: Sheep Rustlers
     notes: Text option 2
 
 - .dir(SW)
-- _Korok::N59
+- _Korok::N59:
+    comment: " "
 
 - .dir(W)
 - _Korok::N58
@@ -69,6 +78,7 @@ Hateno:
     comment: " "
 
 - _Korok::N49:
+    comment: " "
     notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw)
 
 - .dir(N) + midair
@@ -80,7 +90,8 @@ Hateno:
     notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541416737190674432?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .dir(NE) short
-- _Korok::D58
+- _Korok::D58:
+    comment: " "
 
 - .dir(N>>)
 - _Korok::D53:

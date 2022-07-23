@@ -1,11 +1,14 @@
 Kohga:
 - _Warp::Shrine::MoggLatan:
     line-color: lightyellow
+    comment: WARP
+
 - .dir(<S) + midair
 - _Korok::G19
 
 - .dir(NW) + .dir(W) midair
-- _Korok::G13
+- _Korok::G13:
+    comment: " "
 
 - .dir(N) + .dir(W>) midair
 - _Korok::G10
@@ -14,27 +17,30 @@ Kohga:
 - _Korok::G12
 
 - .dir(<<S)
-- Melt ice with 7-8 fire arrows
-- Kill .enemy(Ice Wizzrobe)
-- _Equipment::Weapon<Ice Rod>:
+- Melt ice: #with 7-8 fire arrows:
+    icon: bow
+- Kill .enemy(Ice Wizzrobe):
+    icon: calamity
     coord: [-3076.70, 591.10, 1226.90]
-    comment: Freezing Rod
+- _Equipment::Weapon<Ice Rod>
+    # comment: Freezing Rod
 - _Material<Luminous Stones>:
-    comment: Luminous Stone Gathering
+    # comment: Luminous Stone Gathering
     hide-icon-on-map: true
 - _Shrine::KuhTakkar:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11386s)
 
-- BLSS or WB .dir(S)
+- BLSS .dir(S)
 - _Tower::Gerudo
 
 - _Npc::Rito<Kass>:
     coord: [-3655.84, 471.90, 1837.15]
-    comment: Sign of the Shadow
+    # comment: Sign of the Shadow
     notes: Text option 2-1
 
 - .dir(S)
-- _Korok::W29
+- _Korok::W29:
+    comment: " "
 
 - .dir(.S)
 - _Npc<Benja>:
@@ -45,29 +51,31 @@ Kohga:
 - .dir(<E)
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
-    comment: Buy clothes
+    # comment: Buy clothes
 
 - .dir(<W)
-- _Tod::Morning:
-    coord: [-3832.79, 148.98, 2948.17]
-    notes: For ice house timing after Naboris. Also need to reach Gerudo Canyon Stable before 4:00pm. If you're finishing Naboris after 1:00pm, skip this and make NOON after Naboris.
+# - _Tod::Morning:
+#     coord: [-3832.79, 148.98, 2948.17]
+#     notes: For ice house timing after Naboris. Also need to reach Gerudo Canyon Stable before 4:00pm. If you're finishing Naboris after 1:00pm, skip this and make NOON after Naboris.
 
-- _Shop<Arrow Shop>:
+- _Shop<Fire and Ice Arrows>:
     coord: [-3859.23, 149.24, 2916.02]
-    comment: Buy fire and ice
+    # comment: Buy fire and ice
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
-    comment: In throne room
+    # comment: In throne room
 
 - .dir(.W)
-- _Korok::W47
+- _Korok::W47:
+    comment: " "
 
 - .dir(N)
 - _Korok::W36
 
 - midair .dir(<<N)
-- _Korok::W28
+- _Korok::W28:
+    comment: " "
 
 - _Warp::Shrine::KuhTakkar
 
@@ -77,17 +85,17 @@ Kohga:
     hide-icon-on-map: true
     line-color: orange
     coord: [-3510.46, 442.51, 1297.31]
-    comment: Clip in
+    # comment: Clip in
 
 - _Equipment::Bow<Duplex Bow>:
     coord: [-3510.46, 442.51, 1297.31]
-    comment: Weapon Connoisseur
+    # comment: Weapon Connoisseur
 
-- .!!(Dupe 9 Great Eagle Bows):
+- .!!(Dupe 9 GEB):
     icon: bow
     hide-icon-on-map: true
     notes: .link([Tutorial]https://youtu.be/ZmwUDr36i1E)
-    comment: Keep Duplex Bow
+    # comment: Keep Duplex Bow
 
 - .boss(Kohga):
     icon: calamity

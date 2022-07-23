@@ -1,29 +1,32 @@
 Vah Naboris:
 - _Warp::Shrine::DaqoChisay:
     notes: Clear ragdoll before warping
+    comment: WARP
 
 - .dir(S>>)
 - _Npc::Gerudo<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
-    comment: Urbosa Memory
+    # comment: Urbosa Memory
 
 - .dir(E>>)
 - _Npc::Gerudo<Riju>:
     coord: [-3420.68, 189.82, 3118.97]
-    comment: At outpost
+    # comment: At outpost
 
 - .dir(SE) surf
 - _Npc::Gerudo<Pokki>:
     coord: [-2968.22, 137.69, 3775.00]
-    comment: Perfect Drink
+    # comment: Perfect Drink
 
 - .dir(E) + midair:
     notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
+
 - Enter Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
 
-- Complete divine beast
+# - Complete divine beast
 - .gale():
     gale: 2
 
@@ -40,41 +43,45 @@ Vah Naboris:
         - to: [-3772,2851]
           warp: true
 
-- _Npc<Bozai>:
+- +_Npc<Bozai>:
     coord: [-3750,2874]
-    comment: 8th Heroine/Forgotten Sword
-    notes: Get Snow Boots
+    # comment: 8th Heroine/Forgotten Sword
+    # notes: Get Snow Boots
 
-- Run to throne room:
-    notes: WB saves 1 second
-- _Npc::Gerudo<Riju>:
+# - Run to throne room:
+#     notes: WB saves 1 second
+- _Tod::Noon:
+    coord: [-3832.79, 148.98, 2948.17]
+
+- +_Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
-    comment: In throne room
+    # comment: In throne room
 
 - Examine .!!(Thunder Helm):
+    icon: shield
     notes: Choose "I want it!"
 
-- _Npc::Gerudo<Liana>:
+- +_Npc::Gerudo<Liana>:
     coord: [-3912.83, 149.68, 2930.99]
     comment: Search for Barta
     notes: In training yard
 
-- _Npc::Gerudo<Laine>:
+- +_Npc::Gerudo<Laine>:
     coord: [-3916.17, 149.18, 2877.34]
     comment: Silent Swordswomen
     notes: At the gate
 
-- _Npc::Gerudo<Rotana>:
+- +_Npc::Gerudo<Rotana>:
     coord: [-3877.78, 151.99, 2881.72]
     comment: Seven Heroines
     notes: Up the first set of stairs
 
-- _Npc::Gerudo<Furosa>:
+- +_Npc::Gerudo<Furosa>:
     coord: [-3856.93, 152.43, 2856.37]
     comment: Perfect Drink
     notes: Up the second set of stairs
 
-- _Npc::Gerudo<Dalia>:
+- +_Npc::Gerudo<Dalia>:
     coord: [-3833,2852.75]
     comment: Mystery Polluter
     notes: At end of street
@@ -82,14 +89,14 @@ Vah Naboris:
 - .dir(N)
 - _Npc::Gerudo<Anche>:
     coord: [-3743.75, 146.81, 2304.44]
-    comment: Get ice
+    # comment: Get ice
 
 - BLSS with ice cube:
     notes: .link([Delivery strat]https://youtu.be/xdwRCszyc48?t=11542)
 
 - _Npc::Gerudo<Furosa>:
     coord: [-3764.49, 141.00, 2699.75]
-    comment: Deliver ice
+    # comment: Deliver ice
 
 - .dir(N>>) + midair
 - _Shrine::DakoTah:
@@ -98,7 +105,8 @@ Vah Naboris:
     comment: In shrine
 
 - .dir(<<E)
-- _Korok::G34
+- _Korok::G34:
+    comment: " "
 
 - .dir(<<S) land, .dir(E)
 - _Discover<Gerudo Desert Gateway>:
@@ -106,15 +114,15 @@ Vah Naboris:
     notes: .link([Location]https://twitter.com/TaoPlusPlus/status/1544355478746017794?s=20&t=qgS0S9EanV-wak7bHty7Ww)
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
-    comment: Missing in Action
+    # comment: Missing in Action
 
 - _Npc<Beedle>:
-    comment: Buy warm darner, winterwing butterfly
+    comment: Warm darner, winter butterfly
     notes: If Maypin (donkey) shows up, buy 1 warm darner and 2 cold darners from Maypin
 
-- _Cook<Cold Elixir>:
-    comment: Winterwing/cold darner + monster part
+- _Cook<Cold Elixir> #:
+#    comment: Winterwing/cold darner + monster part
 
 - _Npc<Pirou>:
-    #coord: [-2796.56, 134.90, 2240.07]
-    comment: Rushroom Rush!
+    coord: [-2796.56, 134.90, 2240.07]
+    # comment: Rushroom Rush!
