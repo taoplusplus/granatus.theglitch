@@ -12,7 +12,8 @@ Dinraal:
 - Kill .enemy(White-Maned Lynel):
     icon: boss-dlc
     coord: [247.00, 173.39, -3668.50]
-    comment: Stun lock with arrows
+    comment: .fury() + shock arrows
+    fury: 3
     
 - Get .item(Lynel Hoof):
     notes: Hoof is for Riddles of Hyrule. High chance of getting one, but if you don't, see below for backup.

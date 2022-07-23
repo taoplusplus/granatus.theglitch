@@ -148,7 +148,6 @@ Goron City:
     time-override: 720
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
-    comment: .fury()
-    fury: 3
+    comment: Ancient arrows
 
 - _Shrine::KetohWawai
