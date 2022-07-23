@@ -1,26 +1,32 @@
 Naydra:
 - _Warp::TechLab::Hateno:
     line-color: skyblue
+    comment: WARP
     
 - .dir(<<E)
 - _Korok::N44
 
 - .dir(<N) + midairs
-- Begin Naydra sequence:
+- Shoot Naydra:
+    icon: calamity
     coord: [3965,1353]
     notes: Shoot an eye before each of the following three koroks (N24, N31, N39)
 
 - .dir(W>)
-- _Korok::N24
+- _Korok::N24:
+    comment: " "
 
 - .dir(<S) way down
-- _Korok::N31
+- _Korok::N31:
+    comment: " "
 
 - .dir(<W)
-- _Korok::N39
+- _Korok::N39:
+    comment: " "
 
 - .dir(W>) + midair
-- _Korok::N21
+- _Korok::N21:
+    comment: " "
 
 - .dir(E>)
 - _Korok::N29:
@@ -30,22 +36,27 @@ Naydra:
     coord: [3241.75,1472.75]
 
 - _Korok::N30:
+    icon: calamity
     movements:
         - to: [3229.03, 302.83, 1545.25]
           away: true
     notes: .rune(Stasis) apple and bomb arrow from a distance
+    comment: " "
 
 - .dir(N>) run
 - _Korok::N22
 
 - .dir(<E)
-- Shoot final eye
+- Shoot Naydra:
+    icon: calamity
 
-- Cutscene warp:
+- Cutscene:
+    comment: WARP
+    icon: warp
     movements:
         - to: [3965,1353]
           warp: true
-- Shoot Naydra, offer scale
+# - Shoot Naydra, offer scale
 
 - _Shrine::JitanSami:
     line-color: deepskyblue
@@ -56,21 +67,25 @@ Naydra:
     hide-icon-on-map: true
 
 - .dir(S>) + .dir(N) midair
-- _Korok::N18
+- _Korok::N18:
+    comment: " "
 
 - .dir(E>)
-- Shoot .item(Naydra Claw)
+- Shoot .item(Naydra Claw):
+    icon: calamity
 
 - _Tod::Morning:
     coord: [3968.75,1292]
-
-- Shoot .item(Naydra Horn)
-- Pick up parts
+- .dir(<E)
+- Shoot .item(Naydra Horn):
+    icon: calamity
+# - Pick up parts
 
 - .dir(NE)
 - _Material<Chillshroom,2>:
     coord: [4127.29, 426.47, 1133.65]
     notes: For transmute
+    comment: " "
 
 - _Korok::N19
 
@@ -80,7 +95,8 @@ Naydra:
     comment: " "
 
 - .dir(<S)
-- _Korok::N23
+- _Korok::N23:
+    comment: " "
 
 - .dir(W>)
 - _Boss::Hinox::Red:
@@ -101,16 +117,18 @@ Naydra:
     comment: .fury()
     fury: 3
 
-- _Equipment::Bow<Knight's Bow>:
-    comment: Dropped by Hinox
-    notes: (Optional) Metal bow for Eldin. May need to drop 1 GEB to pick up.
-    hide-icon-on-map: true
+# - _Equipment::Bow<Knight's Bow>:
+#     comment: Dropped by Hinox
+#     notes: (Optional) Metal bow for Eldin. May need to drop 1 GEB to pick up.
+#     hide-icon-on-map: true
 
 - .dir(<W) + midair
-- _Korok::N13
+- _Korok::N13:
+    comment: " "
 
 - .dir(<W)
-- _Korok::N11
+- _Korok::N11:
+    comment: " "
 
 - .dir(S>)
 - _Boss::Hinox::Red:
