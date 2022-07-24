@@ -2,40 +2,46 @@ Gift from the Monks:
 - _Warp::Shrine::ShadaNaw:
     #comment: 96.36%
     line-color: orange
+    comment: WARP
 
 - _Tod::Night:
     hide-icon-on-map: true
     notes: (Optional) For Salvager chest. Make night if here after 2:30am.
 
 - .dir(SE) run
-- _Korok::H20
+- _Korok::H20:
+    comment: " "
 
 - .dir(E) + .dir(S) midairs
 - _Korok::H28
 
 - Look .!!(Southeast) in the sky:
+    icon: tots
     notes: For Salvager chest. Watch it land.
 
-- Drop down
+- Down
 - _Shrine::GomaAsaagh
 
 - .dir(SW) run:
     notes: Can shield jump onto ice or shoot a fire arrow between the ice blocks and run through
-- _Korok::H35
+- _Korok::H35:
+    comment: " "
 
 - .dir(SE)
-- _Chest<Salvager Trousers>:
+- _Chest::Special<Salvager Trousers>:
     coord: [-2605.00, 583.00, -2652.00]
 
 - .dir(<E)
-- _Korok::H36
+- _Korok::H36:
+    comment: " "
 
-- .dir(N)
+- .dir(N) down
 - _Korok::H29:
-    comment: All the way done
+    comment: " " #All the way done
 
 - .dir(E>>)
-- _Korok::H31
+- _Korok::H31:
+    comment: " "
 
 - .dir(N>)
 - _Boss::Talus::Frost:
@@ -43,9 +49,9 @@ Gift from the Monks:
     fury: 3
     coord: [-2144.88, 491.27, -3082.59]
 
-- .dir(W) short
+- .dir(W) down
 - _Korok::H30:
-    comment: All the way down
+    comment: " " #All the way down
 
 - .dir(NW) low
 - _Shrine::RokUwog:
@@ -53,10 +59,11 @@ Gift from the Monks:
 
 - .dir(N.) + .dir(NE) midair
 - _Korok::H13:
-    comment: Up above
+    comment: " " #Up above
 
 - .dir(NE)
-- _Korok::H05
+- _Korok::H05:
+    comment: " "
 
 - .dir(E)
 - _Shrine::ShaGehma:
@@ -87,7 +94,8 @@ Gift from the Monks:
 - _Korok::H58
 
 - .dir(<S)
-- _Korok::H62
+- _Korok::H62:
+    comment: " "
 
 - .dir(<NE)
 - _Korok::H59
@@ -95,8 +103,9 @@ Gift from the Monks:
 - .dir(NE)
 - _Korok::H38
 
-- .dir(E>)
-- _Korok::K10
+- .dir(E>) down
+- _Korok::K10:
+    comment: " "
 
 - .dir(<W)
 - _Korok::K12
@@ -105,7 +114,7 @@ Gift from the Monks:
     hide-icon-on-map: true
     notes: For Stalnox and Kilton
 
-- .gale() land, .dir(S>):
+- .gale(), .dir(S>):
     gale: 1
 
 - _Boss::Hinox::Stal:
@@ -127,20 +136,24 @@ Gift from the Monks:
 - .dir(NE)
 - _Korok::H68
 
-- .dir(S.) way down
-- _Korok::K22
+- .dir(S.) down
+- _Korok::K22:
+    comment: " "
 
 - .dir(NE)
-- _Korok::K20
+- _Korok::K20:
+    comment: " "
 
 - .dir(<E)
 - _Korok::K21
 
 - .dir(NE>)
-- _Korok::K15
+- _Korok::K15:
+    comment: " "
 
 - .dir(W)
-- _Korok::H63
+- _Korok::H63:
+    comment: " "
 
 - .dir(NE)
 - _Korok::K13
@@ -150,8 +163,12 @@ Gift from the Monks:
 
 - .gale() + BLSS:
     gale: 1
-- _Korok::K09
+- _Korok::K09:
+    comment: " "
 
 - _Shrine::RonaKachta
 
 - _Chest::Special<Set of the Wild>
+
+- Get .!!(27 hearts):
+    icon: tots

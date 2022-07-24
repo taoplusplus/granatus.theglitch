@@ -1,21 +1,15 @@
 Endgame:
-- .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
-
-- .link([Quests in Order]https://docs.google.com/document/d/1sT8kNvatZR7gfKQrNI2YOg7ARvZIpoRd88a_bTnGOB0/edit?usp=sharing) 
-
-- .link([Hinox, Stalnox, and Talus]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
-
-#.link([Side Quests]https://pastebin.com/HHMd7Z3U) .link([Shrine Quests]https://pastebin.com/fMrzQhtM)
-
 - _Warp::Shrine::DahHesho:
-    comment: 99.66% # ?
+    comment: 99.66%
+    notes: .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view), .link([Quests in Order]https://docs.google.com/document/d/1sT8kNvatZR7gfKQrNI2YOg7ARvZIpoRd88a_bTnGOB0/edit?usp=sharing), .link([Hinox, Stalnox, and Talus]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
 
 - .dir(<E)
-- .loc(Great Fairy Fountain):
+- Activate .loc(Fairy Fountain):
+    icon: tots
     coord: [4105.00, 263.97, -1370.00]
 
 - .!!(Upgrade all armor):
-    # notes: Set of the Wild, Zora Set, Champion's Tunic
+    icon: shield
     notes: Last 2 Set of the wild, Zora Helm + Zora Greaves, Champion's Tunic + Zora Armor, remaing Set of the Wild
 
 - .dir(S) run
@@ -24,10 +18,13 @@ Endgame:
 - .dir(N>)
 - _Npc<Kilton>:
     coord: [4152.87, 194.63, -1597.24]
-- Sell Lizalfos Tails for .!!(mon)
-- Buy .item(extract), .item(bridle), .item(saddle)
+- Sell Lizalfos Tails for .!!(mon):
+    icon: shop
+- Buy .item(extract), .item(bridle), .item(saddle):
+    icon: shop
 - Get .!!(Kilton medals):
     notes: Prayge
+    icon: calamity
 
 - .dir(W)
 - _Npc<Ruli>:
@@ -39,7 +36,8 @@ Endgame:
     coord: [3946.69, 233.67, -1603.18]
     comment: Wheat, sugar, butter, extract
 
-- Give to Ruli, talk again
+- Give to Ruli, talk again:
+    icon: npc
 
 - _Npc<Hagie>:
     coord: [3919,-1605]
@@ -51,7 +49,8 @@ Endgame:
     comment: From the Ground Up
     notes: Talk to him again after the wedding
 
-- _Warp::Shrine::KeoRuug
+- _Warp::Shrine::KeoRuug:
+    comment: WARP
 
 - _Npc<Hestu>:
     icon: hestu
@@ -76,6 +75,7 @@ Endgame:
 
 - .dir(NE)
 - Tame a horse:
+    icon: tots
     coord: [1784.94, 117.91, 2036.54]
 
 - _Npc<Rensa>:

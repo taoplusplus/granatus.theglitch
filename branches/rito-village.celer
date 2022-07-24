@@ -3,17 +3,18 @@ Rito Village:
 - _Korok::T15
 
 - .dir(N>>) short
-- _Npc::Rito<Kotts>:
+- +_Npc::Rito<Kotts>:
     coord: [-3488.88, 258.52, -1850.25]
     comment: Recital at Warbler's Nest
     notes: Get salmon
 
 - .dir(.W) to landing
-- _Npc::Rito<Bedoli>:
+- +_Npc::Rito<Bedoli>:
     coord: [-3632.60, 320.12, -1793.79]
     comment: Ancient Rito Song
 
 - 1 .item(Cold Darner):
+    icon: material
     notes: If you don't have one. For Little Sister's Big Request.
 
 - Run up
@@ -23,51 +24,52 @@ Rito Village:
 
 - .gale():
     gale: 1
-- _Npc::Rito<Notts>:
+- +_Npc::Rito<Notts>:
     coord: [-3596.62, 317.93, -1794.98]
     comment: Recital at Warbler's Nest
 
-- Drop down
+- Down
 - _Shrine::AkhVaquot:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
 
-- Look up
 - _Korok::T14:
-    notes: Bomb arrow
+    comment: Bomb arrow way up
 
-- _Npc::Rito<Amali>:
+- +_Npc::Rito<Amali>:
     coord: [-3668.51, 321.49, -1769.96]
     comment: Where's Kheel?
 
-- Run/glide down a level
-- _Npc::Rito<Molli>:
+- Down a level
+- +_Npc::Rito<Molli>:
     coord: [-3618.43, 320.15, -1797.41]
     comment: Bird in the Mountains
 
-- Run down
+- Down
 - _Cook<Salmon Meuniere>:
     comment: Wheat, butter, salmon
     
-- _Npc::Rito<Genli>:
+- +_Npc::Rito<Genli>:
     coord: [-3608.76, 296.75, -1797.82]
     comment: Recital at Warbler's Nest
 
-- Drop down
-- _Npc::Rito<Fyson>:
+- Down
+- +_Npc::Rito<Fyson>:
     coord: [-3600.50, 287.60, -1814.47]
+    comment: From the Ground Up
 
 - Run up
-- _Npc::SheikaMale<Jogo>:
+- +_Npc::SheikaMale<Jogo>:
     coord: [-3605.16, 289.12, -1852.43]
     comment: Spark of Romance
 
 - Run up
-- _Npc::Rito<Cree>:
+- +_Npc::Rito<Cree>:
     coord: [-3606.34, 296.75, -1799.16]
     comment: Recital at Warbler's Nest
 
 - .dir(<W)
-- _Korok::T17
+- _Korok::T17:
+    comment: " "
 
 - .dir(S>)
 - _Boss::Hinox::Black:
@@ -77,15 +79,15 @@ Rito Village:
 - .dir(W>>)
 - _Shrine::VooLota:
     comment: 4-5-3-1-2
-    notes: Squeak; .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
 
 - .dir(SE) run
 - _Korok::T16:
-    notes: Pick up a pepper and pause/unpause to set menu for T09
+    comment: Pick up a pepper # and pause/unpause to set menu for T09
 
 - .dir(W>>)
 - _Korok::T12
 
-- .gale() + .dir(N>>) midair:
+- .gale() + .dir(N>) midair:
     gale: 1
 - _Korok::T09

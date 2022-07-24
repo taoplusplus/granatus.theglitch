@@ -3,15 +3,17 @@ Plateau 2:
     line-color: violet
 
 - .dir(<<E)
-- _Korok::P18
+- _Korok::P18:
+    comment: " "
 
 - _Material<Baked Apple>:
     coord: [-787.50, 194.58, 2259.30]
-    comment: Apple of My Eye
+    # comment: Apple of My Eye
     notes: In old man's hut
 
 - .dir(N) + midair
-- _Korok::P11
+- _Korok::P11:
+    comment: " "
 
 - .dir(NW)
 - _Korok::P10:
@@ -24,13 +26,16 @@ Plateau 2:
     fury: 1
 
 - .dir(E) run
-- _Korok::P04
+- _Korok::P04:
+    comment: " "
 
 - .dir(S)
-- _Korok::P06
+- _Korok::P06:
+    comment: " "
 
 - .dir(NE) run
 - _Material<Acorn,3>:
+    comment: " "
     coord: [-930.78, 184.82, 1702.72]
     notes: Need to pick up 8 more rng acorns during the run
 
@@ -41,10 +46,12 @@ Plateau 2:
 - _Korok::P02
 
 - .dir(NW) run
-- _Korok::P01
+- _Korok::P01:
+    comment: " "
 
 - .dir(NW)
-- _Korok::C81
+- _Korok::C81:
+    comment: " "
 
 - .dir(E>)
 - _Korok::C82
@@ -53,7 +60,8 @@ Plateau 2:
 - _Memory::LakeKolomo
 
 - .dir(S)
-- _Korok::C83
+- _Korok::C83:
+    comment: " "
 
 - .dir(SE) short
 - _Discover<Gatepost Town Ruins>:
@@ -73,7 +81,8 @@ Plateau 2:
     fury: 2
 
 - .dir(<NW)
-- _Korok::C69
+- _Korok::C69:
+    comment: " "
 
 - midair .dir(N)
 - _Korok::C63

@@ -2,7 +2,7 @@ Gerudo Canyon:
 - .dir(S>)
 - _Korok::C61
 
-- .dir(W>) surf/run
+- .dir(W>) run
 - _Korok::C60
 
 - .dir(NW)
@@ -16,7 +16,8 @@ Gerudo Canyon:
 - _Korok::C58
 
 - .dir(SW)
-- _Korok::C59
+- _Korok::C59:
+    comment: " "
 
 - .dir(<N)
 - _Korok::R74
@@ -28,7 +29,7 @@ Gerudo Canyon:
 - .dir(S>>)
 - _Npc<White Horse>:
     coord: [-1674.17, 222.94, 807.44]
-    comment: Royal White Stallion
+    # comment: Royal White Stallion
 
 - _Korok::R79
 
@@ -42,26 +43,27 @@ Gerudo Canyon:
         - to: [-1475,1175]
         - to: [-1449.49, 137.75, 1269.01]
 
-- Register horse
+# - Register horse
 
 - _Npc<Trott>:
     coord: [-1432.50, 137.72, 1264.50]
-    comment: A Rare Find
-    notes: Raw Gourmet Meat
+    # comment: A Rare Find
+    # notes: Raw Gourmet Meat
 
 - _Npc<Toffa>:
     coord: [-1439.25, 137.72, 1278.45]
-    comment: Royal White Stallion
+    # comment: Royal White Stallion
 
 - _Npc<Aliza>:
     coord: [-1400.00, 137.72, 1280.00]
-    comment: My Hero
+    # comment: My Hero
 
 - .dir(<E) run
 - _Korok::C78
 
 - .dir(<<N)
-- _Korok::C72
+- _Korok::C72:
+    comment: " "
 
 - .dir(<W)
 - _Shrine::RotaOoh:
@@ -80,10 +82,12 @@ Gerudo Canyon:
 - _Korok::C87
 
 - .dir(<S)
-- _Korok::C89
+- _Korok::C89:
+    comment: " "
 
 - .dir(W>>)
-- _Shrine::DahKaso
+- _Shrine::DahKaso:
+    comment: Minor Test of Strength
 
 - .dir(W>)
 - _Korok::G29
@@ -94,14 +98,15 @@ Gerudo Canyon:
     comment: Ancient arrows
 
 - .dir(SW)
-- _Korok::C88:
-    comment: .rune(Cryo) block
+- _Korok::C88 #:
+    # comment: .rune(Cryo) block
 
 - .dir(<<S)
 - _Discover<Gerudo Canyon Pass>:
     coord: [-1665.00, 95.00, 2028.00]
 
 - Steal horse:
+    icon: calamity
     coord: [-1646.99, 86.38, 2072.51]
 
 - Ride through canyon:
@@ -125,51 +130,55 @@ Gerudo Canyon:
 
 - .dir(N) short
 - _Npc<Oliff>:
-    comment: Missing in Action
+    # comment: Missing in Action
     coord: [-2055.00, 209.05, 1742.00]
 
 - .dir(E) climb
-- _Npc::Goron<Heehl, Bayge, Kabetta>:
-    coord: [-2005.45, 225.98, 1740.65]
-    comment: Test of Will
+# - _Npc::Goron<Heehl, Bayge, Kabetta>:
+#     coord: [-2005.45, 225.98, 1740.65]
+#     comment: Test of Will
 
 - _Shrine::JolooNah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22359s)
-- _Tod::Noon:
-    notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
-    hide-icon-on-map: true
 
 - .dir(W.)
 - _Npc<Flaxel>:
-    comment: Missing in Action
+    # comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
-- _Chest<Fire Arrows x5>:
+- _Chest<5 Fire Arrows>:
     hide-icon-on-map: true
 
 - .dir(NW) drop down
 - _Npc<Canolo>:
-    comment: Missing in Action
+    # comment: Missing in Action
     coord: [-2187.78, 207.99, 1691.46]
 
-- .dir(SW)
-- _Korok::G32
-- _Korok::W08
+- .dir(<W)
+- _Korok::G32:
+    comment: " "
+- _Korok::W08:
+    comment: " "
 
 - .dir(S>>)
-- _Korok::W10
+- _Korok::W10:
+    comment: " "
 
-- .dir(E) + midair
+- _Tod::Noon:
+    notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
+    hide-icon-on-map: true
+
+- .dir(E)
 - _Boss::Talus::Luminous:
     coord: [-2277.50, 293.77, 1979.00]
     comment: Bomb arrow
 
 - .dir(<W)
-- _Korok::G35
+- _Korok::G35:
+    comment: " "
 
 - .gale() + .dir(W) midair:
     gale: 1
     time-override: 999
-
 - _Boss::Talus::Luminous:
     coord: [-2898.47, 305.79, 2210.99]
     comment: .fury() + Bomb arrow
@@ -179,22 +188,22 @@ Gerudo Canyon:
 - _Memory::KaraKaraBazaar
 
 - _Npc::Rito<Guy>:
-    comment: An Ice Guy
+    # comment: An Ice Guy
     coord: [-3238.62, 130.10, 2574.56]
 
 - _Npc::Gerudo<Rhondson>:
-    comment: From the Ground Up
+    # comment: From the Ground Up
     coord: [-3269.43, 129.00, 2585.22]
 
 - _Npc::SheikaMale<Nobiro>:
-    comment: Eye of the Sandstorm
+    # comment: Eye of the Sandstorm
     coord: [-3282.89, 134.16, 2540.95]
 
 - .dir(<N)
 - _Korok::W17
 
-- .dir(W) + .dir(W) midair, land
-- .dir(N.) + midairs
-- Activate .!!(Pedestal)
-- _Shrine::SasaKai:
+- .dir(W) + .dir(W) midair, .dir(N.) + midairs
+- Activate .!!(Pedestal):
+    icon: calamity
     comment: 2:55pm to 3:50pm
+- _Shrine::SasaKai

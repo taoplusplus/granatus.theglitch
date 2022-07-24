@@ -1,6 +1,7 @@
 Faron:
 - .dir(<<S)
-- _Korok::D48
+- _Korok::D48:
+    comment: " "
 
 - .dir(SW)
 - _Korok::D50
@@ -9,12 +10,14 @@ Faron:
 - _Korok::L07
 
 - .dir(SW)
-- _Korok::L19
+- _Korok::L19:
+    comment: " "
 
 - .dir(E>)
 - _Korok::L20
 
-- Offer .item(Farosh Scale)
+- Offer .item(Farosh Scale):
+    icon: material
 - _Shrine::ShaeKatha
 
 - _Discover<Spring of Courage>:
@@ -28,17 +31,21 @@ Faron:
 - _Korok::L17
 
 - .dir(N>) run
-- _Korok::L12
+- _Korok::L12:
+    comment: " "
 
 - .gale() + .dir(S>>) midair:
     gale: 1
-- _Korok::L28
+- _Korok::L28:
+    comment: " "
 
 - .dir(E)
-- _Korok::L29
+- _Korok::L29:
+    comment: " "
 
 - .dir(E>>)
 - _Korok::L34:
+    comment: " "
     notes: Use a 1-handed weapon
 
 - .dir(<<W)
@@ -55,8 +62,9 @@ Faron:
 - _Discover<Zonai Ruins>:
     coord: [889.86, 124.08, 2937.35]
 
-- .dir(<<W) run/glide
-- _Korok::L56
+- .dir(<<W) run
+- _Korok::L56:
+    comment: " "
 
 - .dir(S>) run
 - _Npc::Rito<Kass>:
@@ -67,7 +75,8 @@ Faron:
 - _Korok::L57
 
 - .dir(E>>)
-- _Korok::F24
+- _Korok::F24:
+    comment: " "
 
 - _Discover<Sarjon Bridge>:
     coord: [1025.15, 130.03, 3235.46]
@@ -78,10 +87,12 @@ Faron:
 - _Korok::L58
 
 - .dir(N)
-- _Korok::L46
+- _Korok::L46:
+    comment: " "
 
 - .dir(N)
-- _Korok::F02
+- _Korok::F02:
+    comment: " "
 
 - .dir(N>)
 - _Boss::Talus::Stone:
@@ -96,7 +107,7 @@ Faron:
 
 - .dir(S>)
 - _Korok::F04:
-    comment: Walk slowly over mud
+    comment: " "
 
 - .dir(<<N) glide
 - _Korok::F03
@@ -106,8 +117,9 @@ Faron:
     comment: Ancient arrows
     coord: [1330.55, 180.38, 2623.94]
 
-- midair .dir(<S)
-- _Korok::F10
+- midair .dir(.S)
+- _Korok::F10:
+    comment: " "
 
 - .dir(E>>)
 - _Korok::F16:
@@ -132,19 +144,21 @@ Faron:
 - _Korok::F39
 
 - .dir(E>) run
-- _Korok::F40
+- _Korok::F40:
+    comment: " "
 
 - .dir(N.)
-- _Korok::F34
+- _Korok::F34:
+    comment: " "
 
 - .dir(<S) to top of stable
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
     comment: Thunder Magnet
 
-- Drop down
-- _Korok::F41:
-    comment: Bomb rune or bomb arrow
+- Down
+- _Korok::F41 #:
+    # comment: Bomb rune or bomb arrow
 
 - _Npc<Cima>:
     coord: [1540.08, 165.97, 3531.94]
@@ -159,14 +173,16 @@ Faron:
     notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=4420)
 
 - .dir(E>) + midair
-- _Korok::F48:
-    comment: Banana next to it
+- _Korok::F48 #:
+    # comment: Banana next to it
 
 - .dir(<S)
-- _Korok::F55
+- _Korok::F55:
+    comment: " "
 
 - .dir(W)
-- _Korok::F54
+- _Korok::F54:
+    comment: " "
 
 - .dir(W)
 - _Boss::Talus::Stone:
@@ -178,7 +194,8 @@ Faron:
 - _Korok::F53
 
 - .dir(E>>)
-- _Korok::F56
+- _Korok::F56:
+    comment: " "
 
 - .dir(E) + midairs
 - .fury() .!!(Enemy Camp):
@@ -191,7 +208,8 @@ Faron:
 - _Korok::F43
 
 - .dir(N.)
-- _Korok::F30
+- _Korok::F30:
+    comment: " "
 
 - .dir(S>)
 - _Boss::Hinox::Stal:
@@ -199,13 +217,15 @@ Faron:
     comment: Ancient arrows
 
 - .dir(W>)
-- _Korok::F35
+- _Korok::F35:
+    comment: " "
 
 - .dir(S>)
 - _Korok::F46
 
 - .dir(<<N)
-- _Korok::F42
+- _Korok::F42:
+    comment: " "
 
 - .dir(<N)
 - _Boss::Talus::Stone:
@@ -219,26 +239,32 @@ Faron:
     notes: Use gale only if raining; use after F27 otherwise
 
 - .dir(W.)
-- _Korok::F26
+- _Korok::F26:
+    comment: " "
 
 - .dir(E)
-- _Korok::F27
+- _Korok::F27:
+    comment: " "
 
 - .dir(N)
 - _Shrine::ShodaSah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=4225s)
 
-- .dir(S) Zora Armor
-- _Korok::F19
+- .dir(S) run
+- _Korok::F19:
+    comment: Zora Armor
 
 - .dir(N) .rune(Cryo) hop
-- _Korok::F17
+- _Korok::F17:
+    comment: " "
 
 - .dir(E>)
-- _Korok::F20
+- _Korok::F20:
+    comment: " "
 
 - .dir(N) + midair
-- _Korok::F11
+- _Korok::F11:
+    comment: " "
 
 - .dir(N.) short
 - _Korok::F08
@@ -250,36 +276,44 @@ Faron:
 - _Korok::F09
 
 - .dir(N>)
-- _Korok::F06
+- _Korok::F06:
+    comment: " "
 
 - .dir(E.)
 - _Korok::F07
 
 - .dir(<W)
-- _Korok::F13
+- _Korok::F13:
+    comment: " "
 
 - .dir(E>)
 - _Boss::Hinox::Black:
     coord: [2420.75, 327.47, 2782.60]
+    comment: Ancient arrows
 
-- .dir(E) return orb:
+- .dir(E)
+- Return orb:
+    icon: tots
     coord: [2616.91, 323.39, 2823.60]
 
 - .dir(<W)
 - _Korok::F21
 
-- Remove metal weapons/shield:
+- Unequip metal:
+    icon: shield
     notes: Re-equip Barbarian Armor
 
 - .dir(<<W)
-- _Korok::F29
+- _Korok::F29:
+    comment: " "
 
 - .dir(SE) run
 - _Npc::Rito<Kass>:
     coord: [2081.89, 287.42, 3226.31]
     comment: Song of Storms
 
-- Equip metal weapons/shield
+- Re-equip metal:
+    icon: shield
 - .dir(<<W) run:
     notes: Get ragdoll glitch, stand on the mound, and let the lightning hit you
 - _Shrine::QukahNata

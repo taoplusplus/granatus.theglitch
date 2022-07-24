@@ -3,27 +3,33 @@ Lanayru Complete:
 - _Korok::N40
 
 - .dir(<N) + midair
-- _Korok::N25
+- _Korok::N25:
+    comment: " "
 
 - .dir(N>)
-- _Korok::Z62
+- _Korok::Z62:
+    comment: " "
 
 - _Korok::Z61
 
 - .dir(N) + midair
-- _Korok::Z59
+- _Korok::Z59:
+    comment: " "
 
 - .dir(<N)
-- _Korok::Z58
+- _Korok::Z58:
+    comment: " "
 
 - _Boss::Hinox::Blue:
     coord: [4442.00, 160.79, 350.94]
-    comment: 5 ancient arrow
+    comment: Ancient arrow
 
 - .dir(<W)
-- _Korok::Z56
+- _Korok::Z56:
+    comment: " "
 
-- Blow up 3 rubble
+- Blow up 3 rubble:
+    icon: calamity
 
 - .dir(SE)
 - _Korok::Z57
@@ -48,7 +54,8 @@ Lanayru Complete:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15359s)
 
 - .dir(E>>)
-- _Korok::Z53
+- _Korok::Z53:
+    comment: " "
 
 - _Korok::Z52
 
@@ -64,6 +71,7 @@ Lanayru Complete:
 
 - .dir(N>>)
 - Activate .!!(Pedestial):
+    icon: tots
     coord: [4226.75,312.75]
     notes: Either (1) run + shield hop + spam X OR (2) WB and land with glider open.
 
@@ -78,14 +86,14 @@ Lanayru Complete:
 - _Korok::Z35
 
 - .dir(<E) + .dir(.N) midairs
-- _Chest::Special<Star Fragment>:
-    coord: [4218.92, 380.62, -147.56]
-    notes: (Optional) Get this chest if you skipped the one earlier in Castle
+# - _Chest::Special<Star Fragment>:
+#     coord: [4218.92, 380.62, -147.56]
+#     notes: (Optional) Get this chest if you skipped the one earlier in Castle
 - _Korok::Z28
 
 - .dir(NE)
 - _Korok::Z10:
-    comment: On island next to updraft
+    comment: " " #On island next to updraft
 
 - .dir(<NW)
 - _Korok::Z09
@@ -94,7 +102,8 @@ Lanayru Complete:
 - _Korok::A56
 
 - .dir(<W)
-- _Korok::A57
+- _Korok::A57:
+    comment: " "
 
 - .dir(N>)
 - _Shrine::KenaiShakah
@@ -108,13 +117,16 @@ Lanayru Complete:
     notes: .link([Korok strat]https://twitter.com/TaoPlusPlus/status/1548114763384729600?s=20&t=JX61AlpH3ORlyUb73JbUtw)
 
 - .dir(<<E)
-- _Korok::A53
+- _Korok::A53:
+    comment: " "
 
 - .dir(E)
-- _Korok::Z07
+- _Korok::Z07:
+    comment: " "
 
-- .dir(N) short, down
-- _Korok::Z06
+- .dir(N) down
+- _Korok::Z06:
+    comment: " "
 
 - .dir(N)
 - _Korok::Z01

@@ -1,7 +1,7 @@
 Central Tower:
 - .dir(N)
 - _Boss::Talus::Luminous:
-    comment: Bomb + ancient arrows
+    comment: Bomb arrows
     coord: [-971.13, 355.71, 3236.14]
 
 - .dir(W>>)
@@ -11,13 +11,15 @@ Central Tower:
 - _Korok::L37
 
 - .dir(N) + midair
-- _Korok::L23
+- _Korok::L23:
+    comment: " "
 
 - .dir(<<N)
 - _Korok::P17
 
 - .dir(W) glide
-- _Korok::P16
+- _Korok::P16:
+    comment: " "
 
 - .gale() + .dir(NW) midair:
     gale: 1
@@ -30,36 +32,43 @@ Central Tower:
 - _Korok::P07
 
 - .dir(<<E)
-- _Korok::P08
+- _Korok::P08:
+    comment: " "
 
 - .dir(N>)
 - _Korok::P03
 
-- .dir(N)
-- _Korok::C80
+- .dir(N) + midair
+- _Korok::C80:
+    comment: " "
 
 - midair .dir(N>)
 - _Korok::C79
 
 - .dir(N>>)
-- _Korok::C74
+- _Korok::C74:
+    comment: " "
 
-- .dir(<<N) drop down
-- _Korok::C73
+- .dir(<<N) down
+- _Korok::C73:
+    comment: " "
 
 - _Discover<Aquame Bridge>:
     coord: [-1128.81, 142.45, 1017.05]
 
-- _Korok::C68
+- _Korok::C68:
+    comment: " "
 
-- .dir(<N)
-- _Korok::C67
+- .dir(<N) short
+- _Korok::C67:
+    comment: " "
 
 - .dir(<W)
 - _Korok::C66
 
 - .dir(N>)
-- _Korok::C52
+- _Korok::C52:
+    comment: " "
 
 - .dir(<E) + midair
 - _Korok::C53
@@ -68,26 +77,31 @@ Central Tower:
 - _Tower::Central
 
 - .dir(N>)
-- _Korok::C48
+- _Korok::C48:
+    comment: " "
 
 - .dir(E>)
 - _Discover<Hyrule Garrison Ruins>:
     coord: [-596.50, 132.50, 571.50]
 
-- midair(E)
-- _Korok::C54
+- midair .dir(E)
+- _Korok::C54:
+    comment: " "
 
 - .dir(NE)
-- _Korok::C49
+- _Korok::C49:
+    comment: " "
 
 - midair .dir(SE)
-- _Korok::C55
+- _Korok::C55:
+    comment: " "
 
 - .dir(S)
 - _Korok::C64
 
 - .dir(S)
-- _Korok::C70
+- _Korok::C70:
+    comment: " "
 
 - .dir(E)
 - _Korok::C71
@@ -111,7 +125,8 @@ Central Tower:
 - .dir(S>)
 - _Korok::C77
 
-- _Korok::D14
+- _Korok::D14:
+    comment: " "
 
 - _Discover<Owlan Bridge>:
     coord: [325.48, 102.49, 1273.41]
@@ -120,16 +135,19 @@ Central Tower:
 - _Korok::D22
 
 - .dir(W)
-- Kill .enemy(Red Moblin)
+- Kill .enemy(Red Moblin):
+    icon: calamity
 - _Equipment::Weapon<Moblin Club>:
     coord: [132.65, 116.42, 1397.90]
-    comment: Weapon Connoisseur
+    # comment: Weapon Connoisseur
 
 - .dir(SW) run
-- _Korok::C84
+- _Korok::C84:
+    comment: " "
 
 - .dir(S)
-- _Korok::D26
+- _Korok::D26:
+    comment: " "
 
 - .dir(S) drop down
 - _Shrine::BoshKala:

@@ -1,6 +1,7 @@
 Ridgeland:
 - .dir(W)
-- _Korok::R19
+- _Korok::R19:
+    comment: " "
 
 - .dir(N>)
 - _Korok::R16
@@ -40,28 +41,33 @@ Ridgeland:
 - _Korok::K16
 
 - .dir(S>)
-- _Korok::K18
+- _Korok::K18:
+    comment: " "
 
 - .dir(<S)
-- _Korok::K26
+- _Korok::K26:
+    comment: " "
 
 - .dir(<W)
 - _Korok::K24
 
 - .dir(<<E)
 - Steal horse:
+    icon: calamity
     coord: [-1019.50, 208.96, -1721.00]
 
 - .dir(W)
 - _Korok::K25
 
 - .dir(NW)
-- _Korok::K17
+- _Korok::K17:
+    comment: " "
 
-- .dir(S>>)
-- _Korok::K23
+- .dir(S>)
+- _Korok::K23:
+    comment: " "
 
-- .dir(S>>)
+- midair .dir(S>)
 - _Shrine::MonyaToma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=8580s)
 
@@ -85,23 +91,28 @@ Ridgeland:
 - _Korok::R02
 
 - .dir(E.) + .dir(<S) midair
-- _Korok::R06
+- _Korok::R06:
+    comment: " "
 
 - .dir(E>>)
-- _Korok::R09
+- _Korok::R09:
+    comment: " "
 
 - .dir(<S)
 - _Tower::Ridgeland
 
 - .dir(W)
-- _Korok::R15
+- _Korok::R15:
+    comment: " "
 
 - .dir(<<N)
 - Red orb:
+    icon: tots
     coord: [-2135.60, 219.98, -909.20]
 
 - .dir(NW)
 - Orange orb:
+    icon: tots
     coord: [-2271.02, 228.58, -1040.27]
 
 - .dir(NW)
@@ -109,6 +120,7 @@ Ridgeland:
 
 - .dir(<<S)
 - Green orb:
+    icon: tots
     coord: [-2288.70, 235.47, -882.80]
 
 - _Shrine::TohYahsa:
@@ -128,7 +140,8 @@ Ridgeland:
     gale: 1
 
 - .dir(SE)
-- _Korok::R25
+- _Korok::R25:
+    comment: " "
 
 - .dir(<E)
 - _Shrine::ZaltaWa:

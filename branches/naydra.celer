@@ -61,23 +61,20 @@ Naydra:
 - _Shrine::JitanSami:
     line-color: deepskyblue
 
-- _Tod::Morning:
-    comment: Twice
-    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
-    hide-icon-on-map: true
+# - _Tod::Morning:
+#     comment: Twice
+#     notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
+#     hide-icon-on-map: true
 
-- .dir(S>) + .dir(N) midair
-- _Korok::N18:
-    comment: " "
-
-- .dir(E>)
-- Shoot .item(Naydra Claw):
-    icon: calamity
-
+- .dir(S>) + .dir(N.) midair
 - _Tod::Morning:
     coord: [3968.75,1292]
-- .dir(<E)
-- Shoot .item(Naydra Horn):
+    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
+- Shoot Naydra (Horn):
+    icon: calamity
+
+- _Tod::Morning
+- Shoot Naydra (Claw):
     icon: calamity
 # - Pick up parts
 
@@ -86,11 +83,14 @@ Naydra:
     coord: [4127.29, 426.47, 1133.65]
     notes: For transmute
     comment: " "
-
 - _Korok::N19
 
-- .gale() + .dir(W):
+- .gale() + .dir(.W) midairs:
     gale: 1
+- _Korok::N18:
+    comment: " "
+
+- .dir(W.)
 - _Korok::N17:
     comment: " "
 
@@ -98,7 +98,7 @@ Naydra:
 - _Korok::N23:
     comment: " "
 
-- .dir(W>)
+- .dir(W)
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
     comment: Ancient arrows
@@ -111,7 +111,7 @@ Naydra:
 - .dir(<N)
 - _Memory::LanayruRoad
 
-- .dir(S) land, .dir(N) + midair
+- .dir(S), .dir(N) + midair
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
     comment: .fury()
@@ -126,11 +126,11 @@ Naydra:
 - _Korok::N13:
     comment: " "
 
-- .dir(<W)
+- .dir(W)
 - _Korok::N11:
     comment: " "
 
-- .dir(S>)
+- .dir(S.)
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
     comment: Ancient arrows

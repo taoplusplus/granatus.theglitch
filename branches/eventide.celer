@@ -1,35 +1,43 @@
 Eventide:
-- _Warp::Tower::Hateno
+- _Warp::Tower::Hateno:
+    comment: WARP
 
 - .dir(<S)
 - _Korok::F14:
     comment: " "
 
-- .dir(<W) swim/glide
+- .dir(<W) swim
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
     comment: Ancient arrows
 
-- .dir(W) return orb:
+- .dir(W) 
+- Return orb:
+    icon: tots
     coord: [2648.43, 324.55, 2822.85]
 
-- .!!(Read shrine stone)
+- .!!(Read shrine stone):
+    icon: tots
 
 - .dir(.S)
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
     comment: Ancient arrows
 
-- .dir(<N) return orb:
+- .dir(<N)
+- Return orb:
+    icon: tots
     coord: [2632.47, 321.84, 2848.53]
 
 - _Shrine::TawaJinn
 
 - .dir(E>>)
-- _Korok::F22
+- _Korok::F22:
+    comment: " "
 
 - .dir(<E)
-- _Korok::F18
+- _Korok::F18:
+    comment: " "
 
 - .dir(N>>) run
 - _Korok::N64
@@ -47,7 +55,8 @@ Eventide:
 - _Shrine::MuwoJeem
 
 - .dir(N>)
-- _Korok::F33
+- _Korok::F33:
+    comment: " "
 
 - .dir(W>>)
 - _Korok::N65
@@ -62,13 +71,15 @@ Eventide:
 
 - _Chest::Special<Gold Rupee>:
     coord: [3773.34, 100.52, 2647.44]
-    comment: The Hero's Cache
+    # comment: The Hero's Cache
 
 - .dir(<N)
-- _Korok::N60
+- _Korok::N60:
+    comment: " "
 
 - .dir(E>)
-- _Korok::N62
+- _Korok::N62:
+    comment: " "
 
 - .dir(N)
 - .fury() .!!(Enemy Camp):
@@ -79,10 +90,12 @@ Eventide:
 
 - .dir(NE)
 - _Korok::N54:
+    comment: " "
     notes: Palm fruit on nearby tree if needed
 
 - .dir(E>) + midair
-- _Korok::N56
+- _Korok::N56:
+    comment: " "
 
 - .dir(S)
 - _Boss::Talus::Luminous:
@@ -97,7 +110,8 @@ Eventide:
 - _Korok::N57
 
 - .dir(W>)
-- _Korok::N55
+- _Korok::N55:
+    comment: " "
 
 - .dir(SW) + midairs
 - _Shrine::ChaasQeta
@@ -111,16 +125,17 @@ Eventide:
     coord: [4537.11, 110.76, 3701.95]
     notes: Smuggle an arrow by shooting with a single shot bow.
 
-- Pick up club and bow
+# - Pick up club and bow
 
-- Complete .!!(Stranded on Eventide):
+- .!!(Stranded on Eventide):
+    icon: tots
     movements:
         - to: [4483.25, 142.10, 3746.42]
         - to: [4640,3626]
         - to: [4500.46, 109.56, 3392.43]
         - to: [4500.46, 109.56, 3392.43]
         - to: [4674.92, 168.30, 3742.44]
-
-- .gale():
+    comment: .gale()
     gale: 1
+
 - _Shrine::KorguChideh

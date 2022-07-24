@@ -1,25 +1,27 @@
 Castle Town Ruins:
-- _Tod::Noon:
-    coord: [1760.46, 115.80, -36.04]
-    notes: (Optional) For Ballon Flight and Stalnox timing
+# - _Tod::Noon:
+#     coord: [1760.46, 115.80, -36.04]
+#     notes: (Optional) For Ballon Flight and Stalnox timing
 
 - .dir(S.)
-- _Korok::Z40
+- _Korok::Z40:
+    comment: " "
 
 - midair .dir(W)
 - _Korok::Z30:
-    comment: Take from ruins on right
+    comment: " " #Take from ruins on right
 
 - .dir(<W)
 - _Korok::Z29:
-    comment: Among trees
+    comment: " " #Among trees
 
 - .dir(<W)
-- _Korok::C46
+- _Korok::C46:
+    comment: " "
 
 - .dir(S>>)
 - _Korok::C51:
-    comment: On pillar
+    comment: " " #On pillar
 
 - .dir(<S)
 - _Memory::HyruleField
@@ -33,7 +35,8 @@ Castle Town Ruins:
 - _Korok::C56
 
 - .dir(NW)
-- _Korok::C50
+- _Korok::C50:
+    comment: " "
 
 - .dir(W>>)
 - _Discover<Mabe Village Ruins>:
@@ -42,10 +45,12 @@ Castle Town Ruins:
 - _Korok::C44
 
 - .dir(E)
-- _Korok::C45
+- _Korok::C45:
+    comment: " "
 
 - .dir(N>>)
-- _Korok::C34
+- _Korok::C34:
+    comment: " "
 
 - .dir(N>)
 - _Boss::Hinox::Blue:
@@ -53,19 +58,23 @@ Castle Town Ruins:
     comment: Ancient arrows
 
 - .dir(E>)
-- _Korok::Z21
+- _Korok::Z21:
+    comment: " "
 
 - .dir(N)
-- _Korok::Z11
+- _Korok::Z11:
+    comment: " "
 
 - .dir(N>>)
-- _Korok::C13
+- _Korok::C13:
+    comment: " "
 
 - .dir(<E)
 - _Korok::K35
 
 - .dir(S>>)
-- _Korok::Z02
+- _Korok::Z02:
+    comment: " "
 - _Korok::Z03
 
 - .dir(NW)
@@ -100,86 +109,101 @@ Castle Town Ruins:
 - .dir(E>>)
 - _Boss::Talus::Luminous:
     comment: .fury()
-    fury: 3
+    fury: 2
     coord: [771.50, 152.53, -1014.00]
 
 - .gale() + .dir(S) midair:
     gale: 1
 - _Shrine::NamikaOzz:
-    comment: FIGHT
+    comment: Modest Test of Strength
 
 - _Equipment::Weapon<Ancient Battle Axe+>:
-    comment: Weapon Connoisseur
+    # comment: Weapon Connoisseur
     hide-icon-on-map: true
-- _Chest::Special<Frostspear>:
-    comment: Weapon Connoisseur
+- _Chest::Special<Frostspear> #:
+    # comment: Weapon Connoisseur
 
 - .dir(W)
-- _Korok::C09
+- _Korok::C09:
+    comment: " "
 
 - .dir(SW)
-- _Korok::C11
+- _Korok::C11:
+    comment: " "
 
 - .dir(E>)
-- _Korok::C12
+- _Korok::C12:
+    comment: " "
 
 - .dir(<W)
-- _Korok::C19
+- _Korok::C19:
+    comment: " "
 
 - .dir(<<W)
 - _Discover<Orsedd Bridge>:
     coord: [517.11, 135.39, -497.24]
 
-- _Korok::C23
+- _Korok::C23:
+    comment: " "
 
 - .dir(<<N)
 - _Korok::C18
 
 - .dir(W>)
-- _Korok::C10
+- _Korok::C10:
+    comment: " "
 
 - .dir(<<E)
 - _Korok::C06:
     comment: " "
 
 - .dir(W>)
-- _Korok::C05
+- _Korok::C05:
+    comment: " "
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
+    comment: Ancient arrows + .fury()
+    fury: 1
     coord: [256.50, 142.49, -913.50]
 
 - .dir(W>)
-- _Korok::C04
+- _Korok::C04:
+    comment: " "
 
 - .dir(S>)
 - _Korok::C17
 
 - .dir(S)
-- _Korok::C29
+- _Korok::C29:
+    comment: " "
 
-- Drop down
+- Down
 - _Korok::C28
 
 - .dir(<W)
-- _Korok::C32
-- _Korok::C27
+- _Korok::C32:
+    comment: " "
+- _Korok::C27:
+    comment: " "
 
 - .dir(<W)
-- _Korok::C31
+- _Korok::C31:
+    comment: " "
 
 - .dir(NW)
 - _Shrine::KatahChuki
 
 - .dir(.W)
-- _Korok::C30
+- _Korok::C30:
+    comment: " "
 
 - .dir(N>)
 - _Korok::C25
 
 - .dir(.E)
-- _Korok::C26
+- _Korok::C26:
+    comment: " "
 
 - .dir(N>>) glide
 - _Discover<Water Reservoir>:
@@ -191,7 +215,7 @@ Castle Town Ruins:
 - .dir(W)
 - _Korok::C21
 
-- .dir(N>>) run, drop down
+- .dir(N>>) run
 - _Korok::C20
 
 - .dir(N)
@@ -200,10 +224,12 @@ Castle Town Ruins:
     coord: [-768.74, 152.76, -804.49]
 
 - .dir(SE)
-- _Korok::C15
+- _Korok::C15:
+    comment: " "
 
 - .dir(<N)
-- _Korok::C08
+- _Korok::C08:
+    comment: " "
 
 - .dir(N) run
 - _Korok::C03
@@ -220,5 +246,5 @@ Castle Town Ruins:
 - .dir(S)
 - _Korok::C14
 
-- Drop down
+- .dir(W) down
 - _Shrine::NoyaNeha

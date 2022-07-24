@@ -1,6 +1,7 @@
 Gerudo Highlands:
 - .dir(<<W)
-- _Korok::G31
+- _Korok::G31:
+    comment: " "
 
 - .dir(W>)
 - _Korok::G30
@@ -28,40 +29,44 @@ Gerudo Highlands:
     comment: .dir(<E)
 
 - .dir(NW) + midairs
-- _Korok::G07
+- _Korok::G07:
+    comment: " "
 
-- Drop down
+# - Drop down
 - _Shrine::KemaKosassa
 
 - .dir(<<E)
 - _Korok::G08:
-    comment: 2 stamina food
+    comment: " "
 
 - .dir(NW) glide
 - _Korok::G04
 
 - .dir(N>)
-- _Korok::G05
+- _Korok::G05:
+    comment: " "
 
 - .dir(<<N)
-- _Korok::G01
+- _Korok::G01:
+    comment: " "
 
-- .dir(<S) surf, glide
+- .dir(<S)
 - _Discover<Statue of the 8th Heroine>:
     coord: [-4371.52, 528.87, 516.98]
 - _Snap::Quest<Statue of the 8th Heroine>
 
 - .dir(NE)
-- _Korok::G02
+- _Korok::G02:
+    comment: " "
 
 - .gale() + .dir(E) midair:
     gale: 1
     coord: [-3968.58, 552.57, 331.92]
-- _Korok::G03:
-    comment: Long escort
+- _Korok::G03
 
 - .dir(E) + .dir(SE) midair
-- _Korok::G06
+- _Korok::G06:
+    comment: " "
 
 - .dir(W) + updraft
 - _Shrine::KeehaYoog
@@ -107,7 +112,7 @@ Gerudo Highlands:
 - _Korok::W02:
     comment: Offer 5, pick up 4
 
-- .dir(<W) run, glide
+- .dir(<W) run
 - _Korok::G25:
     comment: Offer 4, pick up 3
 
@@ -115,7 +120,7 @@ Gerudo Highlands:
 - _Korok::W04:
     comment: Offer 3, pick up 2
 
-- .dir(<W) run, glide
+- .dir(<W) run
 - _Korok::W05:
     comment: Offer 2, pick up 2
 

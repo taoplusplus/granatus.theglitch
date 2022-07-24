@@ -40,7 +40,7 @@ Vah Medoh:
 - .boss(Windblight Ganon):
     icon: ganon
     hide-icon-on-map: true
-    # comment: FDB + AA
+    comment: 2 body + 3 head
     notes: .link([Stasis+ 2 bodyshots + 4 headshots]https://twitter.com/TaoPlusPlus/status/1541426504122437633?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .!!(Revali's Gale):

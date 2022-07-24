@@ -2,13 +2,16 @@ Moldugas:
 - .gale():
     gale: 1
     notes: Take a couple steps back first
-- _Korok::W09
+- _Korok::W09:
+    comment: " "
 
 - .dir(S.)
-- _Korok::W13
+- _Korok::W13:
+    comment: " "
 
 - .dir(<S)
-- _Korok::W18
+- _Korok::W18:
+    comment: " "
 
 - .dir(<W)
 - _Korok::W25
@@ -20,43 +23,47 @@ Moldugas:
     fury: 3
 
 - _Material<Molduga Guts>:
-    comment: Medicinal Molduga
+    # comment: Medicinal Molduga
     hide-icon-on-map: true
 
-- Light 4 fires
+- Light 4 fires:
+    icon: calamity
 
 - _Shrine::ThoKayu
 
 - .dir(<<S)
 - _Boss::Molduga:
     coord: [-4555.62, 137.14, 3256.35]
-    comment: Ancient arrows
+    comment: Savage Lynel Crusher
 
 - .dir(<W)
 - _Korok::W51
 
 - midair .dir(S)
-- _Korok::W65
+- _Korok::W65:
+    comment: " "
 
 - _Snap::Quest<Gerudo Great Skeleton>:
     coord: [-4863.96, 146.09, 3804.65]
 
-- Activate .loc(Great Fairy Fountain):
+- Activate .loc(Fairy Fountain):
+    icon: location
     coord: [-4870.20, 125.00, 3824.80]
 
 - _Shrine::HawaKoth:
-    comment: Set skew outside
+    # comment: Set skew outside
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11125s)
 
 - _Snap::Quest<Guardian Scout>:
     comment: In shrine
 
 - _Npc::Gerudo<Barta>:
-    comment: Search for Barta
+    # comment: Search for Barta
     coord: [-4818.86, 130.23, 3713.28]
 
 - .dir(<<E)
-- _Korok::W55
+- _Korok::W55:
+    comment: " "
 
 - .dir(S>)
 - _Korok::W61
@@ -66,19 +73,21 @@ Moldugas:
 
 - _Boss::Molduga:
     coord: [-4191.12, 126.91, 3797.45]
-    comment: Ancient arrows
+    comment: Savage Lynel Crusher
 
 - .dir(<<E)
 - _Boss::Molduga:
     coord: [-3799.06, 118.76, 3653.43]
-    comment: Ancient arrows
+    comment: Savage Lynel Crusher
 
 - .dir(N)
-- _Korok::W57
+- _Korok::W57:
+    comment: " "
 
 - .dir(<N)
 - _Korok::W56
 
 - .dir(N>)
-- Complete .!!(Sand Seal Race)
+- Complete .!!(Sand Seal Race):
+    icon: tots
 - _Shrine::RaqaZunzo

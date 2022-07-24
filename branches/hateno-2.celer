@@ -1,9 +1,11 @@
 Hateno 2:
 - .dir(E)
-- _Korok::D42
+- _Korok::D42:
+    comment: " "
 
 - .dir(SE)
-- _Korok::D51
+- _Korok::D51:
+    comment: " "
 
 - .dir(E.)
 - _Korok::D52
@@ -24,7 +26,8 @@ Hateno 2:
 - _Korok::N27
 
 - .dir(NE)
-- _Korok::N26
+- _Korok::N26:
+    comment: " "
 
 - .dir(<S)
 - _Korok::N35
@@ -34,7 +37,7 @@ Hateno 2:
 
 - .dir(<<E)
 - _Korok::N37:
-    comment: Cryo block DIVE
+    comment: " " #Cryo block DIVE
 
 - .dir(<<S)
 - _Boss::Talus::Stone:
@@ -47,17 +50,19 @@ Hateno 2:
 - _Korok::N38
 
 - .dir(SW)
-- _Korok::N41
+- _Korok::N41:
+    comment: " "
 
 - .dir(<<W)
 - _Korok::N45:
-    comment: 10 ring
+    comment: " " #10 ring
 
 - .dir(S)
 - _Korok::N46
 
 - .dir(E>>)
-- _Korok::N51
+- _Korok::N51:
+    comment: " "
 
 - .dir(<E)
 - _Korok::N52
@@ -71,7 +76,7 @@ Hateno 2:
 - _Shrine::MyahmAgana:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=5334s)
 
-- .dir(SW) short, down
+- .dir(SW) down
 - _Korok::N53
 
 - .gale():
@@ -102,18 +107,21 @@ Hateno 2:
 
 - .gale() + .dir(E) midair:
     gale: 1
-- Sunshroom, enter back door
+- Sunshroom:
+    icon: material
 
 - _Npc<Symin>:
     coord: [3778.96, 356.86, 2132.45]
     comment: Sunshroom Sensing
     notes: Talk 3 times until you get the Hearty Truffle reward. Then talk again and make sure to select "I'm good".
 
-- .!!(Buy COMPENDIUM)
+- .!!(Buy all pictures):
+    icon: snap
 
 - .gale():
     gale: 1
-- _Korok::N47
+- _Korok::N47:
+    comment: " "
 
 - .dir(<E) + .dir(N) midair
 - _Korok::N32

@@ -4,11 +4,12 @@ Tabantha:
 - _Korok::T36
 
 - .dir(N>)
-- _Korok::T32
+- _Korok::T32:
+    comment: " "
 
 - .dir(<<N)
 - _Korok::T27:
-    comment: 2 apples
+    comment: " " #2 apples
 
 - .dir(N>>)
 - _Korok::T26
@@ -22,16 +23,19 @@ Tabantha:
     coord: [-3929.30, 197.19, -1083.48]
 
 - .dir(<S)
-- _Korok::T28
+- _Korok::T28:
+    comment: " "
 
 - .dir(SE)
 - _Korok::T29
 
 - .dir(E)
-- _Korok::T30
+- _Korok::T30:
+    comment: " "
 
 - .dir(<N)
-- _Korok::T24
+- _Korok::T24:
+    comment: " "
 
 - Moblin BTB
 - _Tower::Tabantha
@@ -47,19 +51,21 @@ Tabantha:
     comment: " "
 
 - .dir(<W)
-- _Korok::T37
+- _Korok::T37:
+    comment: " "
 
 - .dir(NE)
 - _Korok::T33:
     comment: " "
 
 - .dir(W>>) short
-- Activate .loc(Great Fairy Fountain):
+- Activate .loc(Fairy Fountain):
+    icon: house-plus
     coord: [-3541.00, 294.88, -745.00]
 
 - .dir(E)
 - _Korok::T31:
-    comment: In small cave
+    comment: " " #In small cave
 
 - .dir(N>)
 - _Boss::Talus::Rare:
@@ -75,6 +81,7 @@ Tabantha:
 
 - .dir(NW)
 - Activate .!!(Pedestal):
-    notes: Use fire arrow, 12:45PM
+    icon: calamity
+    comment: 12:00 to 12:45pm
 - _Shrine::BareedaNaag:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9042s)

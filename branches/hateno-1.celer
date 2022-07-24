@@ -1,5 +1,5 @@
 Hateno:
-- _Equipment::Weapon<Iron Sledgehammer>
+- _Equipment::Weapon<2 Iron Sledgehammer>
 
 - _Npc<Bolson>:
     coord: [3327.28, 235.03, 2297.52]
@@ -10,12 +10,9 @@ Hateno:
     coord: [3331.22, 235.28, 2284.61]
     # comment: From the Ground Up
 
-# - .!!(Upgrade House):
-#     notes: 14 upgrades
-- _Npc<Bolson>:
-    coord: [3327.28, 235.03, 2297.52]
-    comment: Hylian Homeowner
-    # notes: 30 wood, 3000 rupees
+- .!!(Upgrade House):
+    icon: house-plus
+    notes: 14 upgrades
 
 - .dir(N.)
 - _Npc<Medda>:
@@ -54,8 +51,9 @@ Hateno:
 - _Korok::N48:
     comment: " "
 
-- (==) Stay in the water, save, then close and re-open software to clear the glitch. This warps you back up to tech lab.
-
+# - (==) Stay in the water, save, then close and re-open software to clear the glitch. This warps you back up to tech lab.
+- .!!(Clear Glitch):
+    icon: tots
 - .dir(<N)
 - _Korok::N43:
     comment: " "

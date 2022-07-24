@@ -1,7 +1,7 @@
 Eldin Tower:
 - .dir(N) drop down
 - _Korok::A40
-
+- Drop down
 - _Korok::A39
 
 - .dir(<N)
@@ -12,7 +12,8 @@ Eldin Tower:
 - _Korok::E12
 
 - .dir(S) + midair
-- _Korok::A25
+- _Korok::A25:
+    comment: " "
 
 - .dir(S>)
 - _Korok::A30
@@ -21,32 +22,39 @@ Eldin Tower:
 - _Korok::A31
 
 - .dir(E)
-- _Korok::A32
+- _Korok::A32:
+    comment: " "
 
 - .dir(S)
-- _Korok::A37
+- _Korok::A37:
+    comment: " "
 
 - .dir(SW)
-- Kill .enemy(Stalker 1):
+- Kill 2 .enemy(Stalkers):
     icon: calamity
-    coord: [3624.82, 195.25, -1602.62]
-    comment: Hobbies of the Rich
+    # coord: [3624.82, 195.25, -1602.62]
+    movements:
+        - to: [3624.82, 195.25, -1602.62]
+        - to: [3671.23, 195.66, -1511.54]
+    # comment: Hobbies of the Rich
 
-- Kill .enemy(Stalker 2):
-    icon: calamity
-    coord: [3671.23, 195.66, -1511.54]
-    comment: Hobbies of the Rich
+# - Kill .enemy(Stalker 2):
+#     icon: calamity
+#     coord: [3671.23, 195.66, -1511.54]
+#     comment: Hobbies of the Rich
 
 - .dir(<E)
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
-    comment: 10 wood
+    # comment: 10 wood
 
 - .dir(S) + midair
-- _Korok::A49
+- _Korok::A49:
+    comment: " "
 
 - .dir(W>)
-- _Shrine::DahHesho
+- _Shrine::DahHesho:
+    comment: Minor Test of Strength
 
 - Run
 - _Korok::A47
@@ -56,7 +64,8 @@ Eldin Tower:
     coord: [3860.81, 346.24, -1095.11]
 
 - .dir(W)
-- _Korok::A51
+- _Korok::A51:
+    comment: " "
 
 - .dir(S>)
 - _Discover<Sokkala Bridge>:
@@ -66,7 +75,8 @@ Eldin Tower:
 - _Discover<West Sokkala Bridge>:
     coord: [3591.52, 346.29, -1020.13]
 
-- _Korok::A52
+- _Korok::A52:
+    comment: " "
 
 - .dir(NW>)
 - _Discover<Parade Ground Ruins>:
@@ -77,10 +87,12 @@ Eldin Tower:
     comment: Ancient arrows
 
 - .dir(<W)
-- _Korok::A50
+- _Korok::A50:
+    comment: " "
 
 - .dir(NW)
-- _Korok::E39
+- _Korok::E39:
+    comment: " "
 
 - .dir(<N)
 - _Shrine::SahDahaj:
@@ -89,12 +101,12 @@ Eldin Tower:
 - .dir(N)
 - _Chest<Knight's Claymore>:
     coord: [2675.33, 309.83, -1635.59]
-    comment: On top of enemy camp
+    # comment: On top of enemy camp
     notes: For tree chopping
 
 - _Korok::E34
 
-- .dir(NW) run
+- .dir(NW) drop down
 - _Korok::E30
 
 - .dir(W)
@@ -104,9 +116,10 @@ Eldin Tower:
 - _Korok::E32
 
 - .dir(SE) short
-- _Korok::E33
+- _Korok::E33:
+    comment: " "
 
-- .gale() + .dir(.W) midairs:
+- .gale() + .dir(W) midairs:
     gale: 1
 
 - _Tower::Eldin

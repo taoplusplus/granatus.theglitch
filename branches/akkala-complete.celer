@@ -1,10 +1,12 @@
 Akkala Complete:
-- _Warp::Tower::Akkala
+- _Warp::Tower::Akkala:
+    comment: WARP
 
-- .dir(S) drop down
-- _Korok::A42
+- .dir(S) down
+- _Korok::A42:
+    comment: " "
 
-- Drop down
+- Down
 - _Korok::A43
 
 - .dir(SE)
@@ -43,6 +45,7 @@ Akkala Complete:
 - _Korok::A35
 
 - .!!(Read shrine stone):
+    icon: tots
     coord: [4626.25, 131.11, -1829.19]
 
 - .dir(<<S)

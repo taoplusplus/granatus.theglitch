@@ -1,6 +1,7 @@
 Dueling Peaks:
 - .dir(<E)
-- _Korok::D27
+- _Korok::D27:
+    comment: " "
 
 - .dir(S)
 - _Korok::D34
@@ -9,7 +10,8 @@ Dueling Peaks:
 - _Korok::D33
 
 - .dir(W>)
-- _Korok::D32
+- _Korok::D32:
+    comment: " "
 
 - .dir(S)
 - _Korok::D31
@@ -20,7 +22,7 @@ Dueling Peaks:
 - .dir(<W)
 - _Korok::P12
 
-- Drop down
+- Down
 - _Korok::P13
 
 - .dir(N>>)
@@ -34,11 +36,11 @@ Dueling Peaks:
     coord: [-176.93, 132.59, 1771.62]
 
 - .dir(S)
-- _Korok::D43
+- _Korok::D43:
+    comment: " "
 
 - .dir(<S) + .dir(E) midair
-- _Korok::L03:
-    comment: Zora Armor
+- _Korok::L03
 
 - .dir(<S)
 - _Korok::L10:
@@ -48,7 +50,8 @@ Dueling Peaks:
 - _Korok::L11
 
 - .dir(<S)
-- _Korok::L16
+- _Korok::L16:
+    comment: " "
 
 - .dir(N)
 - _Korok::L05
@@ -57,7 +60,8 @@ Dueling Peaks:
 - _Korok::L06
 
 - .dir(<N)
-- _Korok::L02
+- _Korok::L02:
+    comment: " "
 
 - .dir(N)
 - _Korok::L01
@@ -82,19 +86,22 @@ Dueling Peaks:
     comment: Get blue nightshade
 
 - .dir(<S)
-- _Korok::D46
+- _Korok::D46:
+    comment: " "
 
 - .dir(<E)
 - _Korok::D37
 
 - .dir(E)
-- _Korok::D38
+- _Korok::D38:
+    comment: " "
 
 - .dir(E>)
 - _Korok::D47
 
 - .dir(<<E)
-- _Korok::D39
+- _Korok::D39:
+    comment: " "
 
 - .dir(E>)
 - _Shrine::ReeDahee:
@@ -106,10 +113,11 @@ Dueling Peaks:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3835s)
 
 - .dir(S) + climb
-- Kill stalkoblin
+- Kill .enemy(Stalkoblin):
+    icon: calamity
 - _Equipment::Weapon<Traveler's Sword>:
     coord: [1282.48, 523.75, 1939.55]
-    comment: Weapon Connoisseur
+    # comment: Weapon Connoisseur
     notes: Need to get here before 5:00am. Backup in Kakariko later.
 - _Shrine::SheeVaneer:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3724s)
@@ -118,9 +126,9 @@ Dueling Peaks:
     movements:
         - to: [1517.27, 400.25, 1850.08]
           away: true
-    comment: Bomb arrow from distance
+    # comment: Bomb arrow from distance
 
-- .dir(E) run/climb
+- .dir(E) run
 - _Korok::D49
 
 - .dir(N)

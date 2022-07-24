@@ -1,6 +1,6 @@
 Hebra:
 ### Hebra 1
-- Climb out, .dir(N.) + .dir(.E) midair
+- .dir(N.) + .dir(.E) midair
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
@@ -10,7 +10,7 @@ Hebra:
     gale: 1
 - _Korok::H54
 
-- .dir(E>>) + midair
+- .dir(E>) + midair
 - _Korok::H55
 
 - .dir(N.) + midair
@@ -20,21 +20,24 @@ Hebra:
 - _Korok::H27:
     comment: Aim .dir(N), .dir(W), .dir(E>)
 
-- .dir(<<E)
+- .dir(<E)
 - _Shrine::ShadaNaw:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16042s)
 
 - .dir(W>>)
-- _Korok::H10
+- _Korok::H10:
+    comment: " "
 
 - .dir(E)
-- _Korok::H11
+- _Korok::H11:
+    comment: " "
 
-- .dir(NW) short, down
+- .dir(NW) down
 - _Korok::H09
 
-- Climb out, .dir(NW)
-- _Korok::H04
+- .dir(NW)
+- _Korok::H04:
+    comment: " "
 
 - .dir(<W)
 - _Boss::Hinox::Stal:
@@ -47,7 +50,8 @@ Hebra:
 - _Shrine::HiaMiu
 
 - .dir(S.) + midairs
-- _Korok::H23
+- _Korok::H23:
+    comment: " "
 
 - .dir(N>)
 - _Discover<Sherfin's Hot Spring>:
@@ -56,6 +60,7 @@ Hebra:
 - .dir(N>) + climb
 - _Korok::H07:
     time-override: 999
+    comment: " "
 
 - .gale() + .dir(E):
     gale: 1
@@ -63,7 +68,8 @@ Hebra:
     comment: Aim .dir(<<S) above lasers
 
 - .dir(N)
-- _Korok::H02
+- _Korok::H02:
+    comment: " "
 
 - Clip in to mountain:
     notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
@@ -74,7 +80,8 @@ Hebra:
 
 - _Snap::Quest<Hebra Great Skeleton>
 
-- _Warp::Shrine::ShadaNaw
+- _Warp::Shrine::ShadaNaw:
+    comment: WARP
 
 
 ### Hebra 2
@@ -96,34 +103,39 @@ Hebra:
 - _Korok::H46
 
 - .dir(SE)
-- _Korok::H48
+- _Korok::H48:
+    comment: " "
 
 - .dir(N)
 - _Korok::H49
 
 - .dir(N) run
 - _Korok::H50:
+    comment: " "
     movements:
         - to: [-2836.29, 501.88, -2423.84]
           away: true
 
 - _Korok::H47:
+    comment: " "
     movements:
         - to: [-2900.08, 498.65, -2508.79]
           away: true
 
 - .dir(<N)
 - _Korok::H44:
-    comment: In cave, right of flag
+    comment: " " #In cave, right of flag
 
-- midair .dir(E>), down
+- midair .dir(E>) down
 - _Korok::H45
 
 - .dir(S)
-- _Korok::H56
+- _Korok::H56:
+    comment: " "
 
 - .dir(NE)
-- _Korok::H51
+- _Korok::H51:
+    comment: " "
 
 - .dir(<S)
 - _Shrine::GeeHarah:
@@ -138,10 +150,12 @@ Hebra:
 - .dir(<W)
 - _Shrine::LannoKooh
 
-- _Korok::H64
+- _Korok::H64:
+    comment: " "
 
 - .dir(<E)
-- _Korok::H61
+- _Korok::H61:
+    comment: " "
 
 - .dir(E>>)
 - _Tower::Hebra
@@ -153,17 +167,20 @@ Hebra:
 - .dir(SW)
 - _Korok::H67
 
-- .dir(<S) surf/run
+- .dir(<S) run
 - _Korok::H70
 
 - .dir(W)
-- _Korok::H69
+- _Korok::H69:
+    comment: " "
 
 - midair .dir(<W)
-- _Korok::H72
+- _Korok::H72:
+    comment: " "
 
 - .dir(W>)
-- _Korok::T18
+- _Korok::T18:
+    comment: " "
 
 - .dir(N>)
 - _Boss::Talus::Rare:
@@ -172,21 +189,23 @@ Hebra:
     coord: [-2864.50, 408.98, -1825.91]
 
 - .dir(NE)
-- _Korok::H65
+- _Korok::H65:
+    comment: " "
 
 - .dir(<W)
 - _Korok::H66:
     comment: " "
 
 - .dir(W)
-- _Korok::T11
+- _Korok::T11:
+    comment: " "
 
 - .dir(SW) glide
 - _Npc<Gesane>:
     coord: [-3308.27, 227.83, -1803.34]
     comment: Face the Frost Talus
 
-- Run to cook pot
+- Run
 - _Npc<Lester>:
     coord: [-3267.07, 224.60, -1773.77]
     comment: Curry for What Ails You
@@ -199,13 +218,14 @@ Hebra:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
           away: true
-    comment: Drown
+    comment: Drownwarp
 
 - .dir(E)
 - _Korok::T22
 
 - .dir(<S)
-- _Korok::T25
+- _Korok::T25:
+    comment: " "
 
 - .dir(<E) + midairs
 - _Korok::R05
@@ -215,10 +235,12 @@ Hebra:
     coord: [-2638.00, 282.34, -1175.00]
 
 - .dir(S) + midair
-- _Korok::R13
+- _Korok::R13:
+    comment: " "
 
 - .dir(S.)
-- _Korok::R17
+- _Korok::R17:
+    comment: " "
 
 - .dir(SE)
 - _Boss::Hinox::Blue:
@@ -240,7 +262,8 @@ Hebra:
           away: true
 
 - .dir(S>)
-- _Korok::R30
+- _Korok::R30:
+    comment: " "
 
 - .dir(NW)
 - _Korok::R21
@@ -255,19 +278,21 @@ Hebra:
     comment: Cliffside Etchings
     notes: Get here between 8:00am and midnight
 
-- Run to stable/cookpot
+- Run to stable
 - _Npc<Toren>:
     coord: [-2916.00, 274.73, -561.00]
     comment: Gift for the Great Fairy
 
 - .dir(W>) run
-- _Korok::T34
+- _Korok::T34:
+    comment: " "
 
 - .dir(S>)
 - _Korok::R28
 
 - .dir(E) run
-- _Korok::R29
+- _Korok::R29:
+    comment: " "
 
 - .dir(N)
 - _Korok::R20
@@ -277,7 +302,8 @@ Hebra:
     coord: [-3119.20, -0.58, -627.77]
 
 - .dir(N)
-- _Korok::R12
+- _Korok::R12:
+    comment: " "
 
 - .dir(N.) + midairs
 - _Shrine::DunbaTaag:
@@ -285,52 +311,63 @@ Hebra:
 
 - .dir(S):
     notes: Behind shrine
-- _Korok::H73
+- _Korok::H73:
+    comment: " "
 
 - .dir(E>) down
-- _Korok::R04
+- _Korok::R04:
+    comment: " "
 
-- _Warp::Shrine::ShadaNaw
-
+- _Warp::Shrine::ShadaNaw:
+    comment: WARP
+    line-color: lime
 
 ### Hebra 3
 
 - .dir(E)
 - _Korok::H21:
-    line-color: lime
+    comment: " "
 
 - .dir(NW)
 - _Korok::H12
 
-- _Warp::Shrine::ShadaNaw
+- _Warp::Shrine::ShadaNaw:
+    comment: WARP
+    line-color: red
 
 - .dir(<W)
-- _Shrine::MozoShenno:
-    line-color: red
+- _Shrine::MozoShenno
 
 - .dir(<<W)
 - _Korok::H26
 
 - .dir(N>>)
-- _Korok::H19
+- _Korok::H19:
+    comment: " "
 
 - .dir(W>)
-- _Korok::H18
+- _Korok::H18:
+    comment: " "
 
 - .dir(W>)
-- _Korok::H17
+- _Korok::H17:
+    comment: " "
 
 - .dir(S>)
-- _Korok::H24
+- _Korok::H24:
+    comment: " "
 
 - .dir(E>)
-- _Korok::H25
+- _Korok::H25:
+    comment: " "
 
 - .dir(<W)
-- _Korok::H32
+- _Korok::H32:
+    comment: " "
 
 - .dir(<S)
-- _Korok::H40
+- _Korok::H40:
+    comment: " "
 
 - .dir(NW)
 - _Boss::Hinox::Black:
@@ -339,54 +376,58 @@ Hebra:
 
 - .dir(S)
 - Start T06 race:
+    icon: korok
     coord: [-4495.71, 342.71, -2510.34]
     notes: If you make a mistake, you can finish T06 right after H60. Then do T08 to T07.
 
 - .dir(SE)
-- _Korok::H53
+- _Korok::H53:
+    comment: " "
 
 - .dir(SW)
 - _Korok::H60
 
-- .dir(<S)
+- .dir(.S)
 - _Korok::T08
 
 - .dir(NE)
 - _Korok::T06:
+    comment: " "
     movements:
         - to: [-4396.84, 183.40, -2049.88]
 
 - .dir(E)
-- _Korok::T07
+- _Korok::T07:
+    comment: " "
 
 - .dir(NE)
-- _Korok::T01
+- _Korok::T01:
+    comment: " "
 
 - .dir(<<N)
 - _Korok::H39:
-    comment: Little peak after updraft
+    comment: " " #Little peak after updraft
 
-- Drop down
+- Down
 - _Discover<Sturnida Hot Spring>:
     coord: [-4080.50, 173.00, -2720.00]
 
 - Updraft + .dir(S>)
 - _Korok::H41
 
-- .dir(E>>)
-- _Korok::H42
+- .dir(E>) down
+- _Korok::H42:
+    comment: " "
 
 - .dir(E)
 - _Shrine::MakaRah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15723s)
 
-- _Warp::Shrine::DahHesho
+- _Warp::Shrine::DahHesho:
+    comment: WARP
 
 - .dir(N>)
 - _Npc<Hudson>:
     #coord: [3981.65, 233.41, -1599.11]
-    comment: 50 wood
+    # comment: 50 wood
     hide-icon-on-map: true
-
-- _Shop<Fire Arrows>:
-    notes: (Optional) Buy fire arrows from Fyson if you're running low (< 10)

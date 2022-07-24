@@ -17,37 +17,43 @@ Horse Minigames:
 - _Korok::L60
 
 - .dir(<<E)
-- _Korok::L52
+- _Korok::L52:
+    comment: " "
 
 - .dir(<E)
 - _Shrine::PumaagNitae
 
 - .dir(SE) run
-- _Korok::L53
+- _Korok::L53:
+    comment: " "
 
 - .dir(<<E) run
 - _Korok::L55
 
 - .dir(<S)
-- _Korok::L61
+- _Korok::L61:
+    comment: " "
 
-- Kill the .enemy(octoroks)
+- Kill .enemy(Octoroks):
+    icon: calamity
 - _Material<Octorok Balloon>:
     coord: [720.28, 134.40, 3276.11]
     comment: Balloon Flight
 
 - .dir(<<W) run
-- _Korok::L66
+- _Korok::L66:
+    comment: " "
 
 - .dir(SE)
-- _Korok::L72
+- _Korok::L72:
+    comment: " "
 
 - .dir(E>>)
 - _Korok::F38
 
 - .dir(.W)
 - _Boss::Hinox::Blue:
-    comment: Ancient arrows midair
+    comment: Ancient arrows
     coord: [1031.43, 127.22, 3496.26]
 
 - midair .dir(S)
@@ -57,9 +63,10 @@ Horse Minigames:
 - _Korok::L92
 
 - .dir(N)
-- _Korok::L78
+- _Korok::L78:
+    comment: " "
 
-- .dir(W) drop down
+- .dir(W) down
 - _Npc<Malanya>:
     coord: [802.00, 186.73, 3719.93]
     comment: Horse God
@@ -85,18 +92,19 @@ Horse Minigames:
 - .dir(S)
 - _Npc<Perosa>:
     coord: [516.76, 152.98, 3453.71]
-    comment: Horseback Hoodlums
+    # comment: Horseback Hoodlums
 
 - _Material<Swift Carrot>:
     coord: [523.34, 152.89, 3463.33]
-    comment: Koko's Kitchen
+    # comment: Koko's Kitchen
     notes: Behind horses
 
 - _Npc<Blynne>:
     coord: [514.26, 152.72, 3449.75]
 
-- Complete .!!(obstacle course):
-    notes: Get times below 1:30 and 1:15 (any order)
+- .!!(Obstacle Course):
+    icon: tots
+    comment: Times below 1:30 and 1:15
 
 - .dir(S)
 - _Shrine::KaoMakagh:
@@ -104,9 +112,11 @@ Horse Minigames:
 
 - .dir(S)
 - Start L65:
+    icon: korok
     coord: [546.27, 231.59, 3580.35]
 
-- .dir(E) ride horse around corner:
+- Ride horse:
+    icon: npc
     movements:
         - to: [513,3516.5]
         - to: [274,3465.5]
@@ -115,14 +125,15 @@ Horse Minigames:
         - to: [161.5,3487]
     notes: Sets up the horse for easy pickup later
 
-- .dir(N) + .dir(NE) midair
+- .dir(N) + .dir(<E) midair
 - _Korok::L65:
     coord: [271.72, 222.37, 3289.59]
+    comment: " "
     notes: Do not whistle sprint until after Shoqa Tatone
 
 - .dir(S>)
-- _Korok::L70:
-    comment: Hop forward for BT
+- _Korok::L70 #:
+    # comment: Hop forward for BT
 
 - .dir(E>) glide
 - _Korok::L71:
@@ -130,13 +141,16 @@ Horse Minigames:
 
 - .gale() + .dir(S) midair:
     gale: 1
-- _Korok::L73
+- _Korok::L73:
+    comment: " "
 
 - .dir(E)
-- _Korok::L74
+- _Korok::L74:
+    comment: " "
 
 - .dir(E)
-- _Korok::L76
+- _Korok::L76:
+    comment: " "
 
 - .dir(S>)
 - _Korok::L91
@@ -145,7 +159,8 @@ Horse Minigames:
 - _Korok::L90
 
 - .dir(<W)
-- _Korok::L89
+- _Korok::L89:
+    comment: " "
 
 - .dir(<<N)
 - _Korok::L88
@@ -153,18 +168,19 @@ Horse Minigames:
 - .dir(W>)
 - _Npc<Loone>:
     coord: [104.50, 109.30, 3825.50]
-    comment: Guardian Slideshow
+    # comment: Guardian Slideshow
 
 - _Tod::Night:
     notes: For the Stalnoxes coming up (if needed)
 
 - _Shrine::ShoqaTatone
 
-- .dir(W>>) square
+- .dir(W>>)
 - _Korok::L86
 
 - .dir(E>)
-- _Korok::L87
+- _Korok::L87:
+    comment: " "
 
 - .dir(<N)
 - _Boss::Hinox::Stal:
@@ -182,8 +198,9 @@ Horse Minigames:
 - _Npc<Jini>:
     coord: [-212.39, 128.70, 3487.13]
 
-- Complete .!!(archery minigame):
-    notes: Score 20 and 23.
+- .!!(Archery Minigame):
+    icon: tots
+    comment: Score 20 and 23
 
 - .dir(<S)
 - _Korok::L85
@@ -192,16 +209,18 @@ Horse Minigames:
 - _Korok::L83
 
 - .dir(S>>) run
-- _Korok::L82
+- _Korok::L82:
+    comment: " "
 
-- .dir(E) drop down
+- .dir(E) down
 - _Korok::L84
 
 - .dir(W)
 - _Korok::L81
 
 - .dir(W)
-- _Korok::L80
+- _Korok::L80:
+    comment: " "
 
 - .dir(<<N) + midair
 - _Korok::L69
@@ -217,6 +236,7 @@ Horse Minigames:
 
 - .dir(NW)
 - _Korok::L67:
+    comment: " "
     notes: .link([Daruk shield block strat]https://twitter.com/TaoPlusPlus/status/1543032802559643648?s=20&t=Epe1-KX_9FguTFxJCAmwfA)
 
 - .dir(E)

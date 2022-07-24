@@ -1,14 +1,15 @@
 Goron City:
-- .!!(Unequip bomb arrows):
-    notes: .link([Eldin notes]https://pastebin.com/3CNyxYjM)
+# - .!!(Unequip bomb arrows):
+#     notes: .link([Eldin notes]https://pastebin.com/3CNyxYjM)
 
-- .dir(<<N)
+- .dir(NW)
 - _Korok::E27
 
 - .dir(<W)
-- _Korok::E26
+- _Korok::E26:
+    comment: " "
 
-- .dir(SE) short, land above talus
+- .dir(SE) short #, land above talus
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury()
@@ -17,6 +18,7 @@ Goron City:
 - .dir(.N) to .loc(Southern Mine)
 
 - _Material<Fireproof Lizard,10>:
+    comment: " "
     movements:
         - to: [1605.70, 441.12, -1981.67]
         - to: [1630.89, 439.24, -1974.67]
@@ -29,7 +31,7 @@ Goron City:
 
 - _Npc<Kima>:
     coord: [1657.35, 430.17, -1960.60]
-    comment: Flamebreaker Armor
+    # comment: Flamebreaker Armor
 
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
@@ -37,10 +39,12 @@ Goron City:
     notes: Make night if needed to speak to him. Must equip Flamebreaker Armor to sit at the cooking pot.
 
 - .dir(NW)
-- _Korok::E19
+- _Korok::E19:
+    comment: " "
 
 - .dir(N>) + midair
-- _Korok::E18
+- _Korok::E18:
+    comment: " "
 
 - .dir(N.)
 - _Discover<Stolock Bridge>:
@@ -48,19 +52,21 @@ Goron City:
     notes: Land on the bridge will trigger the Rudania cutscene
 
 - midair .dir(N)
-- _Korok::E14
+- _Korok::E14:
+    comment: " "
 
 - .dir(W) glide
 - _Korok::E13
 
 - .dir(S.):
     notes: If you didn't land on the bridge before, the Rudania cutscene will trigger here
-- _Korok::E15
+- _Korok::E15:
+    comment: " "
 
 - .dir(NE) run
-- _Shop<General Store>:
+- _Shop<Goron Spice>:
     coord: [1689.61, 491.59, -2468.49]
-    comment: Buy Goron Spice
+    # comment: Buy Goron Spice
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
@@ -75,10 +81,12 @@ Goron City:
 
 - .gale():
     gale: 1
-- _Korok::E08
+- _Korok::E08:
+    comment: " "
 
 - .dir(<E) + midair
-- _Korok::E09
+- _Korok::E09:
+    comment: " "
 
 - .dir(<<E)
 - _Korok::E06:
@@ -88,7 +96,7 @@ Goron City:
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
-    comment: Sledgehammer or AA
+    comment: Sledgehammer
     notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
 
 - .dir(S>) + midair
@@ -98,51 +106,59 @@ Goron City:
 - _Korok::E10
 
 - .dir(NW)
-- _Korok::E07
+- _Korok::E07:
+    comment: " "
 
-- Drop down
+# - Drop down
 - _Shrine::ShoraHah:
     notes: .link([Shrine Strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
 
-- Take the minecart out:
+- Minecart + .dir(<W):
     coord: [1593.5,-3090.5]
     notes: Stasis the minecart once you have a good windbomb angle
 
-- From minecart .dir(<W)
+# - From minecart .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
-    comment: Sledgehammer or AA
+    comment: Sledgehammer
 
 - .dir(<W) + midair
-- _Korok::K08
+- _Korok::K08:
+    comment: " "
 
 - .dir(W>)
-- _Korok::K07
+- _Korok::K07:
+    comment: " "
 
 - .dir(W>)
-- _Korok::K06
+- _Korok::K06:
+    comment: " "
 
 - midair .dir(W>)
-- _Korok::K05
+- _Korok::K05:
+    comment: " "
 
 - .dir(W>) + midairs
-- _Korok::H16
+- _Korok::H16:
+    comment: " "
 
 - midair .dir(N>)
 - _Shrine::QazaTokki
 
 - _Chest<Barbarian Legs>:
-    comment: Equip + Barbarian Armor
+    comment: Equip
     hide-icon-on-map: true
 
 - .dir(W) + .dir(SW) midair
 - _Korok::H15
 
 - .dir(W) + .dir(S>)
-- _Korok::H22
+- _Korok::H22:
+    comment: " "
 
 - .dir(SE) + midairs
-- _Korok::K11
+- _Korok::K11:
+    comment: " "
 
 - .dir(<<E) + .dir(NE) midair:
     time-override: 720

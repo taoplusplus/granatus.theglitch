@@ -1,6 +1,7 @@
 Wetlands:
 - _Warp::Tower::DuelingPeaks:
     line-color: dodgerblue
+    comment: WARP
     
 - .dir(E)
 - _Boss::Talus::Stone:
@@ -9,10 +10,12 @@ Wetlands:
     coord: [1186.62, 254.28, 1642.77]
 
 - .dir(<N)
-- _Korok::D16
+- _Korok::D16:
+    comment: " "
 
 - .dir(NW)
 - Steal horse:
+    icon: calamity
     coord: [927.95, 117.06, 1211.55]
 
 - .dir(S>>) ride
@@ -20,16 +23,19 @@ Wetlands:
     comment: " "
 
 - .dir(<<S)
-- _Korok::D29
+- _Korok::D29:
+    comment: " "
 
 - .dir(W)
-- _Korok::D28
+- _Korok::D28:
+    comment: " "
 
 - .dir(NW)
 - _Korok::D23
 
 - .dir(E)
-- _Korok::D24
+- _Korok::D24:
+    comment: " "
 
 - .dir(E)
 - _Boss::Talus::Stone:
@@ -38,10 +44,12 @@ Wetlands:
     coord: [705.34, 137.62, 1471.88]
 
 - .dir(N>)
-- _Korok::D15
+- _Korok::D15:
+    comment: " "
 
 - .dir(NW)
-- _Korok::D13
+- _Korok::D13:
+    comment: " "
 
 - .dir(NE)
 - _Discover<Horwell Bridge>:
@@ -59,7 +67,8 @@ Wetlands:
 - _Discover<Eagus Bridge>:
     coord: [969.69, 129.13, 942.83]
 
-- _Korok::D01
+- _Korok::D01:
+    comment: " "
 
 - .dir(N>)
 - _Korok::Z47
@@ -68,13 +77,15 @@ Wetlands:
 - _Korok::Z48
 
 - .dir(E>>) short
-- _Korok::Z49
+- _Korok::Z49:
+    comment: " "
 
 - .dir(E>)
 - _Korok::Z50
 
 - .dir(S>)
-- _Korok::Z60
+- _Korok::Z60:
+    comment: " "
 
 - .dir(<E) + .dir(N.) midair
 - _Korok::N01
@@ -93,14 +104,16 @@ Wetlands:
     comment: Ancient arrows
 
 - .dir(NW)
-- _Korok::Z22
+- _Korok::Z22:
+    comment: " "
 
-- .dir(E>>)
+- .dir(E>)
 - _Npc::ZoraFemale<Finley>:
     coord: [2754.00, 189.53, -83.50]
     comment: Special Delivery
 
-- Shoot letter:
+- Shoot Letter:
+    icon: calamity
     notes: When you return to Finley, the letter will respawn on land
 
 - .dir(N)
@@ -113,14 +126,14 @@ Wetlands:
     var-change:
         Monument: 1
 
-- .dir(S) run, drop down
+- .dir(S) run
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2877.09, 229.49, -32.75]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- Drop down
+- Down
 - _Discover<Oren Bridge>:
     coord: [2875.32, 187.50, 32.60]
 
@@ -135,7 +148,8 @@ Wetlands:
 - _Korok::Z31
 
 - .dir(<E)
-- Deliver letter BLSS:
+- Deliver Letter:
+    icon: tots
     movements:
         - to: [2754.00, 189.53, -73.50]
         - to: [2662.5,-145.5]

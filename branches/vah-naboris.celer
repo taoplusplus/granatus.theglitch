@@ -32,7 +32,8 @@ Vah Naboris:
 
 - .boss(Thunderblight):
     icon: calamity
-    notes: Stasis+ 2 body shots, 3 head shots
+    comment: 2 body, 3 head
+    # notes: Stasis+ 2 body shots, 3 head shots
     hide-icon-on-map: true
 
 - .!!(Urbosa's Fury):

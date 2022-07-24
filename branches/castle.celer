@@ -5,43 +5,44 @@ Hyrule Castle:
 - .dir(<E) glide
 - _Chest<Naydra's Scale>:
     coord: [-182.29, 235.23, -1169.52]
-    comment: Under slab
+    # comment: Under slab
 
-- .dir(E) run, drop down waterfall
+- .dir(E) run
 - _Korok::X02:
     comment: " "
 
-- .dir(<<N) climb out, run, drop down
+- .dir(<<N) run
 - _Chest<Dinraal's Scale>:
     coord: [-196.46, 153.20, -1218.59]
-    comment: Behind rubble
+    # comment: Behind rubble
 
 - .dir(N>)
-- _Korok::K30
+- _Korok::K30:
+    comment: " "
 
 - .dir(S) into tunnel
 - _Korok::X11
 
-- Run around corner:
+- Around corner:
     time-override: 999
 - _Boss::Talus::Rare:
     coord: [-136.65, 127.21, -956.26]
     comment: .fury()
     fury: 3
 
-- Take updraft
+- Updraft
 - _Chest<Shard of Farosh's Fang>:
     coord: [-133.07, 170.48, -950.46]
 
-- Enter .loc(Library), run across
+- Run through .loc(Library)
 - _Discover<King's Study>:
     coord: [-172.98, 170.46, -1119.39]
 
 - _Equipment::Shield<Royal Guard's Shield>:
-    comment: Royal Guard's Gear
+    hide-icon-on-map: true
+    # comment: Royal Guard's Gear
 
-- Go down stairs to shrine
-- Light torch
+- Down stairs
 - _Tod::Night:
     notes: Cancels blood moon by forcing it to occur while you're in Hyrule Castle
 
@@ -49,28 +50,29 @@ Hyrule Castle:
 
 - _Chest<Star Fragment>:
     coord: [-224.01, 104.73, -1177.87]
-    comment: In the water
+    # comment: In the water
     notes: .v(Star)/3 star fragments. Alternatively, can skip this and get one later after Shai Yota.
     var-change:
         Star: 1
 
-- Shock .enemy(lizalfos), steal 2 bows:
+- Steal 2 Bows:
+    icon: bow
     notes: Want 13 bows for duping later. Can pick up missing Lizalfos Horn here.
 
 - _Equipment::Weapon<Great Flameblade>:
     coord: [-268.24, 131.34, -1153.31]
     notes: This and the Thunderblade are high durability weapons for tree chopping
 
-- Run out, climb
+- Run out
 - _Korok::X01:
+    comment: " "
     notes: If you lift the rock right before the guardian laser hits you, you won't take damage.
 
 - .dir(<W)
-- _Korok::X04
+- _Korok::X04:
+    comment: " "
 
-- Drop down, enter .loc(Lockup)
-- Shoot malice eye in hallway
-
+- Enter .loc(Lockup)
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
     comment: Ancient arrows
@@ -87,20 +89,20 @@ Hyrule Castle:
 
 - Backtrack .gale():
     gale: 1
-- _Korok::X08
+- _Korok::X08:
+    comment: " "
 
-- Climb ladder
-- .rune(Bomb) switch to turn on updraft
-- .rune(Bomb) wall
+# - Climb ladder
+- .rune(Bomb) switch
 - _Chest<Shard of Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
 
-- Take updraft
-- Run outside, .gale():
+- Updraft .gale():
     gale: 2
 - _Discover<Zelda's Study>:
     coord: [-383.72, 273.58, -995.87]
 - 1 .item(Silent Princess):
+    icon: material
     notes: Should have 19. If not, backup at fairy fountains later.
 - _Snap::Quest<Guardian Skywatcher>
 - _Memory::HyruleCastle
@@ -116,13 +118,15 @@ Hyrule Castle:
 
 - .dir(<<W)
 - _Korok::X17:
+    comment: " "
     notes: DEFUSE
 
 - .dir(<E)
 - _Korok::X12
 
 - .dir(<W)
-- _Korok::X16
+- _Korok::X16:
+    comment: " "
 
 - Drop down
 - _Discover<Second Gatehouse>
@@ -132,33 +136,34 @@ Hyrule Castle:
 
 - _Material<Raw Meat>:
     coord: [-108.37, 210.59, -848.95]
-    comment: Koko Cuisine
+    # comment: Koko Cuisine
 
 - _Material<Raw Gourmet Meat>:
     coord: [-152.50, 210.39, -821.58]
-    comment: Rare Find
+    # comment: Rare Find
 
-- Run down the hall
-- _Korok::X15
+- Run #down the hall
+- _Korok::X15:
+    comment: " "
 
-- Clip out:
+- OOB to .loc(Guard's Chamber):
     notes: .link([Example clip and oob movement]https://youtu.be/7WOPfp1bGog?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=25938)
-- .loc(Guard's Chamber)
 
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]
     time-override: 274
 
 - _Korok::X19:
-    comment: Fix ragdoll
+    comment: " "
 
-- Run outside .gale():
+- Run .gale():
     gale: 1
 - _Discover<First Gatehouse>:
     coord: [-351.61, 217.85, -830.25]
 
 - Run
-- _Korok::X18
+- _Korok::X18:
+    comment: " "
 
 - .dir(E>)
 - _Korok::X23
@@ -169,21 +174,26 @@ Hyrule Castle:
     notes: Walk into the malice
 - _Korok::X21:
     notes: Shooting the top works
-- _Korok::X22
+- _Korok::X22:
+    comment: " "
 
 - .dir(E) glide
 - _Korok::X20
 
 - .dir(S>>)
-- _Korok::X24
+- _Korok::X24:
+    comment: " "
 
 - .dir(SW) drop down
-- _Korok::C16
+- _Korok::C16:
+    comment: " "
 
-- _Korok::X25
+- _Korok::X25:
+    comment: " "
 
 - .dir(<S)
-- _Korok::C33
+- _Korok::C33:
+    comment: " "
 
 - _Snap::Quest<Guardian Stalker>:
     movements:
@@ -191,6 +201,7 @@ Hyrule Castle:
           away: true
 
 - .dir(S>>)
-- _Korok::C35
+- _Korok::C35:
+    comment: " "
 
 - _Memory::SacredGrounds
