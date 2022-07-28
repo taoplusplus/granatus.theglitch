@@ -1,28 +1,31 @@
 Hestu 2:
 - _Warp::Shrine::KayaWan:
     line-color: lightsalmon
-- .dir(N) surf or glide
-- .rune(Magnesis) chest out of water
+    comment: WARP
+
+- .dir(N) short
 - _Chest<Knight's Broadsword>:
     coord: [826.64, 112.80, 123.61]
-    comment: Riverbed Reward
+    comment: .rune(Mag) out of water
 
-- .dir(SE) run
+- .dir(SE) short
 - _Discover<Wetland Stable>:
     coord: [888.06, 131.29, 173.67]
 
-- .dir(<S) run
+- .dir(<S) short
 - _Npc<Hestu>:
     coord: [870.83, 131.54, 203.47]
-    comment: 3 bow, 2 weapon
+- .!!(3 bow, 2 weapon slots):
+    icon: bow
+    hide-icon-on-map: true
 
-- .dir(S) run
+- .dir(S) short
 - _Korok::Z37:
-    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541460437455470593?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+    # notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541460437455470593?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+    comment: Among thorns
 
 - .dir(<E)
 - _Korok::Z38
-
 - _Equipment::Bow<Wooden Bow>:
     coord: [1429.44, 115.67, 148.95]
 
@@ -36,9 +39,8 @@ Hestu 2:
 - .dir(.N)
 - _Discover<Moor Garrison Ruins>:
     coord: [1534.40, 120.58, -155.90]
-
 - _Equipment::Bow<2 Spiked Boko Bow>:
-    comment: Steal
+    comment: Steal from bokos
     coord: [1534.40, 120.58, -175.90]
 
 - .dir(.N)

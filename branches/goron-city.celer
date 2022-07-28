@@ -1,22 +1,26 @@
 Goron City:
-- .!!(Unequip bomb arrows):
-    notes: .link([Eldin notes]https://pastebin.com/3CNyxYjM)
+- Equip metal shield:
+    notes: Bow will burn after 30s on fire or after entering some cutscenes while on fire. Cancel bow burning by pressing ZR, B.
+    icon: shield
+    hide-icon-on-map: true
 
 - .dir(<<N)
 - _Korok::E27
 
-- .dir(<W)
-- _Korok::E26
-
-- .dir(SE) short, land above talus
+- .dir(<W):
+    notes: Windbombs won't work on the first (and only the first) tick of burn damage. Either go fast or wait until the second tick.
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
-    comment: .fury()
+    comment: .fury() from ledge above
     fury: 3
+
+- .dir(.N)
+- _Korok::E26:
+    comment: " "
 
 - .dir(.N) to .loc(Southern Mine)
 
-- _Material<Fireproof Lizard,10>:
+- _Material<10 Fireproof Lizard>:
     movements:
         - to: [1605.70, 441.12, -1981.67]
         - to: [1630.89, 439.24, -1974.67]
@@ -29,38 +33,48 @@ Goron City:
 
 - _Npc<Kima>:
     coord: [1657.35, 430.17, -1960.60]
-    comment: Flamebreaker Armor
+    comment: Fireproof Lizard Roundup
+
+- _Equipment::Shield<Flamebreaker Armor>:
+    hide-icon-on-map: true
+    comment: Equip
+
+- _Tod::Night:
+    notes: (Optional) To talk to Greyson
 
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
     comment: From the Ground Up
-    notes: Make night if needed to speak to him. Must equip Flamebreaker Armor to sit at the cooking pot.
 
 - .dir(NW)
 - _Korok::E19
 
 - .dir(N>) + midair
-- _Korok::E18
+- _Korok::E18:
+    comment: " "
 
 - .dir(N.)
 - _Discover<Stolock Bridge>:
     coord: [1648.20, 565.86, -2437.53]
-    notes: Land on the bridge will trigger the Rudania cutscene
+    notes: Can discover by gliding over. Landing on the bridge will trigger the Rudania cutscene (make sure bow is not burning if you do).
 
 - midair .dir(N)
-- _Korok::E14
+- _Korok::E14:
+    comment: Start on Daruk's head
 
-- .dir(W) glide
-- _Korok::E13
+- .dir(W) short
+- _Korok::E13:
+    comment: Underneath arm
 
 - .dir(S.):
     notes: If you didn't land on the bridge before, the Rudania cutscene will trigger here
-- _Korok::E15
+- _Korok::E15:
+    comment: In smiling Goron's mouth
 
-- .dir(NE) run
-- _Shop<General Store>:
+- .dir(NE) down
+- _Shop<Buy Goron Spice>:
     coord: [1689.61, 491.59, -2468.49]
-    comment: Buy Goron Spice
+    comment: Potion Shop
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
@@ -78,74 +92,87 @@ Goron City:
 - _Korok::E08
 
 - .dir(<E) + midair
-- _Korok::E09
+- _Korok::E09:
+    comment: On rock arch
 
 - .dir(<<E)
 - _Korok::E06:
+    comment: Down in corner
     notes: Rare ore deposit here for amber if still needed
 
-- .gale() + .dir(<<W) midair:
+- .gale() + .dir(<<W):
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
-    comment: Sledgehammer or AA
+    comment: .rune(Stasis) and Ancient arrows
     notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
 
 - .dir(S>) + midair
-- _Korok::E11
+- _Korok::E11:
+    comment: Rock above, circle below
 
 - .dir(W)
-- _Korok::E10
+- _Korok::E10:
+    comment: Pinwheel
 
 - .dir(NW)
-- _Korok::E07
+- _Korok::E07:
+    comment: Top of crab island
 
-- Drop down
+- Down
 - _Shrine::ShoraHah:
     notes: .link([Shrine Strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
 
-- Take the minecart out:
+- Ride minecart:
+    icon: tots
     coord: [1593.5,-3090.5]
-    notes: Stasis the minecart once you have a good windbomb angle
+    notes: .rune(Stasis) the minecart once you have a good angle
 
-- From minecart .dir(<W)
+- .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
-    comment: Sledgehammer or AA
+    comment: .rune(Stasis) and Ancient arrows
 
 - .dir(<W) + midair
-- _Korok::K08
+- _Korok::K08:
+    comment: Pinwheel
 
 - .dir(W>)
-- _Korok::K07
+- _Korok::K07:
+    comment: Pinwheel, bomb arrow
 
 - .dir(W>)
-- _Korok::K06
+- _Korok::K06:
+    comment: " "
 
 - midair .dir(W>)
-- _Korok::K05
+- _Korok::K05:
+    comment: Pinwheel
 
 - .dir(W>) + midairs
-- _Korok::H16
+- _Korok::H16:
+    comment: In tree
 
-- midair .dir(N>)
+- midair .dir(N>):
+    coord: [-777.25,-3525]
+    notes: See map for where to drop in
+- _Chest<Barbarian Legs>:
+    comment: In shrine, equip
+    hide-icon-on-map: true
 - _Shrine::QazaTokki
 
-- _Chest<Barbarian Legs>:
-    comment: Equip + Barbarian Armor
-    hide-icon-on-map: true
-
-- .dir(W) + .dir(SW) midair
+- .dir(W) + .dir(SW)
 - _Korok::H15
 
 - .dir(W) + .dir(S>)
-- _Korok::H22
+- _Korok::H22:
+    comment: " "
 
 - .dir(SE) + midairs
-- _Korok::K11
+- _Korok::K11:
+    comment: Peak far away
 
-- .dir(<<E) + .dir(NE) midair:
-    time-override: 720
+- .dir(<<E) + .dir(NE)
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
     comment: Ancient arrows

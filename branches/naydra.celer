@@ -1,52 +1,64 @@
 Naydra:
 - _Warp::TechLab::Hateno:
     line-color: skyblue
+    comment: WARP 
     
 - .dir(<<E)
 - _Korok::N44
 
 - .dir(<N) + midairs
 - Begin Naydra sequence:
+    icon: tots
     coord: [3965,1353]
     notes: Shoot an eye before each of the following three koroks (N24, N31, N39)
 
 - .dir(W>)
-- _Korok::N24
+- _Korok::N24:
+    comment: " "
 
-- .dir(<S) way down
-- _Korok::N31
+- .dir(<S)
+- _Korok::N31:
+    comment: Way way down
 
 - .dir(<W)
-- _Korok::N39
+- _Korok::N39:
+    comment: " "
 
 - .dir(W>) + midair
-- _Korok::N21
+- _Korok::N21:
+    comment: Far peak
 
 - .dir(E>)
 - _Korok::N29:
     comment: " "
 
-- .dir(<E) to escape pond:
+- .dir(<E):
     coord: [3241.75,1472.75]
 
 - _Korok::N30:
     movements:
         - to: [3229.03, 302.83, 1545.25]
           away: true
-    notes: .rune(Stasis) apple and bomb arrow from a distance
+    comment: .rune(Stasis) apple and bomb arrow
 
 - .dir(N>) run
 - _Korok::N22
 
 - .dir(<E)
-- Shoot final eye
+- Shoot final eye:
+    icon: calamity
+    coord: [3502.5,1433]
 
 - Cutscene warp:
     movements:
         - to: [3965,1353]
           warp: true
-- Shoot Naydra, offer scale
-
+- Shoot Naydra:
+    icon: calamity
+    hide-icon-on-map: true
+- Offer Naydra Scale:
+    icon: tots
+    hide-icon-on-map: true
 - _Shrine::JitanSami:
     line-color: deepskyblue
 
@@ -55,23 +67,29 @@ Naydra:
     notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns
     hide-icon-on-map: true
 
-- .dir(S>) + .dir(N) midair
-- _Korok::N18
+- .dir(S>) + .dir(N)
+- _Korok::N18:
+    comment: " "
 
 - .dir(E>)
-- Shoot .item(Naydra Claw)
+- Shoot Naydra (Claw):
+    icon: calamity
+    hide-icon-on-map: true
 
 - _Tod::Morning:
     coord: [3968.75,1292]
 
-- Shoot .item(Naydra Horn)
-- Pick up parts
+- Shoot Naydra (Horn):
+    icon: calamity
+    hide-icon-on-map: true
+- Pick up parts:
+    icon: tots
+    hide-icon-on-map: true
 
 - .dir(NE)
-- _Material<Chillshroom,2>:
+- _Material<2 Chillshroom>:
     coord: [4127.29, 426.47, 1133.65]
     notes: For transmute
-
 - _Korok::N19
 
 - .gale() + .dir(W):
@@ -95,22 +113,20 @@ Naydra:
 - .dir(<N)
 - _Memory::LanayruRoad
 
-- .dir(S) land, .dir(N) + midair
+- .dir(S) + .dir(N) + midair
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
     comment: .fury()
     fury: 3
-
-- _Equipment::Bow<Knight's Bow>:
-    comment: Dropped by Hinox
-    notes: (Optional) Metal bow for Eldin. May need to drop 1 GEB to pick up.
-    hide-icon-on-map: true
+    notes: (Optional) Take a Knight's Bow (metal) for Eldin
 
 - .dir(<W) + midair
-- _Korok::N13
+- _Korok::N13:
+    comment: .rune(Stasis) & hit, .rune(Stasis) & hit
 
 - .dir(<W)
-- _Korok::N11
+- _Korok::N11:
+    comment: " "
 
 - .dir(S>)
 - _Boss::Hinox::Red:

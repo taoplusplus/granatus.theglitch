@@ -3,7 +3,7 @@ Akkala Tower:
 - _Korok::Z16:
     line-color: indianred
 
-- Drop down
+- Down
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
 
@@ -33,37 +33,45 @@ Akkala Tower:
         Monument: 1
 
 - .dir(S>)
-- .!!(Slam attack shrine pedestal):
+- Activate .!!(Pedestal):
+    icon: calamity
+    comment: Slam attack with Trident
     coord: [3081,-459]
 
 - _Shrine::DagahKeek
 
-- Equip Barbarian Armor
+- Equip Barbarian Armor:
+    icon: shield
+    hide-icon-on-map: true
 
 - .dir(SW):
     time-override: 999
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
-    comment: .fury() + ancient arrows
+    comment: .fury() + Ancient arrows
     fury: 1
 
 - .dir(E>) run
-- _Korok::Z24
+- _Korok::Z24:
+    comment: " "
 
 - .dir(SE)
-- _Korok::Z34
+- _Korok::Z34:
+    comment: On peak
 
 - .dir(<E)
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
-    comment: .fury() Collect gems
+    comment: .fury() Collect drops
     fury: 2
 
 - .dir(<E)
 - _Korok::Z27
 
 - .dir(N)
-- _Korok::Z19
+- _Korok::Z19:
+    comment: .rune(Magnesis) the boulder
+    notes: Combo with Z20. Do 2 flowers of Z20 then jump down.
 
 - _Korok::Z20
 
@@ -78,7 +86,8 @@ Akkala Tower:
         Monument: 1
 
 - .dir(W)
-- _Korok::Z17
+- _Korok::Z17:
+    comment: Top of Zora's Domain
 
 - .dir(N>) + midairs
 - _Chest::Special<Zora Helm>:

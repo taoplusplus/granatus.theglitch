@@ -1,28 +1,32 @@
 Hateno:
-- 2 Iron Sledgehammers
+- _Equipment::Weapon<2 Iron Sledgehammers>:
+    hide-icon-on-map: true
+    comment: Leaning against house
 
 - _Npc<Bolson>:
     coord: [3327.28, 235.03, 2297.52]
-    comment: Hylian Homeowner
-    notes: 30 wood, 3000 rupees
+    comment: Talk twice
 
 - _Npc<Hudson>:
     coord: [3331.22, 235.28, 2284.61]
-    comment: From the Ground Up
+    # comment: Start Tarrey Town
 
 - .!!(Upgrade House):
-    notes: 14 upgrades
+    icon: house-plus
+    comment: 14 of them
 
 - .dir(N.)
 - _Npc<Medda>:
     coord: [3381.11, 226.15, 2105.53]
-    comment: Spring of Wisdom
+    notes: Spring of Wisdom
 
 - .dir(N.)
-- _Korok::N42
+- _Korok::N42:
+    comment: Past blue flame
 
-- .dir(<S) glide
+- .dir(<S) short
 - .!!(Smuggle Blue Flame):
+    icon: tots
     coord: [3447.5,1982]
     notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
 
@@ -32,33 +36,38 @@ Hateno:
     movements:
         - to: [3637.5,2098]
         - to: [3783,2106.5]
-
 - _Snap::Quest<Purah>:
     hide-icon-on-map: true
     comment: Talk and SNAP
-- .!!(Upgrade Slate and Runes):
+- .!!(Bombs+ Stasis+):
     icon: camera-plus
     notes: If less than 3 screws, upgrade slate in Hateno 2
     split-type: UserDefined
 
-- 2 Apple
+- _Material<2 Apple>:
+    comment: In tree
+    hide-icon-on-map: true
 
-- .dir(E) short
+- .dir(E) down
 - _Korok::N48:
     comment: " "
 
-- (==) Stay in the water, save, then close and re-open software to clear the glitch. This warps you back up to tech lab.
+- .!!(Save and close software):
+    icon: tots
+    notes: Clears inventory glitch and warps back up to tech lab
+    coord: [3805.5,2106.75]
+    hide-icon-on-map: true
 
 - .dir(<N)
-- _Korok::N43
+- _Korok::N43:
+    comment: " "
 
 - .dir(S>)
 - _Npc<Koyin>:
     coord: [3621.69, 283.36, 2098.13]
-    comment: Sheep Rustlers
-    notes: Text option 2
+    comment: Text option 2
 
-- .dir(SW)
+- .dir(<W)
 - _Korok::N59
 
 - .dir(W)
@@ -74,14 +83,15 @@ Hateno:
 - .dir(N) + midair
 - _Tower::Hateno
 
-- .dir(<<W)
+- .dir(<W)
 - _Korok::D57:
     comment: " "
     notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541416737190674432?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - .dir(NE) short
-- _Korok::D58
+- _Korok::D58:
+    comment: " "
 
-- .dir(N>>)
+- .dir(N>)
 - _Korok::D53:
     comment: " "

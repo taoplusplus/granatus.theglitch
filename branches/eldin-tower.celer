@@ -1,14 +1,15 @@
 Eldin Tower:
-- .dir(N) drop down
+- .dir(N) down
 - _Korok::A40
 
+- .dir(NE) down
 - _Korok::A39
 
 - .dir(<N)
 - _Discover<Shadow Hamlet Ruins>:
     coord: [3053.78, 438.86, -2299.47]
 
-- .dir(<E) + .dir(N>) midair
+- .dir(<E) + .dir(N>)
 - _Korok::E12
 
 - .dir(S) + midair
@@ -21,7 +22,8 @@ Eldin Tower:
 - _Korok::A31
 
 - .dir(E)
-- _Korok::A32
+- _Korok::A32:
+    comment: " "
 
 - .dir(S)
 - _Korok::A37
@@ -43,10 +45,13 @@ Eldin Tower:
     comment: 10 wood
 
 - .dir(S) + midair
-- _Korok::A49
+- _Korok::A49:
+    comment: " "
 
 - .dir(W>)
-- _Shrine::DahHesho
+- _Shrine::DahHesho:
+    comment: Minor Test of Strength
+    notes: Fight minor tests with .rune(Stasis) and 2 ancient arrows
 
 - Run
 - _Korok::A47
@@ -56,7 +61,8 @@ Eldin Tower:
     coord: [3860.81, 346.24, -1095.11]
 
 - .dir(W)
-- _Korok::A51
+- _Korok::A51:
+    comment: Golden gauntlets
 
 - .dir(S>)
 - _Discover<Sokkala Bridge>:
@@ -66,7 +72,8 @@ Eldin Tower:
 - _Discover<West Sokkala Bridge>:
     coord: [3591.52, 346.29, -1020.13]
 
-- _Korok::A52
+- _Korok::A52:
+    comment: Under the bridge
 
 - .dir(NW>)
 - _Discover<Parade Ground Ruins>:
@@ -77,10 +84,12 @@ Eldin Tower:
     comment: Ancient arrows
 
 - .dir(<W)
-- _Korok::A50
+- _Korok::A50:
+    comment: In broken column
 
 - .dir(NW)
-- _Korok::E39
+- _Korok::E39:
+    comment: Golden gauntlets
 
 - .dir(<N)
 - _Shrine::SahDahaj:
@@ -94,7 +103,7 @@ Eldin Tower:
 
 - _Korok::E34
 
-- .dir(NW) run
+- .dir(NW) down
 - _Korok::E30
 
 - .dir(W)
@@ -104,9 +113,10 @@ Eldin Tower:
 - _Korok::E32
 
 - .dir(SE) short
-- _Korok::E33
+- _Korok::E33:
+    comment: " "
 
-- .gale() + .dir(.W) midairs:
+- .dir(.W) + midair + .gale():
     gale: 1
 
 - _Tower::Eldin
