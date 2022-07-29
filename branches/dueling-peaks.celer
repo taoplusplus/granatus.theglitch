@@ -9,18 +9,21 @@ Dueling Peaks:
 - _Korok::D33
 
 - .dir(W>)
-- _Korok::D32
+- _Korok::D32:
+    comment: Golden gauntlets
 
 - .dir(S)
 - _Korok::D31
 
 - .dir(S>)
-- _Korok::D44
+- _Korok::D44:
+    comment: On ruins
 
 - .dir(<W)
-- _Korok::P12
+- _Korok::P12:
+    comment: Below Ja Baij
 
-- Drop down
+- Down
 - _Korok::P13
 
 - .dir(N>>)
@@ -36,30 +39,33 @@ Dueling Peaks:
 - .dir(S)
 - _Korok::D43
 
-- .dir(<S) + .dir(E) midair
+- .dir(<S) + .dir(E)
 - _Korok::L03:
-    comment: Zora Armor
+    comment: On waterfall
 
 - .dir(<S)
 - _Korok::L10:
     comment: " "
 
-- .dir(E)
+- .dir(.E)
 - _Korok::L11
 
 - .dir(<S)
-- _Korok::L16
+- _Korok::L16:
+    comment: " "
 
-- .dir(N)
-- _Korok::L05
+- .dir(.N)
+- _Korok::L05:
+    comment: In big hollow tree stump
 
 - .dir(E) surf
 - _Korok::L06
 
 - .dir(<N)
-- _Korok::L02
+- _Korok::L02:
+    comment: In hollow tree stump
 
-- .dir(N)
+- .dir(N) short
 - _Korok::L01
 
 - _Boss::Talus::Stone:
@@ -70,19 +76,25 @@ Dueling Peaks:
 - .dir(SW)
 - _Korok::L04
 
-- .dir(<<N)
+- .dir(<N)
 - _Memory::WestNecluda
-- _Korok::D45
+- _Korok::D45:
+    comment: Behind fake offering
 
 - .dir(NE)
-- _Korok::D35
+- _Korok::D35:
+    comment: Pinwheel
 
 - .dir(<E)
 - _Korok::D36:
-    comment: Get blue nightshade
+    comment: In hollow log
+- _Material<Blue Nightshade>:
+    hide-icon-on-map: true
+    comment: Grab during D36 chase
 
 - .dir(<S)
-- _Korok::D46
+- _Korok::D46:
+    comment: " "
 
 - .dir(<E)
 - _Korok::D37
@@ -94,7 +106,8 @@ Dueling Peaks:
 - _Korok::D47
 
 - .dir(<<E)
-- _Korok::D39
+- _Korok::D39:
+    comment: " "
 
 - .dir(E>)
 - _Shrine::ReeDahee:
@@ -106,11 +119,14 @@ Dueling Peaks:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3835s)
 
 - .dir(S) + climb
-- Kill stalkoblin
-- _Equipment::Weapon<Traveler's Sword>:
+- Kill .enemy(Stalkoblin):
+    icon: calamity
     coord: [1282.48, 523.75, 1939.55]
+    notes: Need to get here before 5am. Backup in Kakariko later.
+- _Equipment::Weapon<Traveler's Sword>:
+    hide-icon-on-map: true
     comment: Weapon Connoisseur
-    notes: Need to get here before 5:00am. Backup in Kakariko later.
+    
 - _Shrine::SheeVaneer:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3724s)
 
@@ -118,15 +134,17 @@ Dueling Peaks:
     movements:
         - to: [1517.27, 400.25, 1850.08]
           away: true
-    comment: Bomb arrow from distance
+    comment: Across canyon
+    notes: Precise bomb arrow shot to get the boulder rolling
 
-- .dir(E) run/climb
+- .dir(E) run
 - _Korok::D49
 
 - .dir(N)
-- _Korok::D40
+- _Korok::D40:
+    comment: Other peak
 
-- .dir(N>>)
+- .dir(N>>) down
 - _Korok::D30
 
 - .dir(N>)

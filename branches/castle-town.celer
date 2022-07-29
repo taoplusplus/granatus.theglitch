@@ -1,14 +1,14 @@
 Castle Town Ruins:
 - _Tod::Noon:
     coord: [1760.46, 115.80, -36.04]
-    notes: (Optional) For Ballon Flight and Stalnox timing
+    notes: (Optional) You need to make it to Shamae at Mirro Shaz before 8pm and need it be after 9pm for a Stalnox
 
 - .dir(S.)
 - _Korok::Z40
 
 - midair .dir(W)
 - _Korok::Z30:
-    comment: Take from ruins on right
+    comment: In building ruins
 
 - .dir(<W)
 - _Korok::Z29:
@@ -33,46 +33,53 @@ Castle Town Ruins:
 - _Korok::C56
 
 - .dir(NW)
-- _Korok::C50
+- _Korok::C50:
+    comment: " "
+    notes: This is the "Chaos Ranch." For safety, ancient arrow everything before starting the chase.
 
 - .dir(W>>)
 - _Discover<Mabe Village Ruins>:
     coord: [-48.50, 133.00, 175.00]
 
-- _Korok::C44
+- _Korok::C44:
+    comment: On hill
 
 - .dir(E)
 - _Korok::C45
 
 - .dir(N>>)
-- _Korok::C34
+- _Korok::C34:
+    comment: " "
 
-- .dir(N>)
+- .dir(N>) short
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
     comment: Ancient arrows
 
 - .dir(E>)
-- _Korok::Z21
+- _Korok::Z21:
+    comment: " "
 
 - .dir(N)
 - _Korok::Z11
 
 - .dir(N>>)
-- _Korok::C13
+- _Korok::C13:
+    comment: On bridge
 
 - .dir(<E)
 - _Korok::K35
 
-- .dir(S>>)
-- _Korok::Z02
+- .dir(S>)
+- _Korok::Z02:
+    comment: Starts in big tree
 - _Korok::Z03
 
 - .dir(NW)
 - _Npc<Shamae>:
     coord: [1080.50, 127.38, -1125.00]
-    comment: Balloon Flight
-    notes: Get here before 8:00pm. Make noon if needed.
+    notes: Make noon if needed. For Balloon Flight.
+    comment: Before 8pm
 
 - .dir(E)
 - _Korok::K34:
@@ -100,25 +107,28 @@ Castle Town Ruins:
 - .dir(E>>)
 - _Boss::Talus::Luminous:
     comment: .fury()
-    fury: 3
+    fury: 2
     coord: [771.50, 152.53, -1014.00]
 
-- .gale() + .dir(S) midair:
+- .gale() + .dir(S):
     gale: 1
-- _Shrine::NamikaOzz:
-    comment: FIGHT
-
+- Fight Test of Strength:
+    icon: calamity
+    hide-icon-on-map: true
 - _Equipment::Weapon<Ancient Battle Axe+>:
     comment: Weapon Connoisseur
     hide-icon-on-map: true
 - _Chest::Special<Frostspear>:
     comment: Weapon Connoisseur
+- _Shrine::NamikaOzz:
+    comment: Modest Test of Strength
 
 - .dir(W)
 - _Korok::C09
 
 - .dir(SW)
-- _Korok::C11
+- _Korok::C11:
+    comment: Inside hollow log
 
 - .dir(E>)
 - _Korok::C12
@@ -132,22 +142,25 @@ Castle Town Ruins:
 
 - _Korok::C23
 
-- .dir(<<N)
+- .dir(<N)
 - _Korok::C18
 
 - .dir(W>)
-- _Korok::C10
+- _Korok::C10:
+    comment: On bridge
 
-- .dir(<<E)
+- .dir(<E)
 - _Korok::C06:
     comment: " "
 
 - .dir(W>)
-- _Korok::C05
+- _Korok::C05:
+    comment: " "
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
+    comment: Ancient arrows + .fury()
+    fury: 1
     coord: [256.50, 142.49, -913.50]
 
 - .dir(W>)
@@ -159,21 +172,24 @@ Castle Town Ruins:
 - .dir(S)
 - _Korok::C29
 
-- Drop down
+- Down
 - _Korok::C28
 
 - .dir(<W)
 - _Korok::C32
-- _Korok::C27
+- _Korok::C27:
+    comment: " "
 
 - .dir(<W)
 - _Korok::C31
 
 - .dir(NW)
-- _Shrine::KatahChuki
+- _Shrine::KatahChuki:
+    comment: Minor Test of Strength
 
 - .dir(.W)
-- _Korok::C30
+- _Korok::C30:
+    comment: " "
 
 - .dir(N>)
 - _Korok::C25
@@ -181,17 +197,17 @@ Castle Town Ruins:
 - .dir(.E)
 - _Korok::C26
 
-- .dir(N>>) glide
+- .dir(N>)
 - _Discover<Water Reservoir>:
     coord: [-596.67, 130.98, -525.32]
 
-- .dir(W>) glide
+- .dir(W>) run
 - _Korok::C22
 
 - .dir(W)
 - _Korok::C21
 
-- .dir(N>>) run, drop down
+- .dir(N>>) down
 - _Korok::C20
 
 - .dir(N)
@@ -200,16 +216,19 @@ Castle Town Ruins:
     coord: [-768.74, 152.76, -804.49]
 
 - .dir(SE)
-- _Korok::C15
+- _Korok::C15:
+    comment: " "
 
 - .dir(<N)
-- _Korok::C08
+- _Korok::C08:
+    comment: Drop Rusty Shield, leave it
 
 - .dir(N) run
 - _Korok::C03
 
 - .dir(NW)
-- _Korok::C01
+- _Korok::C01:
+    comment: Against malice pillar
 
 - .dir(W)
 - _Korok::R11
@@ -220,5 +239,6 @@ Castle Town Ruins:
 - .dir(S)
 - _Korok::C14
 
-- Drop down
-- _Shrine::NoyaNeha
+- Down
+- _Shrine::NoyaNeha:
+    comment: Minor Test of Strength

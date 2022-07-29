@@ -56,7 +56,7 @@ Naydra:
 - Shoot Naydra:
     icon: calamity
     hide-icon-on-map: true
-- Offer Naydra Scale:
+- Offer .item(Naydra Scale):
     icon: tots
     hide-icon-on-map: true
 - _Shrine::JitanSami:

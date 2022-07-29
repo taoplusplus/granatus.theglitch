@@ -1,23 +1,25 @@
 Plateau 2:
 - _Warp::Shrine::OwaDaim:
     line-color: violet
+    comment: WARP
 
 - .dir(<<E)
 - _Korok::P18
 
 - _Material<Baked Apple>:
     coord: [-787.50, 194.58, 2259.30]
-    comment: Apple of My Eye
-    notes: In old man's hut
+    notes: Apple of My Eye
+    comment: Inside hut
 
 - .dir(N) + midair
-- _Korok::P11
+- _Korok::P11:
+    comment: Spire of temple
 
-- .dir(NW)
+- .dir(NW) down
 - _Korok::P10:
     comment: " "
 
-- .dir(W>>)
+- .dir(W>)
 - _Boss::Talus::Stone:
     coord: [-1087.75, 179.14, 1663.18]
     comment: .fury()
@@ -30,7 +32,7 @@ Plateau 2:
 - _Korok::P06
 
 - .dir(NE) run
-- _Material<Acorn,3>:
+- _Material<3 Acorn>:
     coord: [-930.78, 184.82, 1702.72]
     notes: Need to pick up 8 more rng acorns during the run
 
@@ -44,16 +46,18 @@ Plateau 2:
 - _Korok::P01
 
 - .dir(NW)
-- _Korok::C81
+- _Korok::C81:
+    comment: Small ruins next to coliseum
 
 - .dir(E>)
 - _Korok::C82
 
-- .dir(N>>)
+- .dir(N>)
 - _Memory::LakeKolomo
 
 - .dir(S)
-- _Korok::C83
+- _Korok::C83:
+    comment: Pinwheel
 
 - .dir(SE) short
 - _Discover<Gatepost Town Ruins>:
@@ -62,7 +66,7 @@ Plateau 2:
 - .dir(N>>)
 - _Korok::C76
 
-- .dir(N>)
+- .dir(N>) short
 - _Korok::C75:
     comment: " "
 

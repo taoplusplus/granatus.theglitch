@@ -1,24 +1,29 @@
 Blood Moon:
 - .dir(S>>)
-- _Korok::C43
+- _Korok::C43:
+    comment: Pinwheel
 
 - .dir(NW)
-- _Korok::C42
+- _Korok::C42:
+    comment: Hanging in tree
 
 - midair .dir(<W)
 - _Korok::C41
-- _Korok::C40
+- _Korok::C40:
+    comment: " "
 
 - .dir(<W)
 - _Korok::C39
 
 - .dir(W>)
-- _Korok::C38
+- _Korok::C38:
+    comment: Starts at tree stump
 
 - .dir(W)
-- _Korok::C36
+- _Korok::C36:
+    comment: In Sage Temple Ruins
 
-- _Material<Acorn,18>:
+- _Material<18 Acorn>:
     movements:
         - to: [-1311.30, 114.29, 227.12]
         - to: [-1371.47, 114.42, 208.08]
@@ -26,10 +31,12 @@ Blood Moon:
     notes: Each big tree has 6 acorns. Use stasis to see them.
 
 - .dir(W>>)
-- _Korok::R49
+- _Korok::R49:
+    comment: On beach
 
 - .dir(N)
-- _Korok::R48
+- _Korok::R48:
+    comment: Up
 
 - .dir(W)
 - _Discover<Jeddo Bridge>:
@@ -64,30 +71,38 @@ Blood Moon:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23236s)
 
 - .dir(N)
-- _Korok::R38
+- _Korok::R38:
+    comment: " "
 
 - .dir(S>)
-- _Korok::R47
+- _Korok::R47:
+    comment: Pinwheel
 
 - .dir(W>)
-- _Korok::R37
+- _Korok::R37:
+    comment: Ledge on cliff
 
 - .dir(<W) + midairs
 - _Npc::Rito<Kass>:
     coord: [-2778.84, 348.24, 206.35]
 
-- Drop down to pedestal
+- Down
 - _Tod::Night:
-    comment: Remove armor
     coord: [-2758.84, 348.24, 206.35]
+- Activate .!!(Pedestal):
+    comment: Remove armor
+    icon: tots
+    hide-icon-on-map: true
 - _Shrine::MijahRokee:
+    comment: Major Test of Strength
     notes: If you missed the blood moon, continue with the route and warp back. You'll get at least 3 blood moons in the run.
 
 - .dir(S)
 - _Korok::R72
 
-- .dir(<W)
+- .dir(<W) down
 - _Korok::R71
 
 - .dir(N)
-- _Korok::R59
+- _Korok::R59:
+    comment: On small island

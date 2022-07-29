@@ -1,20 +1,19 @@
 Akkala Complete:
-- _Warp::Tower::Akkala
+- _Warp::Tower::Akkala:
+    comment: WARP
 
-- .dir(S) drop down
+- .dir(S) down
 - _Korok::A42
 
-- Drop down
+- Down
 - _Korok::A43
 
 - .dir(SE)
 - _Korok::A46
 
-- .dir(W>>)
+- .dir(W>)
 - _Discover<Akkala Bridge Ruins>:
     coord: [3161.60, 442.88, -1416.64]
-
-- .dir(S>>)
 - _Korok::A45
 
 - .dir(N>)

@@ -1,62 +1,60 @@
 Desert Complete:
-- Equip .!!(Gerudo Veil + Top + Snow Boots)
+- Equip .!!(Gerudo Veil + Top):
+    icon: shield
+    hide-icon-on-map: true
+    comment: .!!(+ Snow Boots)
 - .dir(N>)
 - _Npc<Bozai>:
     coord: [-3750,2874]
     comment: 8th Heroine, Forgotten Sword
-    notes: Get Sand Boots
-    time-override: 999
+    notes: Sand Boots will automatically equip (yay)
+    time-override: 360
 
 - .gale() + .dir(<W) midair:
     gale: 1
-- _Korok::W42
+- _Korok::W42:
+    comment: In water tower
 
-- .dir(W) drop down
+- .dir(W) down
 - _Npc::Gerudo<Calyban>:
     comment: Mystery Polluter
     coord: [-3915.29, 169.20, 2954.60]
 
-- In training yard
+- Down
 - _Npc::Gerudo<Liana>:
-    comment: Search for Barta
+    notes: Search for Barta
+    comment: In training yard
     coord: [-3912.83, 149.68, 2930.99]
-
-- Down the street
 - _Npc::Gerudo<Dalia>:
     coord: [-3833,2852.75]
-    comment: Mystery Polluter
-    notes: Get here before 8:00pm
-
-- In main courtyard
+    notes: Mystery Polluter
+    comment: Before 8pm
 - _Npc::Gerudo<Isha>:
-    comment: Tools of the Trade
+    comment: In main courtyard
+    notes: Tools of the Trade
     coord: [-3834.85, 149.52, 2875.26]
 
-- If less than 2 durians, buy:
-    notes: To have enough for transmute
-
-- .!!(Dupe bows + transmute items):
-    notes: .link([Detailed instructions]https://github.com/taoplusplus/granatus.theglitch/blob/main/transmute-instructions.txt)
-
-- _Shop<Arrow Shop>:
+- _Shop<Buy Fire Arrows>:
     coord: [-3859.23, 149.24, 2916.02]
-    comment: Buy fire
+- .!!(Dupe + Transmute):
+    icon: tots
+    hide-icon-on-map: true
+    notes: .link([Detailed instructions]https://docs.google.com/document/d/1olwIkxVQ4-vwHJ5F_HE7wqhlAGfggt5lTdeDjAQVTXQ/edit?usp=sharing)
 
-- Outside throne room
 - _Npc::Gerudo<Malena>:
-    comment: Medicinal Molduga
+    comment: Up steps 2pm to 10pm
     coord: [-3866.5,2939.5]
-    notes: 2:00pm to 10:00pm; before 2:00pm she's in the training yard
+    notes: Medicinal Molduga; before 2pm she's in the training yard
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: Thunder Helm
 
-- Out, down street on the right
+- Run
 - _Discover<Gerudo Secret Club>:
-    comment: Secret Club's Secret
+    notes: Secret Club's Secret
     coord: [-3792,2955.25]
-    notes: Code 3-3-3-4
+    comment: Code 3-3-3-4
 
 - .dir(E>)
 - _Korok::W43:
@@ -68,15 +66,20 @@ Desert Complete:
 - .dir(E>>)
 - _Korok::W44
 
-- .dir(<<E) + .dir(N>) midair
-- _Korok::W35
+- .dir(<<E) + .dir(N>)
+- _Korok::W35:
+    comment: In arms of statue
 
 - Complete orb puzzle:
+    icon: tots
+    hide-icon-on-map: true
     notes: .link([Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676)
 
 - _Shrine::KorshOhu
 
-- Equip .!!(Barbarian Set)
+- Equip .!!(Barbarian Set):
+    icon: shield
+    hide-icon-on-map: true
 
 - .dir(S) + climb
 - _Korok::W40
@@ -85,14 +88,17 @@ Desert Complete:
 - _Korok::W30
 
 - .dir(NW)
-- _Korok::W19
+- _Korok::W19:
+    comment: On ledge
 
+- Down
 - _Shrine::KayNoh:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12635s)
 
-- .dir(N) glide
+- .dir(N) short
 - _Korok::W15
 
+- Down
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
     comment: Missing in Action

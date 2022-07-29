@@ -2,7 +2,7 @@ Gerudo Canyon:
 - .dir(S>)
 - _Korok::C61
 
-- .dir(W>) surf/run
+- .dir(W>) surf
 - _Korok::C60
 
 - .dir(NW)
@@ -16,17 +16,19 @@ Gerudo Canyon:
 - _Korok::C58
 
 - .dir(SW)
-- _Korok::C59
+- _Korok::C59:
+    comment: .rune(Cryo) block
 
 - .dir(<N)
 - _Korok::R74
 
-- .gale() + .dir(<N) midair:
+- .gale() + .dir(<N):
     gale: 1
 - _Memory::SanidinPark
 
 - .dir(S>>)
-- _Npc<White Horse>:
+- Tame White Horse:
+    icon: tots
     coord: [-1674.17, 222.94, 807.44]
     comment: Royal White Stallion
 
@@ -42,7 +44,9 @@ Gerudo Canyon:
         - to: [-1475,1175]
         - to: [-1449.49, 137.75, 1269.01]
 
-- Register horse
+- Register horse:
+    icon: tots
+    hide-icon-on-map: true
 
 - _Npc<Trott>:
     coord: [-1432.50, 137.72, 1264.50]
@@ -61,7 +65,8 @@ Gerudo Canyon:
 - _Korok::C78
 
 - .dir(<<N)
-- _Korok::C72
+- _Korok::C72:
+    comment: " "
 
 - .dir(<W)
 - _Shrine::RotaOoh:
@@ -76,14 +81,16 @@ Gerudo Canyon:
 - .dir(NE>)
 - _Korok::C86
 
-- .dir(E>)
+- .dir(E>) down
 - _Korok::C87
 
 - .dir(<S)
-- _Korok::C89
+- _Korok::C89:
+    comment: Golden gauntlets
 
 - .dir(W>>)
-- _Shrine::DahKaso
+- _Shrine::DahKaso:
+    comment: Minor Test of Strength
 
 - .dir(W>)
 - _Korok::G29
@@ -102,6 +109,7 @@ Gerudo Canyon:
     coord: [-1665.00, 95.00, 2028.00]
 
 - Steal horse:
+    icon: tots
     coord: [-1646.99, 86.38, 2072.51]
 
 - Ride through canyon:
@@ -129,9 +137,9 @@ Gerudo Canyon:
     coord: [-2055.00, 209.05, 1742.00]
 
 - .dir(E) climb
-- _Npc::Goron<Heehl, Bayge, Kabetta>:
+- Test of Will:
+    icon: tots
     coord: [-2005.45, 225.98, 1740.65]
-    comment: Test of Will
 
 - _Shrine::JolooNah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22359s)
@@ -143,30 +151,34 @@ Gerudo Canyon:
 - _Npc<Flaxel>:
     comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
-- _Chest<Fire Arrows x5>:
+- _Chest<5 Fire Arrows>:
     hide-icon-on-map: true
 
-- .dir(NW) drop down
+- .dir(NW) down
 - _Npc<Canolo>:
     comment: Missing in Action
     coord: [-2187.78, 207.99, 1691.46]
 
-- .dir(SW)
-- _Korok::G32
+- .dir(<W)
+- _Korok::G32:
+    comment: On broken bridge
 - _Korok::W08
 
 - .dir(S>>)
-- _Korok::W10
+- _Korok::W10:
+    comment: " "
 
-- .dir(E) + midair
+- .dir(E)
 - _Boss::Talus::Luminous:
     coord: [-2277.50, 293.77, 1979.00]
     comment: Bomb arrow
 
 - .dir(<W)
-- _Korok::G35
+- _Korok::G35:
+    comment: In overlook
+    notes: Pre-aim, walk onto start block, instant square-first windbomb
 
-- .gale() + .dir(W) midair:
+- .gale() + .dir(W):
     gale: 1
     time-override: 999
 
@@ -193,8 +205,10 @@ Gerudo Canyon:
 - .dir(<N)
 - _Korok::W17
 
-- .dir(W) + .dir(W) midair, land
-- .dir(N.) + midairs
-- Activate .!!(Pedestal)
+- .dir(W) + .dir(W) + .dir(N) + .dir(N):
+    coord: [-3607.5,2210.5]
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
 - _Shrine::SasaKai:
     comment: 2:55pm to 3:50pm

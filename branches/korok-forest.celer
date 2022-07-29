@@ -8,41 +8,59 @@ Korok Forest:
 
 - _Npc<Tasho>:
     coord: [256.19, 281.61, -2229.61]
-    comment: Lost Pilgramage
+    comment: Start Lost Pilgramage
     notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't need to follow Oaki; he'll move along his path while we do the next steps.
 
 - .dir(E) to .loc(top of Deku tree)
 - _Npc<Walton>:
     coord: [407.59, 334.17, -2180.27]
-    comment: Riddles of Hyrule
-    notes: Apple, pumpkin, sunshroom, voltfin, lynel hoof
+    notes: Riddles of Hyrule
+- Drop .item(Apple, Pumpkin,):
+    icon: tots
+    hide-icon-on-map: true
+    comment: .item(Sunshroom, Voltfin, Hoof)
 
 - _Snap::Quest<Sunshroom>:
     coord: [427.59, 334.17, -2180.27]
 
-- Pick .item(voltfin) back up:
-    notes: For transmute scrap
-
-- .dir(E.) drop down
+- .dir(E.) down
 - Activate .loc(Keo Ruug):
+    icon: shrine
     coord: [474.69, 248.84, -2167.82]
     notes: .!!(DON'T) enter shrine or Oaki will reset
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
-    comment: For Voo Lota
-- 3 Bird Egg:
-    notes: In trees behind Hestu. 1 for korok in castle and 2 for transmute scrap
+    comment: If you don't have one
+    notes: For Voo Lota
+
+- _Material<2 Bird Egg>:
+    notes: In tree behind Hestu. For korok later.
 
 - _Npc<Hestu>:
     icon: hestu
     coord: [466.03, 249.56, -2112.38]
-    comment: Inventory upgrades
-    notes: 3 bow, 7 weapon, 4 shield. The shield slots don't really matter; can get them at the end.
+    comment: 3 bow, 7 weapon, 4 shield
 
-- Turn in spirit orbs for .!!(13+ hearts)
+- Buy
+- _Material<4 Ironshroom>:
+    hide-icon-on-map: true
+    notes: Used for transmute
+- _Material<4 Stamella Shroom>:
+    hide-icon-on-map: true
+- _Material<4 Razorshroom>:
+    hide-icon-on-map: true
 
-- 3 .item(Silent Princess)
+- Get .!!(13 hearts):
+    icon: tots
+    hide-icon-on-map: true
+
+- Equip Lynel Crusher:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: Pulling the Master Sword sets durability of equipped weapon to 40. Crusher used for Moldugas later.
+- _Material<3 Silent Princess>:
+    hide-icon-on-map: true
 - _Equipment::Weapon<Master Sword>:
     coord: [431.66, 250.53, -2111.00]
 
@@ -54,7 +72,8 @@ Korok Forest:
     coord: [441.00, 248.56, -2133.05]
     comment: Legendary Rabbit Trial
 
-- _Npc<Follow Oaki>:
+- Follow Oaki:
+    notes: Follow Blue Nightshades and clearings on map
     movements:
         - to: [257,-2249]
         - to: [248,-2274]
@@ -66,23 +85,27 @@ Korok Forest:
         - to: [90,-2370.5]
         - to: [76,-2414]
 
-- 2+ Blue Nightshade:
-    notes: For transmute scrap
-- 10 Restless Cricket:
+- _Material<3+ Blue Nightshade>:
+    notes: Used for transmute
+    hide-icon-on-map: true
+- _Material<10 Restless Cricket>:
     notes: Spin attack grass to collect during escort
-- 5 Hot-Footed Frog
+    hide-icon-on-map: true
+- _Material<5 Hot-Footed Frog>:
+    hide-icon-on-map: true
 
 - _Shrine::DaagChokah:
     notes: Oaki finishes his walk 5h 20m in-game time from when the quest starts. Don't approach until you see the dialogue "Woo! I finally made it!"
 
-- _Warp::Shrine::KeoRuug
+- _Warp::Shrine::KeoRuug:
+    comment: WARP
 - _Shrine::KeoRuug:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18023s)
 
 - .dir(E)
 - _Npc<Damia>:
     coord: [564.99, 264.83, -2160.65]
-    comment: Trial of Wood
+    comment: Start Trial of Wood
 
 - .dir(NE)
 - _Shrine::MaagHalan
@@ -98,33 +121,3 @@ Korok Forest:
     notes: Keep the shield for a korok later
 
 - _Shrine::KuhnSidajj
-
-- .dir(S>>) to escape Korok Forest
-
-- .dir(S) midairs:
-    notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also equip metal bow, warp to Eldin Tower and BLSS.
-- _Korok::X05
-
-- Drop down
-- _Korok::X06
-
-- Drop down
-- _Korok::X10
-
-- .dir(W)
-- _Korok::X07
-
-- .dir(NE) to bridge north side
-- Equip Barbarian, GEB, AA
-- .!!(SAVE THE GAME):
-    coord: [-253.5,-1115.5]
-
-- .boss(Ganon):
-    icon: ganon
-    movements:
-        - to: [-254.00, 191.01, -1061.37]
-          away: true
-    split-type: UserDefined
-    notes: .link([Skew bounce 1-cycle strat]https://youtu.be/d4s3-3IcV9A?t=22411) or just fight
-
-- Skip cutscenes and continue
