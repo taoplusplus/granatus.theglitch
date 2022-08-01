@@ -13,10 +13,9 @@ _config:
     Warp: "Warp {{_}} .{{Korok}}"
 
 _route:
-  - (?=) This document is a work in progress and may change daily. Currently updating for Omegafairy v2.
-  - (==) Current Routes .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
-  - (==) Resources .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
-
+  - (!=) This route is no longer being updated.
+  - (!=) Go to .link(https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus) for the current stable route.
+  - (!=) Go to .link(https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/development) for the work-in-progress route.
   - Plateau:
     - __use__ Plateau
   - The Glitch:
